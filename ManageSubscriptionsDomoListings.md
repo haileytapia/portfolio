@@ -141,7 +141,7 @@ You are no longer subscribed to the listing, but you still have access to it unt
 4.  Select **Renew plan** for the subscription you want to renew. Canceled subscriptions have a **Canceled** tag above their name. 
        
     {:  .note }
-    >To update your payment method, select <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/1355509d1a784e3e7dfa0e1ca119a462dbd1e40d4a42f297.png" width="25"> **Edit** before renewing the subscription.  
+    >To update your payment method, select <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/1355509d1a784e3e7dfa0e1ca119a462dbd1e40d4a42f297.png" width="26"> **Edit** before renewing the subscription.  
       
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubnJ)  
 
