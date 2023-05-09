@@ -23,12 +23,12 @@ Here are some of the technical writing skills that I possess:
 
 *   Writing clear and concise technical documentation
 *   Creating user-friendly knowledge base articles, release notes, standard operating procedures, user guides, and installation guides
-*   Familiarity with markup languages such as Markdown and XML
-*   Knowledge of version control systems like Git
+*   Familiarity with markup and styling languages such as CSS, HTML, Markdown, and XML
+*   Knowledge of version control systems such as Git
 
 ## Contact
 
 If you have any questions, feel free to contact me:
 
 *   Email: [haileytapia@knights.ucf.edu](mailto:haileytapia@knights.ucf.edu)
-*   LinkedIn: [linkedin.com/in/haileytapia](https://www.linkedin.com/in/haileytapia/)## Hailey's Portfolio
+*   LinkedIn: [linkedin.com/in/haileytapia](https://www.linkedin.com/in/haileytapia/)
