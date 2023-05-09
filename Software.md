@@ -1,11 +1,11 @@
 ---
 layout: default
-title: User Documentation
-nav_order: 4
+title: Software
+nav_order: 2
 has_children: true
 ---
 
-# User Documentation
+# Software
 This section contains content I have created to help end users navigate and understand complex products, software, and systems.
 {: .fs-6 : .fw-300 }
 
