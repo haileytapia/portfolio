@@ -11,7 +11,7 @@ Apr 26, 2023 ∙ Domo Knowledge
 
 As a technical writer intern at Domo, I wrote this article about purchasing one-time payment listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
 
-## Intro
+## Introduction
 
 In addition to free listings, the Appstore offers three types of paid listings:
 
