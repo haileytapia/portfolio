@@ -6,7 +6,7 @@ parent: Science
 
 # Add Liquidity to the CRISPR Token
 
-Feb 27, 2022 ∙ Berkeley Pharma Tech Blog
+Feb 27, 2022 ∙ How-To Guide
 {: .fs-5 : .fw-300 }
 
 <span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this ...
