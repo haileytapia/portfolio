@@ -7,11 +7,10 @@ parent: User Documentation
 # Manage Domo Subscriptions
 {: .no_toc }
 
-Apr 19, 2023 ∙ By Hailey Tapia
+Apr 19, 2023 ∙ Domo Knowledge
 {: .fs-5 : .fw-300 }
 
-{:  .about }
-> As a technical writer intern at Domo, I wrote this article about managing subscriptions to listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
+As a technical writer intern at Domo, I wrote this article about managing subscriptions to listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
 
 ## Intro
 {: .no_toc }
