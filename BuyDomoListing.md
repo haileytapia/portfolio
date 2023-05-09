@@ -21,9 +21,7 @@ In addition to free listings, the Appstore offers three types of paid listings:
 
 Payments for listings are processed through Stripe.
 
-## Buy a listing
-
-Follow these steps to buy a one-time payment listing:
+## Buy a one-time payment listing
 
 1.  Select **Appstore** from the navigation header.
      
