@@ -5,7 +5,7 @@ nav_order: 1
 description: Welcome to my technical writing portfolio!
 ---
 
-# Welcome!
+# Welcome to my portfolio!
 
 My technical writing skills, developed through past internships and personal projects, are showcased here.
 {: .fs-6 : .fw-300 }
