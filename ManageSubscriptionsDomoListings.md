@@ -10,7 +10,7 @@ parent: User Documentation
 Apr 19, 2023 ∙ Domo Knowledge Base
 {: .fs-5 : .fw-300 }
 
-<span class="icon">&#9432;</span>
+<span class="icon">&#9432;</span>   As a Technical Writer Intern at Domo, I created this article about managing subscriptions to listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
     
 <p>
   <span class="icon">&#9432;</span><span class="indented-text">As a Technical Writer Intern at Domo, I created this article about managing subscriptions to listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
@@ -23,8 +23,6 @@ Apr 19, 2023 ∙ Domo Knowledge Base
     margin-left: 10px;
   }
 </style>
-
-As a Technical Writer Intern at Domo, I created this article about managing subscriptions to listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
 
 ## Intro
 {: .no_toc }
