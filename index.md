@@ -5,12 +5,12 @@ nav_order: 1
 description: Welcome to my technical writing portfolio!
 ---
 
-# Welcome to my portfolio!
+# Home
 
 My technical writing skills, developed through past internships and personal projects, are showcased here.
 {: .fs-6 : .fw-300 }
 
-See below for information about navigating this site and about me.
+Welcome to my portfolio!See below for information about navigating this site and about me.
 
 {: .note }
 > This site was created using Markdown, CSS, Jekyll, and GitHub Pages!
