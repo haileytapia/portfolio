@@ -1,6 +1,6 @@
 # Hailey's Portfolio
 
-This portfolio of my technical writing is built using the Just the Docs Jekyll theme and hosted on GitHub Pages at haileytapia.github.io.
+This portfolio of my technical writing is built using the Just the Docs Jekyll theme and hosted on GitHub Pages at haileytapia.github.io/portfolio.
 
 ## Table of Contents
 
