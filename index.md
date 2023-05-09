@@ -13,7 +13,7 @@ My technical writing skills, developed through past internships and personal pro
 See below for information about navigating this site and about me.
 
 {: .note }
-> This site was created using Markdown, CSS, and GitHub Pages!
+> This site was created using Markdown, CSS, Jekyll, and GitHub Pages!
 
 ## Site navigation 
 
