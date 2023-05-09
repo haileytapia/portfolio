@@ -15,7 +15,7 @@ As a Technical Writer Intern at Domo, I created this article about managing subs
 ## Introduction
 {: .no_toc }
 
-The Appstore offers subscription listings for a monthly fee that, once purchased, can be used and installed by everyone in your company's Domo instance. You can cancel a subscription at any time.
+The Appstore offers subscription listings for a monthly fee that, once purchased, can be used and installed by anyone in your company's Domo instance. You can cancel a subscription at any time.
 
 This article describes how to create and manage subscriptions to Appstore listings in the following topics:
 
