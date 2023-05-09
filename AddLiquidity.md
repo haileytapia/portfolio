@@ -5,6 +5,7 @@ parent: Science
 ---
 
 # Add Liquidity to the CRISPR Token
+{: .no_toc }
 
 Feb 27, 2022 ∙ How-To Guide
 {: .fs-5 : .fw-300 }
@@ -12,12 +13,16 @@ Feb 27, 2022 ∙ How-To Guide
 <span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this ...
 
 ## Intro
+{: .no_toc }
 
 Nurturing the planet for the next generation is what we do at Berkeley Pharma Tech, so as the threats posed by climate change intensify, this mission becomes as urgent as ever. We will use CRISPR technology to lower carbon dioxide levels in the atmosphere. But these efforts should be global, which is why our team developed the CRISPR token: to allow anyone to personally participate in Berkeley Pharma Tech’s push for net-zero emissions.
 
 In addition to purchasing the CRISPR coin, you can add liquidity to the pool, the steps for which will be outlined in this article.
 
-This 
+This guide describes how to DO XYZ in the following topics:
+
+- TOC
+{:toc} 
 
 ## What is liquidity?
 
