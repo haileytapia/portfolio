@@ -4,7 +4,7 @@ title: Manage Domo Subscriptions
 parent: User Documentation
 ---
 
-# Manage Domo Subscriptions
+# Manage Subscriptions to Domo Listings
 {: .no_toc }
 
 Apr 19, 2023 ∙ Domo Knowledge Base
