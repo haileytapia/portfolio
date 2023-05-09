@@ -17,7 +17,7 @@ Feb 27, 2022 ∙ How-To Article
 
 Berkeley Pharma Tech is using CRISPR technology to reduce atmospheric carbon dioxide levels, combat climate change, and save the planet for future generations. To further these efforts, our team has developed the CRISPR Token, which allows individuals like you to join our push for net-zero emissions on a global scale.
 
-After [purchasing the CRISPR Token](link), consider adding liquidity to the token pool. This is one of several topics covered in this article:
+After [purchasing the CRISPR Token](link), consider adding liquidity to the token pool.
 
 - TOC
 {:toc} 
