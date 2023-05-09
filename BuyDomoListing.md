@@ -53,7 +53,7 @@ Follow these steps to buy a one-time payment listing:
       
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128HG&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubpU)
 
-If the payment succeeds, you are redirected to your newly purchased listing in Domo.
+If the payment is successful, you are redirected to your newly purchased listing in Domo.
 
 ---
 
