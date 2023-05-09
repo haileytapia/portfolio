@@ -25,7 +25,7 @@ I am pursuing a B.A. in English: Technical Communication at the University of Ce
 
 ### Experience
 
-I have interned as a technical writer for:
+I have interned as a Technical Writer for:
 
 - Splunk's security team
 - Domo's education team
