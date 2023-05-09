@@ -9,7 +9,7 @@ parent: User Documentation
 Apr 26, 2023 ∙ Domo Knowledge
 {: .fs-5 : .fw-300 }
 
-As a technical writer intern at Domo, I wrote this KB article about purchasing one-time payment listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
+As a technical writer intern at Domo, I wrote this article about purchasing one-time payment listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
 
 ## Intro
 
