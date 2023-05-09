@@ -35,11 +35,35 @@ I also have experience in technical and customer support.
 
 ### Skills
 
-- Technical writing and editing
-- UX design
-- CSS, HTML, Markdown, XML
-- C, Java
-- Asana, Adobe Cloud, Confluence, HubSpot, Jira, Salesforce, Microsoft 365
+#### Writing and editing
+
+*   Technical writing
+*   Editing and proofreading
+*   Copywriting
+*   Content creation
+
+#### Programming languages
+
+*   C
+*   Java
+
+#### Markup and styling languages
+
+*   HTML
+*   CSS
+*   XML
+*   Markdown
+
+#### Software and tools
+
+*   Adobe Creative Cloud (Photoshop, Illustrator, InDesign, etc.)
+*   Asana
+*   Confluence
+*   HubSpot
+*   Jira
+*   Microsoft 365
+*   Salesforce
+*   Slack
 
 ## Contact me
 
