@@ -41,9 +41,11 @@ This article describes how to create and manage subscriptions to Appstore listin
 
     You are redirected to Stripe to complete the first payment.  
 6.  On the Stripe payment page, complete the **Card information**, **Name on card**, and **Country or region** fields. These fields are required to enable the **Subscribe** button.  
+
       
     {:  .note }
     >The **Email** field automatically populates with the email associated with your Domo account.  
+
 7.  Select **Subscribe** to charge your card for the first subscription payment.  
       
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubck)
