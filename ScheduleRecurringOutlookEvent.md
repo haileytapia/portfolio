@@ -13,7 +13,11 @@ Mar 7, 2023 ∙ How-To Guide
 {:  .note }
 > This guide applies to Outlook on the web. It does not apply to the Microsoft 365 desktop app, Outlook for iOS, or Outlook for Android.
 
+## Introduction
+
 Microsoft Outlook saves you time and effort by automatically creating multiple instances of the same event and by integrating with Microsoft Teams for virtual meetings.
+
+## Schedule a recurring event
 
 To schedule a recurring Outlook event with an optional Teams meeting, follow these steps:
 
