@@ -30,5 +30,5 @@ Here are some of the technical writing skills that I possess:
 
 If you have any questions, feel free to contact me:
 
-*   Email: [haileytapia@knights.ucf.edu](mailto:haileytapia@knights.ucf.edu)
-*   LinkedIn: [linkedin.com/in/haileytapia](https://www.linkedin.com/in/haileytapia/)
+*   [Email](mailto:haileytapia@knights.ucf.edu)
+*   [LinkedIn](https://www.linkedin.com/in/haileytapia/)
