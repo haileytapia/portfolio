@@ -15,14 +15,14 @@ Mar 7, 2023 ∙ How-To Guide
 
 Microsoft Outlook saves you time and effort by automatically creating multiple instances of the same event and by integrating with Microsoft Teams for virtual meetings.
 
-<details open markdown="block">
+<details closed markdown="block">
   <summary>
     Daily
   </summary>
 Select the number of days between occurrences and the day(s) of the week the event occurs.
 </details>
 
-<details open markdown="block">
+<details closed markdown="block">
   <summary>
     Weekly
   </summary>
