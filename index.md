@@ -17,7 +17,7 @@ See below for information about navigating this site and about me.
 
 ## Site navigation 
 
-Use the main navigation menu to access samples of my technical writing, including knowledge base articles, how-to guides, and user guides. The menu is to the left of this text on desktop computers and in the <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/6e1744aaf25b69630b5e2bafe83bef4ce84c69624a453348.png" width="20"> menu on mobile devices.
+Use the main navigation menu to access samples of my technical writing, including knowledge base articles, how-to guides, and user guides. The menu is to the left of this text on desktop computers and in the <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/6e1744aaf25b69630b5e2bafe83bef4ce84c69624a453348.png" width="18"> menu on mobile devices.
 
 ## About me
 
