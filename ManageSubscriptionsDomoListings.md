@@ -86,7 +86,7 @@ Your subscriptions display in a list with the following details:
 |Installed   |The number of times the listing has been installed in your company's instance.        |
 |Status   |The status of the subscription, which is one of the following:<br/><br/> &bull; **Active:** The subscription is active.<br/> &bull; **Canceled:** The subscription has been manually canceled or has expired past renewal.<br/> &bull; **Expiring on _Date_:** The subscription has been canceled and is set to expire on the specified date.<br/> &bull; **Payment required:** Payment has not been completed for the current subscription period.        |
 
-To the right of each subscription in the list is an <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uWCa" width="17"> action menu. Selecting this menu displays the following options:
+To the right of each subscription in the list is an <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uWCa" width="17"> action menu. When you select this menu, the following options appear:
 
 | Option      | Description |
 | ----------- | ----------- |
@@ -103,8 +103,8 @@ To the right of each subscription in the list is an <img src="https://domo-suppo
 1.  Select **Appstore** from the navigation header.
      
 
-2.  Use the [search bar](Manage-Subscriptions-to-Domo-Listings.html#subscribe-to-a-listing) on the **Search Apps** page to find the listing whose subscription you want to cancel.     
-3.  Select **Manage** \> **Cancel Subscription**.  
+2.  Use the [search bar](ManageSubscriptionsDomoListings.html#subscribe-to-a-listing) on the **Search Apps** page to find and select the listing whose subscription you want to cancel.     
+3.  On the listing Details page, select **Manage** \> **Cancel Subscription**.  
       
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ublN)  
       
@@ -123,7 +123,7 @@ To the right of each subscription in the list is an <img src="https://domo-suppo
 
     <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ublr" width="470">
 
-You are no longer subscribed to the listing, but you still have access to it until the next scheduled payment date, which displays in red text on the listing Details page. You can renew the subscription before this date by following the steps to [renew a subscription](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ublr).  
+You are no longer subscribed to the listing, but you still have access to it until the next scheduled payment date, which displays in red text on the listing Details page. You can renew the subscription before this date by following the steps to [renew a subscription](ManageSubscriptionsDomoListings#renew-a-subscription).  
   
 ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubmk)
 
@@ -135,8 +135,8 @@ You are no longer subscribed to the listing, but you still have access to it unt
 1.  Select **Appstore** from the navigation header.
      
 
-2.  Use the [search bar](Manage-Subscriptions-to-Domo-Listings.html#subscribe-to-a-listing) on the **Search Apps** page to find the listing whose subscription you want to cancel.  
-3.  Select **Manage Subscription**.  
+2.  Use the [search bar](Manage-Subscriptions-to-Domo-Listings.html#subscribe-to-a-listing) on the **Search Apps** page to find and select the listing whose subscription you want to cancel.  
+3.  On the listing Details page, sfelect **Manage Subscription**.  
 
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubmf)  
 
@@ -155,7 +155,7 @@ You are no longer subscribed to the listing, but you still have access to it unt
 
 If the renewal is successful, you return to the previous page showing your current subscriptions; your subscription no longer has the **Canceled** tag above it.
 
-In Domo, the subscription status changes from **Expiring on** _**Date**_ to **Active** in the **Installed Apps** > **Appstore Purchases** section. For more details about your subscription, see the [View your subscriptions](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubnT) section of this article.
+In Domo, the subscription status changes from **Expiring on** _**Date**_ to **Active** in the **Installed Apps** > **Appstore Purchases** section. For more details about your subscription, see the [View your subscriptions](ManageSubscriptionsDomoListings#view-your-subscriptions) section of this article.
 
 ---
 
