@@ -108,7 +108,7 @@ To the right of each subscription in the list is an <img src="https://domo-suppo
       
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ublN)  
       
-    The **Cancel** _**Listing Name**_ **subscription** modal displays.  
+    The **Cancel** _**Listing Name**_ **subscription** modal appears.  
 
       
     <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubob" width="470">
