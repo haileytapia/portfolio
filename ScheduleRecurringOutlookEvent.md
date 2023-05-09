@@ -42,41 +42,6 @@ To schedule a recurring Outlook event with an optional Teams meeting, follow the
 7.  (Conditional) In the following table, follow the steps for the event frequency you selected in [step five](#step-five):
 
     <table><tbody><tr><td><strong>Event frequency</strong></td><td><strong>Steps</strong></td></tr><tr><td>Daily</td><td>Select the number of days between occurrences and the day(s) of the week the event occurs.</td></tr><tr><td>Weekly</td><td>​Select the number of weeks between occurrences and the day(s) of the week the event occurs.</td></tr><tr><td>Monthly</td><td>Select the number of months between occurrences and whether the meeting occurs on the same day each month or on the first day of the start date (for example, the first Friday) each month.</td></tr><tr><td>Yearly</td><td>Select the number of years between occurrences and whether the meeting occurs on the same date each year or on the first day of the start date (for example, the first Friday of April) each year.</td></tr><tr><td>Custom</td><td>Select custom options based on the frequency type. See the other rows in this table for more information.</td></tr></tbody></table>
-    
-    <details closed markdown="block">
-  <summary>
-    Daily
-  </summary>
-Select the number of days between occurrences and the day(s) of the week the event occurs.
-</details>
-
-<details closed markdown="block">
-  <summary>
-    Weekly
-  </summary>
-Select the number of weeks between occurrences and the day(s) of the week the event occurs.
-</details>
-
-<details closed markdown="block">
-  <summary>
-    Monthly
-  </summary>
-Select the number of months between occurrences and whether the meeting occurs on the same day each month or on the first day of the start date (for example, the first Friday) each month.
-</details>
-
-<details closed markdown="block">
-  <summary>
-    Yearly
-  </summary>
-Select the number of years between occurrences and whether the meeting occurs on the same date each year or on the first day of the start date (for example, the first Friday of April) each year.
-</details>
-
-<details closed markdown="block">
-  <summary>
-    Custom
-  </summary>
-Select custom options based on the frequency type. See the above options for more information.
-</details>
 
 8.  Choose the end date for the event, then select **Save**.  
     Outlook saves the recurrence settings and returns you to the **New event** modal.
