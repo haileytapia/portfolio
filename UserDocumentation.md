@@ -6,7 +6,7 @@ has_children: true
 ---
 
 # User Documentation
-I have developed various types of documentation, including knowledge base articles and how-to guides, for end users of products and services.
+This section contains content I have created to help users navigate and understand complex products and systems.
 {: .fs-6 : .fw-300 }
 
 See below for samples of this documentation.
