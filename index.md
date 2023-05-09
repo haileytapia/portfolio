@@ -5,13 +5,10 @@ nav_order: 1
 description: Welcome to my technical writing portfolio!
 ---
 
-# Home
+# Welcome!
 
 My technical writing skills, developed through past internships and personal projects, are showcased here.
 {: .fs-6 : .fw-300 }
-
-## Intro
-Welcome to my technical writing portfolio! As a English: Technical Communication student, I've developed expertise in creating clear, concise, and engaging documentation for a variety of audiences. This portfolio showcases some of my best work from my past internships and personal .
 
 ## Navigation 
 
@@ -33,7 +30,9 @@ I have interned as a Technical Writer for:
 - Domo's education team
 - LSC Communications' customer experience team
 
-In addition to my technical writing skills, I have experience with the following tools, technologies, and languages:
+See my [LinkedIn](https://www.linkedin.com/in/haileytapia/) for more of my professional experience, including technical support, an editorial internship, and technical writing for a military training manual.
+
+In addition to my technical writing skills, I have experience with the following programming and documentation tools:
 
 - Markdown
 - HTML/CSS
@@ -42,12 +41,6 @@ In addition to my technical writing skills, I have experience with the following
 - Java
 - Confluence
 - Jira
-
-## Contact me
-
-I _could_ direct you to the top of this page for my contact information, but that wouldn't be very user friendly, would it? (Pretend the **Back to top** link below doesn't exist.)
-
-Here, save yourself the journey to my [email](mailto:haileytapia@knights.ucf.edu) and [LinkedIn](https://www.linkedin.com/in/haileytapia/).
 
 ---
 
