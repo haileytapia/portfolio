@@ -19,7 +19,7 @@ In addition to free listings, the Appstore offers three types of paid listings:
 *   **Monthly subscription:** See [Manage Subscriptions to Domo Listings](/portfolio/ManageSubscriptionsDomoListings) for information.
 *   **Quote:** When you request a quote, Domo reviews the request and contacts you with the next steps.
 
-Listing payments are processed through Stripe.
+Payments for listings are processed through Stripe.
 
 ## Buy a listing
 
