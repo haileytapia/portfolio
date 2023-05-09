@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Manage Domo Subscriptions
+title: Manage Subscriptions to Domo Listings
 parent: User Documentation
 ---
 
