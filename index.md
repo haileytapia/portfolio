@@ -11,10 +11,7 @@ My technical writing skills, developed through past internships and personal pro
 {: .fs-6 : .fw-300 }
 
 ## Intro
-Welcome to my technical writing portfolio! As a skilled technical writer, I've developed expertise in creating clear, concise, and engaging documentation for a variety of audiences. This portfolio showcases some of my best work from my past internships and personal projects.
-
-{: .note }
-> This site was created using Markdown, CSS, Jekyll, and GitHub Pages!
+Welcome to my technical writing portfolio! As a English: Technical Communication student, I've developed expertise in creating clear, concise, and engaging documentation for a variety of audiences. This portfolio showcases some of my best work from my past internships and personal .
 
 ## Navigation 
 
