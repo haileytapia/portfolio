@@ -10,7 +10,7 @@ parent: User Documentation
 Apr 19, 2023 ∙ Domo Knowledge Base
 {: .fs-5 : .fw-300 }
 
-As a Technical Writer Intern at Domo, I wrote this article about managing subscriptions to listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
+As a Technical Writer Intern at Domo, I created this article about managing subscriptions to listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
 
 ## Introduction
 {: .no_toc }
