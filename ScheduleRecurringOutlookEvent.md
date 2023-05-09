@@ -7,7 +7,7 @@ parent: User Documentation
 # Schedule a Recurring Outlook Event
 {: .no_toc }
 
-Mar 7, 2023 ∙ By Hailey Tapia
+Mar 7, 2023 ∙ How-To Guide
 {: .fs-5 : .fw-300 }
 
 {:  .note }
