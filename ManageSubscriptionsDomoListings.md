@@ -50,7 +50,7 @@ This article describes how to create and manage subscriptions to Appstore listin
       
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubck)
 
-If the payment succeeds, you are redirected to the **Creating App** modal in Domo. Select **Notify Me** to be notified when your listing is ready for use.  
+If the payment is successful, you are redirected to the **Creating App** modal in Domo. Select **Notify Me** to be notified when your listing is ready for use.  
 
 <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ucUS" alt="GIF" width="400">
   
