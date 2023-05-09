@@ -17,7 +17,7 @@ See below for information about navigating this site and about me.
 
 ## Site navigation 
 
-Use the main navigation menu to access samples of my technical writing, including knowledge base articles, how-to guides, and user guides. The menu is to the left of this text on large screens and at the top (behind a tap) on small screens.
+Use the main navigation menu to access samples of my technical writing, including knowledge base articles, how-to guides, and user guides. The menu is to the left of this text on large screens and in the <img src="[https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uVqy](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/3666b45613a51aeaa0e0e41f7be7452afd9bbf6c8973d188.png)" width="20"> menu on small screens.
 
 ## About me
 
