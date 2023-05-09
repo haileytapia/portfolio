@@ -11,7 +11,7 @@ Apr 26, 2023 ∙ Domo Knowledge Base
 
 As a Technical Writer Intern at Domo, I created this article about purchasing one-time payment listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
 
-## Introduction
+## Intro
 
 In addition to free listings, the Appstore offers three types of paid listings:
 
@@ -21,7 +21,8 @@ In addition to free listings, the Appstore offers three types of paid listings:
 
 Payments for listings are processed through Stripe.
 
-## Buy a one-time payment listing
+## Buy a one-time payment listing
+
 
 1.  Select **Appstore** from the navigation header.
      
