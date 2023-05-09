@@ -43,7 +43,7 @@ I also have experience in technical and customer support.
 
 ## Contact me
 
-I _could_ direct you to the top of this page for my contact information, but that wouldn't be very user friendly, would it? (Pretend **Back to top** below doesn't exist.)
+I _could_ direct you to the top of this page for my contact information, but that wouldn't be very user friendly, would it? (Pretend the **Back to top** link below doesn't exist.)
 
 Here, save yourself the journey to my [email](mailto:haileytapia@knights.ucf.edu) and [LinkedIn](https://www.linkedin.com/in/haileytapia/).
 
