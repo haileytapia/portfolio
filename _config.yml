@@ -2,7 +2,7 @@ title: Hailey's Portfolio
 description: A collection of my technical writing work!
 theme: just-the-docs
 
-<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+favicon: /favicon.png
 
 url: https://haileytapia.github.io
 
