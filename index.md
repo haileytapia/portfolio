@@ -39,7 +39,7 @@ I also have experience in technical and customer support.
 - UX design
 - CSS, HTML, Markdown, XML
 - C, Java
-- Adobe Cloud, HubSpot, Salesforce, Microsoft 365
+- Asana, Adobe Cloud, Confluence, HubSpot, Jira, Salesforce, Microsoft 365
 
 ## Contact me
 
