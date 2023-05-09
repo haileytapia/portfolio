@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Manage Domo Subscriptions
-parent: Knowledge Base Articles
+parent: User Documentation
 ---
 
 # Manage Domo Subscriptions
