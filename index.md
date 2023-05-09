@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: Welcome to my technical writer portfolio!
+description: Welcome to my technical writing portfolio!
 ---
 
 # Welcome to my portfolio!
