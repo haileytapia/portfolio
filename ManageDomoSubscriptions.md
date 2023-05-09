@@ -12,7 +12,7 @@ Apr 19, 2023 ∙ Domo Knowledge
 
 As a technical writer intern at Domo, I wrote this article about managing subscriptions to listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
 
-## Intro
+## Introduction
 {: .no_toc }
 
 The Appstore offers subscription listings for a monthly fee that, once purchased, can be used and installed by everyone in your company's Domo instance. You can cancel your subscription at any time.
