@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Buy a Domo Listing
-parent: Knowledge base articles
+parent: Knowledge Base Articles
 ---
 
 # Buy a Domo Listing
