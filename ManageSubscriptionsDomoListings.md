@@ -58,7 +58,7 @@ After Domo creates your listing, your newly subscribed listing opens in a new p
 
 ## View your subscriptions
 
-To view a list with details about each of your subscriptions, follow these steps:
+To view a list of details about each of your subscriptions, follow these steps:
 
 1.  Select **Appstore** from the navigation header.
 2.  In the side panel of the Appstore, select <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uVox" width="20"> **Installed Apps**.  
