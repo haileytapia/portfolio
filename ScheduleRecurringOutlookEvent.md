@@ -13,11 +13,21 @@ Mar 7, 2023 ∙ How-To Guide
 {:  .note }
 > This guide applies to Outlook on the web. It does not apply to the Microsoft 365 desktop app, Outlook for iOS, or Outlook for Android.
 
-## Intro
-
 Microsoft Outlook saves you time and effort by automatically creating multiple instances of the same event and by integrating with Microsoft Teams for virtual meetings.
 
-## Schedule a recurring event
+<details open markdown="block">
+  <summary>
+    Daily
+  </summary>
+Select the number of days between occurrences and the day(s) of the week the event occurs.
+</details>
+
+<details open markdown="block">
+  <summary>
+    Weekly
+  </summary>
+Select the number of days between occurrences and the day(s) of the week the event occurs.
+</details>
 
 To schedule a recurring Outlook event with an optional Teams meeting, follow these steps:
 
