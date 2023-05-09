@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Discord User Guide
-parent: User Guides
+parent: User Documentation
 ---
 
 # Discord User Guide
