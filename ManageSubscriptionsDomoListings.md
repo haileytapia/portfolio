@@ -69,7 +69,7 @@ To view a list of details about each of your subscriptions, follow these steps:
 3.  Select **Appstore Purchases** to view all of the listings you and others in your company have purchased.  
       
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubzk)  
-4.  In the search bar, select <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uVyx" width="20"> **Add filter** > **Purchased by** > _**Your Name**_, then repeat for **Purchase type** > **Subscription**.  
+4.  <a id="purchased-by"></a>In the search bar, select <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uVyx" width="20"> **Add filter** > **Purchased by** > _**Your Name**_, then repeat for **Purchase type** > **Subscription**.  
       
     ![Add Filter GIF.gif](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uXZf)
 
@@ -80,7 +80,7 @@ Your subscriptions display in a list with the following details:
 | Detail      | Description |
 | ----------- | ----------- |
 | Listing      | The name of the listing. Selecting it takes you to the listing Details page.       |
-| Purchaser   | The user who purchased the subscription, which is only you in this case. To view subscriptions purchased by others in your company, select a different user from the [**Purchased by**]() list.        |
+| Purchaser   | The user who purchased the subscription, which is only you in this case. To view subscriptions purchased by others in your company, select a different user from the [**Purchased by**](#purchased-by) list.        |
 |Next Payment   | The next due date for the monthly subscription. If the subscription has been canceled, **N/A** displays.        |
 |Type   | The listing type, which is only **Subscription** in this case.        |
 |Installed   |The number of times the listing has been installed in your company's instance.        |
