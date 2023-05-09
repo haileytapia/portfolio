@@ -28,9 +28,9 @@ This guide describes how to DO XYZ in the following topics:
 
 In cryptocurrency, liquidity refers to how easily a coin can be sold or exchanged for other coins. You can add liquidity for the CRISPR token by pairing CRISPR with another token or coin available on PancakeSwap, like BNB. Adding liquidity for our coin comes with a number of incentives:
 
-Earning a small percentage for each trade involving the CRISPR token
-Staking your LP Tokens in the Farm to earn a high APR (coming soon)
-Passively earning rewards through the Syrup Pools (coming soon)
+- Earning a small percentage for each trade involving the CRISPR token
+- Staking your LP Tokens in the Farm to earn a high APR (coming soon)
+- Passively earning rewards through the Syrup Pools (coming soon)
 
 ## Add liquidity 
 
