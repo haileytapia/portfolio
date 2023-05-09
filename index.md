@@ -21,7 +21,7 @@ Use the main navigation menu to access samples of my technical writing. The menu
 
 ## About me
 
-I am pursuing a B.A. in English: Technical Communication at the University of Central Florida. Just as  documentation revolves around the end user, so does my approach to writing and design.
+I am pursuing a B.A. in English: Technical Communication at the University of Central Florida. Just as  documentation revolves around the audience, so does my approach to writing and design.
 
 ### Experience
 
