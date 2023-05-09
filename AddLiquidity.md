@@ -15,9 +15,9 @@ Feb 27, 2022 ∙ How-To Article
 ## Intro
 {: .no_toc }
 
-Berkeley Pharma Tech's mission is to save the planet for the next generation, and with the growing threat of climate change, this mission is more urgent than ever. Although we are using CRISPR technology to reduce carbon dioxide levels in the atmosphere, these efforts should be global, which is why our team developed the CRISPR Token: to allow everyone to personally participate in Berkeley Pharma Tech's push for net-zero emissions.
+Berkeley Pharma Tech is using CRISPR technology to reduce atmospheric carbon dioxide levels, combat climate change, and save the planet for future generations. To further these efforts, our team has developed the CRISPR Token, which allows individuals like you to join our push for net-zero emissions on a global scale.
 
-After [purchasing the CRISPR token](link), consider adding liquidity to the token pool. This is one of several topics covered in this article:
+After [purchasing the CRISPR Token](link), consider adding liquidity to the token pool. This is one of several topics covered in this article:
 
 - TOC
 {:toc} 
