@@ -136,7 +136,7 @@ You are no longer subscribed to the listing, but you still have access to it unt
      
 
 2.  Use the [search bar](Manage-Subscriptions-to-Domo-Listings.html#subscribe-to-a-listing) on the **Search Apps** page to find and select the listing whose subscription you want to cancel.  
-3.  On the listing Details page, sfelect **Manage Subscription**.  
+3.  On the listing Details page, select **Manage Subscription**.  
 
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubmf)  
 
