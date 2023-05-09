@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Schedule a Recurring Outlook Event
-parent: How-to guides
+parent: User Documentation
 ---
 
 # Schedule a Recurring Outlook Event
