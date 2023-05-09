@@ -7,7 +7,7 @@ parent: User Documentation
 # Manage Domo Subscriptions
 {: .no_toc }
 
-Apr 19, 2023 ∙ Domo Knowledge
+Apr 19, 2023 ∙ Domo Knowledge Base
 {: .fs-5 : .fw-300 }
 
 As a Technical Writer Intern at Domo, I wrote this article about managing subscriptions to listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
