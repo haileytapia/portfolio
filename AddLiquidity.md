@@ -15,11 +15,9 @@ Feb 27, 2022 ∙ How-To Guide
 ## Intro
 {: .no_toc }
 
-Nurturing the planet for the next generation is what we do at Berkeley Pharma Tech, so as the threats posed by climate change intensify, this mission becomes as urgent as ever. We will use CRISPR technology to lower carbon dioxide levels in the atmosphere. But these efforts should be global, which is why our team developed the CRISPR token: to allow anyone to personally participate in Berkeley Pharma Tech’s push for net-zero emissions.
+Berkeley Pharma Tech's mission is to save the planet for the next generation, and as the threats of climate change intensify, this mission is more urgent than ever. Although we use CRISPR technology to reduce carbon dioxide levels in the atmosphere, these efforts should be global, which is why our team developed the CRISPR Token: to allow everyone to personally participate in Berkeley Pharma Tech's push for net-zero emissions.
 
-In addition to purchasing the CRISPR coin, you can add liquidity to the pool, the steps for which will be outlined in this article.
-
-This guide describes how to DO XYZ in the following topics:
+After you [purchase the CRISPR Token](link to how-to article), consider adding liquidity to the token's pool. This is one of several topics covered in this article:
 
 - TOC
 {:toc} 
