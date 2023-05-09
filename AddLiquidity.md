@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Add Liquidity to the CRISPR Token
-parent: Software
+parent: Science
 ---
 
 # Add Liquidity to the CRISPR Token
