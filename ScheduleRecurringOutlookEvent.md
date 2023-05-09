@@ -26,7 +26,7 @@ To schedule a recurring Outlook event with an optional Teams meeting, follow the
       
     ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/8bd6119899faa9a2685813ed62a7f904a534303c44b9d638.png) 
 
-    The **New event** modal displays and prompts you for the event details.  
+    The **New event** modal appears and prompts you for the event details.  
       
     ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/e5082be85d8504b6dc1ca0650d0bc5682edc67647a161a39.png)  
 4.  Enter the event title, attendees, start time, end time, and other details in the appropriate fields.
@@ -34,7 +34,7 @@ To schedule a recurring Outlook event with an optional Teams meeting, follow the
 
     <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/fd92a3f9787205a366169844f355745eb409ad7d76e6888d.png" width="600">
       
-    The **Repeat** modal displays. 
+    The **Repeat** modal appears. 
 
     ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/3daedf7f8fed0fbe4c015c926f2dab6974288b95ef9479a6.png)
 6.  In the **Start** field, enter the date on which the event should begin. You can also select <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/c397f5404925e0b3d1044623db1298253897991f5f31149e.png" width="20"> to choose the date from a calendar.
