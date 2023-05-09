@@ -39,8 +39,7 @@ I also have experience in technical and customer support.
 
 *   Technical writing
 *   Editing and proofreading
-*   Copywriting
-*   Content creation
+*   Copywriting
 
 #### Programming languages
 
@@ -56,7 +55,7 @@ I also have experience in technical and customer support.
 
 #### Software and tools
 
-*   Adobe Creative Cloud (Photoshop, Illustrator, InDesign, etc.)
+*   Adobe Creative Cloud (Photoshop, After Effects, etc.)
 *   Asana
 *   Confluence
 *   HubSpot
