@@ -38,7 +38,7 @@ In addition to my technical writing skills, I have experience with the following
 
 - C
 - Java
-- 
+
 ### Markup and styling languages
 
 - Markdown
