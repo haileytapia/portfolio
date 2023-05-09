@@ -32,15 +32,26 @@ I have interned as a Technical Writer for:
 
 See my [LinkedIn](https://www.linkedin.com/in/haileytapia/) for more of my professional experience, including technical support, an editorial internship, and technical writing for a military training manual.
 
-In addition to my technical writing skills, I have experience with the following programming and documentation tools:
+In addition to my technical writing skills, I have experience with the following:
+
+### Programming languages
+
+- C
+- Java
+- 
+### Markup and styling languages
 
 - Markdown
 - HTML/CSS
 - XML
-- C
-- Java
+
+### Tools and technologies
+
+- Asana
 - Confluence
+- HubSpot
 - Jira
+- Salesforce
 
 ---
 
