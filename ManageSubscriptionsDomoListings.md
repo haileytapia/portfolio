@@ -15,9 +15,9 @@ As a Technical Writer Intern at Domo, I created this article about managing subs
 ## Intro
 {: .no_toc }
 
-The Appstore offers subscription listings for a monthly fee. Payments are processed through Stripe, and once purchased, subscription listings can be installed by anyone in your company's Domo instance. You can cancel a subscription at any time.
+Some Appstore listings require a monthly subscription fee. Once purchased, these listings can be installed and used in your company's Domo. Payments are processed through Stripe, and you can cancel a subscription at any time.
 
-This article describes how to create and manage subscriptions to Appstore listings in the following topics:
+This article describes how to create and manage subscriptions to listings in the following topics:
 
 - TOC
 {:toc}
