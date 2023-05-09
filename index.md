@@ -17,7 +17,7 @@ See below for information about navigating this site and about me.
 
 ## Site navigation 
 
-Use the main navigation menu to access samples of my technical writing. The menu is exanpded to the left of this text on desktop computers and appears as a <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/6e1744aaf25b69630b5e2bafe83bef4ce84c69624a453348.png" width="18"> hamburger menu on mobile devices.
+Use the main navigation menu to access samples of my technical writing. The menu is expanded to the left of this text on desktop computers and appears as a <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/6e1744aaf25b69630b5e2bafe83bef4ce84c69624a453348.png" width="18"> hamburger menu on mobile devices.
 
 ## About me
 
