@@ -1,0 +1,24 @@
+title: Hailey's Portfolio
+description: A collection of my technical writing work!
+theme: just-the-docs
+
+url: https://haileytapia.github.io
+
+aux_links:
+  "Email":
+    - "mailto:haileytapia@knights.ucf.edu"
+  "LinkedIn":
+    - "https://www.linkedin.com/in/haileytapia/"
+
+callouts:
+  important:
+    title: Important
+    color: red
+  note:
+    title: Note
+    color: purple
+  about:
+    title: About
+    color: grey-dk
+
+favicon_png: /favicon.png
