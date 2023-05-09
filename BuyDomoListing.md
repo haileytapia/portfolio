@@ -23,6 +23,7 @@ Payments for listings are processed through Stripe.
 
 ## Buy a listing
 
+Follow these steps to buy a one-time payment listing:
 
 1.  Select **Appstore** from the navigation header.
      
