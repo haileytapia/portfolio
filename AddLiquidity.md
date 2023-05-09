@@ -7,7 +7,7 @@ parent: Science
 # Add Liquidity to the CRISPR Token
 {: .no_toc }
 
-Feb 27, 2022 ∙ How-To Guide
+Feb 27, 2022 ∙ How-To Article
 {: .fs-5 : .fw-300 }
 
 <span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this ...
@@ -15,9 +15,9 @@ Feb 27, 2022 ∙ How-To Guide
 ## Intro
 {: .no_toc }
 
-Berkeley Pharma Tech's mission is to save the planet for the next generation, and as the threats of climate change intensify, this mission is more urgent than ever. Although we use CRISPR technology to reduce carbon dioxide levels in the atmosphere, these efforts should be global, which is why our team developed the CRISPR Token: to allow everyone to personally participate in Berkeley Pharma Tech's push for net-zero emissions.
+Berkeley Pharma Tech's mission is to save the planet for the next generation, and with the growing threat of climate change, this mission is more urgent than ever. Although we are using CRISPR technology to reduce carbon dioxide levels in the atmosphere, these efforts should be global, which is why our team developed the CRISPR Token: to allow everyone to personally participate in Berkeley Pharma Tech's push for net-zero emissions.
 
-After you [purchase the CRISPR Token](link to how-to article), consider adding liquidity to the token's pool. This is one of several topics covered in this article:
+After [purchasing the CRISPR token](link), consider adding liquidity to the token pool. This is one of several topics covered in this article:
 
 - TOC
 {:toc} 
