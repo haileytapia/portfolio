@@ -6,7 +6,9 @@ has_children: true
 ---
 
 # Security
-This section contains content I have created as a Technical Writer Intern for Splunk's security team.
+This section contains content I have created as a Technical Writer Intern for Splunk's documentation team.
 {: .fs-6 : .fw-300 }
+
+My particular area of focus was security products.
 
 See below for samples of this documentation.
