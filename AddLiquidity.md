@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Add Liquidity to CRISPR
-parent: Science
+parent: Finance
 ---
 
 # Add Liquidity to CRISPR
