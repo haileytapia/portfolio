@@ -50,7 +50,7 @@ Our modern world is in desperate need of energy sources, though countries are no
 
 Cutting back your energy consumption, even in the smallest of ways, can make a big difference. Consider turning off the lights when not in use, replacing incandescent lights with LED bulbs, washing clothes in cold water, or switching to solar power. More on reducing your carbon footprint can be found here. The severity of carbon dioxide in the atmosphere has disastrous implications for the climate, but through conscious efforts to reduce fossil fuel usage and thus CO2 emissions, we can ensure a cleaner and safer future for our planet.
 
-## Our contributions using CRISPR research
+## Berkeley Pharma Tech’s contributions
 
 Berkeley Pharma Tech will leverage CRISPR-Cas9 technology, a system of gene-editing techniques, to tackle decarbonization and climate change. We will genetically alter redwood trees to optimize them for carbon removal, decreasing CO2 emissions in the atmosphere. And through the CRISPR token, individuals like you can personally help fund our carbon capture project and make the promise of Net-Zero emissions a reality. Although our team focuses on restoring the planet’s atmosphere to low carbon levels using CRISPR, we also push for a transition to clean energy, so you can take comfort in Berkeley Pharma Tech’s commitment to a greener, more sustainable world for our generation and for generations to come.
 
