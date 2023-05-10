@@ -10,6 +10,11 @@ parent: Science
 Mar 15, 2022 ∙ Article
 {: .fs-5 : .fw-300 }
 
+This article describes XYZ in the following topics:
+
+- TOC
+{:toc} 
+
 ## Intro
 
 You finish typing up an email or document on your computer. Taking a scroll through, your eyes land on the dreaded blue wavy underline. But no need to fret — with only a few clicks, you are able to find and replace any pesky misspelling in your writing. If only something akin to this convenience existed in other disciplines.
