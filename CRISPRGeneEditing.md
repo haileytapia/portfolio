@@ -44,7 +44,7 @@ _Graphic illustrating photosynthesis._
 
 Furthermore, trees can afford more tolerance to drought, cold weather, and other adverse conditions. But how? Enter genome editing, the answer to refining photosynthetic efficiency and increasing trees’ carbon absorption capacities. Genetically editing redwood trees will make them the perfect allies in the battle against climate change, and CRISPR is just the tool for the job.
 
-## Where Berkeley Pharma Tech stands
+## Berkeley Pharma Tech’s contributions
 
 Today, gene editing in plants using CRISPR largely focuses on improving food production and accelerating sustainable agricultural practices. Berkeley Pharma Tech’s efforts are similar but different in that we are trying to fight climate change. Crops are not our primary focus; instead, we center our work on redwood trees, genetically modifying them to optimize their carbon sequestration and lower CO2 emissions in the atmosphere. And attaining the promise of Net-Zero emissions is possible through our CRISPR token, which goes toward funding the carbon capture project and building a greener, more sustainable world for everyone.
 
