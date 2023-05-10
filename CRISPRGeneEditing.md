@@ -10,6 +10,8 @@ parent: Science
 Mar 15, 2022 ∙ Article
 {: .fs-5 : .fw-300 }
 
+<span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this article about...
+
 This article describes XYZ in the following topics:
 
 - TOC
