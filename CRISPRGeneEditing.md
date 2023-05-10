@@ -12,7 +12,7 @@ Mar 15, 2022 ∙ Article
 
 <span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this article about...
 
-This article describes XYZ in the following topics:
+#### Table of contents
 
 - TOC
 {:toc} 
