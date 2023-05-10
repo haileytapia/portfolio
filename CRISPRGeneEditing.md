@@ -12,18 +12,17 @@ Mar 15, 2022 ∙ Article
 
 <span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this article about...
 
-- TOC
-{:toc} 
-
----
-
-## Intro
+## Intro and content
+{: .no_toc }
 
 You finish typing up an email or document on your computer. Taking a scroll through, your eyes land on the dreaded blue wavy underline. But no need to fret — with only a few clicks, you are able to find and replace any pesky misspelling in your writing. If only something akin to this convenience existed in other disciplines.
 
 Oh, wait. It does.
 
 Gene editing functions much like the find and replace tool, but instead of fixing words, it rewrites DNA sequences in living cells. Scientists can quite literally finetune specific parts of a gene using this technique. Needless to say, the ability to customize genetic makeup has applications to a variety of organisms. In this article, we will explore the usages, technologies, and prospects of genome editing, and our starting point is as green as it is good: plants.
+
+- TOC
+{:toc} 
 
 ## Plant Gene Editing
 
