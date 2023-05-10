@@ -22,7 +22,7 @@ This article explores the link between the energy and climate crises and the nee
 - TOC
 {:toc} 
 
-## The global energy crisis
+## The energy crisis
 
 The high global energy demand is driven by a variety of factors. First, in a technologically advanced society, more energy is necessary to make products for the growing populations. Secondly, harsh weather conditions, like the winters in Europe — potentially made longer and colder by climate change — also make energy essential for people’s survival. Thirdly, geopolitics play a role, as can be seen in Russia’s reduction in gas exports in December 2021, causing energy security instability for Europe. In search of a solution, we turn back to fossil fuels, the burning of which has disastrous consequences on our planet.
 
