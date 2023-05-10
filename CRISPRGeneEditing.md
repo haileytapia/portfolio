@@ -15,11 +15,9 @@ Mar 15, 2022 ∙ Article
 ## Intro
 {: .no_toc }
 
-You finish typing up an email or document on your computer. Taking a scroll through, your eyes land on the dreaded blue wavy underline. But no need to fret — with only a few clicks, you are able to find and replace any pesky misspelling in your writing. If only something akin to this convenience existed in other disciplines.
+Gene editing can be compared to the find and replace tool in word processing, but instead of using it to fix words, scientists use gene editing to rewrite DNA sequences in living cells. CRISPR-Cas9 is particularly useful for gene editing because it is more precise, flexible, and efficient than traditional editing  methods.
 
-Oh, wait. It does.
-
-Gene editing functions much like the find and replace tool, but instead of fixing words, it rewrites DNA sequences in living cells. Scientists can quite literally finetune specific parts of a gene using this technique. Needless to say, the ability to customize genetic makeup has applications to a variety of organisms. In this article, we will explore the usages, technologies, and prospects of genome editing, and our starting point is as green as it is good: plants.
+This article explores how CRISPR is transforming plant and crop engineering in the following topics:
 
 - TOC
 {:toc} 
