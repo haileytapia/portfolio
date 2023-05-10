@@ -9,4 +9,4 @@ has_children: true
 This section contains content I have created as a Technical Writer Intern for Splunk's documentation team.
 {: .fs-6 : .fw-300 }
 
-As seen in the following samples, my area of focus was security products.
+As shown in the samples below, my focus was on security products.
