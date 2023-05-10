@@ -9,4 +9,4 @@ has_children: true
 This section contains content I have created as an Editorial Intern for Berkeley Pharma Tech.
 {: .fs-6 : .fw-300 }
 
-These particular samples focus on CRISPR, the company's cypto token.
+The samples below focus on CRISPR, the company's cypto token.
