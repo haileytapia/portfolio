@@ -17,7 +17,7 @@ Mar 29, 2022 ∙ Article
 
 Energy is an essential part of modern life, powering our homes, transportation, and industries. However, the world's heavy reliance on fossil fuels has led to a global energy crisis, with supply shortages and coal usage contributing to negative environmental effects such as climate change.
 
-This article explores the link between the energy and climate crises and the need to go net zero.
+This article explores the link between the energy and climate crises and the need to go net zero in the following topics:
 
 - TOC
 {:toc} 
@@ -30,7 +30,7 @@ These reasons prompt the obvious question: why nonrenewable energy? In theory, E
 
 With energy demands, coal usage, and supply shortages around the world as extreme as they currently are, a global energy crisis is upon us. What’s more, United Nations Secretary General António Guterres warns that countries are “sleepwalking to climate catastrophe” if they continue to rely on fossil fuels. Our dependence on them cannot be denied, either; the U.S. Energy Information Administration expects American fossil fuel production to continue rising in 2022 and reach a new record in 2023. Indeed, excessive fossil fuel consumption is wreaking havoc on our world.
 
-## The carbon crises
+## The carbon crisis
 
 Carbon dioxide, or CO2, is a vital compound to Earth’s life cycles. CO2 emissions are mainly caused by human impacts, including deforestation, transportation, industrial manufacturing, and fossil fuel burning, but even basic human activities, like breathing, produce CO2. Trouble looms when there is too much of it in the atmosphere, though.
 
