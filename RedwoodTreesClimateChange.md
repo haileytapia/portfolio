@@ -60,7 +60,7 @@ Take Grant Domke, for example. As a research forester with the USDA Forest Servi
 
 Since the late 1800s and early 1900s, the USDA has been re-establishing unstocked lands due to natural catastrophes, insects, agricultural practices, or human activity. The Organic Administration Act of 1897 authorized the establishment of national forests “to improve and protect the forest within the boundaries” rather than for recreational or aesthetic purposes. The Weeks Law of 1911 created several national forests to restore forests logged or cleared for agriculture on previously private lands. And though most tree planting initiatives on national forest grounds during the early 20th century were in response to wildfires, the USDA’s scope has grown to include watershed restoration, post-fire restoration, forest health restoration, wildlife habitat restoration, and, of course, carbon capture. There even is the Climate Change Program Office, which coordinates agricultural, rural, and forestry-related climate change program and policy issues across the USDA.
 
-## Berkeley Pharma Tech’s contributions
+## Our contributions
 
 We at Berkeley Pharma Tech want the world to experience environmental synergy. Our research is multiplying the reforestation efforts already happening in the U.S., and we have a strategy to improve redwood trees for carbon capture. Using the gene editing technology CRISPR-Cas9, our team will induce drought resistance in them so that they can be planted anywhere. But our work is only as strong as the individuals backing it, which is why we released the CRISPR token. This personal cryptocurrency allows people like you to fund our project and become personally involved in preparing redwoods to be the strongest carbon-storing superheroes.
 
