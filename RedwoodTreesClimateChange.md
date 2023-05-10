@@ -7,7 +7,7 @@ parent: Science
 # How Redwood Trees Fight Climate Change
 {: .no_toc }
 
-Mar 5, 2022 ∙ How-To Article
+Mar 5, 2022 ∙ Article
 {: .fs-5 : .fw-300 }
 
 <span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this article about...
@@ -15,10 +15,12 @@ Mar 5, 2022 ∙ How-To Article
 ## Intro
 {: .no_toc }
 
+We live in an era characterized by the dangers of climate change. Trees are no exception to this; each year, 15 billion of them are lost to deforestation. Trees are vital to everything around us, and taking them away has devastating effects on both the environment and humans. Most notably, trees absorb carbon dioxide (CO2), alleviating greenhouse gas emissions responsible for climate change. But CO2 will only continue to increase if we keep doing harm to the planet. From nonprofit groups to the government, the United States is planting trees to tackle the climate crisis, and currently we are spearheading the global reforestation efforts.
+
+This article describes XYZ in the following topics:
+
 - TOC
 {:toc} 
-
-We live in an era characterized by the dangers of climate change. Trees are no exception to this; each year, 15 billion of them are lost to deforestation. Trees are vital to everything around us, and taking them away has devastating effects on both the environment and humans. Most notably, trees absorb carbon dioxide (CO2), alleviating greenhouse gas emissions responsible for climate change. But CO2 will only continue to increase if we keep doing harm to the planet. From nonprofit groups to the government, the United States is planting trees to tackle the climate crisis, and currently we are spearheading the global reforestation efforts.
 
 ## What is Reforestation?
 
