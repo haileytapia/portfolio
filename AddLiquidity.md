@@ -10,7 +10,7 @@ parent: Science
 Feb 27, 2022 ∙ How-To Article
 {: .fs-5 : .fw-300 }
 
-<span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this article about 
+<span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this article about adding liquidity to the company's crypotecurrency coin.
 
 ## Intro
 {: .no_toc }
@@ -34,7 +34,7 @@ Adding liquidity to our coin comes with a number of benefits. For example, you c
 
 ## Add liquidity 
 
-### Part 1. Swap BNB for Smart Chain
+### Swap BNB for Smart Chain
 
 Before adding liquidity to the platform, you must exchange your Binance Coin (BNB) for Binance Smart Chain (BSC) in your trust wallet. This step is necessary because PancakeSwap and other decentralized exchanges operate on the Binance Smart Chain network, which requires BSC for transactions.
 
@@ -44,11 +44,11 @@ Before adding liquidity to the platform, you must exchange your Binance Coin (BN
 Follow these steps to swap your BNB for BSC:
 
 1.  Open your trust wallet.
-2.  In your list of tokens, locate and tap **BNB**.  
+2.  In your list of tokens, locate and select **BNB**.  
       
     ![](https://miro.medium.com/v2/resize:fit:875/1*NMud74v-EwpsvriQeSiF4w.png)  
      
-3.  Tap **Swap** > **Swap to Smart Chain**.  
+3.  Select **Swap** > **Swap to Smart Chain**.  
       
     ![](https://miro.medium.com/v2/resize:fit:875/1*orcEyyLuz85k1T5s4Mx0YQ.png)  
       
@@ -56,11 +56,14 @@ Follow these steps to swap your BNB for BSC:
       
     The **Swap** modal appears.  
      
-4.  Enter your desired amounts, then tap **Swap**.  
+4.  Enter your desired amounts, then select **Swap**.  
       
     ![](https://miro.medium.com/v2/resize:fit:698/1*Q0DCdX8zVXV5grVFDEWz6A.png)
 
-### Part 2. Add liquidity
+### Add liquidity
 
-### Part 3. Import Cake-LP
+After you
+
+
+### Import Cake-LP
 
