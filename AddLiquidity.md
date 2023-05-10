@@ -67,3 +67,8 @@ After you
 
 ### Import Cake-LP
 
+---
+
+[Back to top](#top)
+
+Thanks for visiting my portfolio! Don't hesitate to get in touch if you have any questions or feedback.
