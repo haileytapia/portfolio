@@ -26,7 +26,7 @@ This article discusses how CRISPR is transforming plant and crop engineering in 
 
 Traditional plant breeding has significant drawbacks, including its reliance on existing genes, which can be time-consuming and inefficient. Gene editing technologies, such as TALENs, ZFNs, and CRISPR-Cas9, provide more precise and specific methods for diversifying genes. These techniques have been used to genetically modify several crops for resistance to powdery mildew, herbicides, and biotic and abiotic stresses, resulting in increased size, yield, and quality. Gene editing can also be used to modify plants to produce extra proteins needed by diabetics or people with albumin deficiency.
 
-## CRISPR’s Role in Genetically Modifying Plants
+## CRISPR’s role in genetically modifying plants
 
 In recent years, CRISPR has emerged as a trailblazer among first-generation genome editing systems. It is simpler — not to mention more flexible, precise, cost-effective, and efficient — by comparison and is revolutionizing plant gene modification in various ways: it does not need foreign DNA unlike traditional genetic engineering; it has rapidly increased in use compared to other new plant breeding techniques; it has a broader range of applications, having been engineered in 45 plant genera across 24 families since its first success in 2013; and it can improve an array of agricultural traits, like yield and grain quality, plant architecture, and plant aesthetics. Of particular note is CRISPR’s power to enhance herbicide, disease, and drought resistance in crops. It goes without saying that CRISPR is ideal for genetic modification of plants, specifically trees.
 
@@ -44,11 +44,11 @@ _Graphic illustrating photosynthesis._
 
 Furthermore, trees can afford more tolerance to drought, cold weather, and other adverse conditions. But how? Enter genome editing, the answer to refining photosynthetic efficiency and increasing trees’ carbon absorption capacities. Genetically editing redwood trees will make them the perfect allies in the battle against climate change, and CRISPR is just the tool for the job.
 
-## Where Berkeley Pharma Tech Stands
+## Where Berkeley Pharma Tech stands
 
 Today, gene editing in plants using CRISPR largely focuses on improving food production and accelerating sustainable agricultural practices. Berkeley Pharma Tech’s efforts are similar but different in that we are trying to fight climate change. Crops are not our primary focus; instead, we center our work on redwood trees, genetically modifying them to optimize their carbon sequestration and lower CO2 emissions in the atmosphere. And attaining the promise of Net-Zero emissions is possible through our CRISPR token, which goes toward funding the carbon capture project and building a greener, more sustainable world for everyone.
 
-## Hope For A Better Tomorrow
+## Hope for a better tomorrow
 
 Scientists are making immeasurable progress in the dynamic field of genome editing, and this is only the beginning. As new attributes are introduced to plants to make them better, new pathways to agricultural and environmental breakthroughs are also forged. We bear witness to the genome editing techniques that can revolutionize agricultural biotechnology as we know it. CRISPR technology, in particular, promises a bright future for gene editing and its applications, and its value has not gone unnoticed by our team at Berkeley Pharma Tech. Together, we can combat global warming one tree at a time.
 
