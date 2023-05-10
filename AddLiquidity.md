@@ -34,7 +34,7 @@ Adding liquidity to our coin comes with a number of benefits. For example, you c
 
 ## Add liquidity 
 
-### 1. Swap BNB for Smart Chain
+### Part 1. Swap BNB for Smart Chain
 
 Before adding liquidity to the platform, you must exchange your Binance Coin (BNB) for Binance Smart Chain (BSC) in your trust wallet. This step is necessary because PancakeSwap and other decentralized exchanges operate on the Binance Smart Chain network, which requires BSC for transactions.
 
@@ -60,7 +60,7 @@ Follow these steps to swap your BNB for BSC:
       
     ![](https://miro.medium.com/v2/resize:fit:698/1*Q0DCdX8zVXV5grVFDEWz6A.png)
 
-### 2. Add liquidity
+### Part 2. Add liquidity
 
-### 3. Import Cake-LP
+### Part 3. Import Cake-LP
 
