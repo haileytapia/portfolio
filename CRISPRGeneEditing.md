@@ -15,18 +15,16 @@ Mar 15, 2022 ∙ Article
 ## Intro
 {: .no_toc }
 
-Gene editing can be compared to the find and replace tool in word processing, but instead of using it to fix words, scientists use gene editing to rewrite DNA sequences in living cells. CRISPR-Cas9 is particularly useful for gene editing because it is more precise, flexible, and efficient than traditional editing  methods.
+Similar to the find-and-replace tool in word processing, scientists use gene editing to rewrite DNA sequences in living cells. CRISPR-Cas9 is particularly useful for gene editing because it is more precise, flexible, and efficient than traditional editing  methods.
 
 This article explores how CRISPR is transforming plant and crop engineering in the following topics:
 
 - TOC
 {:toc} 
 
-## Plant Gene Editing
+## Plant gene editing
 
-Plant and crop engineering have proven to be promising areas of biotechnology, offering a wealth of benefits to scientists, researchers, ecosystems, and regular inhabitants of Earth like you and me. In the last century, genetic variation was achieved mostly through conventional breeding, though it has significant drawbacks. It is restrictive, time-consuming, and inefficient in nature, as it depends on existing genes that all must be mixed to obtain desired characteristics (as one can imagine, thousands of gene combinations are not very economical). And despite its contribution to crop improvement, plant breeding often accompanies reduced fitness and genetic diversity. These reasons made, and still do make, technological innovation necessary for the continued growth of this industry.
-
-The advent of gene editing is fairly new, and over the past twenty years, three major technologies have been created to diversify genes with greater accuracy and specificity. TALENs, ZFNs, and CRISPR-Cas9 all provide means to edit and target any gene of interest, which are especially advantageous to plants. For example, several crop species, like maize, rice, wheat, tobacco, tomato, and potato, have been genetically altered for the better, their advantages including a variety of resistances (such as to mildew, herbicide, or abiotic and biotic stresses), larger sizes, and more plentiful, higher quality crop production. Gene editing also lets us modify plants to make extra proteins needed by diabetic or albumin patients. Briefly put, plants can be modified in ways once unimaginable, making the construction of new varieties of crops and solutions to other pressing agricultural issues a not-so-distant reality.
+Traditional plant breeding has significant drawbacks, including its reliance on existing genes, which can be time-consuming and inefficient. Gene editing technologies, such as TALENs, ZFNs, and CRISPR-Cas9, provide more precise and specific methods for diversifying genes. These techniques have been used to genetically modify several crops for resistance to powdery mildew, herbicides, and biotic and abiotic stresses, resulting in increased size, yield, and quality. Gene editing can also be used to modify plants to produce extra proteins needed by diabetics or people with albumin deficiency.
 
 ## CRISPR’s Role in Genetically Modifying Plants
 
