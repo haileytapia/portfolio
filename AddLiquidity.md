@@ -7,7 +7,7 @@ parent: Finance
 # Add Liquidity to CRISPR
 {: .no_toc }
 
-Feb 27, 2022 ∙ How-To Article
+Feb 27, 2022 ∙ Article
 {: .fs-5 : .fw-300 }
 
 <span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this article about adding liquidity to the company's crypotecurrency coin.
