@@ -17,6 +17,7 @@ Use the navigation menu to explore my portfolio, which currently includes the fo
 - [Software](/portfolio/Software)
 - [Security](/portfolio/Security)
 - [Science](/portfolio/Science)
+- [Finance](/portfolio/Finance)
 
 The menu is expanded to the left of this text on desktop computers and displays as a <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/6e1744aaf25b69630b5e2bafe83bef4ce84c69624a453348.png" width="18"> hamburger menu on mobile devices.
 
