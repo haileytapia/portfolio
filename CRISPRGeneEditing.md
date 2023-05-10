@@ -7,7 +7,7 @@ parent: Science
 # What is CRISPR Gene Editing?
 {: .no_toc }
 
-Mar 15, 2022 ∙ How-To Article
+Mar 15, 2022 ∙ Article
 {: .fs-5 : .fw-300 }
 
 ## Intro
