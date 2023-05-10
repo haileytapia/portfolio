@@ -17,7 +17,7 @@ Mar 15, 2022 ∙ Article
 
 Just as you use the find-and-replace tool to fix text in a document, scientists use gene editing to rewrite DNA sequences in living cells. CRISPR-Cas9 is particularly useful for gene editing because it is more precise, flexible, and efficient than traditional editing  methods.
 
-This article explores how CRISPR is transforming plant and crop engineering in the following topics:
+This article discusses how CRISPR is transforming plant and crop engineering in the following topics:
 
 - TOC
 {:toc} 
