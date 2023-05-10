@@ -12,7 +12,7 @@ Mar 15, 2022 ∙ Article
 
 <span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this article about...
 
-## Intro and content
+## Intro
 {: .no_toc }
 
 You finish typing up an email or document on your computer. Taking a scroll through, your eyes land on the dreaded blue wavy underline. But no need to fret — with only a few clicks, you are able to find and replace any pesky misspelling in your writing. If only something akin to this convenience existed in other disciplines.
