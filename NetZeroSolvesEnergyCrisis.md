@@ -17,7 +17,7 @@ Mar 29, 2022 ∙ Article
 
 Energy is an essential part of modern life, powering our homes, transportation, and industries. However, the world's heavy reliance on fossil fuels has led to a global energy crisis, with supply shortages and coal usage contributing to negative environmental effects such as climate change.
 
-This article explores the link between the energy and climate crises and the need to go net zero in the following topics:
+This article discusses the link between the energy and climate crises and the need to go net zero in the following topics:
 
 - TOC
 {:toc} 
