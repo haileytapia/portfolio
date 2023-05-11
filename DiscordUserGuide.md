@@ -28,6 +28,13 @@ The main components of the interface include:
 - **Channels:** Within servers, you can create or join channels to communicate with other users.
 - **Direct Messages:** You can also send direct messages to other users outside of servers.
 
+## Servers
+
+### Join a server
+
+### Create a server
+
+
 ---
 
 [Back to top](#top)
