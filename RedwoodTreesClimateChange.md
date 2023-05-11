@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Use Redwood Trees to Fight Climate Change
+title: How Redwood Trees Fight Climate Change
 parent: Science
 ---
 
-# Use Redwood Trees to Fight Climate Change
+# How Redwood Trees Fight Climate Change
 {: .no_toc }
 
 Mar 5, 2022 ∙ Article
