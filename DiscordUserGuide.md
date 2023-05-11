@@ -31,7 +31,9 @@ Before you start using Discord, follow the steps in this section to create an ac
 
 You must have an account to use Discord.
 
-Once you've created an account, either continue with this guide using Discord in your web browser or follow the steps below to [download Discord](#download-discord) for your desktop or mobile device.
+Your Discord account is now created.
+
+You can continue this guide using the Discord website—which you are doing now—or the [Discord desktop or mobile app](#download-discord).
 
 ### Download Discord (optional)
 
