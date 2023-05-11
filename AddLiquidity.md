@@ -31,7 +31,9 @@ Adding liquidity to our coin comes with a number of benefits. For example, you c
 - Bet your LP tokens on the farm to earn a high APR (coming soon)
 - Passively earn rewards through the Syrup Pools (coming soon)
 
-## Add liquidity 
+## How to add liquidity 
+
+Adding liquidity is a three-step process, as outlined below. Follow the steps in sequential order to successfully add liquidity to the CRISPR token.
 
 ### Swap BNB for Smart Chain
 
