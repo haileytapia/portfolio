@@ -19,7 +19,7 @@ Discord is a free voice and text communication platform that lets you connect wi
 
 ### Create an account
 
-Once you've created an account, you can continue with this guide using Discord in your web browser, or follow the steps below to download Discord for your desktop or mobile device.
+Once you've created an account, either continue with this guide using Discord in your web browser or follow the steps below to [download Discord](#download-discord) for your desktop or mobile device.
 
 ### Download Discord
 
