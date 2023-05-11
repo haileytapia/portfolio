@@ -20,8 +20,6 @@ Apr 19, 2023 ∙ Knowledge Base Article
     </tbody>
 </table>
 
----
-
 Some Appstore listings require a monthly subscription fee. After the initial payment, anyone in your company's Domo instance can install and use these listings. Payments are processed through Stripe, and you can cancel a subscription at any time.
 
 This article describes how to create and manage subscriptions to listings in the following topics:
