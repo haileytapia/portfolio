@@ -15,7 +15,7 @@ Mar 7, 2023 ∙ How-To Guide
 
 Use the calendar and scheduling component of Microsoft Outlook to automatically create multiple instances of the same event. You can also add virtual meetings to an event using Outlook's integration with Microsoft Teams.
 
-To schedule a recurring Outlook event with an optional Teams meeting, follow the steps for your Outlook platform:
+This article describes how to schedule recurring events on the following Outlook platforms:
 
 - TOC
 {:toc}
