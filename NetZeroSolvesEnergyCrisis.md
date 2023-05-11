@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Go Net Zero to Solve the Energy Crisis
+title: Net-Zero Solutions to the Energy Crisis
 parent: Science
 ---
 
-# Go Net Zero to Solve the Energy Crisis
+# Net-Zero Solutions to the Energy Crisis
 {: .no_toc }
 
 Mar 29, 2022 ∙ Article
