@@ -21,6 +21,8 @@ This guide describes Discord's setup process, interface, and features in the fol
 
 ### Create an account
 
+You must have an account to use Discord.
+
 Once you've created an account, either continue with this guide using Discord in your web browser or follow the steps below to [download Discord](#download-discord) for your desktop or mobile device.
 
 ### Download Discord
