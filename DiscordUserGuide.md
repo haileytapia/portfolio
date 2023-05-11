@@ -16,7 +16,7 @@ To navigate to a specific section of this guide, expand the table of contents be
 
 <details closed markdown="block">
   <summary>
-    Table of contents
+    &nbsp;Table of contents
   </summary>
   {: .text-delta }
 - TOC
