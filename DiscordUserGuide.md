@@ -10,6 +10,9 @@ parent: Software
 May 7, 2023 ∙ User Guide
 {: .fs-5 : .fw-300 }
 
+- TOC
+{:toc}
+
 ## Setup
 
 ### Create an account
