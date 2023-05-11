@@ -57,6 +57,10 @@ To schedule a recurring Outlook event with an optional Teams meeting, follow the
 
 Outlook creates your recurring event and displays all of its occurrences on your calendar.
 
+## Outlook desktop
+
+## Outlook on Android
+
 ---
 
 [Back to top](#top)
