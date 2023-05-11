@@ -8,11 +8,12 @@ parent: Software
 {: .no_toc }
 
 Mar 7, 2023 ∙ How-To Guide
-{: .fs-5 : .fw-300 }
+{: .fs-5 : .fw-300 }
 
 Use the calendar and scheduling component of [Outlook on the web](https://outlook.live.com/owa/) to automatically create multiple instances of the same event. You can also add virtual meetings to an event using Outlook's integration with Microsoft Teams.
 
-To schedule a recurring event with an optional Teams meeting in Outlook on the web, follow these steps:
+To schedule a recurring event with an optional Teams meeting in Outlook on the web:
+
 
 1.  Select <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/b605976b77ed8b106d53eff3c43163a804e976b0e23edd2c.png" width="15"> **Calendar** from the navigation menu.
 
