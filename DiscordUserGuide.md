@@ -25,6 +25,8 @@ To navigate to a specific section of this guide, expand the table of contents be
 
 ## Get started
 
+While creating an account is required, downloading Discord is optional. However, both steps are included in the setup process.
+
 ### Create an account
 
 You must have an account to use Discord.
