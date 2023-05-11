@@ -8,7 +8,7 @@ parent: Software
 {: .no_toc }
 
 Apr 19, 2023 ∙ Knowledge Base Article
-{: .fs-7 : .fw-300 }
+{: .fs-6 : .fw-300 }
 
 <span class="icon">&#9432;</span>&nbsp;&nbsp;As a Technical Writer Intern at Domo, I created this article about managing subscriptions to listings on their <a href="https://www.domo.com/business-intelligence">BI platform</a>, which provides data integration, visualization, and analysis tools.
 {: .fs-5 : .fw-400 }
