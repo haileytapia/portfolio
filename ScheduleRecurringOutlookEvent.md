@@ -1,23 +1,18 @@
 ---
 layout: default
-title: Schedule a Recurring Outlook Event
+title: Schedule a Recurring Event in Outlook on the Web
 parent: Software
 ---
 
-# Schedule a Recurring Outlook Event
+# Schedule a Recurring Event in Outlook on the Web
 {: .no_toc }
 
 Mar 7, 2023 ∙ How-To Guide
 {: .fs-5 : .fw-300 }
 
-Use the calendar and scheduling component of Microsoft Outlook to automatically create multiple instances of the same event. You can also add virtual meetings to an event using Outlook's integration with Microsoft Teams.
+Use the calendar and scheduling component of Outlook on the web to automatically create multiple instances of the same event. You can also add virtual meetings to an event using Outlook's integration with Microsoft Teams.
 
-This guide describes how to schedule recurring events on the following Outlook platforms:
-
-- TOC
-{:toc}
-
-## Outlook on the web
+To schedule a recurring event with an optional Teams meeting in Outlook on the web, follow these steps:
 
 1.   Sign in to [Outlook on the web](https://outlook.live.com/owa/).
 
@@ -56,10 +51,6 @@ This guide describes how to schedule recurring events on the following Outlook p
     ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/17c2277ed9e0bca87fc4b159edf93e381c9e008528781ab9.png)
 
 Outlook creates your recurring event and displays all of its occurrences on your calendar.
-
-## Outlook desktop
-
-## Outlook on Android
 
 ---
 
