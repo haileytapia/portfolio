@@ -10,7 +10,9 @@ parent: Software
 May 7, 2023 ∙ User Guide
 {: .fs-5 : .fw-300 }
 
-Discord is a free voice and text communication platform that lets you connect with friends, family, and communities. This guide is designed to help you understand and get the most out of Discord's features.
+Discord is a free voice and text communication platform that lets you connect with friends, family, and communities.
+
+This guide describes Discord's setup process, interface, and features in the following topics:
 
 - TOC
 {:toc}
