@@ -11,7 +11,7 @@ Mar 29, 2022 ∙ Article
 {: .fs-5 : .fw-300 }
 
 {:  .about }
-><span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this article about...
+>As an Editorial Intern at Berkeley Pharma Tech, I created this article about...
 
 Energy is an essential part of modern life, powering our homes, transportation, and industries. However, the world's heavy reliance on fossil fuels has led to a global energy crisis, with supply shortages and coal usage contributing to negative environmental effects such as climate change.
 
