@@ -10,7 +10,7 @@ parent: Software
 Mar 7, 2023 ∙ How-To Guide
 {: .fs-5 : .fw-300 }
 
-Outlook on the web is Microsoft's web-based version of its mail client. It saves you time and effort by automatically creating multiple instances of the same event and by integrating with Teams for virtual meetings.
+Outlook on the web is Microsoft's web-based version of its mail client, whose calendar component saves you time and effort by automatically creating multiple instances of the same event and by integrating with Teams for virtual meetings.
 
 To schedule a recurring event with an optional Teams meeting in Outlook on the web, follow these steps:
 
