@@ -33,7 +33,7 @@ You must have an account to use Discord.
 
 Your Discord account is now created.
 
-Continue following this guide using the Discord website—the website on which you currently are—or the [Discord desktop or mobile app](#download-discord-optional).
+Continue following this guide using the Discord website—the same website on which you created your account—or the [Discord desktop or mobile app](#download-discord-optional).
 
 ### Download Discord (optional)
 
