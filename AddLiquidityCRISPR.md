@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Add Liquidity to CRISPR
+title: Add Liquidity to the CRISPR Token
 parent: Finance
 ---
 
