@@ -12,8 +12,7 @@ Feb 27, 2022 ∙ Article
 
 <span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this article about adding liquidity to the company's crypotecurrency coin.
 
-## Intro
-{: .no_toc }
+---
 
 Berkeley Pharma Tech is using CRISPR technology to reduce atmospheric carbon dioxide levels, combat climate change, and save the planet for future generations. To further these efforts, our team has developed the CRISPR token, which allows individuals like you to join our push for net-zero emissions on a global scale.
 
