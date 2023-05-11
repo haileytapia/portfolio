@@ -14,7 +14,7 @@ Discord is a free voice and text communication platform that lets you connect wi
 
 To navigate to a specific section of this guide, expand the table of contents below.
 
-<details closed markdown="block">
+<details open markdown="block">
   <summary>
     Table of contents
   </summary>
