@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Schedule a Recurring Outlook
+title: Schedule a Recurring Outlook Event
 parent: Software
 ---
 
