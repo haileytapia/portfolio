@@ -10,7 +10,15 @@ parent: Software
 Apr 19, 2023 ∙ Knowledge Base Article
 {: .fs-5 : .fw-300 }
 
-<span class="icon">&#9432;</span>&nbsp;&nbsp;As a Technical Writer Intern at Domo, I created this article about managing subscriptions to listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <span class="icon">&#9432;</span>&nbsp;&nbsp;As a Technical Writer Intern at Domo, I created this article about managing subscriptions to listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ---
 
