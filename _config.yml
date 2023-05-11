@@ -18,7 +18,7 @@ callouts:
     color: red
   note:
     title: Note
-    color: purple
+    color: grey-lt
   about:
     title: About
     color: purple
