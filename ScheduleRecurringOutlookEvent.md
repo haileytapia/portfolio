@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Schedule a Recurring Event With Outlook Calendar
+title: Schedule a Recurring Outlook
 parent: Software
 ---
 
-# Schedule a Recurring Event With Outlook Calendar
+# Schedule a Recurring Outlook Event
 {: .no_toc }
 
 Mar 7, 2023 ∙ How-To Guide
