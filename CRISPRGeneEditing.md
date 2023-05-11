@@ -10,9 +10,8 @@ parent: Science
 Mar 15, 2022 ∙ Article
 {: .fs-5 : .fw-300 }
 
-<span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this article about...
-
----
+{:  .about }
+><span class="icon">&#9432;</span>&nbsp;&nbsp;As an Editorial Intern at Berkeley Pharma Tech, I created this article about...
 
 Just as you use the find-and-replace tool to fix text in a document, scientists use gene editing to rewrite DNA sequences in living cells. CRISPR-Cas9 is particularly useful for gene editing because it is more precise, flexible, and efficient than traditional editing  methods.
 
