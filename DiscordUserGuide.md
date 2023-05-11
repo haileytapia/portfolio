@@ -40,6 +40,31 @@ The main components of the interface include:
 
 ### Create a server
 
+## Channels
+
+## Direct messages
+
+## Features
+
+### Text chat
+
+### Voice chat
+
+### Video chat
+
+### Screen share
+
+### Emojis
+
+### Roles
+
+## Customization
+
+### Change your avatar
+
+### Change your username
+
+### Change your theme
 
 ---
 
