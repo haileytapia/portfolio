@@ -25,15 +25,15 @@ To navigate to a specific section of this guide, expand the table of contents be
 
 ## Get started
 
-While creating an account is required, downloading Discord is optional. However, both steps are included in the setup process.
+Before you start using Discord, follow the steps in this section to create an account (required) and download the Discord desktop or mobile app (optional).
 
-### Create an account
+### Create an account (required)
 
 You must have an account to use Discord.
 
 Once you've created an account, either continue with this guide using Discord in your web browser or follow the steps below to [download Discord](#download-discord) for your desktop or mobile device.
 
-### Download Discord
+### Download Discord (optional)
 
 
 ## User interface
