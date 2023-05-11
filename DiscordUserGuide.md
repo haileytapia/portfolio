@@ -12,10 +12,16 @@ May 7, 2023 ∙ User Guide
 
 Discord is a free voice and text communication platform that lets you connect with friends, family, and communities.
 
-This guide describes Discord's setup process, interface, and features in the following topics:
+To navigate to a specific section of this guide, expand the table of contents below.
 
-- TOC
+<details closed markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
 {:toc}
+</details>
 
 ## Get started
 
