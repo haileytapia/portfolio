@@ -17,7 +17,7 @@ Microsoft Outlook saves you time and effort by automatically creating multiple i
 
 To schedule a recurring Outlook event with an optional Teams meeting, follow these steps:
 
-1.  In a browser, sign in to [Outlook](https://outlook.live.com/owa/).
+1.   Sign in to [Outlook on the web](https://outlook.live.com/owa/).
 
 2.  Select <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/b605976b77ed8b106d53eff3c43163a804e976b0e23edd2c.png" width="15"> **Calendar** from the navigation menu.
 
