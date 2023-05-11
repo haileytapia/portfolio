@@ -14,7 +14,7 @@ Apr 19, 2023 ∙ Knowledge Base Article
     <tbody>
         <tr>
             <td>
-                <span class="icon">&#9432;</span>ⓘ&nbsp;&nbsp;As a Technical Writer Intern at Domo, I created this article about managing subscriptions to listings on their <a href="https://www.domo.com/business-intelligence">BI platform</a>, which provides data integration, visualization, and analysis tools.
+                <span class="icon">&#9432;</span>&nbsp;&nbsp;As a Technical Writer Intern at Domo, I created this article about managing subscriptions to listings on their <a href="https://www.domo.com/business-intelligence">BI platform</a>, which provides data integration, visualization, and analysis tools.
             </td>
         </tr>
     </tbody>
