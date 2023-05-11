@@ -4,7 +4,7 @@ title: Add Liquidity to the CRISPR Token
 parent: Finance
 ---
 
-# Add Liquidity to CRISPR
+# Add Liquidity to the CRISPR Token
 {: .no_toc }
 
 Feb 27, 2022 ∙ Article
