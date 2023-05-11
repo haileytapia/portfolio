@@ -8,10 +8,10 @@ parent: Software
 {: .no_toc }
 
 Apr 19, 2023 ∙ Knowledge Base Article
-{: .fs-5 : .fw-300 }
+{: .fs-7 : .fw-300 }
 
 <span class="icon">&#9432;</span>&nbsp;&nbsp;As a Technical Writer Intern at Domo, I created this article about managing subscriptions to listings on their <a href="https://www.domo.com/business-intelligence">BI platform</a>, which provides data integration, visualization, and analysis tools.
-{: .fs-4 : .fw-400 }
+{: .fs-5 : .fw-400 }
 
 Some Appstore listings require a monthly subscription fee. After the initial payment, anyone in your company's Domo instance can install and use these listings. Payments are processed through Stripe, and you can cancel a subscription at any time.
 
