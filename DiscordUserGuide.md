@@ -31,7 +31,7 @@ To navigate to a specific section of this guide, expand and select a link from t
 
 2.  Enter your email address in the **Email** field. Make sure this is a valid email address to which you have access; you need to verify this email in [step eight](#step-eight).
 
-3.  Enter your desired username in the **Username** field. This is the name that displays on your Discord account.
+3.  Enter the name you want your Discord account to display in the **Username** field.
 
 4.  Create a strong, secure password for your account in the **Password** field. Use a combination of letters, numbers, and symbols to make your password difficult to guess.
 
@@ -44,9 +44,9 @@ To navigate to a specific section of this guide, expand and select a link from t
 
 7.  Complete the CAPTCHA verification by following the instructions provided.
 
-8.  <a id="step-eight"></a>Check your email inbox for a verification email from Discord and select the verification link.
+8.  <a id="step-eight"></a>In your email inbox, open the verification email from Discord and select **Verify Email**.
 
-Your Discord account is now created. Continue with this guide using the Discord website—where you created your account and went after you verified your email—or the [Discord desktop or mobile app](#download-discord-optional).
+Your Discord account is now verified. Select **Continue to Discord** to begin using Discord in your web browser. Alternatively, you can [download Discord](#download-discord-optional) as an app on your desktop or mobile device.
 
 ### Download Discord (optional)
 
