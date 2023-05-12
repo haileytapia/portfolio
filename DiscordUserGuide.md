@@ -29,6 +29,15 @@ To navigate to a specific section of this guide, expand the table of contents be
 
 You must have an account to use Discord.
 
+1.  In a web browser, go to [discord.com/register](discord.com/register).
+2.  Enter your desired username in the **Username** field. This is the name that displays on your Discord account.
+3.  Enter your email address in the **Email** field. Make sure this is a valid email address to which you have access; you need to verify this email in [step eight](#step-eight).
+4.  Create a strong and secure password for your account. Use a combination of letters, numbers, and symbols to make your password difficult to guess.
+5.  Enter your date of birth by selecting the **Month**, **Day**, and **Year** from the dropdown menus.
+6.  Select **Continue**.
+7.  Complete the CAPTCHA verification by following the instructions provided.
+8.  <a id="step-eight"></a>Check your email inbox for a verification email from Discord and select the verification link to complete the account creation process.
+
 Your Discord account is now created.
 
 Continue following this guide using the Discord website—the same website on which you created your account—or the [Discord desktop or mobile app](#download-discord-optional).
