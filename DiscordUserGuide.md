@@ -52,6 +52,7 @@ Your Discord account is now created. Continue following this guide using the Dis
 Instead of using Discord online, you can use it as a desktop or mobile app:
 
 1.  In a web browser, go to [discord.com/download](https://discord.com/download).
+
 2.  Select **Download** for your desktop or mobile device's operating system. The following operating systems are supported:
     *   Windows
     *   Linux
