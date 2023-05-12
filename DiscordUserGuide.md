@@ -12,7 +12,7 @@ May 7, 2023 ∙ User Guide
 
 Discord is a free voice and text communication platform that lets you connect with friends, family, and communities.
 
-To navigate to a specific section of this guide, expand the table of contents below.
+To navigate to a specific section of this guide, expand and select a link from the table of contents below.
 
 <details closed markdown="block">
   <summary>
