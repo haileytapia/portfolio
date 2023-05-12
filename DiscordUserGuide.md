@@ -70,13 +70,13 @@ Open the Discord app and sign in to your account before continuing with this gui
 
 The main components of the interface include:
 
-- **Servers:** These are the communities you can join or create to connect with other users.
-- **Channels:** Within servers, you can create or join channels to communicate with other users.
-- **Direct Messages:** You can also send direct messages to other users outside of servers.
-
-
+- Servers
+- Channels
+- Direct messages
 
 ## Servers
+
+These are the communities you can join or create to connect with other users.
 
 ### Join a server
 
@@ -84,7 +84,11 @@ The main components of the interface include:
 
 ## Channels
 
+Within servers, you can create or join channels to communicate with other users.
+
 ## Direct messages
+
+You can also send direct messages to other users outside of servers.
 
 ## Features
 
