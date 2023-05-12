@@ -10,9 +10,6 @@ parent: Software
 May 7, 2023 ∙ User Guide
 {: .fs-5 : .fw-300 }
 
-{:  .about }
->As an Editorial Intern at Berkeley Pharma Tech, I created this article about adding liquidity to the company's crypto token.
-
 Discord is a free voice and text communication platform that lets you connect with friends, family, and communities.
 
 To navigate to a specific section of this guide, expand and select a link from the table of contents below.
