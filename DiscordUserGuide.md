@@ -36,7 +36,8 @@ To navigate to a specific section of this guide, expand and select a link from t
 4.  Create a strong, secure password for your account in the **Password** field. Use a combination of letters, numbers, and symbols to make your password difficult to guess.
 
 5.  Provide your date of birth using the **Month**, **Day**, and **Year** dropdown menus.
-    {:  .note }
+    {: .note }
+
     >Discord requires users to be at least 13 years old. If you are under 13, you cannot create an account.
 
 6.  Select **Continue**.
