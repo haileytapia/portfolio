@@ -68,7 +68,7 @@ Open the Discord app and sign in to your account before continuing with this gui
 
 ## User interface
 
-The main components of the interface include:
+There are three main components of Discord's interface:
 
 - Servers
 - Channels
