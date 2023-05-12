@@ -37,7 +37,7 @@ Continue following this guide using the Discord website—the same website on wh
 
 You can use Discord online, but if you want to use it as a desktop or mobile app, follow these steps:
 
-1.  Go to [discord.com/download](https://discord.com/download).
+1.  In a web browser, go to [discord.com/download](https://discord.com/download).
 2.  Select **Download** for your desktop or mobile device's operating system. The following operating systems are supported:
     *   Windows
     *   Linux
