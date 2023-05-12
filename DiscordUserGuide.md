@@ -27,8 +27,6 @@ To navigate to a specific section of this guide, expand the table of contents be
 
 ### Create an account (required)
 
-You must have an account to use Discord.
-
 1.  In a web browser, go to [discord.com/register](discord.com/register).
 2.  Enter your desired username in the **Username** field. This is the name that displays on your Discord account.
 3.  Enter your email address in the **Email** field. Make sure this is a valid email address to which you have access; you need to verify this email in [step eight](#step-eight).
