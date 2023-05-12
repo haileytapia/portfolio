@@ -74,19 +74,19 @@ The main components of the interface include:
 - Channels
 - Direct messages
 
-## Servers
+### Servers
 
 These are the communities you can join or create to connect with other users.
 
-### Join a server
+#### Join a server
 
-### Create a server
+#### Create a server
 
-## Channels
+### Channels
 
 Within servers, you can create or join channels to communicate with other users.
 
-## Direct messages
+### Direct messages
 
 You can also send direct messages to other users outside of servers.
 
