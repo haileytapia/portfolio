@@ -38,9 +38,7 @@ To navigate to a specific section of this guide, expand and select a link from t
 7.  Complete the CAPTCHA verification by following the instructions provided.
 8.  <a id="step-eight"></a>Check your email inbox for a verification email from Discord and select the verification link.
 
-Your Discord account is now created.
-
-Continue following this guide using the Discord website—the same website on which you created your account—or the [Discord desktop or mobile app](#download-discord-optional).
+Your Discord account is now created. Continue following this guide using the Discord website—where you created your account and went after verifying your email—or the [Discord desktop or mobile app](#download-discord-optional).
 
 ### Download Discord (optional)
 
