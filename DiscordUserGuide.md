@@ -34,6 +34,8 @@ You must have an account to use Discord.
 3.  Enter your email address in the **Email** field. Make sure this is a valid email address to which you have access; you need to verify this email in [step eight](#step-eight).
 4.  Create a strong and secure password for your account. Use a combination of letters, numbers, and symbols to make your password difficult to guess.
 5.  Enter your date of birth by selecting the **Month**, **Day**, and **Year** from the dropdown menus.
+    {:  .note }
+    > Discord requires users to be at least 13 years old. If you are under 13, you cannot create an account.
 6.  Select **Continue**.
 7.  Complete the CAPTCHA verification by following the instructions provided.
 8.  <a id="step-eight"></a>Check your email inbox for a verification email from Discord and select the verification link to complete the account creation process.
