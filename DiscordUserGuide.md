@@ -36,7 +36,7 @@ To navigate to a specific section of this guide, expand and select a link from t
     > Discord requires users to be at least 13 years old. If you are under 13, you cannot create an account.
 6.  Select **Continue**.
 7.  Complete the CAPTCHA verification by following the instructions provided.
-8.  <a id="step-eight"></a>Check your email inbox for a verification email from Discord and select the verification link to complete the account creation process.
+8.  <a id="step-eight"></a>Check your email inbox for a verification email from Discord and select the verification link.
 
 Your Discord account is now created.
 
