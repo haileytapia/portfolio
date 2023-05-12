@@ -26,7 +26,7 @@ To schedule a recurring event with an optional Teams meeting in Outlook on the w
       
     ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/e5082be85d8504b6dc1ca0650d0bc5682edc67647a161a39.png)  
 3.  Enter the event title, attendees, start time, end time, and other details in the appropriate fields.
-4.  <a id="step-five"></a>Select <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/2cbc48e40a16e742a3c627457b22c7b11c0183d78697d16c.png" width="20"> **Don’t repeat** and choose how often you want the event to occur: **Daily**, **Weekly**, **Monthly**, **Yearly**, or a **Custom** frequency.
+4.  <a id="step-four"></a>Select <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/2cbc48e40a16e742a3c627457b22c7b11c0183d78697d16c.png" width="20"> **Don’t repeat** and choose how often you want the event to occur: **Daily**, **Weekly**, **Monthly**, **Yearly**, or a **Custom** frequency.
 
     <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/fd92a3f9787205a366169844f355745eb409ad7d76e6888d.png" width="600">
       
@@ -35,7 +35,7 @@ To schedule a recurring event with an optional Teams meeting in Outlook on the w
     ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/3daedf7f8fed0fbe4c015c926f2dab6974288b95ef9479a6.png)
 5.  In the **Start** field, enter the date on which the event should begin. You can also select <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/c397f5404925e0b3d1044623db1298253897991f5f31149e.png" width="20"> to choose the date from a calendar.
 
-6.  (Conditional) Follow the steps for the event frequency you selected in [step five](#step-five):
+6.  (Conditional) Follow the steps for the event frequency you selected in [step four](#step-four):
 
     <table><tbody><tr><td><strong>Event frequency</strong></td><td><strong>Steps</strong></td></tr><tr><td>Daily</td><td>Select the number of days between occurrences and the day(s) of the week the event occurs.</td></tr><tr><td>Weekly</td><td>​Select the number of weeks between occurrences and the day(s) of the week the event occurs.</td></tr><tr><td>Monthly</td><td>Select the number of months between occurrences and whether the meeting occurs on the same day each month or on the first day of the start date (for example, the first Friday) each month.</td></tr><tr><td>Yearly</td><td>Select the number of years between occurrences and whether the meeting occurs on the same date each year or on the first day of the start date (for example, the first Friday of April) each year.</td></tr><tr><td>Custom</td><td>Select custom options based on the frequency type. See the other rows in this table for more information.</td></tr></tbody></table>
 
