@@ -76,19 +76,33 @@ There are three main components of Discord's interface:
 
 ### Servers
 
+When you first log in to Discord, you are taken to your server list. Servers are like chat rooms where you can join communities of like-minded individuals to chat and share ideas.
+
 These are the communities you can join or create to connect with other users.
 
 #### Join a server
+
+To join a server, select **Join a Server** and enter the server's invite code. Once you're in a server, you see a list of its [channels](#channels) on the left-hand side.
 
 #### Create a server
 
 ### Channels
 
-Within servers, you can create or join channels to communicate with other users.
+Within servers, you can create or join channels to communicate with other users. Each server can have multiple channels, and each channel can have its own topic. 
+
+#### Join a channel
+
+To join a channel, select its name in the server list.
+
+#### Create a channel
 
 ### Direct messages
 
-You can also send direct messages to other users outside of servers.
+Direct messages, or DMs, are private conversations between you and another user outside of servers. 
+
+#### Create a direct message
+
+Start a DM with someone by selecting their name in your Friends list and selecting Message. Once you've started a DM, you can chat, share files, and even make voice and video calls.
 
 ## Features
 
