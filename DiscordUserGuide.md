@@ -86,9 +86,7 @@ Each of these elements is described in a separate section below. You can also se
 
 The server list is located on the left-hand side of the screen and displays all the servers of which you are a member.
 
-<video width="320" height="240" controls>
-  <source src="https://github.com/haileytapia/portfolio/assets/78626762/60875ba2-5ea7-4a55-b8de-9e44ab4ed424" type="video/mp4">
-</video>
+![Alt Text](relative/path/to/gif.gif)
 
 ### What is a server?
 
