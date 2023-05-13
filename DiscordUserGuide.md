@@ -10,11 +10,13 @@ parent: Software
 May 7, 2023 ∙ User Guide
 {: .fs-5 : .fw-300 }
 
-Discord is a free voice and text communication platform that lets you connect with friends, family, and communities.
+Discord is a communication platform that brings people together in real time, allowing you to connect with friends, family, colleagues, and communities around the world. 
 
-To navigate to a specific section of this guide, expand and select a link from the table of contents below.
+This guide provides detailed information on how to get the most out of Discord, including how to create an account, join and create servers, and customize your profile. It also covers how to use features like voice and video chat, screen sharing, and file sharing to make your communications more productive and engaging.
 
-<details closed markdown="block">
+To navigate to a specific section of this guide, select a link from the table of contents:
+
+<details open markdown="block">
   <summary>
     &nbsp;Table of contents
   </summary>
@@ -69,6 +71,10 @@ Instead of using Discord online, you can use it as a desktop or mobile app.
     <table><tbody><tr><td><strong>Operating system</strong></td><td><strong>What happens after you select Download</strong></td><td><strong>Do this:</strong></td></tr><tr><td>Windows</td><td><p>The <code>DiscordSetup.exe</code> file downloads (or attempts to download) to your machine.<br><br>Depending on your security settings, you may see the following warning:</p><figure class="image"><img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/d52bb4c323481a1dde09346bfc810cfe2fb78993007921f2.png" sizes="100vw" width="1920"></figure><p>Select <strong>Keep </strong>to proceed with the installation.</p></td><td>After the <code>DiscordSetup.exe</code> file downloads, select it and follow the prompts to install the Discord app.</td></tr><tr><td>Linux</td><td>A dropdown menu appears with two options: <strong>deb </strong>and <strong>tar.gz</strong>.</td><td>Select the type of file you want to download. After the file downloads, select it and follow the prompts to install the Discord app.</td></tr><tr><td>Mac</td><td>The <code>Discord.dmg</code><strong> </strong>file downloads to your machine.</td><td>After the <code>Discord.dmg</code> file downloads, select it and follow the prompts to install the Discord app.</td></tr><tr><td>iOS</td><td>The Discord app opens in the Apple App Store.</td><td>Tap <strong>Get </strong>to install the Discord app.</td></tr><tr><td>Android</td><td>The Discord app opens in the Google Play Store.</td><td>Tap <strong>Install </strong>to install the Discord app.</td></tr></tbody></table>
 
 Open the Discord app and sign in to your account before continuing with this guide.
+
+## Landing page
+
+When you open Discord, the landing page displays.
 
 ## User interface
 
