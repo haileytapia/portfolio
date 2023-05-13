@@ -80,10 +80,10 @@ Except for the static navigation pane, Discord's user interface (UI) changes dep
 
 The navigation pane displays on the left-hand side of all screens and consists of the following elements:
 
-* Direct messages
+* **Direct Messages**
 * Server list
-* Add a server
-* Explore public servers
+* **Add a Server**
+* **Explore Public Sservers**
 
 ![Navigation Pane](NavigationPane.gif)
 
