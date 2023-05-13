@@ -80,7 +80,7 @@ Discord's user interface (UI) is designed to eliminate distractions and keep you
 
 The server list is located on the left-hand side of the screen and displays all the servers of which you are a member.
 
-![image](https://github.com/haileytapia/portfolio/assets/78626762/eb93fdf7-c601-4b33-90b0-e82d046ecce5)
+![image](https://github.com/haileytapia/portfolio/assets/78626762/c792fee0-2710-4301-b813-6f258b925743)
 
 Servers are like chat rooms where you can join communities of like-minded individuals to chat and share ideas. Select any of the servers to access the channels within them. Additionally, users can create new servers by clicking on the plus icon at the bottom of the server list.
 
