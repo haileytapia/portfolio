@@ -91,7 +91,7 @@ The navigation pane displays on the left-hand side of all screens and consists o
 
 Select **Direct Messages** from the top of the navigation pane to access your DMs and friends. It displays as the Discord logo and changes from white to purple when you select it.
 
-If you are viewing a DM, the UI consists of the following components:
+When you view a DM, the UI consists of the following components:
 
 * Navigation pane
 * DMs list
@@ -106,18 +106,16 @@ When you select the **Friends** section of the DMs list, the UI consists of the 
 
 ### Server UI
 
-If you are viewing a server, the UI consists of the following components:
+Select a server from the server list in the navigation pane to open it.
+
+When you view a server, the UI consists of the following components:
 
 * Navigation pane
 * Channels list
 * Chat window
 * Members list
 
-Direct messages and servers are accessible from the navigation pane The server list is located on the left-hand side of the screen and displays all the servers of which you are a member.
-
-Each of these components is described in a separate section below. You can also select a UI element from the list above to navigate to its section.
-
-![image](https://github.com/haileytapia/portfolio/assets/78626762/0f56ac1c-3d35-4642-b253-34da1800718f)
+Friends, DMs, and servers are described in separate sections below.
 
 ## Friends
 
