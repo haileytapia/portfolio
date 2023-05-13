@@ -112,7 +112,9 @@ Your DM with the selected user opens in the chat window.
 
    The **Friends** section automatically opens.
 2. At the top of the **Friends** section, select the **All** tab to view a list of all your friends on Discord.
+
 3. Find and select the user with whom you want to start a DM.
+
 4. Select **Message**.
 
 Your DM with the selected user has been created and opens in the chat window. To learn how to chat, share files, make voice and video calls, and more, see the [Features](#features) section of this guide.
