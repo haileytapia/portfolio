@@ -72,21 +72,29 @@ Open the Discord app and sign in to your account before continuing with this gui
 
 ## User interface
 
-Discord's user interface (UI) is designed to eliminate distractions and keep you focused on your conversations. It consists of various elements, including a server list, and chat windows.
+Discord's user interface (UI) is designed to eliminate distractions and keep you focused on your conversations. It consists of the following elements:
+
+*   1
+*   2
+*   3
+
+Each of these elements is described in a separate section below. You can also select a UI element from the list above to navigate to its section.
 
 ![image](https://github.com/haileytapia/portfolio/assets/78626762/0f56ac1c-3d35-4642-b253-34da1800718f)
 
-### Server list
+## Server list
 
 The server list is located on the left-hand side of the screen and displays all the servers of which you are a member.
 
 ![image](https://github.com/haileytapia/portfolio/assets/78626762/c792fee0-2710-4301-b813-6f258b925743)
 
+### What is a server?
+
 Servers are like chat rooms where you can join communities of like-minded individuals to chat and share ideas. Select any of the servers to access the channels within them. Additionally, users can create new servers by clicking on the plus icon at the bottom of the server list.
 
 These are the communities you can join or create to connect with other users.
 
-#### Join a server
+### Join a server
 
 1.  Select **\+ Add a Server** from the server list.  
       
@@ -108,7 +116,7 @@ These are the communities you can join or create to connect with other users.
 
 If the invite link is valid, you are added to the server, which opens in your chat window and now appears in your server list. For information about the chat window, see the [Chat window](#chat-window) section of this guide.
 
-#### Create a server
+### Create a server
 
 1.  Select **\+ Add a Server** from the server list.  
       
@@ -136,23 +144,23 @@ If the invite link is valid, you are added to the server, which opens in your ch
 
 Your new server opens in your chat window and now appears in your server list. For information about the chat window, see the [Chat window](#chat-window) section of this guide.
 
-### Chat window
+## Chat window
 
-### Channels
+## Channels
 
 Within servers, you can create or join channels to communicate with other users. Each server can have multiple channels, and each channel can have its own topic. 
 
-#### Join a channel
+### Join a channel
 
 To join a channel, select its name in the server list.
 
-#### Create a channel
+### Create a channel
 
-### Direct messages
+## Direct messages
 
 Direct messages, or DMs, are private conversations between you and another user outside of servers. 
 
-#### Create a direct message
+### Create a direct message
 
 Start a DM with someone by selecting their name in your Friends list and selecting Message. Once you've started a DM, you can chat, share files, and even make voice and video calls.
 
