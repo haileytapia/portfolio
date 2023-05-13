@@ -139,7 +139,7 @@ Your new server opens in your chat window and now appears in your server list. F
 
 ### Customize a server
 
-To learn how to customize both servers you own and servers of which you're a member, see the [Customize a server](#customize-a-server) section of this guide.
+To learn how to customize both servers you own and servers of which you're a member, see the [Customize a server](#customize-a-server-1) section of this guide.
 
 ## Chat window
 
