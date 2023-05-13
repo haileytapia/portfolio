@@ -72,11 +72,11 @@ Open the Discord app and sign in to your account before continuing with this gui
 
 ## User interface
 
-There are three main components of Discord's interface:
+Discord's user interface (UI) is minimalist, allowing you to focus on your conversations without distractions. The UI consists of various elements, including a navigation bar, server list, and chat windows.
 
-- Servers
-- Channels
-- Direct messages
+![image](https://github.com/haileytapia/portfolio/assets/78626762/0f56ac1c-3d35-4642-b253-34da1800718f)
+
+## 
 
 ### Servers
 
