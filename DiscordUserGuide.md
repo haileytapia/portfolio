@@ -14,7 +14,7 @@ Discord is a communication platform that brings people together in real time, al
 
 This guide provides detailed information on how to get the most out of Discord, including how to create an account, join and create servers, and customize your profile. It also covers how to use features like voice and video chat, screen sharing, and file sharing to make your communications more productive and engaging.
 
-To navigate to a specific section of this guide, select a link from the table of contents:
+To navigate to a specific section of this guide, select a link from the table of contents below.
 
 <details open markdown="block">
   <summary>
@@ -27,7 +27,7 @@ To navigate to a specific section of this guide, select a link from the table of
 
 ## Get started
 
-### Create an account (required)
+### Create an account
 
 1.  In a web browser, go to [discord.com/register](https://discord.com/register).
 
