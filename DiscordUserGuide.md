@@ -80,26 +80,30 @@ Except for the static navigation pane, Discord's user interface (UI) changes dep
 
 The navigation pane displays on the left-hand side of all screens and consists of the following elements:
 
-* [**Direct Messages**](#direct-messages)
-* [Server list](#sever-list)
-* [**Add a Server**](#add-a-server)
-* **Explore Public Sservers**
+* Direct Messages
+* Server list
+* Add a Server
+* Explore Public Servers
 
 ![Navigation Pane](NavigationPane.gif)
 
-#### Direct Messages
+More information about DMs and servers are provided in separate sections below.
+
+## Direct messages
+
+Direct messages, or DMs, are private conversations between you and another user outside of servers. 
+
+### Open a direct message
 
 Select **Direct Messages** from the top of the navigation pane to access your DMs. It displays as the Discord logo and becomes purple when you select it.
 
 Discord always takes you to the **Friends** section when you select **Direct Messages**. To leave the **Friends** section and open a DM, select one of your friends' usernames from the DMs list. 
 
-When you view a DM, the UI consists of the following components:
+### Start a direct message
 
-* Navigation pane
-* DMs list
-* Chat window
+Start a DM with someone by selecting their name in your Friends list and selecting Message. Once you've started a DM, you can chat, share files, and even make voice and video calls.
 
-##### Friends
+### Friends
 
 After selecting **Direct Messages**, the **Friends** section of the DMs list automatically opens. The following tabs display at the top of this section:
 
@@ -156,32 +160,15 @@ After selecting **Direct Messages**, the **Friends** section of the DMs list aut
     </tbody>
 </table>
 
-#### Server list
-
-In the navigation pane, select a server from the server list to open it. If the server does not have a custom icon, the background color of its default icon becomes purple when you select it.
-
-When you view a server, the UI consists of the following components:
-
-* Navigation pane
-* Channels list
-* Chat window
-* Members list
-
-More information about DMs and servers are provided in separate sections below.
-
-## Direct messages
-
-Direct messages, or DMs, are private conversations between you and another user outside of servers. 
-
-### Create a direct message
-
-Start a DM with someone by selecting their name in your Friends list and selecting Message. Once you've started a DM, you can chat, share files, and even make voice and video calls.
-
 ## Servers
 
 Servers are like chat rooms where you can chat, connect, and share ideas with other Discord users. Unlike direct messages or group chats—both of which you can create in Discord—servers support apps, ADD MORE DETAILS.
 
-Select a server from the server list to open the server in the chat window and access the channels within it. For information about the chat window and channels, see the [Server UI](#server-ui) and [Channels](#channels) sections of this guide.
+### Open a server
+
+In the navigation pane, select a server from the server list to open it. If the server does not have a custom icon, the background color of its default icon becomes purple when you select it.
+
+Select a server from the server list to open the server in the chat window and access the channels within it. For information about the chachannels, see the [Server UI](#server-ui) and [Channels](#channels) sections of this guide.
 
 ### Join a server
 
