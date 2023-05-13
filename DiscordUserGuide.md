@@ -12,7 +12,7 @@ May 7, 2023 ∙ User Guide
 
 Discord is a communication platform that brings people together in real time, allowing you to connect with friends, family, colleagues, and communities around the world. 
 
-This guide provides detailed information on how to get the most out of Discord, including how to create an account, join and create servers, and customize your profile. It also covers how to use features like voice and video chat, screen sharing, and file sharing to make your communications more productive and engaging.
+This guide provides detailed information on how to get the most out of Discord, including how to create an account, join and create servers, customize your experience, and use features like screen sharing and video chat.
 
 To navigate to a specific section of this guide, select a link from the table of contents below.
 
@@ -74,7 +74,7 @@ Open the Discord app and sign in to your account before continuing with this gui
 
 ## User interface
 
-Except for the static navigation pane, Discord's user interface (UI) changes depending on whether you are viewing your direct messages (DMs) or servers. See below for more information.
+Except for the static navigation pane and chat window, Discord's user interface (UI) changes depending on whether you are viewing your direct messages (DMs) or servers.
 
 ### Navigation pane
 
@@ -87,21 +87,33 @@ The navigation pane displays on the left-hand side of all screens and consists o
 
 ![Navigation Pane](NavigationPane.gif)
 
+### Chat window
+
+Both direct messages and servers have a main chat window for you to communicate with users.
+
 More information about DMs and servers are provided in separate sections below.
 
 ## Direct messages
 
-Direct messages, or DMs, are private conversations between you and another user outside of servers. 
+Direct messages, or DMs, are private conversations between you and another user outside of servers.
 
 ### Open a direct message
 
-Select **Direct Messages** from the top of the navigation pane to access your DMs. It displays as the Discord logo and becomes purple when you select it.
+1. Select **Direct Messages** from the top of the navigation pane.
+   The **Friends** section automatically opens.
+2. Select one of your friends' usernames from the DMs list.
 
-Discord always takes you to the **Friends** section when you select **Direct Messages**. To leave the **Friends** section and open a DM, select one of your friends' usernames from the DMs list. 
+Your DM with the selected user opens in the chat window.
 
 ### Start a direct message
 
-Start a DM with someone by selecting their name in your Friends list and selecting Message. Once you've started a DM, you can chat, share files, and even make voice and video calls.
+1. Select **Direct Messages** from the top of the navigation pane.
+   The **Friends** section automatically opens.
+2. At the top of the **Friends** section, select the **All** tab to view a list of all your friends on Discord.
+3. Find and select the user with whom you want to start a DM.
+4. Select **Message**.
+
+Your DM with the selected user has been created and opens in the chat window. To learn how to chat, share files, make voice and video calls, and more, see the [Features](#features) section of this guide.
 
 ### Friends
 
@@ -166,9 +178,7 @@ Servers are like chat rooms where you can chat, connect, and share ideas with ot
 
 ### Open a server
 
-In the navigation pane, select a server from the server list to open it. If the server does not have a custom icon, the background color of its default icon becomes purple when you select it.
-
-Select a server from the server list to open the server in the chat window and access the channels within it. For information about the chachannels, see the [Server UI](#server-ui) and [Channels](#channels) sections of this guide.
+In the navigation pane, select a server from the server list to open it in the chat window and access the channels within it. More information about channels is provided [later in this section](#channels).
 
 ### Join a server
 
