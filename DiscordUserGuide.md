@@ -72,17 +72,41 @@ Instead of using Discord online, you can use it as a desktop or mobile app.
 
 Open the Discord app and sign in to your account before continuing with this guide.
 
-## Overview of UI
+## User interface
 
-Discord's user interface (UI) changes depending on whether you are viewing direct messages (DMs) or servers.
+Except for the static navigation pane, Discord's user interface (UI) changes depending on whether you are viewing your direct messages (DMs), friends, or servers. See below for more information.
+
+### Navigation pane
+
+The navigation pane displays on the left-hand side of all screens and consists of the following elements:
+
+* **Direct Messages** icon
+* Server list
+* **Add a Server** icon
+* **Explore Public Servers** icon
+
+![Navigation Pane](NavigationPane.gif)
+
+### Direct messages and friends UI
+
+Select **Direct Messages** from the top of the navigation pane to access your DMs and friends. It displays as the Discord logo and changes from white to purple when you select it.
 
 If you are viewing a DM, the UI consists of the following components:
 
 * Navigation pane
-* Friends list
+* DMs list
 * Chat window
 
-Meanwhile, if you are viewing a server, the UI consists of the following components:
+When you select the **Friends** section of the DMs list, the UI consists of the following components:
+
+* Navigation pane
+* DMs list
+* Friends window
+* Activity pane
+
+### Server UI
+
+If you are viewing a server, the UI consists of the following components:
 
 * Navigation pane
 * Channels list
@@ -94,6 +118,8 @@ Direct messages and servers are accessible from the navigation pane The server l
 Each of these components is described in a separate section below. You can also select a UI element from the list above to navigate to its section.
 
 ![image](https://github.com/haileytapia/portfolio/assets/78626762/0f56ac1c-3d35-4642-b253-34da1800718f)
+
+## Friends
 
 ## Direct messages
 
