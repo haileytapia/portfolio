@@ -111,7 +111,6 @@ These are the communities you can join or create to connect with other users.
     <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/ada7c943b315af9b1009b9bb4d8cdfd2fc846954473ee5bd.png" width="500">
      
 3.  In the **Invite Link** field, enter the server's invite code. You can also select **Don't have an invite?** to join a public community.  
-     
 4.  Select **Join Server**.
 
 If the invite link is valid, you are added to the server, which opens in your chat window and now appears in your server list. For information about the chat window, see the [Chat window](#chat-window) section of this guide.
@@ -123,6 +122,7 @@ If the invite link is valid, you are added to the server, which opens in your ch
     ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/7a6b55ab7a132f2dadd45ab2311fb0d9e44c7afcb4f1c8ea.png)  
       
     The **Create a server** modal displays.  
+    
       
     <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/7ae8b5a3f00e174e75947a8c6260e61373fcd4a85874037f.png" width="500">
      
@@ -139,7 +139,6 @@ If the invite link is valid, you are added to the server, which opens in your ch
     <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/c859f77a046cfa03b8a5452251d234d5f133cf1e794eaab2.png" width="500">
      
 4.  (Optional) Select **Upload** to add an icon to your server, and enter a name for your server in the **Server Name** field. You can [change the icon and name](#customization) later.  
-     
 5.  When you are ready to create the server, select **Create**.
 
 Your new server opens in your chat window and now appears in your server list. For information about the chat window, see the [Chat window](#chat-window) section of this guide.
