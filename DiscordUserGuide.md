@@ -87,7 +87,7 @@ The navigation pane displays on the left-hand side of all screens and consists o
 
 ![Navigation Pane](NavigationPane.gif)
 
-### Direct messages
+### Direct messages and friends
 
 Select **Direct Messages** from the top of the navigation pane to access your DMs. It displays as the Discord logo and becomes purple when you select it.
 
