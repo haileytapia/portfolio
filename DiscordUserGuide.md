@@ -177,8 +177,6 @@ Start a DM with someone by selecting their name in your Friends list and selecti
 
 ## Servers
 
-### What is a server?
-
 Servers are like chat rooms where you can chat, connect, and share ideas with other Discord users. Unlike direct messages or group chats—both of which you can create in Discord—servers support apps, ADD MORE DETAILS.
 
 Select a server from the server list to open the server in the chat window and access the channels within it. For information about the chat window and channels, see the [Server UI](#server-ui) and [Channels](#channels) sections of this guide.
@@ -235,8 +233,6 @@ To learn how to customize both servers you own and servers of which you're a mem
 ### Channels
 
 Within servers, you can create or join channels to communicate with other users. Each server can have multiple channels, and each channel can have its own topic. 
-
-#### What is a channel?
 
 #### Join a channel
 
