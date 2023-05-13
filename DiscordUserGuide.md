@@ -121,22 +121,18 @@ If the invite link is valid, you are added to the server, which opens in your ch
     ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/7a6b55ab7a132f2dadd45ab2311fb0d9e44c7afcb4f1c8ea.png)  
       
     The **Create a server** modal displays.  
-    
-      
-    <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/7ae8b5a3f00e174e75947a8c6260e61373fcd4a85874037f.png" width="500">
-     
+
+    <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/7ae8b5a3f00e174e75947a8c6260e61373fcd4a85874037f.png" width="500">     
 2.  Select **Create My Own**.  
       
     You are taken to the **Tell us more about your server** section of the modal.  
       
     <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/5f0d176a6652c89809f1b3fb59da331f8cf6c3955a3f1d0d.png" width="500">
-     
 3.  Depending on who will use your server, select whether it is **For a club or community** or **For me and my friends**. You can skip this question if you are not sure.  
       
     You are taken to the **Customize your server** section of the modal.  
       
     <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/c859f77a046cfa03b8a5452251d234d5f133cf1e794eaab2.png" width="500">
-     
 4.  (Optional) Select **Upload** to add an icon to your server, and enter a name for your server in the **Server Name** field. You can [change the icon and name](#customization) later.  
 
 5.  When you are ready to create the server, select **Create**.
