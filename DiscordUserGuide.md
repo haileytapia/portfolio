@@ -132,8 +132,6 @@ Start a DM with someone by selecting their name in your Friends list and selecti
 
 ## Servers
 
-![Server list](ServerList.gif)
-
 ### What is a server?
 
 Servers are like chat rooms where you can chat, connect, and share ideas with other Discord users. Unlike direct messages or group chats—both of which you can create in Discord—servers support apps, ADD MORE DETAILS.
