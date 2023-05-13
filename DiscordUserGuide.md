@@ -180,7 +180,7 @@ Servers are like chat rooms where you can chat, connect, and share ideas with ot
 
 ### Open a server
 
-In the navigation pane, select a server from the server list to open it in the chat window and access the channels within it. More information about channels is provided [later in this section](#channels).
+Select a server from the navigation pane to open the server in the chat window and access the channels within it. For information about the navigation pane/chat window and channels, see the [User interface](#user-interface) and [Channels](#channels) sections of this guide.
 
 ### Join a server
 
@@ -225,7 +225,7 @@ If the invite link is valid, you are added to the server, which opens in your ch
 
 5.  When you are ready to create the server, select **Create**.
 
-Your new server opens in your chat window and now appears in your server list. For information about the chat window, see the [Server UI](#server-ui) section of this guide.
+Your new server opens in your chat window and now appears in your server list. For information about the chat window, see the [Chat window](#chat-window) section of this guide.
 
 ### Customize a server
 
