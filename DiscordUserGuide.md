@@ -103,13 +103,11 @@ These are the communities you can join or create to connect with other users.
     The **Create a server** modal displays.  
       
     <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/7ae8b5a3f00e174e75947a8c6260e61373fcd4a85874037f.png" width="500">
-     
 2.  Select **Join a Server**.  
       
     You are taken to the **Join a Server** section of the modal.  
       
     <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/ada7c943b315af9b1009b9bb4d8cdfd2fc846954473ee5bd.png" width="500">
-     
 3.  In the **Invite Link** field, enter the server's invite code. You can also select **Don't have an invite?** to join a public community.  
 
 4.  Select **Join Server**.
