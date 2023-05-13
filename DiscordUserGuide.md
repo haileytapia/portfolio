@@ -74,7 +74,7 @@ Open the Discord app and sign in to your account before continuing with this gui
 
 ## User interface
 
-Except for the static navigation pane and chat window, Discord's user interface (UI) changes depending on whether you are viewing your direct messages (DMs) or servers.
+Except for the static navigation pane and chat window, Discord's user interface (UI) changes depending on whether you are viewing a direct message (DM) or server.
 
 ### Navigation pane
 
