@@ -97,8 +97,8 @@ When you view a DM, the UI consists of the following components:
 * DMs list
 * Chat window
 
-#### Friends UI
-When you select the **Friends** section of the DMs list, the UI consists of the following components:
+### Friends UI
+When you select the **Friends** section of the [DMs list](#direct-messages-ui), the UI consists of the following components:
 
 * Navigation pane
 * DMs list
