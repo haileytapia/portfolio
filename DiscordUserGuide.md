@@ -90,7 +90,7 @@ The server list is located on the left-hand side of the screen and displays all 
 
 ### What is a server?
 
-Servers are like chat rooms where you can chat, connect, and share ideas with other Discord users. Unlike direct messages or group chats, both of which you can create in Discord, servers support apps, ADD MORE DETAILS.
+Servers are like chat rooms where you can chat, connect, and share ideas with other Discord users. Unlike direct messages or group chats—both of which you can create in Discord—servers support apps, ADD MORE DETAILS.
 
 Select a server from the server list to open the server in the chat window and access the channels within it. For information about the chat window and channels, see the [Chat window](#chat-window) and [Channels](#channels) sections of this guide.
 
