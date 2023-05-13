@@ -154,7 +154,7 @@ When you view a DM, the UI consists of the following components:
 * DMs list
 * Chat window
 
-### Server
+### Server list
 
 Select a server from the server list in the navigation pane to open it. If the server does not have a custom icon, the background color of its default icon becomes purple when you select it.
 
