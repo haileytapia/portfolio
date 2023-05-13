@@ -72,25 +72,38 @@ Instead of using Discord online, you can use it as a desktop or mobile app.
 
 Open the Discord app and sign in to your account before continuing with this guide.
 
-## Landing page
+## Overview of UI
 
-When you open Discord, the landing page displays.
+Discord's user interface (UI) changes depending on whether you are viewing direct messages (DMs) or servers.
 
-## User interface
+If you are viewing a DM, the UI consists of the following components:
 
-Discord's user interface (UI) is designed to eliminate distractions and keep you focused on your conversations. It consists of the following elements:
+* Navigation pane
+* Friends list
+* Chat window
 
-*   1
-*   2
-*   3
+Meanwhile, if you are viewing a server, the UI consists of the following components:
 
-Each of these elements is described in a separate section below. You can also select a UI element from the list above to navigate to its section.
+* Navigation pane
+* Channels list
+* Chat window
+* Members list
+
+Direct messages and servers are accessible from the navigation pane The server list is located on the left-hand side of the screen and displays all the servers of which you are a member.
+
+Each of these components is described in a separate section below. You can also select a UI element from the list above to navigate to its section.
 
 ![image](https://github.com/haileytapia/portfolio/assets/78626762/0f56ac1c-3d35-4642-b253-34da1800718f)
 
-## Server list
+## Direct messages
 
-The server list is located on the left-hand side of the screen and displays all the servers of which you are a member.
+Direct messages, or DMs, are private conversations between you and another user outside of servers. 
+
+### Create a direct message
+
+Start a DM with someone by selecting their name in your Friends list and selecting Message. Once you've started a DM, you can chat, share files, and even make voice and video calls.
+
+## Servers
 
 ![Server list](ServerList.gif)
 
@@ -160,14 +173,6 @@ Within servers, you can create or join channels to communicate with other users.
 To join a channel, select its name in the server list.
 
 ### Create a channel
-
-## Direct messages
-
-Direct messages, or DMs, are private conversations between you and another user outside of servers. 
-
-### Create a direct message
-
-Start a DM with someone by selecting their name in your Friends list and selecting Message. Once you've started a DM, you can chat, share files, and even make voice and video calls.
 
 ## Features
 
