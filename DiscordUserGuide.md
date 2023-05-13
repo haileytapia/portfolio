@@ -122,7 +122,7 @@ If the invite link is valid, you are added to the server, which opens in your ch
       
     The **Create a server** modal displays.  
 
-    <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/7ae8b5a3f00e174e75947a8c6260e61373fcd4a85874037f.png" width="500">     
+    <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/7ae8b5a3f00e174e75947a8c6260e61373fcd4a85874037f.png" width="500">
 2.  Select **Create My Own**.  
       
     You are taken to the **Tell us more about your server** section of the modal.  
