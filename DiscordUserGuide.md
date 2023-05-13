@@ -72,23 +72,47 @@ Open the Discord app and sign in to your account before continuing with this gui
 
 ## User interface
 
-Discord's user interface (UI) is minimalist, allowing you to focus on your conversations without distractions. The UI consists of various elements, including a navigation bar, server list, and chat windows.
+Discord's user interface (UI) is designed to eliminate distractions and keep you focused on your conversations. It consists of various elements, including a server list, and chat windows.
 
 ![image](https://github.com/haileytapia/portfolio/assets/78626762/0f56ac1c-3d35-4642-b253-34da1800718f)
 
-## 
+### Server list
 
-### Servers
+The server list is located on the left-hand side of the screen and displays all the servers of which you are a member.
 
-When you first log in to Discord, you are taken to your server list. Servers are like chat rooms where you can join communities of like-minded individuals to chat and share ideas.
+![image](https://github.com/haileytapia/portfolio/assets/78626762/eb93fdf7-c601-4b33-90b0-e82d046ecce5)
+
+Servers are like chat rooms where you can join communities of like-minded individuals to chat and share ideas. Select any of the servers to access the channels within them. Additionally, users can create new servers by clicking on the plus icon at the bottom of the server list.
 
 These are the communities you can join or create to connect with other users.
 
 #### Join a server
 
-To join a server, select **Join a Server** and enter the server's invite code. Once you're in a server, you see a list of its [channels](#channels) on the left-hand side.
+1.  Select **\+ Add a Server** from the server list.  
+      
+    ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/7a6b55ab7a132f2dadd45ab2311fb0d9e44c7afcb4f1c8ea.png)  
+      
+    The **Create a server** modal displays.  
+      
+    ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/7ae8b5a3f00e174e75947a8c6260e61373fcd4a85874037f.png)  
+     
+2.  Select **Join a Server**.  
+      
+    You are taken to the **Join a Server** section of the modal.  
+      
+    ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/ada7c943b315af9b1009b9bb4d8cdfd2fc846954473ee5bd.png)  
+     
+3.  In the **Invite Link** field, enter the server's invite code. You can also select **Don't have an invite?** to join a public community.  
+     
+4.  Select **Join Server**.
+
+If the invite link is valid, you are added to the server, which opens in your chat window and now appears in your server list. For information about the chat window, see the [Chat window](#chat-window) section of this guide.
 
 #### Create a server
+
+
+
+### Chat window
 
 ### Channels
 
