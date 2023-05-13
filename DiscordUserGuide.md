@@ -137,7 +137,7 @@ Start a DM with someone by selecting their name in your Friends list and selecti
 
 Servers are like chat rooms where you can chat, connect, and share ideas with other Discord users. Unlike direct messages or group chats—both of which you can create in Discord—servers support apps, ADD MORE DETAILS.
 
-Select a server from the server list to open the server in the chat window and access the channels within it. For information about the chat window and channels, see the [Chat window](#chat-window) and [Channels](#channels) sections of this guide.
+Select a server from the server list to open the server in the chat window and access the channels within it. For information about the chat window and channels, see the [Server UI](#server-ui) and [Channels](#channels) sections of this guide.
 
 ### Join a server
 
@@ -157,7 +157,7 @@ Select a server from the server list to open the server in the chat window and a
 
 4.  Select **Join Server**.
 
-If the invite link is valid, you are added to the server, which opens in your chat window and now appears in your server list. For information about the chat window, see the [Chat window](#chat-window) section of this guide.
+If the invite link is valid, you are added to the server, which opens in your chat window and now appears in your server list. For information about the chat window, see the [Server UI](#server-ui) section of this guide.
 
 ### Create a server
 
@@ -182,7 +182,7 @@ If the invite link is valid, you are added to the server, which opens in your ch
 
 5.  When you are ready to create the server, select **Create**.
 
-Your new server opens in your chat window and now appears in your server list. For information about the chat window, see the [Chat window](#chat-window) section of this guide.
+Your new server opens in your chat window and now appears in your server list. For information about the chat window, see the [Server UI](#server-ui) section of this guide.
 
 ### Customize a server
 
