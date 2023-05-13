@@ -80,10 +80,10 @@ Except for the static navigation pane and chat window, Discord's user interface 
 
 The navigation pane displays on the left-hand side of all screens and consists of the following elements:
 
-* Direct Messages
-* Server list
-* Add a Server
-* Explore Public Servers
+* The **Direct Messages** icon
+* A list of your servers
+* The **Add a Server** icon
+* The **Explore Public Servers** icon
 
 ![Navigation Pane](NavigationPane.gif)
 
