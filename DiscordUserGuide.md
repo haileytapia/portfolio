@@ -54,7 +54,7 @@ Alternatively, you can [download Discord](#download-discord-optional) as an app 
 
 ### Download Discord (optional)
 
-Instead of using Discord online, you can use it as a desktop or mobile app:
+Instead of using Discord online, you can use it as a desktop or mobile app.
 
 1.  In a web browser, go to [discord.com/download](https://discord.com/download).
 
