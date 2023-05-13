@@ -86,7 +86,7 @@ Each of these elements is described in a separate section below. You can also se
 
 The server list is located on the left-hand side of the screen and displays all the servers of which you are a member.
 
-![Server list](/ServerList.gif)
+![Server list](ServerList.gif)
 
 ### What is a server?
 
