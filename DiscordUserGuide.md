@@ -156,7 +156,7 @@ When you view a DM, the UI consists of the following components:
 
 #### Server list
 
-Select a server from the server list in the navigation pane to open it. If the server does not have a custom icon, the background color of its default icon becomes purple when you select it.
+In the navigation pane, select a server from the server list to open it. If the server does not have a custom icon, the background color of its default icon becomes purple when you select it.
 
 When you view a server, the UI consists of the following components:
 
