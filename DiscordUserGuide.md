@@ -182,7 +182,7 @@ In the navigation pane, select a server from the server list to open it in the c
 
 ### Join a server
 
-1.  Select **\+ Add a Server** from the server list.  
+1.  Select **\+ Add a Server** from the navigation pane.
       
     ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/7a6b55ab7a132f2dadd45ab2311fb0d9e44c7afcb4f1c8ea.png)  
       
@@ -202,7 +202,7 @@ If the invite link is valid, you are added to the server, which opens in your ch
 
 ### Create a server
 
-1.  Select **\+ Add a Server** from the server list.  
+1.  Select **\+ Add a Server** from the navigation pane.  
       
     ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/7a6b55ab7a132f2dadd45ab2311fb0d9e44c7afcb4f1c8ea.png)  
       
