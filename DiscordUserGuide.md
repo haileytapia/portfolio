@@ -85,6 +85,7 @@ The navigation pane displays on the left-hand side of all screens and consists o
 * **Add a Server** icon
 * **Explore Public Servers** icon
 
+![Navigation Pane](NavigationPane.gif)
 
 ### Direct messages and friends UI
 
