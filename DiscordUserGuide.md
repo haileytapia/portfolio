@@ -12,7 +12,7 @@ May 7, 2023 ∙ User Guide
 
 Discord is a communication platform that brings people together in real time, allowing you to connect with friends, family, colleagues, and communities around the world. 
 
-This guide provides detailed information on how to get the most out of Discord, including how to create an account, join and create servers, customize your experience, and use features like screen sharing and video chat.
+This guide provides detailed information on how to get the most out of Discord, including how to create an account, join and create servers, customize your experience, and use features like screen share and video chat.
 
 To navigate to a specific section of this guide, select a link from the table of contents below.
 
