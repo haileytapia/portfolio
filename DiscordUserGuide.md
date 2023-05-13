@@ -100,6 +100,7 @@ Direct messages, or DMs, are private conversations between you and another user 
 ### Open a direct message
 
 1. Select **Direct Messages** from the top of the navigation pane.
+
    The **Friends** section automatically opens.
 2. Select one of your friends' usernames from the DMs list.
 
@@ -108,6 +109,7 @@ Your DM with the selected user opens in the chat window.
 ### Start a direct message
 
 1. Select **Direct Messages** from the top of the navigation pane.
+
    The **Friends** section automatically opens.
 2. At the top of the **Friends** section, select the **All** tab to view a list of all your friends on Discord.
 3. Find and select the user with whom you want to start a DM.
