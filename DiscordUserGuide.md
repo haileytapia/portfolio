@@ -74,22 +74,79 @@ Open the Discord app and sign in to your account before continuing with this gui
 
 ## User interface
 
-Except for the static navigation pane, Discord's user interface (UI) changes depending on whether you are viewing your direct messages (DMs), friends, or servers. See below for more information.
+Except for the static navigation pane, Discord's user interface (UI) changes depending on whether you are viewing your direct messages (DMs) or servers. See below for more information.
 
 ### Navigation pane
 
 The navigation pane displays on the left-hand side of all screens and consists of the following elements:
 
-* **Direct Messages** icon
+* Direct messages
 * Server list
-* **Add a Server** icon
-* **Explore Public Servers** icon
+* Add a server
+* Explore public servers
 
 ![Navigation Pane](NavigationPane.gif)
 
-### Direct messages UI
+### Direct messages
 
-Select **Direct Messages** from the top of the navigation pane to access your DMs and friends. It displays as the Discord logo and becomes purple when you select it.
+Select **Direct Messages** from the top of the navigation pane to access your DMs. It displays as the Discord logo and becomes purple when you select it.
+
+After selecting **Direct Messages**, the **Friends** section automatically opens. The following tabs display at the top of this section:
+
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <strong>Tab</strong>
+            </td>
+            <td>
+                <strong>What displays when you select this tab</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Online
+            </td>
+            <td>
+                A list of your friends who are currently online.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                All
+            </td>
+            <td>
+                A list of all of your friends.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Pending
+            </td>
+            <td>
+                A list of users who have not yet accepted a friend request from you.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Blocked
+            </td>
+            <td>
+                A list of users you have blocked.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Add Friend
+            </td>
+            <td>
+                A field where you can enter a user's Discord Tag to add them as a friend.
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+To leave the **Friends** section and open a DM, select one of your friends' usernames from the DMs list. 
 
 When you view a DM, the UI consists of the following components:
 
@@ -97,15 +154,7 @@ When you view a DM, the UI consists of the following components:
 * DMs list
 * Chat window
 
-### Friends UI
-When you select the **Friends** section of the [DMs list](#direct-messages-ui), the UI consists of the following components:
-
-* Navigation pane
-* DMs list
-* Friends window
-* Activity pane
-
-### Server UI
+### Server
 
 Select a server from the server list in the navigation pane to open it. If the server does not have a custom icon, the background color of its default icon becomes purple when you select it.
 
@@ -116,11 +165,7 @@ When you view a server, the UI consists of the following components:
 * Chat window
 * Members list
 
-Friends, DMs, and servers are described in separate sections below.
-
-## Friends
-
-### Add a friend
+More information about DMs and servers are provided in separate sections below.
 
 ## Direct messages
 
