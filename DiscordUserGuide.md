@@ -46,7 +46,7 @@ To navigate to a specific section of this guide, expand and select a link from t
 
 8.  <a id="step-eight"></a>In your email inbox, open the verification email from Discord and select **Verify Email**.
 
-Your Discord account is now verified. Select **Continue to Discord** to begin using Discord in your web browser.
+Your email is now verified, and your Discord account is created. Select **Continue to Discord** to begin using Discord in your web browser.
 
 <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/4e2efacd83a6455fc76188261ad8ccf5e8b774c66d9b7f95.png" width="300">
 
