@@ -48,7 +48,7 @@ To navigate to a specific section of this guide, expand and select a link from t
 
 Your Discord account is now verified. Select **Continue to Discord** to begin using Discord in your web browser.
 
-<img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/957f9ea324656a70a58a414d3e80a6675a4edea991cc2e95.png" width="470">
+<img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/957f9ea324656a70a58a414d3e80a6675a4edea991cc2e95.png" width="300">
 
 Alternatively, you can [download Discord](#download-discord-optional) as an app on your desktop or mobile device.
 
