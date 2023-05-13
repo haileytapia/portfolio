@@ -89,7 +89,7 @@ The navigation pane displays on the left-hand side of all screens and consists o
 
 ### Direct messages and friends UI
 
-Select **Direct Messages** from the top of the navigation pane to access your DMs and friends. It displays as the Discord logo and changes from white to purple when you select it.
+Select **Direct Messages** from the top of the navigation pane to access your DMs and friends. It displays as the Discord logo and becomes purple when you select it.
 
 When you view a DM, the UI consists of the following components:
 
@@ -106,7 +106,7 @@ When you select the **Friends** section of the DMs list, the UI consists of the 
 
 ### Server UI
 
-Select a server from the server list in the navigation pane to open it.
+Select a server from the server list in the navigation pane to open it. If the server does not have a custom icon, the background color of its default icon becomes purple when you select it.
 
 When you view a server, the UI consists of the following components:
 
@@ -118,6 +118,8 @@ When you view a server, the UI consists of the following components:
 Friends, DMs, and servers are described in separate sections below.
 
 ## Friends
+
+### Add a friend
 
 ## Direct messages
 
@@ -186,17 +188,17 @@ Your new server opens in your chat window and now appears in your server list. F
 
 To learn how to customize both servers you own and servers of which you're a member, see the [Customize a server](#customize-a-server-1) section of this guide.
 
-## Chat window
-
-## Channels
+### Channels
 
 Within servers, you can create or join channels to communicate with other users. Each server can have multiple channels, and each channel can have its own topic. 
 
-### Join a channel
+#### What is a channel?
+
+#### Join a channel
 
 To join a channel, select its name in the server list.
 
-### Create a channel
+#### Create a channel
 
 ## Features
 
