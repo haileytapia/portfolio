@@ -86,7 +86,7 @@ Each of these elements is described in a separate section below. You can also se
 
 The server list is located on the left-hand side of the screen and displays all the servers of which you are a member.
 
-https://github.com/haileytapia/portfolio/assets/78626762/60875ba2-5ea7-4a55-b8de-9e44ab4ed424
+<video loop src="https://github.com/haileytapia/portfolio/assets/78626762/60875ba2-5ea7-4a55-b8de-9e44ab4ed424">  video </video> 
 
 ### What is a server?
 
