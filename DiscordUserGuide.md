@@ -90,9 +90,7 @@ The server list is located on the left-hand side of the screen and displays all 
 
 ### What is a server?
 
-Servers are like chat rooms where you can join communities of like-minded individuals to chat and share ideas. Select any of the servers to access the channels within them. Additionally, users can create new servers by clicking on the plus icon at the bottom of the server list.
-
-These are the communities you can join or create to connect with other users.
+Servers are like chat rooms where you can chat, connect, and share ideas with other Discord users. Select a server from the server list to open the server in the chat window and access the channels within it. For information about the chat window and channels, see the [Chat window](#chat-window) and [Channels](#channels) sections of this guide.
 
 ### Join a server
 
@@ -133,11 +131,15 @@ If the invite link is valid, you are added to the server, which opens in your ch
     You are taken to the **Customize your server** section of the modal.  
       
     <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/c859f77a046cfa03b8a5452251d234d5f133cf1e794eaab2.png" width="500">
-4.  (Optional) Select **Upload** to add an icon to your server, and enter a name for your server in the **Server Name** field. You can [change the icon and name](#customization) later.  
+4.  (Optional) Select **Upload** to add an icon to your server, and enter a name for your server in the **Server Name** field. You can [change the icon and name](#customize-your-profile) later.  
 
 5.  When you are ready to create the server, select **Create**.
 
 Your new server opens in your chat window and now appears in your server list. For information about the chat window, see the [Chat window](#chat-window) section of this guide.
+
+### Customize a server
+
+To learn how to customize both servers you own and servers of which you're a member, see the [Customize a server](#customize-a-server) section of this guide.
 
 ## Chat window
 
@@ -175,11 +177,42 @@ Start a DM with someone by selecting their name in your Friends list and selecti
 
 ## Customization
 
-### Change your avatar
+### Customize your profile
 
-### Change your username
+#### Change your avatar
 
-### Change your theme
+#### Change your username
+
+#### Change your theme
+
+### Customize a server
+
+Note about how only the first three options apply to servers you don't own.
+
+#### Boost a server
+
+You can add apps to both servers you own and servers you don't own.
+
+#### Invite users to a server
+
+You can add apps to both servers you own and servers you don't own.
+
+#### Add apps to a server
+
+You can add apps to both servers you own and servers you don't own.
+
+Note:
+You can only access the following options if you own the server you're attempting to edit.
+
+#### Server settings
+
+#### Create a channel
+
+#### Create a category
+
+#### Create an event
+
+#### Server settings
 
 ---
 
