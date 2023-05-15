@@ -15,7 +15,7 @@ Use the calendar and scheduling component of [Outlook on the web](https://outloo
 To schedule a recurring event with an optional Teams meeting in Outlook on the web:
 
 
-1.  Select <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/b605976b77ed8b106d53eff3c43163a804e976b0e23edd2c.png" width="15"> **Calendar** from the navigation menu.
+1.  Select <img src="https://github.com/haileytapia/portfolio/assets/78626762/408b742a-1cde-49a1-a5a1-1f5b2786905f" width="15"> **Calendar** from the navigation menu.
 
     ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/c7062638241a2a3ede3f4048d7d4753b6de763f37bda57f9.png)
 2.  In the upper-left corner, select **New event**.  
