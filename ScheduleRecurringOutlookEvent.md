@@ -15,18 +15,18 @@ Use the calendar and scheduling component of [Outlook on the web](https://outloo
 To schedule a recurring event with an optional Teams meeting in Outlook on the web:
 
 
-1.  Select <img src="https://github.com/haileytapia/portfolio/assets/78626762/408b742a-1cde-49a1-a5a1-1f5b2786905f" width="15"> **Calendar** from the navigation menu.
+1.  From the navigation menu, select <img src="https://github.com/haileytapia/portfolio/assets/78626762/408b742a-1cde-49a1-a5a1-1f5b2786905f" width="15"> **Calendar**.
 
-    ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/c7062638241a2a3ede3f4048d7d4753b6de763f37bda57f9.png)
-2.  In the upper-left corner, select **New event**.  
+    ![Calendar](https://github.com/haileytapia/portfolio/assets/78626762/8fa65fea-68fe-4ae4-b1a2-e627f0eb9308)
+2.  Select **New event**.  
       
-    ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/8bd6119899faa9a2685813ed62a7f904a534303c44b9d638.png) 
+    ![New event](https://github.com/haileytapia/portfolio/assets/78626762/3cbe775b-47a2-4986-995f-0845fcaf24ec)
 
     The **New event** modal appears and prompts you for the event details.  
       
-    ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/e5082be85d8504b6dc1ca0650d0bc5682edc67647a161a39.png)  
+    ![New event modal](https://github.com/haileytapia/portfolio/assets/78626762/aea1c3c8-6649-4fd8-8b7b-dfccbfb424f1)  
 3.  Enter the event title, attendees, start time, end time, and other details in the appropriate fields.
-4.  <a id="step-four"></a>Select <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/2cbc48e40a16e742a3c627457b22c7b11c0183d78697d16c.png" width="20"> **Don’t repeat** and choose how often you want the event to occur: **Daily**, **Weekly**, **Monthly**, **Yearly**, or a **Custom** frequency.
+4.  <a id="step-four"></a>Select <img src="https://github.com/haileytapia/portfolio/assets/78626762/71cd859b-98ed-4fbb-85aa-2485ae6cd02e" width="20"> **Don’t repeat** and choose how often you want the event to occur: **Daily**, **Weekly**, **Monthly**, **Yearly**, or a **Custom** frequency.
 
     <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/fd92a3f9787205a366169844f355745eb409ad7d76e6888d.png" width="600">
       
