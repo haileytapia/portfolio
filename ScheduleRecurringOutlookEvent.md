@@ -28,11 +28,11 @@ To schedule a recurring event with an optional Teams meeting in Outlook on the w
 3.  Enter the event title, attendees, start time, end time, and other details in the appropriate fields.
 4.  <a id="step-four"></a>Select <img src="https://github.com/haileytapia/portfolio/assets/78626762/71cd859b-98ed-4fbb-85aa-2485ae6cd02e" width="20"> **Don’t repeat** and choose how often you want the event to occur: **Daily**, **Weekly**, **Monthly**, **Yearly**, or a **Custom** frequency.
 
-    <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/fd92a3f9787205a366169844f355745eb409ad7d76e6888d.png" width="600">
-      
+    <img src="https://github.com/haileytapia/portfolio/assets/78626762/91503f7a-92ca-4272-9b8c-ce91f41cde52" width="600">
+
     The **Repeat** modal appears. 
 
-    ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/3daedf7f8fed0fbe4c015c926f2dab6974288b95ef9479a6.png)
+    ![Repeat modal](https://github.com/haileytapia/portfolio/assets/78626762/6b5529b5-9c52-45fe-89ca-03ae84e66aba)
 5.  In the **Start** field, enter the date on which the event should begin. You can also select <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/c397f5404925e0b3d1044623db1298253897991f5f31149e.png" width="20"> to choose the date from a calendar.
 
 6.  (Conditional) Follow the steps for the event frequency you selected in [step four](#step-four):
