@@ -13,7 +13,7 @@ Apr 19, 2023 ∙ Knowledge Base Article
 {:  .about }
 >As a Technical Writer Intern at Domo, I created this article about managing subscriptions to listings on their BI platform, which provides data integration, visualization, and analysis tools.
 
-Some Appstore listings require a monthly subscription fee. After the initial payment, anyone in your company's Domo instance can install and use these listings. Payments are processed through Stripe, and you can cancel a subscription at any time.
+Some Appstore listings require a monthly subscription fee. After the initial payment, anyone in your company's Domo instance can install and use subscription listings. Payments are processed through Stripe, and you can cancel a subscription at any time.
 
 This article describes how to create and manage subscriptions to listings in the following topics:
 
@@ -121,7 +121,7 @@ To the right of each subscription in the list is an <img src="https://domo-suppo
 
     <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ublr" width="470">
 
-You are no longer subscribed to the listing, but you still have access to it until the next scheduled payment date, which displays in red text on the listing Details page. You can renew the subscription before this date by following the steps to [renew a subscription](ManageSubscriptionsDomoListings#renew-a-subscription).  
+You are no longer subscribed to the listing, but you still have access to it until the next scheduled payment date, which displays in red text on the listing Details page. Renew the subscription before this date by following the steps to [renew a subscription](ManageSubscriptionsDomoListings#renew-a-subscription).  
   
 ![Next scheduled payment date](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubmk)
 
