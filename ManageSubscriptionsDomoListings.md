@@ -114,7 +114,7 @@ To the right of each subscription in the list is an <img src="https://domo-suppo
       
     <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ublS" width="470">
 5.  (Optional) Provide details about why you are canceling the subscription in the **Reason for cancelation** field.  
-6.  In the last field, enter the word "CONFIRM" in all capital letters. This is required to enable the **Cancel Subscription** button.  
+6.  In the last field, enter the word **CONFIRM** in all capital letters. This is required to enable the **Cancel Subscription** button.  
     
     <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ublh" width="470">
 7.  Select **Cancel Subscription**.   
