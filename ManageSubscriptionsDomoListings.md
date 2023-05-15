@@ -25,17 +25,17 @@ This article describes how to create and manage subscriptions to listings in the
 1.  Select **Appstore** from the navigation header.
 2.  In the side panel of the Appstore, select <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uVqy" width="20"> **Search**. 
 
-    ![Search Apps.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uW1D)  
+    ![Search Apps](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uW1D)  
 
     The **Search Apps** page opens.  
 3.  Under the **Price** Quick Filter, select the **Monthly** checkbox. There are additional Quick Filters to sort the listings by component, category, publisher name, and data source.  
     All listings that require a monthly payment and match any other Quick Filters display.  
       
-    ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uc0D)  
+    ![Monthly payment listings](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uc0D)  
 4.  Select a subscription listing to open its Details page.  
 5.  Review the listing details, then select **Subscribe Now**.  
       
-    ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubcV)  
+    ![Subscribe Now](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubcV)  
 
     You are redirected to Stripe to complete the first payment.  
 6.  On the Stripe payment page, complete the **Card information**, **Name on card**, and **Country or region** fields. These fields are required to enable the **Subscribe** button.  
@@ -46,7 +46,7 @@ This article describes how to create and manage subscriptions to listings in the
 7.  (Optional) Select the **Save my info for 1-click checkout with Link** checkbox to reuse your payment information for future transactions. If you select this checkbox, you must also enter your phone number to enable the **Subscribe** button.  
 8.  Select **Subscribe** to charge your card for the first subscription payment.  
       
-    ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubck)
+    ![Subscribe](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubck)
 
 If the payment is successful, you are redirected to the **Creating App** modal in Domo. Select **Notify Me** to be notified when your listing is ready for use.  
 
@@ -56,7 +56,7 @@ After Domo creates your listing, your newly subscribed listing opens in a new p
 
 ## View your subscriptions
 
-To view a list of details about each of your subscriptions, follow these steps:
+To view a list with details about each of your subscriptions, follow these steps:
 
 1.  Select **Appstore** from the navigation header.
 2.  In the side panel of the Appstore, select <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uVox" width="20"> **Installed Apps**.  
@@ -69,11 +69,11 @@ To view a list of details about each of your subscriptions, follow these steps:
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubzk)  
 4.  <a id="purchased-by"></a>In the search bar, select <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uVyx" width="20"> **Add filter** > **Purchased by** > _**Your Name**_, then repeat for **Purchase type** > **Subscription**.  
       
-    ![Add Filter GIF.gif](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uXZf)
+    ![Add Filter GIF](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uXZf)
 
 Your subscriptions display in a list with the following details:
 
-![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uc08)
+![Subscription list](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uc08)
 
 | Detail      | Description |
 | ----------- | ----------- |
@@ -104,7 +104,7 @@ To the right of each subscription in the list is an <img src="https://domo-suppo
 2.  Use the [search bar](ManageSubscriptionsDomoListings.html#subscribe-to-a-listing) on the **Search Apps** page to find and select the listing whose subscription you want to cancel.     
 3.  On the listing Details page, select **Manage** \> **Cancel Subscription**.  
       
-    ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ublN)  
+    ![Manage > Cancel Subscription](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ublN)  
       
     The **Cancel** _**Listing Name**_ **subscription** modal appears.  
 
@@ -123,7 +123,7 @@ To the right of each subscription in the list is an <img src="https://domo-suppo
 
 You are no longer subscribed to the listing, but you still have access to it until the next scheduled payment date, which displays in red text on the listing Details page. You can renew the subscription before this date by following the steps to [renew a subscription](ManageSubscriptionsDomoListings#renew-a-subscription).  
   
-![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubmk)
+![Next scheduled payment date](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubmk)
 
 ## Renew a subscription
 
@@ -136,7 +136,7 @@ You are no longer subscribed to the listing, but you still have access to it unt
 2.  Use the [search bar](Manage-Subscriptions-to-Domo-Listings.html#subscribe-to-a-listing) on the **Search Apps** page to find and select the listing whose subscription you want to cancel.  
 3.  On the listing Details page, select **Manage Subscription**.  
 
-    ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubmf)  
+    ![Manage Subscription](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubmf)  
 
     You are redirected to Stripe, which displays your current and past subscriptions to the listing's publisher.  
 4.  Select **Renew plan** for the subscription you want to renew. Canceled subscriptions have a **Canceled** tag above their name. 
@@ -144,7 +144,7 @@ You are no longer subscribed to the listing, but you still have access to it unt
     {:  .note }
     >To update your payment method, select <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/1355509d1a784e3e7dfa0e1ca119a462dbd1e40d4a42f297.png" width="26"> **Edit** before renewing the subscription.  
       
-    ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubnJ)  
+    ![Edit](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubnJ)  
 
     The **Renew your plan** page opens.  
 5.  Review the name, price, and renewal date of your plan, then select **Renew plan** to proceed with the renewal or **Go back** to exit.
