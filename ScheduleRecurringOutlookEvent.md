@@ -24,7 +24,7 @@ To schedule a recurring event with an optional Teams meeting in Outlook on the w
 
     The **New event** modal appears and prompts you for the event details.  
       
-    ![New event modal](https://github.com/haileytapia/portfolio/assets/78626762/aea1c3c8-6649-4fd8-8b7b-dfccbfb424f1)  
+    ![New event modal](https://github.com/haileytapia/portfolio/assets/78626762/43e2f8a0-5774-4e43-931d-9931fb3c6166)  
 3.  Enter the event title, attendees, start time, end time, and other details in the appropriate fields.
 4.  <a id="step-four"></a>Select <img src="https://github.com/haileytapia/portfolio/assets/78626762/71cd859b-98ed-4fbb-85aa-2485ae6cd02e" width="20"> **Don’t repeat** and choose how often you want the event to occur: **Daily**, **Weekly**, **Monthly**, **Yearly**, or a **Custom** frequency.
 
@@ -32,10 +32,10 @@ To schedule a recurring event with an optional Teams meeting in Outlook on the w
 
     The **Repeat** modal appears. 
 
-    ![Repeat modal](https://github.com/haileytapia/portfolio/assets/78626762/6b5529b5-9c52-45fe-89ca-03ae84e66aba)
-5.  In the **Start** field, enter the date on which the event should begin. You can also select <img src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/c397f5404925e0b3d1044623db1298253897991f5f31149e.png" width="20"> to choose the date from a calendar.
+    ![Repeat modal](https://github.com/haileytapia/portfolio/assets/78626762/c1cc78ff-7f64-42b2-8c6e-ff3d8f412d76)
+5.  In the **Start** field, enter the date on which the event should begin. You can also select <img src="https://github.com/haileytapia/portfolio/assets/78626762/579ddbbd-4013-4fed-a903-9037233c0a36" width="20"> to choose the date from a calendar.
 
-6.  (Conditional) Follow the steps for the event frequency you selected in [step four](#step-four):
+6.  (Conditional) Follow the steps in this table for the event frequency you selected in [step four](#step-four):
 
     <table><tbody><tr><td><strong>Event frequency</strong></td><td><strong>Steps</strong></td></tr><tr><td>Daily</td><td>Select the number of days between occurrences and the day(s) of the week the event occurs.</td></tr><tr><td>Weekly</td><td>​Select the number of weeks between occurrences and the day(s) of the week the event occurs.</td></tr><tr><td>Monthly</td><td>Select the number of months between occurrences and whether the meeting occurs on the same day each month or on the first day of the start date (for example, the first Friday) each month.</td></tr><tr><td>Yearly</td><td>Select the number of years between occurrences and whether the meeting occurs on the same date each year or on the first day of the start date (for example, the first Friday of April) each year.</td></tr><tr><td>Custom</td><td>Select custom options based on the frequency type. See the other rows in this table for more information.</td></tr></tbody></table>
 
@@ -43,11 +43,12 @@ To schedule a recurring event with an optional Teams meeting in Outlook on the w
     Outlook saves the recurrence settings and returns you to the **New event** modal.
 8.  (Optional) Turn on the **Teams meeting** toggle to add a virtual meeting to the event.  
       
-    ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/8428fe86d827ebeaeaedc7c5e5fbc7eda5be774ab4fd0e10.png)
+    ![Teams meeting](https://github.com/haileytapia/portfolio/assets/78626762/0abfd0ca-844c-451e-946f-89810bc99181)
 
-9. When you are ready to create your event, select **Save**.
+9. When you are ready to create your event, select **Save** (if you have not added attendees) or **Send** (if you have added attendees).
 
-    ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/17c2277ed9e0bca87fc4b159edf93e381c9e008528781ab9.png)
+   ![Save](https://github.com/haileytapia/portfolio/assets/78626762/d6df9be4-cb95-4c28-a642-7c584d4d9ab2)
+   ![Send](https://github.com/haileytapia/portfolio/assets/78626762/60381add-7bb5-40e6-bc20-1d6f629bf924)
 
 Outlook creates your recurring event and displays all of its occurrences on your calendar.
 
