@@ -28,7 +28,7 @@ To schedule a recurring event with an optional Teams meeting in Outlook on the w
 3.  Enter the event title, attendees, start time, end time, and other details in the appropriate fields.
 4.  <a id="step-four"></a>Select <img src="https://github.com/haileytapia/portfolio/assets/78626762/71cd859b-98ed-4fbb-85aa-2485ae6cd02e" width="20"> **Don’t repeat** and choose how often you want the event to occur: **Daily**, **Weekly**, **Monthly**, **Yearly**, or a **Custom** frequency.
 
-    <img src="https://github.com/haileytapia/portfolio/assets/78626762/91503f7a-92ca-4272-9b8c-ce91f41cde52" width="600">
+    <img src="https://github.com/haileytapia/portfolio/assets/78626762/75f67b9c-3614-49d1-b4bc-f94b865df24a" width="600">
 
     The **Repeat** modal appears. 
 
