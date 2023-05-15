@@ -48,6 +48,7 @@ To schedule a recurring event with an optional Teams meeting in Outlook on the w
 9. When you are ready to create your event, select **Save** (if you have not added attendees) or **Send** (if you have added attendees).
 
    ![Save](https://github.com/haileytapia/portfolio/assets/78626762/d6df9be4-cb95-4c28-a642-7c584d4d9ab2)
+
    ![Send](https://github.com/haileytapia/portfolio/assets/78626762/60381add-7bb5-40e6-bc20-1d6f629bf924)
 
 Outlook creates your recurring event and displays all of its occurrences on your calendar.
