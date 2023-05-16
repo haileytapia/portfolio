@@ -25,9 +25,9 @@ I am pursuing a B.A. in English: Technical Communication at the University of Ce
 
 I have interned as a Technical Writer for:
 
-- Splunk's security team
-- Domo's education team
-- LSC Communications' customer experience team
+- Splunk's Security team
+- Domo's Education team
+- LSC Communications' Customer Experience department
 
 See my [LinkedIn](https://www.linkedin.com/in/haileytapia/) for more of my professional experience, including technical support, an editorial internship, and technical writing for a military training manual.
 
