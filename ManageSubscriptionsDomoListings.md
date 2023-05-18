@@ -86,7 +86,7 @@ Your subscriptions display in a list with the following details:
 
 To the right of each subscription in the list is an <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uWCa" width="17"> action menu. When you select this menu, the following options appear:
 
-| Option      | Selecting this option to open... |
+| Option      | Select this option to open |
 | ----------- | ----------- |
 | View listing      | The listing Details page.       |
 | Manage listing   | A menu with options to manage the subscription on Stripe or cancel the subscription.        |
