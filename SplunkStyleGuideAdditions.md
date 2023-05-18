@@ -66,38 +66,37 @@ See below for my three entries in the dictionary.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use to denote a chronological sequence of events that doesn't rely on cause and effect. Don't use to 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mean "when". See also [when](#when).
 
-   **Correct**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Correct**
 
-   After you install the update, save your changes.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After you install the update, save your changes.
 
-   **Incorrect**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Incorrect**
 
-   After a user logs in to your organization, a SessionLog event is created.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After a user logs in to your organization, a SessionLog event is created.
 
 ### [if](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#I)
 
-   Use to indicate a hypothetical situation, a possibility, or a condition that must be met for a particular action, 
-   behavior, or event to occur. See also [when](#when).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use to indicate a hypothetical situation, a possibility, or a condition that must be met for a particular action, 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;behavior, or event to occur. See also [when](#when).
 
-   **Correct**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Correct**
 
-   If the search returns too many results, try refining your search.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If the search returns too many results, try refining your search.
 
-   **Incorrect**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Incorrect**
 
-   When the search returns too many results, try refining your search.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When the search returns too many results, try refining your search.
 
 ### [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W)
 
-   Use to indicate an action, behavior, or event that is expected or certain to occur. This term implies a 
-   cause-and-effect relationship. See also [after](#after) and [if](#if).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use to indicate an action, behavior, or event that is expected or certain to occur. This term implies a 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cause-and-effect relationship. See also [after](#after) and [if](#if).
 
-   **Correct**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Correct**
 
-   When a signal crosses the static threshold, an alert is triggered.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When a signal crosses the static threshold, an alert is triggered.
 
-   **Incorrect**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Incorrect**
 
-   After a signal crosses the static threshold, an alert is triggered.
-
-   If a signal crosses the static threshold, an alert is triggered.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After a signal crosses the static threshold, an alert is triggered.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If a signal crosses the static threshold, an alert is triggered.
