@@ -11,13 +11,26 @@ May 17, 2023 ∙ [Splunk Style Guide](https://docs.splunk.com/Documentation/Styl
 {: .fs-5 : .fw-300 }
 
 {:  .about }
->As a Technical Writer Intern at Splunk, I made the following additions to the _Splunk Style Guide_, the writing style reference for Splunk documentation and products.
+>As a Technical Writer Intern at Splunk, I either created or revised the following content of the _Splunk Style Guide_, the writing style reference for Splunk documentation and products.
 
-Select a heading to open the section of the style guide in which the content I developed is 
+- TOC
+{:toc}
+
+## Numbers
+
+This section of the _Splunk Style Guide_ contains guidelines for using numbers in text.
+
+### [When to use numerals]()
+
+### [When to use words]()
 
 ## UI text guidelines
 
-### Terminal punctuation
+This section of the _Splunk Style Guide_ contains guidelines that "provide a quick reference for anyone who writes user interface (UI) text at Splunk. The purpose of UI text is to help users achieve their goals by guiding them through the product interface."
+
+See the 
+
+### [Terminal punctuation](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/UIGuidelines#Terminal_punctuation)
 
 Follow these best practices for terminal punctuation:
 
@@ -39,3 +52,11 @@ See the following examples of correct and incorrect punctuation:
 | The search processed 100,000 events. This process took less than a minute. | The search processed 100,000 events, this process took less than a minute. |
 | What is the average query response time? | What is the average query response time |
 | The update includes enhanced security features. | The update includes enhanced security features! |
+
+## Usage dictionary
+
+### [after]()
+
+### [if]()
+
+### [when]()
