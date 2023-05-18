@@ -75,15 +75,15 @@ See below for my three entries in the dictionary.
 
 ### [if](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#I)
 
-     Use to indicate a hypothetical situation, a possibility, or a condition that must be met for a particular action, behavior, or event to occur. See also [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W).
+&emsp; Use to indicate a hypothetical situation, a possibility, or a condition that must be met for a particular action, behavior, or event to occur. See also [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W).
 
- **Correct**
+&emsp; **Correct**
 
-     If the search returns too many results, try refining your search.
+&emsp; If the search returns too many results, try refining your search.
 
- **Incorrect**
+&emsp; **Incorrect**
 
-     When the search returns too many results, try refining your search.
+&emsp; When the search returns too many results, try refining your search.
 
 ### [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W)
 
