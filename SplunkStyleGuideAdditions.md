@@ -11,7 +11,7 @@ May 17, 2023 ∙ [Splunk Style Guide](https://docs.splunk.com/Documentation/Styl
 {: .fs-5 : .fw-300 }
 
 {:  .about }
-> As a Technical Writer Intern at Splunk, I either created or revised the following content for the _Splunk Style Guide_, the writing style reference for Splunk documentation and products.
+> As a Technical Writer Intern at Splunk, I created and revised various pieces of content for the _Splunk Style Guide_, the writing style reference for Splunk documentation and products.
 
 This page lists the sections of the _Splunk Style Guide_ to which I contributed:
 
