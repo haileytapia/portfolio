@@ -38,6 +38,16 @@ To schedule a recurring event with an optional Teams meeting in Outlook on the w
 6.  (Conditional) Follow the steps in this table for the event frequency you selected in [step four](#step-four):
 
     <table><tbody><tr><td><strong>Event frequency</strong></td><td><strong>Steps</strong></td></tr><tr><td>Daily</td><td>Select the number of days between occurrences and the day(s) of the week the event occurs.</td></tr><tr><td>Weekly</td><td>​Select the number of weeks between occurrences and the day(s) of the week the event occurs.</td></tr><tr><td>Monthly</td><td>Select the number of months between occurrences and whether the meeting occurs on the same day each month or on the first day of the start date (for example, the first Friday) each month.</td></tr><tr><td>Yearly</td><td>Select the number of years between occurrences and whether the meeting occurs on the same date each year or on the first day of the start date (for example, the first Friday of April) each year.</td></tr><tr><td>Custom</td><td>Select custom options based on the frequency type. See the other rows in this table for more information.</td></tr></tbody></table>
+    
+  <CollapserGroup>
+    <Collapser id="collapser-1" title="Collapser 1">
+      This is our first example collapser.
+    </Collapser>
+
+    <Collapser id="collapser-2" title="Collapser 2">
+      This is our second example collapser.
+    </Collapser>
+  </CollapserGroup>;
 
 7.  Choose the end date for the event, then select **Save**.  
     Outlook saves the recurrence settings and returns you to the **New event** modal.
