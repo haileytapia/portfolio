@@ -63,8 +63,8 @@ See below for my three entries in the dictionary.
 
 ### [after](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#A)
 
-   Use to denote a chronological sequence of events that doesn't rely on cause and effect. Don't use to 
-   mean "when". See also [when](#when).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use to denote a chronological sequence of events that doesn't rely on cause and effect. Don't use to 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mean "when". See also [when](#when).
 
    **Correct**
 
