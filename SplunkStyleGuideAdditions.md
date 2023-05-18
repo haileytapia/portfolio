@@ -63,20 +63,19 @@ See below for my three entries in the dictionary.
 
 ### [after](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#A)
 
-<pre>
-Use to denote a chronological sequence of events that doesn't rely on cause and effect. Don't use to mean "when". See also [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W).
+> Use to denote a chronological sequence of events that doesn't rely on cause and effect. Don't use to mean "when". See also [when (http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W).
 
-  **Correct**
+> **Correct**
 
-  After you install the update, save your changes.
+> After you install the update, save your changes.
 
-  **Incorrect**
-  
-  After a user logs in to your organization, a SessionLog event is created.
+> **Incorrect**
+
+> After a user logs in to your organization, a SessionLog event is created.
 
 ### [if](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#I)
 
-  Use to indicate a hypothetical situation, a possibility, or a condition that must be met for a particular action, behavior, or event to occur. See also [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W).
+Use to indicate a hypothetical situation, a possibility, or a condition that must be met for a particular action, behavior, or event to occur. See also [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W).
 
   **Correct**
 
