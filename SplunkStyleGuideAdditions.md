@@ -63,37 +63,27 @@ See below for my three entries in the dictionary.
 
 ### [after](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#A)
 
-<ul>
-Use to denote a chronological sequence of events that doesn't rely on cause and effect. Don't use to mean "when". See also [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W).
-</ul>
+  Use to denote a chronological sequence of events that doesn't rely on cause and effect. Don't use to mean "when". See also [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W).
 
-<ul>
-**Correct**
-</ul>
+  **Correct**
 
-<ul>
-After you install the update, save your changes.
-</ul>
+  After you install the update, save your changes.
 
-<ul>
-**Incorrect**
-</ul>
-
-<ul>
-After a user logs in to your organization, a SessionLog event is created.
-</ul>
+  **Incorrect**
+  
+  After a user logs in to your organization, a SessionLog event is created.
 
 ### [if](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#I)
 
-&emsp; Use to indicate a hypothetical situation, a possibility, or a condition that must be met for a particular action, behavior, or event to occur. See also [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W).
+  Use to indicate a hypothetical situation, a possibility, or a condition that must be met for a particular action, behavior, or event to occur. See also [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W).
 
-&emsp; **Correct**
+  **Correct**
 
-&emsp; If the search returns too many results, try refining your search.
+  If the search returns too many results, try refining your search.
 
-&emsp; **Incorrect**
+  **Incorrect**
 
-&emsp; When the search returns too many results, try refining your search.
+  When the search returns too many results, try refining your search.
 
 ### [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W)
 
