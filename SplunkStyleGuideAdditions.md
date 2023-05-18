@@ -63,15 +63,15 @@ See below for my three entries in the dictionary.
 
 ### [after](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#A)
 
-> Use to denote a chronological sequence of events that doesn't rely on cause and effect. Don't use to mean "when". See also [when (http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W).
+Use to denote a chronological sequence of events that doesn't rely on cause and effect. Don't use to mean "when". See also [when (http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W).
 
-> **Correct**
+**Correct**
 
-> After you install the update, save your changes.
+After you install the update, save your changes.
 
-> **Incorrect**
+**Incorrect**
 
-> After a user logs in to your organization, a SessionLog event is created.
+After a user logs in to your organization, a SessionLog event is created.
 
 ### [if](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#I)
 
