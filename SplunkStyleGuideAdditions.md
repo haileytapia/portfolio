@@ -26,9 +26,9 @@ This section of the _Splunk Style Guide_ contains guidelines for using numbers i
 
 ## UI text guidelines
 
-This section of the _Splunk Style Guide_ contains guidelines that "provide a quick reference for anyone who writes user interface (UI) text at Splunk. The purpose of UI text is to help users achieve their goals by guiding them through the product interface."
+This section of the _Splunk Style Guide_ contains guidelines that "provide a quick reference for anyone who writes user interface (UI) text at Splunk."
 
-See the 
+See below for the content I developed and reformatted on terminal punctuation in UI text.
 
 ### [Terminal punctuation](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/UIGuidelines#Terminal_punctuation)
 
@@ -54,6 +54,10 @@ See the following examples of correct and incorrect punctuation:
 | The update includes enhanced security features. | The update includes enhanced security features! |
 
 ## Usage dictionary
+
+This section of the _Splunk Style Guide_ outlines terms to use and avoid in Splunk documentation.
+
+See below for my three entries in the dictionary.
 
 ### [after]()
 
