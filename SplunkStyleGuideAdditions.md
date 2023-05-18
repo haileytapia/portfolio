@@ -64,7 +64,7 @@ See below for my three entries in the dictionary.
 ### [after](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#A)
 
    Use to denote a chronological sequence of events that doesn't rely on cause and effect. Don't use to 
-   mean "when". See also [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W).
+   mean "when". See also [when](#when).
 
    **Correct**
 
@@ -77,7 +77,7 @@ See below for my three entries in the dictionary.
 ### [if](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#I)
 
    Use to indicate a hypothetical situation, a possibility, or a condition that must be met for a particular action, 
-   behavior, or event to occur. See also [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W).
+   behavior, or event to occur. See also [when](#when).
 
    **Correct**
 
@@ -90,7 +90,7 @@ See below for my three entries in the dictionary.
 ### [when](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#W)
 
    Use to indicate an action, behavior, or event that is expected or certain to occur. This term implies a 
-   cause-and-effect relationship. See also [after](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#A) and [if](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#I).
+   cause-and-effect relationship. See also [after](#after) and [if](#if).
 
    **Correct**
 
