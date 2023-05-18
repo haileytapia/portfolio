@@ -82,14 +82,14 @@ Your subscriptions display in a list with the following details:
 |Next Payment   | The next due date for the monthly subscription. If the subscription has been canceled, **N/A** displays.        |
 |Type   | The listing type, which is only **Subscription** in this case.        |
 |Installed   |The number of times the listing has been installed in your company's instance.        |
-|Status   |The status of the subscription, which is e **Active**, **Canceled**, **Expiring on _Date_**, or **Payment required**.        |
+|Status   |The status of the subscription, which is either **Active**, **Canceled**, **Expiring on _Date_**, or **Payment required**.        |
 
 To the right of each subscription in the list is an <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uWCa" width="17"> action menu. When you select this menu, the following options appear:
 
 | Option      | Description |
 | ----------- | ----------- |
 | View listing      | Opens the listing Details page.       |
-| Manage listing   | Allows you to manage the subscription on Stripe or cancel the subscription.        |
+| Manage listing   | Opens a menu with the options to manage the subscription on Stripe or cancel the subscription.        |
 | View transactions   | Opens a page containing the transaction history for the subscription.        |
 | Cancel subscription   | Opens the same modal that displays when you [cancel a subscription](Manage-Subscriptions-to-Domo-Listings.html#cancel-a-subscription) from the listing Details page.        |
 
