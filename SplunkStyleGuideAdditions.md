@@ -13,14 +13,14 @@ May 17, 2023 ∙ [Splunk Style Guide](https://docs.splunk.com/Documentation/Styl
 {:  .about }
 > As a Technical Writer Intern at Splunk, I created and revised various pieces of content for the _Splunk Style Guide_, the writing style reference for Splunk documentation and products.
 
-This document contains the sections of the _Splunk Style Guide_ to which I contributed:
+This document contains the sections of the _Splunk Style Guide_ (_SG_) to which I contributed:
 
 - TOC
 {:toc}
 
 ## Numbers
 
-This section contains guidelines for using numbers in Splunk documentation.
+This section of the _SG_ contains guidelines for using numbers in Splunk documentation.
 
 ### [When to use numerals]()
 
@@ -28,7 +28,7 @@ This section contains guidelines for using numbers in Splunk documentation.
 
 ## UI text guidelines
 
-This section contains guidelines for writing user interface (UI) text at Splunk.
+This section of the _SG_ contains guidelines for writing user interface (UI) text at Splunk.
 
 See below for the content I developed and reformatted on terminal punctuation in UI text.
 
@@ -57,7 +57,7 @@ See the following examples of correct and incorrect punctuation:
 
 ## Usage dictionary
 
-This section outlines terms to use and avoid in Splunk documentation.
+This section of the _SG_ outlines terms to use and avoid in Splunk documentation.
 
 See below for my three entries in the dictionary.
 
