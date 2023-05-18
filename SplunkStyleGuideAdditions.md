@@ -98,3 +98,9 @@ See below for my three entries in the dictionary.
 > After a signal crosses the static threshold, an alert is triggered.
 > 
 > If a signal crosses the static threshold, an alert is triggered.
+
+---
+
+[Back to top](#top)
+
+Thanks for visiting my portfolio! Don't hesitate to get in touch if you have any questions or feedback.
