@@ -86,12 +86,12 @@ Your subscriptions display in a list with the following details:
 
 To the right of each subscription in the list is an <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uWCa" width="17"> action menu. When you select this menu, the following options appear:
 
-| Option      | Description |
+| Option      | Selecting this option to open... |
 | ----------- | ----------- |
-| View listing      | Opens the listing Details page.       |
-| Manage listing   | Opens a menu with the options to manage the subscription on Stripe or cancel the subscription.        |
-| View transactions   | Opens a page containing the transaction history for the subscription.        |
-| Cancel subscription   | Opens the same modal that displays when you [cancel a subscription](Manage-Subscriptions-to-Domo-Listings.html#cancel-a-subscription) from the listing Details page.        |
+| View listing      | The listing Details page.       |
+| Manage listing   | A menu with options to manage the subscription on Stripe or cancel the subscription.        |
+| View transactions   | A page containing the transaction history for the subscription.        |
+| Cancel subscription   | The same modal that displays when you [cancel a subscription](Manage-Subscriptions-to-Domo-Listings.html#cancel-a-subscription) from the listing Details page.        |
 
 ## Cancel a subscription
 
