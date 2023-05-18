@@ -13,7 +13,7 @@ May 17, 2023 ∙ [Splunk Style Guide](https://docs.splunk.com/Documentation/Styl
 {:  .about }
 > As a Technical Writer Intern at Splunk, I created and revised various pieces of content for the _Splunk Style Guide_, the writing style reference for Splunk documentation and products.
 
-This document contains the sections of the _Splunk Style Guide_ to which I contributed content, as well as the content itself:
+This document contains the sections of the _Splunk Style Guide_ to which I contributed:
 
 - TOC
 {:toc}
