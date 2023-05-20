@@ -39,12 +39,14 @@ In addition to my technical writing skills, I have experience with the following
 
 ### Markup and styling languages
 
-- Markdown
 - HTML/CSS
+- Markdown
+- MediaWiki
 - XML
 
 ### Tools and technologies
 
+- Adobe Suite
 - Asana
 - Confluence
 - HubSpot
