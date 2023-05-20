@@ -84,3 +84,9 @@ Review the following table for examples of correctly using numerals and spelling
 | Follow these steps to move an app from one instance to another. | Follow these steps to move an app from 1 instance to another. |
 | There are two kinds of field extractions. | There are 2 kinds of field extractions. |
 | 1-, 2-, or 3-hour alerting intervals | One-, two-, or three-hour alerting intervals |
+
+---
+
+[Back to top](#top)
+
+Thanks for visiting my portfolio! Don't hesitate to get in touch if you have any questions or feedback.
