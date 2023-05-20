@@ -12,7 +12,8 @@ nav_order: 3
 May 18, 2023 ∙ [Usage Dictionary](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary)
 {: .fs-5 : .fw-300 }
 
-Below are my three entries in the Usage dictionary, which outlines terms to use and avoid in Splunk documentation.
+{: .about }
+> Below are my three entries in the Usage dictionary, which outlines terms to use and avoid in Splunk documentation.
 
 ## after
 
