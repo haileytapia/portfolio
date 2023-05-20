@@ -14,9 +14,6 @@ May 18, 2023 ∙ [Usage Dictionary](https://docs.splunk.com/Documentation/StyleG
 
 Below are my three entries in the Usage dictionary, which outlines terms to use and avoid in Splunk documentation.
 
-- TOC
-{:toc}
-
 ## after
 
 > Use to denote a chronological sequence of events that doesn't rely on cause and effect. Don't use to mean "when". See also [when](#when).
