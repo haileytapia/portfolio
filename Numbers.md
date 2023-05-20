@@ -2,6 +2,7 @@
 layout: default
 title: Numbers
 parent: Contributions to the Splunk Style Guide
+nav_order: 1
 ---
 
 # Numbers
