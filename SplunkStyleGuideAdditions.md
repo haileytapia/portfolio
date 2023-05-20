@@ -38,182 +38,182 @@ Review the following table for examples of when to use numerals in text:
                 <strong>Example</strong>
             </td>
             <td style="background-color:rgb(204, 204, 255) !important;border-bottom:1px solid rgb(204, 204, 255);border-top:1px solid rgb(204, 204, 255);padding:8px;vertical-align:top;">
-                <strong>For more information</strong>
+                <strong>For more information</strong> &nbsp;
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Counts
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 2 forwarders, 3 unique values
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 &nbsp;
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Dates
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 April 22, 2019
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
-                See <a href="http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Dates">Dates</a>.
+            <td>
+                See Dates.
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Decimals
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 3.14
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
-                See <a href="http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Decimals">Commas and decimals</a>.
+            <td>
+                See Commas and decimals.
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Dimensions
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 1280 x 1024
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 &nbsp;
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Distance
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 4 feet
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 &nbsp;
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Duration of time
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 2 minutes
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
-                See <a href="http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Time">Time</a>.
+            <td>
+                See Time.
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Fractions
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 1/4
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
-                See <a href="http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Fractions">Fractions</a>.
+            <td>
+                See Fractions.
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Measurements
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 8 CPU, 1,045 MB
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
-                See <a href="http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Measurements">Measurements</a>.
+            <td>
+                See Measurements.
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Numerical user input
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
-                In the <strong>Number</strong> field, enter <strong>5</strong>.
+            <td>
+                In the <strong>Number </strong>field, enter <strong>5</strong>.
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 &nbsp;
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Percentages
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 25%
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 &nbsp;
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Phone numbers
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 +1-888-555-1212
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
-                See <a href="http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Phonenumbers">Phone numbers</a>.
+            <td>
+                See Phone numbers.
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Pixels
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 450 px, 1920 x 1080 pixels
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 &nbsp;
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Ranges
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 50 to 60 GB
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
-                See <a href="http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Ranges">Ranges</a>.
+            <td>
+                See Ranges.
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Time of day
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 2:30 PM to 5 PM
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
-                See <a href="http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Time">Time</a>.
+            <td>
+                See Time.
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Versions
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Splunk Enterprise 7.x
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
-                See <a href="http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Versions">Versions</a>.
+            <td>
+                See Versions.
             </td>
         </tr>
         <tr>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 Weight
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 40 lbs
             </td>
-            <td style="border-bottom:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:8px;vertical-align:top;">
+            <td>
                 &nbsp;
             </td>
         </tr>
