@@ -18,9 +18,3 @@ The table of contents below contains the sections of the _Splunk Style Guide_ to
 
 - TOC
 {:toc}
-
----
-
-[Back to top](#top)
-
-Thanks for visiting my portfolio! Don't hesitate to get in touch if you have any questions or feedback.
