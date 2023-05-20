@@ -1,23 +1,19 @@
 ---
 layout: default
-title: Terminal Punctuation in UI Text
+title: Terminal Punctuation
 parent: Contributions to the Splunk Style Guide
 grand_parent: Software
 nav_order: 2
 ---
 
-# Terminal Punctuation in UI Text
+# Terminal Punctuation
 {: .no_toc }
 
 May 17, 2023 ∙ [UI Text Guidelines](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/UIGuidelines)
 {: .fs-5 : .fw-300 }
 
-I developed and reformatted the following content on terminal punctuation in user interface (UI) text at Splunk:
-
-- TOC
-{:toc}
-
-### Terminal punctuation
+{ .about }
+> I developed and reformatted the following content on terminal punctuation in user interface (UI) text at Splunk.
 
 Follow these best practices for terminal punctuation:
 
