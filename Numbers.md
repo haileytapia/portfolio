@@ -9,16 +9,17 @@ nav_order: 1
 # Numbers
 {: .no_toc }
 
-May 19, 2023 ∙ [Splunk Style Guide](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Howtouse)
+May 19, 2023 ∙ [Using Numbers in Text](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Examples_of_number_usage)
 {: .fs-5 : .fw-300 }
 
 {: .about }
 > During my internship, Splunk decided to phase out the tech industry practice of spelling out numbers under 10 and instead use numerals for most numbers, with a few exceptions. I wrote the following content for the company’s new guidance on numbers in documentation:
 
+
 - TOC
 {:toc}
 
-## [Using numerals](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Using_numerals)
+## Using numerals
 
 In general, use numerals for numbers in text, even for numbers less than 10. This includes numbers associated with counts, dates, decimals, fractions, measurements, percentages, ranges, time, versions, weight, and other data for comparison or analysis.
 
@@ -43,7 +44,7 @@ Review the following table for examples of when to use numerals in text:
 | Versions | Splunk Enterprise 7.x | See [Versions](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Versions). |
 | Weight | 40 lbs |   |
 
-### [Don't start a sentence with a numeral](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Don.27t_start_a_sentence_with_a_numeral)
+### Don't start a sentence with a numeral
 
 Avoid starting a sentence with a numeral. Instead, rewrite the sentence so the number comes later in the sentence or is prefaced by a modifier. If you can't rewrite the sentence, spell out the number at the beginning of the sentence.
 
@@ -54,7 +55,7 @@ Review the following table for examples of sentences that have been rewritten to
 | 4 peers are contained in this cluster. | This cluster contains 4 peers. |
 | 11 hosts have unusually high CPU usage. | Eleven hosts have unusually high CPU usage. |
 
-## [When to spell out numbers](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#When_to_spell_out_numbers)
+## When to spell out numbers
 
 Numbers sometimes provide context or additional information without being the focus of the sentence. In such cases, spell out the number to emphasize what the number is describing rather than the number's numerical value.
 
@@ -66,14 +67,14 @@ See the following examples:
 *   Twelfth line in the code
 *   Third-party software
 
-## [Hyphenating numbers](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Hyphenating_numbers)
+## Hyphenating numbers
 
 Hyphenate both numerals and spelled-out numbers when they are part of a compound adjective. See the following examples:
 
 *   Two-factor authentication
 *   128-bit number
 
-## [Examples of number usage](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Examples_of_number_usage)
+## Examples of number usage
 
 Review the following table for examples of correctly using numerals and spelling out numbers in text:
 
