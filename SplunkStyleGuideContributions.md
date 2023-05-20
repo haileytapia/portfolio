@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Additions to the Splunk Style Guide
+title: Contributions to the Splunk Style Guide
 parent: Software
 ---
 
-# Additions to the Splunk Style Guide
+# Contributions to the Splunk Style Guide
 {: .no_toc }
 
 May 17, 2023 ∙ [Splunk Style Guide](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Howtouse)
