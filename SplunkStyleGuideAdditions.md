@@ -47,7 +47,47 @@ Review the following table for examples of when to use numerals in text:
 | Versions | Splunk Enterprise 7.x | See [Versions](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Versions). |
 | Weight | 40 lbs |   |
 
-### [When to use words]()
+#### [Don't start a sentence with a numeral](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Don.27t_start_a_sentence_with_a_numeral)
+
+Avoid starting a sentence with a numeral. Instead, rewrite the sentence so the number comes later in the sentence or is prefaced by a modifier. If you can't rewrite the sentence, spell out the number at the beginning of the sentence.
+
+Review the following table for examples of sentences that have been rewritten to follow these guidelines:
+
+| Original sentence | Rewritten sentence |
+| --- | --- |
+| 4 peers are contained in this cluster. | This cluster contains 4 peers. |
+| 11 hosts have unusually high CPU usage. | Eleven hosts have unusually high CPU usage. |
+
+### [When to spell out numbers](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#When_to_spell_out_numbers)
+
+Numbers sometimes provide context or additional information without being the focus of the sentence. In such cases, spell out the number to emphasize what the number is describing rather than the number's numerical value.
+
+Spell out ordinal numbers in text.
+
+See the following examples:
+
+*   Four types of lookups
+*   Twelfth line in the code
+*   Third-party software
+
+### [Hyphenating numbers](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Hyphenating_numbers)
+
+Hyphenate both numerals and spelled-out numbers when they are part of a compound adjective. See the following examples:
+
+*   Two-factor authentication
+*   128-bit number
+
+### [Examples of number usage](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Examples_of_number_usage)
+
+Review the following table for examples of correctly using numerals and spelling out numbers in text:
+
+| Correct usage | Incorrect usage |
+| --- | --- |
+| Zero downtime | 0 downtime |
+| Default value of 0 | Default value of zero |
+| Follow these steps to move an app from one instance to another. | Follow these steps to move an app from 1 instance to another. |
+| There are two kinds of field extractions. | There are 2 kinds of field extractions. |
+| 1-, 2-, or 3-hour alerting intervals | One-, two-, or three-hour alerting intervals |
 
 ## UI text guidelines
 
