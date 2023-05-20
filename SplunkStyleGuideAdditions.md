@@ -20,7 +20,7 @@ This document contains the sections of the _Splunk Style Guide_ to which I contr
 
 ## Numbers
 
-This section contains guidelines for using numbers in text. During my internship, Splunk decided to phase out the tech industry practice of spelling out numbers under 10 and instead use numerals for most numbers, with a few exceptions. I informed the company's decision with research and, in collaboration with three technical editors, wrote the following content for the company's new guidance on numbers in documentation:
+During my internship, Splunk decided to phase out the tech industry practice of spelling out numbers under 10 and instead use numerals for most numbers, with a few exceptions. I informed the company's decision with research and, in collaboration with three technical editors, wrote the following content for the company's new guidance on using numbers in documentation:
 
 ### [Using numerals](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Using_numerals)
 
