@@ -51,9 +51,7 @@ Review the following table for examples of when to use numerals in text:
 
 ## UI text guidelines
 
-This section contains guidelines for writing user interface (UI) text at Splunk.
-
-See below for the content I developed and reformatted on terminal punctuation in UI text.
+The following content, which I developed and reformatted, provides guidelines for writing user interface (UI) text at Splunk:
 
 ### [Terminal punctuation](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/UIGuidelines#Terminal_punctuation)
 
@@ -80,9 +78,7 @@ See the following examples of correct and incorrect punctuation:
 
 ## Usage dictionary
 
-This section outlines terms to use and avoid in Splunk documentation.
-
-See below for my three entries in the dictionary.
+Below are my three entries in the Usage dictionary, which outlines terms to use and avoid in Splunk documentation.
 
 ### [after](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#A)
 
