@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Contributions to the Splunk Style Guide
-has_children: true
 parent: Software
+has_children: true
 ---
 
 # Contributions to the Splunk Style Guide
