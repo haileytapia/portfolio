@@ -39,3 +39,9 @@ See the following examples of correct and incorrect punctuation:
 | The search processed 100,000 events. This process took less than a minute. | The search processed 100,000 events, this process took less than a minute. |
 | What is the average query response time? | What is the average query response time |
 | The update includes enhanced security features. | The update includes enhanced security features! |
+
+---
+
+[Back to top](#top)
+
+Thanks for visiting my portfolio! Don't hesitate to get in touch if you have any questions or feedback.
