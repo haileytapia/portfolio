@@ -20,7 +20,7 @@ This document contains the sections of the _Splunk Style Guide_ to which I contr
 
 ## Numbers
 
-During my internship, Splunk decided to phase out the tech industry practice of spelling out numbers under 10 and instead use numerals for most numbers, with a few exceptions. I informed the company's decision with research and, in collaboration with three technical editors, wrote the following content for the company's new guidance on using numbers in documentation:
+During my internship, Splunk decided to phase out the tech industry practice of spelling out numbers under 10 and instead use numerals for most numbers, with a few exceptions. I wrote the following content for the company's new guidance on using numbers in documentation:
 
 ### [Using numerals](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Using_numerals)
 
@@ -28,198 +28,24 @@ In general, use numerals for numbers in text, even for numbers less than 10. Thi
 
 Review the following table for examples of when to use numerals in text:
 
-<table>
-    <tbody>
-        <tr>
-            <td style="background-color:rgb(204, 204, 255) !important;border-bottom:1px solid rgb(204, 204, 255);border-top:1px solid rgb(204, 204, 255);padding:8px;vertical-align:top;">
-                <strong>Use numerals for</strong>
-            </td>
-            <td style="background-color:rgb(204, 204, 255) !important;border-bottom:1px solid rgb(204, 204, 255);border-top:1px solid rgb(204, 204, 255);padding:8px;vertical-align:top;">
-                <strong>Example</strong>
-            </td>
-            <td style="background-color:rgb(204, 204, 255) !important;border-bottom:1px solid rgb(204, 204, 255);border-top:1px solid rgb(204, 204, 255);padding:8px;vertical-align:top;">
-                <strong>For more information</strong> &nbsp;
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Counts
-            </td>
-            <td>
-                2 forwarders, 3 unique values
-            </td>
-            <td>
-                &nbsp;
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Dates
-            </td>
-            <td>
-                April 22, 2019
-            </td>
-            <td>
-                See Dates.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Decimals
-            </td>
-            <td>
-                3.14
-            </td>
-            <td>
-                See Commas and decimals.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Dimensions
-            </td>
-            <td>
-                1280 x 1024
-            </td>
-            <td>
-                &nbsp;
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Distance
-            </td>
-            <td>
-                4 feet
-            </td>
-            <td>
-                &nbsp;
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Duration of time
-            </td>
-            <td>
-                2 minutes
-            </td>
-            <td>
-                See Time.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Fractions
-            </td>
-            <td>
-                1/4
-            </td>
-            <td>
-                See Fractions.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Measurements
-            </td>
-            <td>
-                8 CPU, 1,045 MB
-            </td>
-            <td>
-                See Measurements.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Numerical user input
-            </td>
-            <td>
-                In the <strong>Number </strong>field, enter <strong>5</strong>.
-            </td>
-            <td>
-                &nbsp;
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Percentages
-            </td>
-            <td>
-                25%
-            </td>
-            <td>
-                &nbsp;
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Phone numbers
-            </td>
-            <td>
-                +1-888-555-1212
-            </td>
-            <td>
-                See Phone numbers.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Pixels
-            </td>
-            <td>
-                450 px, 1920 x 1080 pixels
-            </td>
-            <td>
-                &nbsp;
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Ranges
-            </td>
-            <td>
-                50 to 60 GB
-            </td>
-            <td>
-                See Ranges.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Time of day
-            </td>
-            <td>
-                2:30 PM to 5 PM
-            </td>
-            <td>
-                See Time.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Versions
-            </td>
-            <td>
-                Splunk Enterprise 7.x
-            </td>
-            <td>
-                See Versions.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Weight
-            </td>
-            <td>
-                40 lbs
-            </td>
-            <td>
-                &nbsp;
-            </td>
-        </tr>
-    </tbody>
-</table>
-
+| Use numerals for  | Example | For more information |
+| --- | --- | --- |
+| Counts | 2 forwarders, 3 unique values |   |
+| Dates | April 22, 2019 | See [Dates](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Dates). |
+| Decimals | 3.14 | See [Commas and decimals](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Decimals). |
+| Dimensions | 1280 x 1024 |   |
+| Distance | 4 feet |   |
+| Duration of time | 2 minutes | See [Time](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Time). |
+| Fractions | 1/4 | See [Fractions](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Fractions). |
+| Measurements | 8 CPU, 1,045 MB | See [Measurements](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Measurements). |
+| Numerical user input | In the **Number** field, enter **5**. |   |
+| Percentages | 25% |   |
+| Phone numbers | +1-888-555-1212 | See [Phone numbers](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Phonenumbers). |
+| Pixels | 450 px, 1920 x 1080 pixels |   |
+| Ranges | 50 to 60 GB | See [Ranges](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Ranges). |
+| Time of day | 2:30 PM to 5 PM | See [Time](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Time). |
+| Versions | Splunk Enterprise 7.x | See [Versions](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Versions). |
+| Weight | 40 lbs |   |
 
 ### [When to use words]()
 
