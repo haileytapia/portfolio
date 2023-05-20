@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Usage Dictionary
+title: Usage Dictionary Entries
 parent: Contributions to the Splunk Style Guide
 grand_parent: Software
 nav_order: 3
 ---
 
-# Usage Dictionary
+# Usage Dictionary Entries
 {: .no_toc }
 
-May 18, 2023 ∙ [Splunk Style Guide](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Howtouse)
+May 18, 2023 ∙ [Usage Dictionary](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary)
 {: .fs-5 : .fw-300 }
 
 Below are my three entries in the Usage dictionary, which outlines terms to use and avoid in Splunk documentation.
