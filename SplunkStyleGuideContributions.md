@@ -14,81 +14,11 @@ May 2023 ∙ [Splunk Style Guide](https://docs.splunk.com/Documentation/StyleGui
 {:  .about }
 > As a Technical Writer Intern at Splunk, I created and revised various pieces of content for the _Splunk Style Guide_, the writing style reference for Splunk documentation and products.
 
-The table of contents below contains the sections of the _Splunk Style Guide_ to which I contributed. Select a link to open the section in a new page:
+The table of contents below contains the sections of the _Splunk Style Guide_ to which I contributed. Select a link to open the section in a new page.
 
 - TOC
 {:toc}
 
-## Numbers
-
-During my internship, Splunk decided to phase out the tech industry practice of spelling out numbers under 10 and instead use numerals for most numbers, with a few exceptions. I wrote the following content for the company's new guidance on numbers in documentation:
-
-### [Using numerals](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Using_numerals)
-
-In general, use numerals for numbers in text, even for numbers less than 10. This includes numbers associated with counts, dates, decimals, fractions, measurements, percentages, ranges, time, versions, weight, and other data for comparison or analysis.
-
-Review the following table for examples of when to use numerals in text:
-
-| Use numerals for  | Example | For more information |
-| --- | --- | --- |
-| Counts | 2 forwarders, 3 unique values |   |
-| Dates | April 22, 2019 | See [Dates](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Dates). |
-| Decimals | 3.14 | See [Commas and decimals](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Decimals). |
-| Dimensions | 1280 x 1024 |   |
-| Distance | 4 feet |   |
-| Duration of time | 2 minutes | See [Time](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Time). |
-| Fractions | 1/4 | See [Fractions](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Fractions). |
-| Measurements | 8 CPU, 1,045 MB | See [Measurements](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Measurements). |
-| Numerical user input | In the **Number** field, enter **5**. |   |
-| Percentages | 25% |   |
-| Phone numbers | +1-888-555-1212 | See [Phone numbers](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Phonenumbers). |
-| Pixels | 450 px, 1920 x 1080 pixels |   |
-| Ranges | 50 to 60 GB | See [Ranges](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Ranges). |
-| Time of day | 2:30 PM to 5 PM | See [Time](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Time). |
-| Versions | Splunk Enterprise 7.x | See [Versions](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Versions). |
-| Weight | 40 lbs |   |
-
-#### [Don't start a sentence with a numeral](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Don.27t_start_a_sentence_with_a_numeral)
-
-Avoid starting a sentence with a numeral. Instead, rewrite the sentence so the number comes later in the sentence or is prefaced by a modifier. If you can't rewrite the sentence, spell out the number at the beginning of the sentence.
-
-Review the following table for examples of sentences that have been rewritten to follow these guidelines:
-
-| Original sentence | Rewritten sentence |
-| --- | --- |
-| 4 peers are contained in this cluster. | This cluster contains 4 peers. |
-| 11 hosts have unusually high CPU usage. | Eleven hosts have unusually high CPU usage. |
-
-### [When to spell out numbers](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#When_to_spell_out_numbers)
-
-Numbers sometimes provide context or additional information without being the focus of the sentence. In such cases, spell out the number to emphasize what the number is describing rather than the number's numerical value.
-
-Spell out ordinal numbers in text.
-
-See the following examples:
-
-*   Four types of lookups
-*   Twelfth line in the code
-*   Third-party software
-
-### [Hyphenating numbers](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Hyphenating_numbers)
-
-Hyphenate both numerals and spelled-out numbers when they are part of a compound adjective. See the following examples:
-
-*   Two-factor authentication
-*   128-bit number
-
-### [Examples of number usage](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Examples_of_number_usage)
-
-Review the following table for examples of correctly using numerals and spelling out numbers in text:
-
-| Correct usage | Incorrect usage |
-| --- | --- |
-| Zero downtime | 0 downtime |
-| Default value of 0 | Default value of zero |
-| Follow these steps to move an app from one instance to another. | Follow these steps to move an app from 1 instance to another. |
-| There are two kinds of field extractions. | There are 2 kinds of field extractions. |
-| 1-, 2-, or 3-hour alerting intervals | One-, two-, or three-hour alerting intervals |
 
 ## UI text guidelines
 
