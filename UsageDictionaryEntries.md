@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Usage Dictionary
-parent: Contributions to the Splunk Style Guide
+parent: Splunk
 grand_parent: Documentation Standards
 nav_order: 3
 ---
