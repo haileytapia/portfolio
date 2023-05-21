@@ -15,7 +15,7 @@ May 19, 2023 ∙ [Using Numbers in Text](https://docs.splunk.com/Documentation/S
 {: .about }
 > During my internship, Splunk changed its documentation style to use numerals instead of words for most numbers. I wrote the following guidance for the new style.
 
-Navigate to a section of this page using the following table of contents:
+To navigate to a section of this page, select one of the following links:
 
 - TOC
 {:toc}
