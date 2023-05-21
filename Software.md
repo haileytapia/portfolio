@@ -9,4 +9,4 @@ has_children: true
 This section contains content I have created to help end users navigate and understand complex products, software, and systems.
 {: .fs-6 : .fw-300 }
 
-See below for samples of this documentation.
+Use the table of contents below to access samples of my software documentation.
