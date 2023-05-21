@@ -13,7 +13,7 @@ May 17, 2023 ∙ [UI Text Guidelines](https://docs.splunk.com/Documentation/Styl
 {: .fs-5 : .fw-300 }
 
 {: .about }
-> I developed and reformatted these guidelines for terminal punctuation in user interface (UI) text at Splunk.
+> I developed and reformatted the following guidelines for terminal punctuation in user interface (UI) text at Splunk.
 
 Follow these best practices for terminal punctuation:
 
