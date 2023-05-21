@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Contributions to the Splunk Style Guide
+title: Splunk
 parent: Documentation Standards
 has_children: true
 ---
 
-# Contributions to the Splunk Style Guide
+# Splunk
 {: .no_toc }
 
 I created the following content to help guide the writing of Splunk documentation and products.
