@@ -6,7 +6,8 @@ has_children: true
 ---
 
 # Software
-I created the following content to help end users navigate and understand complex products, software, and systems.
+
+This section contains content I've created to help end users navigate and understand complex products, software, and systems.
 {: .fs-6 : .fw-300 }
 
 To view a sample of my software documentation, select an item from the table of contents below.
