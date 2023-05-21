@@ -14,8 +14,8 @@ My technical writing skills, developed through past internships and personal pro
 
 Use the navigation menu to explore my portfolio, which currently includes the following sections:
 
-- [Documentation Standards](/portfolio/DocumentationStandards)
 - [Software](/portfolio/Software)
+- [Style](/portfolio/Style)
 
 The menu is expanded to the left of this text on desktop computers and displays as a <img src="https://github.com/haileytapia/portfolio/assets/78626762/d3f823ac-7ddd-40da-88e5-2ca5b7f4f22b" width="20"> hamburger menu on mobile devices.
 
