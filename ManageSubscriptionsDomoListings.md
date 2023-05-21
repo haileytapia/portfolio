@@ -13,7 +13,7 @@ Apr 19, 2023 ∙ Knowledge Base Article
 {:  .about }
 >As a Technical Writer Intern at Domo, I created this article about managing subscriptions to listings on their BI platform, which provides data integration, visualization, and analysis tools.
 
-Some Appstore listings require a monthly payment. After you make the initial payment for a subscription listing, anyone in your company's Domo instance can use and install the listing. Payments are processed through Stripe, and you have the flexibility to cancel subscriptions at any time.
+Some Appstore listings require a monthly payment. After you make the initial payment for a subscription listing, anyone in your company's Domo instance can install and use the listing. Payments are processed through Stripe, and you have the flexibility to cancel subscriptions at any time.
 
 This article describes how to create and manage subscriptions to listings in the following topics:
 
