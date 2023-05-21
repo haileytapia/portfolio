@@ -2,7 +2,7 @@
 layout: default
 title: Terminal Punctuation
 parent: Contributions to the Splunk Style Guide
-grand_parent: Style Guides
+grand_parent: Doc Standards
 nav_order: 2
 ---
 
