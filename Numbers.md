@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Numbers
-parent: Contributions to the Splunk Style Guide
+parent: Splunk
 grand_parent: Documentation Standards
 nav_order: 1
 ---
