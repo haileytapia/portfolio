@@ -29,6 +29,7 @@ This article describes how to create and manage subscriptions to listings in the
 
     The **Search Apps** page opens.  
 3.  Under the **Price** Quick Filter, select the **Monthly** checkbox. There are additional Quick Filters to sort the listings by component, category, publisher name, and data source.  
+
     All listings that require a monthly payment and match any other Quick Filters display.  
       
     ![Monthly payment listings](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uc0D)  
