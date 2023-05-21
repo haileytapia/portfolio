@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Documentation Standards
+title: Style Guides
 nav_order: 2
 has_children: true
 ---
 
-# Documentation Standards
+# Style Guides
 
 I created the following content to provide consistent and effective guidelines for technical writing.
 {: .fs-6 : .fw-300 }
