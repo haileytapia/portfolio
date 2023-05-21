@@ -3,6 +3,7 @@ layout: default
 title: Style
 nav_order: 3
 has_children: true
+has_toc: false
 ---
 
 # Style
