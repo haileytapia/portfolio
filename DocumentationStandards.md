@@ -10,4 +10,4 @@ has_children: true
 I created the following content to provide consistent and effective guidelines for technical writing.
 {: .fs-6 : .fw-300 }
 
-See the table of contents below for my writing samples related to documentation standards.
+Select an item from the table of contents below to access the documentation sample.
