@@ -12,4 +12,5 @@ I created the following content to provide consistent and effective guidelines f
 
 To view a sample of my style documentation, select an item from the table of contents below.
 
-TOC {:toc}
+- TOC
+{:toc}
