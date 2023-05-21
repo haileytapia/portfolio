@@ -13,7 +13,7 @@ May 19, 2023 ∙ [Using Numbers in Text](https://docs.splunk.com/Documentation/S
 {: .fs-5 : .fw-300 }
 
 {: .about }
-> During my internship, Splunk phased out the tech industry practice of spelling out numbers under 10 in favor of numerals. I wrote the following guidance for the new documentation style.
+> During my internship, Splunk phased out the tech industry practice of spelling out numbers under 10 in favor of numerals. I wrote the following guidance for the company's new documentation style.
 
 Navigate to a section of this page using the following table of contents:
 
