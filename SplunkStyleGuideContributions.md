@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contributions to the Splunk Style Guide
-parent: Doc Standards
+parent: Documentation Standards
 has_children: true
 ---
 
