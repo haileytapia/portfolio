@@ -10,4 +10,4 @@ has_children: true
 I created the following content to provide consistent and effective guidelines for technical writing.
 {: .fs-6 : .fw-300 }
 
-The table of contents below contains documentation standards I've created for the following companies:
+The table of contents below contains my writing samples related to documentation standards.
