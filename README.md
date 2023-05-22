@@ -11,7 +11,7 @@ This portfolio of my technical writing is built using the Just the Docs Jekyll t
 
 ## About
 
-I am a student at the University of Central Florida pursuing a B.A. in English: Technical Communication. Having completed three internships as a technical writer, I have experience creating high-quality documentation for various technical products and writing in a clear, concise, and user-friendly manner.
+I am a student at the University of Central Florida pursuing a B.A. in English: Technical Communication. Having completed three internships as a Technical Writer, I have experience creating high-quality documentation for various technical products and writing in a clear, concise, and user-friendly manner.
 
 ## Projects
 
