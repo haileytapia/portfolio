@@ -10,10 +10,9 @@ parent: Software
 Mar 7, 2023 ∙ How-To Guide
 {: .fs-5 : .fw-300 }
 
-Use the calendar and scheduling component of [Outlook on the web](https://outlook.live.com/owa/) to automatically create multiple instances of the same event, known as a recurring event. Recurring events are useful for events that occur on a regular basis, such as weekly meetings or monthly check-ins.
+A recurring event is an event that occurs on a regular basis, such as a weekly meeting or monthly check-in. You can use the calendar and scheduling component of [Outlook on the web](https://outlook.live.com/owa/) to create recurring events.
 
 To schedule a recurring event in Outlook on the web, follow these steps:
-
 
 1.  From the navigation menu, select <img src="https://github.com/haileytapia/portfolio/assets/78626762/408b742a-1cde-49a1-a5a1-1f5b2786905f" width="15"> **Calendar**.
 
