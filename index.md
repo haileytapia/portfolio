@@ -23,7 +23,7 @@ The menu is expanded to the left of this text on desktop computers and displays 
 
 I am pursuing a B.A. in English: Technical Communication at the University of Central Florida. Just as documentation revolves around the audience, so does my approach to writing and design—something I'm confident this portfolio reflects!
 
-I have interned as a technical writer for:
+I have interned as a Technical Writer for:
 
 - Splunk
 - Domo
