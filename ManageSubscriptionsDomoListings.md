@@ -97,7 +97,7 @@ To the right of each subscription in the list is an <img src="https://domo-suppo
 ## Cancel a subscription
 
 {:  .important }
->There is no way to restore an app whose subscription has been canceled. Do not proceed unless you want to permanently remove an app from your company's instance.
+>There is no way to restore a listing whose subscription has been canceled. Do not proceed unless you want to permanently remove a listing from your company's instance.
 
 1.  Select **Appstore** from the navigation header.
      
