@@ -7,7 +7,7 @@ parent: Software
 # Manage Subscriptions to Domo Listings
 {: .no_toc }
 
-Apr 19, 2023 ∙ Knowledge Base Article
+Apr 19, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005183?language=en_US)
 {: .fs-5 : .fw-300 }
 
 {:  .about }
