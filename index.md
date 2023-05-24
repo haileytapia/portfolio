@@ -28,7 +28,7 @@ I am pursuing a B.A. in English: Technical Communication at the University of Ce
 - LSC Communications
 
 {:  .note }
-> Most of the content in this portfolio is public-facing documentation I created as an intern.
+> Most of the content in this portfolio is public-facing documentation I created as a Technical Writer Intern.
 
 During my internships, I wrote a variety of technical documents—including knowledge base articles, standard operating procedures, and use cases—and collaborated with subject matter experts to ensure accurate and timely documentation. These experiences allowed me to hone my technical writing and communication skills in a hands-on environment.
 
