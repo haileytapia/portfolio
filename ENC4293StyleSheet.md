@@ -250,7 +250,7 @@ Every image must have a dark gray border, be 1pt thick, and be centered on your 
 2.  Select the image, then select ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/e051cd4f0bf45186a549e546b5d947e868557d6801b0f916.png) **Border color** from the menu at the top.
 3.  Choose **Dark gray 1**.
 4.  Select the image again, then select ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/d288e18c19521e16e2df7e9e0665cb90e5df2ec6ec0b4738.png) **Border weight**.
-5.  Choose **1pt**.![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/3d617de35ef26d06190e55697451ceced56c89ceb1102928.png)
+5.  Choose **1pt**.
 6.  Select ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/3d617de35ef26d06190e55697451ceced56c89ceb1102928.png) **Center align** from the menu at the top to center the image on the page.
 
 ### Captions
@@ -290,10 +290,15 @@ To create a table with these formatting properties, follow these steps:
 
 For example, a 2x3 table with a centered heading is formatted as shown below.
 
-<table><tbody><tr><td colspan="2"><strong>Sample Table</strong></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table>
+<table><tbody><tr><td colspan="2"><strong>Sample Table</strong></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table>
 
 ### Note and Example Boxes
 
 Note boxes draw attention to important information, while example boxes illustrate points. Use both to enhance the reader's understanding of the content.
 
 You can follow the steps in the [Table Formatting](https://docs.google.com/document/d/15q64Ki6b-51MB_ZH6b07z3myC_IUEK3btADp_hx1O3o/edit#bookmark=id.2jjb12qx6u5a) section above—but create a 1x1 table, not a custom one—or copy and paste the preformatted box below.
+
+<table><tbody><tr><td><strong>Note/Example: </strong>Use this for a note or example box.</td></tr></tbody></table>
+
+---
+
