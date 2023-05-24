@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Schedule a Recurring Event in Outlook on the Web
+title: Save Time With Recurring Events in Outlook on the Web
 parent: Software
 ---
 
-# Schedule a Recurring Event in Outlook on the Web
+# Save Time With Recurring Events in Outlook on the Web
 {: .no_toc }
 
 Mar 7, 2023 ∙ How-To Guide
