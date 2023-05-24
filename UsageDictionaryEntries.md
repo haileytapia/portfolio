@@ -9,7 +9,7 @@ nav_order: 3
 # Usage Dictionary
 {: .no_toc }
 
-May 18, 2023 ∙ [Usage Dictionary](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary)
+May 18, 2023 ∙ [Usage Dictionary](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary) in Splunk Style Guide
 {: .fs-5 : .fw-300 }
 
 {: .about }
