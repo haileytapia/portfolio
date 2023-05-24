@@ -34,7 +34,7 @@ During my internships, I wrote a variety of technical documents—including know
 
 For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
 
-## Skills
+## My skills
 
 In addition to technical writing, I have experience in the following areas:
 
