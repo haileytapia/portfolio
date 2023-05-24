@@ -21,7 +21,7 @@ The menu is expanded to the left of this text on desktop computers and displays 
 
 ## About me
 
-I am pursuing a B.A. in English: Technical Communication at the University of Central Florida. While learning the principles of technical communication in my undergraduate courses, I interned as a Technical Writer at the following companies:
+I am pursuing a B.A. in English: Technical Communication at the University of Central Florida and have interned as a Technical Writer at the following companies:
 
 - Splunk
 - Domo
@@ -30,7 +30,7 @@ I am pursuing a B.A. in English: Technical Communication at the University of Ce
 {:  .note }
 > Most of the content in this portfolio is public-facing documentation I created during these internships.
 
-During my internships, I wrote a variety of technical documents—including knowledge base articles, standard operating procedures, and use cases—and collaborated with subject matter experts to ensure the accuracy and timeliness of my documentation. These experiences allowed me to hone my technical writing and communication skills in a hands-on environment.
+I have written a variety of technical documents, including knowledge base articles, standard operating procedures, and use cases, and collaborated with subject matter experts to ensure accurate and timely documentation. These internships allowed me to hone my technical writing and communication skills in a hands-on environment.
 
 For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
 
