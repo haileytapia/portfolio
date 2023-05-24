@@ -21,17 +21,20 @@ The menu is expanded to the left of this text on desktop computers and displays 
 
 ## About me
 
-I am pursuing a B.A. in English: Technical Communication at the University of Central Florida. Just as documentation revolves around the audience, so does my approach to writing and design—something I'm confident this portfolio reflects!
-
-I have interned as a Technical Writer for:
+I am pursuing a B.A. in English: Technical Communication at the University of Central Florida. While learning the principles of technical writing in my undergraduate courses, I interned as a technical writer at the following companies:
 
 - Splunk
 - Domo
 - LSC Communications
 
-See my [LinkedIn](https://www.linkedin.com/in/haileytapia/) for more of my professional experience, including technical support, an editorial internship, and technical writing for a military training manual.
+{ .note }
+> Most of the content in this portfolio is public-facing documentation I created during these internships.
 
-In addition to my technical writing skills, I have experience with the following:
+During my internships, I wrote a variety of technical documents, including knowledge base articles, user guides, standard operating procedures, and use cases. I also collaborated with engineers, developers, and other subject matter experts to gather information and ensure that my documents were accurate and timely. These opportunities allowed me to apply my knowledge in a real-world setting and hone my skills in creating effective documentation.
+
+For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
+
+In addition to technical writing, I have experience in the following areas:
 
 ### Programming languages
 
