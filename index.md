@@ -19,7 +19,7 @@ Use the navigation menu to explore my portfolio, which currently includes the fo
 
 The menu is expanded to the left of this text on desktop computers and displays as a <img src="https://github.com/haileytapia/portfolio/assets/78626762/d3f823ac-7ddd-40da-88e5-2ca5b7f4f22b" width="20"> hamburger menu on mobile devices.
 
-## About me
+## Education and experience
 
 I am pursuing a B.A. in English: Technical Communication at the University of Central Florida and have interned as a Technical Writer at the following companies:
 
