@@ -72,7 +72,7 @@ To view a list with details about each of your subscriptions, follow these steps
       
     ![Add Filter GIF](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uXZf)
 
-Your subscriptions display in a list with the details shown in the following table:
+Your subscriptions display in a list with the following details:
 
 ![Subscription list](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uc08)
 
