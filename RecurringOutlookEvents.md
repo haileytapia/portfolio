@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Automate Your Meetings With Recurring Events in Outlook
+title: Streamline Scheduling With Recurring Events in Outlook
 parent: Software
 ---
 
-# Automate Your Meetings With Recurring Events in Outlook
+# Streamline Scheduling With Recurring Events in Outlook
 {: .no_toc }
 
 Mar 7, 2023 ∙ How-To Guide
