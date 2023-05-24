@@ -34,7 +34,7 @@ I have written a variety of technical documents, including knowledge base articl
 
 For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
 
-## My skills
+## Skills
 
 In addition to technical writing, I have experience in the following areas:
 
