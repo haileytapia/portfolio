@@ -13,6 +13,11 @@ Feb 17, 2023 ∙ [Style Sheet](https://docs.google.com/document/d/15q64Ki6b-51MB
 {: .about }
 > As a Technical Editor for ENC4293 (Documentation and Project Management) at UCF, I created the following guidelines for students to follow when writing their final project chapters.
 
+To navigate this page, select one of the following links:
+
+- TOC
+{:toc}
+
 ## Managing and Collaborating on Documents Using Google Docs
 
 Google Docs is a cloud-based service that allows for easy access and collaboration from anywhere with an internet connection. Use Google Docs to manage and collaborate on style guide related tasks.
