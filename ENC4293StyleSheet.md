@@ -28,13 +28,13 @@ Google Docs is a cloud-based service that allows for easy access and collaborati
 
 Use the following format to name individual assignments: _Last Name_ - _Assignment Name_
 
-<table style=";"><tbody><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;"><strong>Example:&nbsp;</strong>Smith - Research Discussion</td></tr></tbody></table>
+<table><tbody><tr><td><strong>Example:</strong>&nbsp;Smith - Research Discussion</td></tr></tbody></table>
 
 #### Group Assignments
 
 Use the following format to name group assignments: _Group Number_ \- _Assignment Name_
 
-<table style=";"><tbody><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;"><strong>Example:&nbsp;</strong>Group 4 - Style Sheet</td></tr></tbody></table>
+<table><tbody><tr><td><strong>Example:</strong>&nbsp;Group 4 - Style Sheet</td></tr></tbody></table>
 
 ### Sharing Documents
 
@@ -77,7 +77,7 @@ Use the following built-in text styles for chapter titles, subsections, and body
 *   **Heading 4** for any further subheadings, if necessary.
 *   **Normal text** for body text.
 
-<table style=";"><tbody><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;"><strong>Note:&nbsp;</strong>Heading sizes are nested; a heading 2 should only be used under a heading 1, a heading 3 should only be used under a heading 2, and so on.</td></tr></tbody></table>
+<table><tbody><tr><td><strong>Note:</strong>&nbsp;Heading sizes are nested; a heading 2 should only be used under a heading 1, a heading 3 should only be used under a heading 2, and so on.</td></tr></tbody></table>
 
 ## Chapter Formatting and Writing
 
@@ -91,7 +91,7 @@ Begin each chapter with an introduction that includes the following:
 
 Do not use “Introduction” or any other text as a heading. Simply introduce the section beneath the chapter title. For a sample chapter introduction, see below.
 
-<table style=";"><tbody><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;"><h2>Chapter Title</h2><p>This is a sample introduction to a team’s chapter. The topic of this chapter means so and so. It is an integral part of technical communication because it helps audiences achieve great things.</p><p>&nbsp;</p><p>This chapter covers X, Y, and Z.</p></td></tr></tbody></table>
+<table><tbody><tr><td><h2><strong>Chapter Title</strong></h2><p>This is a sample introduction to a team’s chapter. The topic of this chapter means so and so. It is an integral part of technical communication because it helps audiences achieve great things.</p><p>&nbsp;</p><p>This chapter covers X, Y, and Z.</p></td></tr></tbody></table>
 
 ### Conclusion
 
@@ -121,7 +121,7 @@ Use 1.15 spacing throughout the document.
 
 To separate body paragraphs, press the **Enter** key twice on your keyboard to add a blank line between them. See below for an example.
 
-<table style=";"><tbody><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;"><p>This is sample text for a body paragraph in the style guide. I want to separate this paragraph from the paragraph that follows. To do this, I will press the&nbsp;<strong>Enter&nbsp;</strong>key twice instead of using any of the spacing options in Google Docs.</p><p>&nbsp;</p><p>This is the paragraph I have separated.</p></td></tr></tbody></table>
+<table><tbody><tr><td><p>This is sample text for a body paragraph in the style guide. I want to separate this paragraph from the paragraph that follows. To do this, I will press the&nbsp;<strong>Enter&nbsp;</strong>key twice instead of using any of the spacing options in Google Docs.</p><p>&nbsp;</p><p>This is the paragraph I have separated.</p></td></tr></tbody></table>
 
 For bulleted and numbered lists, add a space after each item except the last by following these steps:
 
@@ -164,19 +164,19 @@ Use page breaks to separate chapters in your document. To insert a page break in
 
 Use title case for all headings and subheadings. This means capitalizing the first word and all other words except articles, prepositions, and conjunctions that are three letters or less. For more information, see [Grammar and Punctuation](https://docs.google.com/document/d/15q64Ki6b-51MB_ZH6b07z3myC_IUEK3btADp_hx1O3o/edit#heading=h.s2kl7pz3jjf7).
 
-<table style=";"><tbody><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;"><p><strong>Examples:</strong>&nbsp; A Style Guide for Technical Communicators</p><p>How to Apply Documentation Layout Principles</p></td></tr></tbody></table>
+<table><tbody><tr><td><p><strong>Examples:</strong>&nbsp;A Style Guide for Technical Communicators</p><p>How to Apply Documentation Layout Principles</p></td></tr></tbody></table>
 
 #### Verb Form
 
 Whenever possible, lead with the continuous (-ing) verb tense instead of other verb forms. Do not use the phrase "how to”; this can make the title seem less engaging or informative.
 
-<table><tbody><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;"><p><strong>Examples:</strong>&nbsp; Defining Accessibility in Technical Communication</p><p>Creating Visual Communication</p></td></tr></tbody></table>
+<table><tbody><tr><td><p><strong>Examples:</strong>&nbsp;Defining Accessibility in Technical Communication</p><p>Creating Visual Communication</p></td></tr></tbody></table>
 
 ### Text Alignment
 
 There are four types of text alignment in Google Docs, as shown in the following table:
 
-<table style=";"><tbody><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;vertical-align:top;"><strong>Left</strong></td><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;vertical-align:top;"><strong>Right</strong></td><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;vertical-align:top;"><strong>Center</strong></td><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;vertical-align:top;"><strong>Justified</strong></td></tr><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;vertical-align:top;"><p>This is left-aligned text.</p><p>&nbsp;</p><p>This alignment aligns text to the left&nbsp; margin.</p></td><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;vertical-align:top;"><p>This is right-aligned text.</p><p>&nbsp;</p><p>This alignment aligns text to the right margin.</p></td><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;vertical-align:top;"><p>This text is centered.</p><p>&nbsp;</p><p>This alignment aligns text to the center of the page.</p></td><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;vertical-align:top;">This text is justified. This alignment adds space between words so that both edges of each line align with both margins.</td></tr><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;vertical-align:top;">Use for headings, subheadings, and body text.</td><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;vertical-align:top;">Use for headers.</td><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;vertical-align:top;">Use for images, tables and table headings, figures, and captions.</td><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;vertical-align:top;">Do not use.</td></tr></tbody></table>
+<table><tbody><tr><td><strong>Alignment Type</strong></td><td><strong>Description</strong></td><td><strong>Example</strong></td><td><strong>When to Use</strong></td></tr><tr><td>Left</td><td>This alignment aligns text to the left margin.</td><td>This is left-aligned text.</td><td>Use for headings, subheadings, and body text.</td></tr><tr><td>Right</td><td>This alignment aligns text to the right margin.</td><td>This is right-aligned text.</td><td>Use for headers.</td></tr><tr><td>Centered</td><td>This alignment aligns text to the center of the page.</td><td>This text is centered.</td><td>Use for images, tables and table headings, figures, and captions.</td></tr><tr><td>Justified</td><td>This alignment adds space between words so that both edges of each line align with both margins.</td><td>This text is justified.</td><td>Do not use.</td></tr></tbody></table>
 
 ### Colors
 
@@ -197,7 +197,7 @@ Use single quotes to quote either text that contains only a few words or quotati
 
 When using single quotes, enclose the text in single quotation marks (‘).
 
-<table style=";"><tbody><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;"><p><strong>Examples:</strong>&nbsp; ‘text’</p><p>Dr. Campbell said, “A student asked me, ‘Why is technical communication important?’ I had many answers.”</p></td></tr></tbody></table>
+<table><tbody><tr><td><p><strong>Examples:</strong>&nbsp;‘text’</p><p>Dr. Campbell said, “A student asked me, ‘Why is technical communication important?’ I had many answers.”</p></td></tr></tbody></table>
 
 #### Double Quotes
 
@@ -205,7 +205,7 @@ Use double quotes for direct quotations. For more information, see [Grammar and
 
 When using double quotes, enclose the text in double quotation marks (“).
 
-<table style=";"><tbody><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;"><strong>Example:&nbsp;</strong>According to Dr. Campbell, "Technical communication is important."&nbsp;</td></tr></tbody></table>
+<table><tbody><tr><td><strong>Example:</strong>&nbsp;According to Dr. Campbell, "Technical communication is important."&nbsp;</td></tr></tbody></table>
 
 #### Block Quotes
 
@@ -247,11 +247,11 @@ When using numbered lists, follow a logical sequence and avoid using more than t
 Every image must have a dark gray border, be 1pt thick, and be centered on your document’s page. To format an image in this way, follow these steps:
 
 1.  Insert an image into the document.
-2.  Select the image, then select          **Border color** from the menu at the top.![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/e051cd4f0bf45186a549e546b5d947e868557d6801b0f916.png)
-3.  Choose **Dark gray 1**.![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/d288e18c19521e16e2df7e9e0665cb90e5df2ec6ec0b4738.png)
-4.  Select the image again, then select          **Border weight**.
+2.  Select the image, then select ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/e051cd4f0bf45186a549e546b5d947e868557d6801b0f916.png) **Border color** from the menu at the top.
+3.  Choose **Dark gray 1**.
+4.  Select the image again, then select ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/d288e18c19521e16e2df7e9e0665cb90e5df2ec6ec0b4738.png) **Border weight**.
 5.  Choose **1pt**.![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/3d617de35ef26d06190e55697451ceced56c89ceb1102928.png)
-6.  Select       **Center align** from the menu at the top to center the image on the page.
+6.  Select ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/3d617de35ef26d06190e55697451ceced56c89ceb1102928.png) **Center align** from the menu at the top to center the image on the page.
 
 ### Captions
 
@@ -263,7 +263,7 @@ Use hyperlinks to direct users to external resources, such as websites. Ensure l
 
 Underline hyperlink text and color it blue. Do not underline non-hyperlinked text.
 
-<table style=";"><tbody><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;"><strong>Example:&nbsp;</strong>To learn more about formatting text in instructions, see&nbsp;<a href="https://learn.microsoft.com/en-us/style-guide/procedures-instructions/formatting-text-in-instructions">this article from Microsoft</a>.</td></tr></tbody></table>
+<table><tbody><tr><td><strong>Example:</strong>&nbsp;To learn more about formatting text in instructions, see&nbsp;<a href="https://learn.microsoft.com/en-us/style-guide/procedures-instructions/formatting-text-in-instructions">this article from Microsoft</a>.&nbsp;</td></tr></tbody></table>
 
 To insert a link, follow these steps:
 
@@ -290,12 +290,10 @@ To create a table with these formatting properties, follow these steps:
 
 For example, a 2x3 table with a centered heading is formatted as shown below.
 
-<table style=";"><tbody><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;" colspan="2"><strong>Sample Table</strong></td></tr><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;">&nbsp;</td><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;">&nbsp;</td></tr><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;">&nbsp;</td><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;">&nbsp;</td></tr><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;">&nbsp;</td><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;">&nbsp;</td></tr></tbody></table>
+<table><tbody><tr><td colspan="2"><strong>Sample Table</strong></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table>
 
 ### Note and Example Boxes
 
 Note boxes draw attention to important information, while example boxes illustrate points. Use both to enhance the reader's understanding of the content.
 
 You can follow the steps in the [Table Formatting](https://docs.google.com/document/d/15q64Ki6b-51MB_ZH6b07z3myC_IUEK3btADp_hx1O3o/edit#bookmark=id.2jjb12qx6u5a) section above—but create a 1x1 table, not a custom one—or copy and paste the preformatted box below.
-
-<table style=";"><tbody><tr><td style="background-color:#f3f3f3;border:0.5pt solid #b7b7b7;padding:7.2pt;"><strong>Note/Example:&nbsp;</strong>This is a note or example box.</td></tr></tbody></table>
