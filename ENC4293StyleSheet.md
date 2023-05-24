@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ENC4293 Style Sheet
+title: Spring 2023 ENC4293 Style Sheet
 parent: Style
 ---
 
