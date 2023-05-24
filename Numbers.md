@@ -9,7 +9,7 @@ nav_order: 1
 # Numbers
 {: .no_toc }
 
-May 19, 2023 ∙ [Using Numbers in Text](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Examples_of_number_usage)
+May 19, 2023 ∙ [Using Numbers in Text](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Examples_of_number_usage) in Splunk Style Guide
 {: .fs-5 : .fw-300 }
 
 {: .about }
