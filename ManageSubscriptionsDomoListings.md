@@ -53,7 +53,7 @@ If the payment is successful, you are redirected to the **Creating App** modal i
 
 <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ucUS" alt="GIF" width="400">
   
-After Domo creates your listing, your newly subscribed listing opens in a new page.
+After Domo creates your listing, it opens in a new page.
 
 ## View your subscriptions
 
