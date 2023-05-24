@@ -27,7 +27,7 @@ I am pursuing a B.A. in English: Technical Communication at the University of Ce
 - Domo
 - LSC Communications
 
-{ .note }
+{:  .note }
 > Most of the content in this portfolio is public-facing documentation I created during these internships.
 
 During my internships, I wrote a variety of technical documents, including knowledge base articles, user guides, standard operating procedures, and use cases. I also collaborated with engineers, developers, and other subject matter experts to gather information and ensure that my documents were accurate and timely. These opportunities allowed me to apply my technical communication knowledge in a real-world setting and sharpen my documentation skills.
