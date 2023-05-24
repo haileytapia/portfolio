@@ -302,3 +302,6 @@ You can follow the steps in the [Table Formatting](https://docs.google.com/docu
 
 ---
 
+[Back to top](#top)
+
+Thanks for visiting my portfolio! Don't hesitate to get in touch if you have any questions or feedback.
