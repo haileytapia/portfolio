@@ -30,7 +30,7 @@ I am pursuing a B.A. in English: Technical Communication at the University of Ce
 {:  .note }
 > Most of the content in this portfolio is public-facing documentation I created during these internships.
 
-During my internships, I wrote a variety of technical documents, including knowledge base articles, user guides, standard operating procedures, and use cases. I also collaborated with engineers, developers, and other subject matter experts to gather information and ensure that my documents were accurate and timely. These opportunities allowed me to apply my technical communication knowledge in a real-world setting and sharpen my documentation skills.
+During my internships, I wrote a variety of technical documents—including knowledge base articles, user guides, standard operating procedures, and use cases—and collaborated with subject matter experts to ensure the accuracy and timeliness of my documentation. These experiences allowed me to hone my technical writing and communication skills in a hands-on environment.
 
 For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
 
