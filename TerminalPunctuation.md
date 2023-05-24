@@ -9,7 +9,7 @@ nav_order: 2
 # Terminal Punctuation
 {: .no_toc }
 
-May 17, 2023 ∙ [UI Text Guidelines](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/UIGuidelines#Terminal_punctuation) in Splunk Style Guide
+May 17, 2023 ∙ [UI Text Guidelines](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/UIGuidelines#Terminal_punctuation)
 {: .fs-5 : .fw-300 }
 
 {: .about }
