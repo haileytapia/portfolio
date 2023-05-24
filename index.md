@@ -21,7 +21,7 @@ The menu is expanded to the left of this text on desktop computers and displays 
 
 ## About me
 
-I am pursuing a B.A. in English: Technical Communication at the University of Central Florida. While learning the principles of technical writing in my undergraduate courses, I interned as a technical writer at the following companies:
+I am pursuing a B.A. in English: Technical Communication at the University of Central Florida. While learning the principles of technical communication in my undergraduate courses, I interned as a Technical Writer at the following companies:
 
 - Splunk
 - Domo
