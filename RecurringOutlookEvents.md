@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Create Recurring Events in Outlook on the Web
+title: Create a Recurring Event in Outlook on the Web
 parent: Software
 ---
 
