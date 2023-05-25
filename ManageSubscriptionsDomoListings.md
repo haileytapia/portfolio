@@ -10,7 +10,7 @@ parent: Software
 Apr 19, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005183?language=en_US)
 {: .fs-5 : .fw-300 }
 
-{:  .toc }
+{:  .note }
 > - TOC
 > {:toc} 
 
