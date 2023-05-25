@@ -10,7 +10,7 @@ parent: Software
 Mar 7, 2023 ∙ How-To Guide
 {: .fs-5 : .fw-300 }
 
-Recurring events are events that occur on a regular basis, such as daily stand-ups or weekly one-on-one meetings. You can use the calendar and scheduling component of [Outlook on the web](https://outlook.live.com/owa/) to create recurring events.
+Recurring events are events that occur on a regular basis, such as daily standups or weekly one-on-one meetings. You can use the calendar and scheduling component of [Outlook on the web](https://outlook.live.com/owa/) to create recurring events.
 
 ## Create a recurring event
 
