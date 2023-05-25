@@ -11,7 +11,7 @@ Feb 17, 2023 ∙ [Style Sheet](https://docs.google.com/document/d/15q64Ki6b-51MB
 {: .fs-5 : .fw-300 }
 
 {: .about }
-> As a Technical Editor for ENC4293 (Documentation and Project Management) at UCF, I created the following guidelines for students to follow when writing their final project chapters.
+> As a Technical Editor for ENC4293: Documentation and Project Management at UCF, I created the following guidelines for students to use when writing their final project chapters.
 
 To navigate this page, select one of the following links:
 
