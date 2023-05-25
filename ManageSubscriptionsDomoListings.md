@@ -11,8 +11,7 @@ Apr 19, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005
 {: .fs-5 : .fw-300 }
 
 {:  .note }
-> - TOC
-{:toc}
+> - TOC {:toc}
 
 {:  .about }
 > During my internship at Domo, I created this article about managing subscriptions to listings on their BI platform, which provides data integration, visualization, and analysis tools.
