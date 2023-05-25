@@ -27,7 +27,7 @@ I am pursuing a B.A. in English: Technical Communication at the University of Ce
 - Domo
 - LSC Communications
 
-During my internships, I wrote a variety of technical documents—including knowledge base articles, standard operating procedures, and scenarios—and collaborated with subject matter experts to ensure accurate and timely documentation. These experiences allowed me to hone my technical writing and communication skills in a hands-on environment.
+During my internships, I wrote a variety of technical documents—including knowledge base articles, standard operating procedures, and user guides—and collaborated with subject matter experts to ensure accurate and timely documentation. These experiences allowed me to hone my technical writing and communication skills in a hands-on environment.
 
 For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
 
