@@ -16,8 +16,6 @@ Apr 19, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005
 ## Table of contents
 {: .no_toc }
 
-This article describes how to:
-
 - TOC
 {:toc}
 
