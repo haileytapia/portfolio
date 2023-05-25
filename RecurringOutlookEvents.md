@@ -14,6 +14,8 @@ Recurring events are events that occur on a regular basis, such as weekly meetin
 
 ## Create a recurring event
 
+To create a recurring event in Outlook on the web:
+
 1.  From the navigation menu, select <img src="https://github.com/haileytapia/portfolio/assets/78626762/408b742a-1cde-49a1-a5a1-1f5b2786905f" width="15"> **Calendar**.
 
     ![Calendar](https://github.com/haileytapia/portfolio/assets/78626762/8fa65fea-68fe-4ae4-b1a2-e627f0eb9308)
