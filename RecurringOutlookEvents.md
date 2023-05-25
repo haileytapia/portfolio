@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Automate Event Scheduling With Recurring Events in Outlook
+title: Automate Event Scheduling With Recurring Events in Outlook on the Web
 parent: Software
 ---
 
-# Automate Event Scheduling With Recurring Events in Outlook
+# Automate Event Scheduling With Recurring Events in Outlook on the Web
 {: .no_toc }
 
 Mar 7, 2023 ∙ How-To Guide
