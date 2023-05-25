@@ -13,7 +13,7 @@ May 18, 2023 ∙ [Usage Dictionary](https://docs.splunk.com/Documentation/StyleG
 {: .fs-5 : .fw-300 }
 
 {: .about }
-> Below are my three entries in the Usage Dictionary, which outlines terms to use and avoid in Splunk documentation.
+> I created the following three entries for the Usage Dictionary, which outlines terms to use and avoid in Splunk documentation.
 
 ## after
 
