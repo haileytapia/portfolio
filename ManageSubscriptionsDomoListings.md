@@ -10,11 +10,14 @@ parent: Software
 Apr 19, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005183?language=en_US)
 {: .fs-5 : .fw-300 }
 
+{:  .note }
+> - TOC
+> {:toc} 
+
 {:  .about }
 > During my internship at Domo, I created this article about managing subscriptions to listings on their BI platform, which provides data integration, visualization, and analysis tools.
 
 Some Appstore listings require a monthly subscription. After you make the first subscription payment, anyone in your company's Domo instance can install and use the listing. You can also cancel your subscription at any time.
-
 
 This article describes how to:
 
