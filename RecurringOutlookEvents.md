@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Automate Event Scheduling With Recurring Events in Outlook
+title: Create Recurring Events in Outlook on the Web
 parent: Software
 ---
 
