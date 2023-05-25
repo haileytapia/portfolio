@@ -32,7 +32,7 @@ Recurring events are events that occur on a regular basis, such as daily stand-u
     The **Repeat** modal appears. 
 
     ![Repeat modal](https://github.com/haileytapia/portfolio/assets/78626762/cadff286-4f88-41cf-99f7-eb3091c343c7)
-5.  In the **Start** field, enter the date on which the event should begin. You can also select <img src="https://github.com/haileytapia/portfolio/assets/78626762/579ddbbd-4013-4fed-a903-9037233c0a36" width="20"> to choose the date from a calendar.
+5.  In the **Start** field, enter the date on which the event should begin.
 
 6.  (Conditional) In the following table, follow the steps for the event frequency you selected in [step four](#step-four):
 
@@ -41,11 +41,7 @@ Recurring events are events that occur on a regular basis, such as daily stand-u
 7.  Choose the end date for the event, then select **Save**.  
 
     Outlook saves the recurrence settings and returns you to the **New event** modal.
-8.  (Optional) Turn on the **Teams meeting** toggle to add a virtual meeting to the event.  
-      
-    ![Teams meeting](https://github.com/haileytapia/portfolio/assets/78626762/0abfd0ca-844c-451e-946f-89810bc99181)
-
-9. When you are ready to create your event, select **Save** (if you have not added attendees) or **Send** (if you have added attendees).
+8. When you are ready to create your event, select **Save** (if you have not added attendees) or **Send** (if you have added attendees).
 
    ![Save](https://github.com/haileytapia/portfolio/assets/78626762/d6df9be4-cb95-4c28-a642-7c584d4d9ab2)
 
