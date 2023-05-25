@@ -14,3 +14,11 @@ This guide describes how to:
 
 - TOC
 {:toc}
+
+## Create a repository
+
+## Configure GitHub Pages for your repository
+
+## View your website
+
+## Customize your website
