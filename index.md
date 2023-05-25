@@ -19,7 +19,7 @@ Use the navigation menu to explore my portfolio, which currently includes the fo
 
 The menu is expanded to the left of this text on desktop computers and displays as a <img src="https://github.com/haileytapia/portfolio/assets/78626762/d3f823ac-7ddd-40da-88e5-2ca5b7f4f22b" width="20"> hamburger menu on mobile devices.
 
-## Education and experience
+## Education and Experience
 
 I am pursuing a B.A. in English: Technical Communication at the University of Central Florida and have interned as a Technical Writer at the following companies:
 
@@ -38,19 +38,19 @@ For a complete overview of my professional background, see [my LinkedIn profile]
 
 In addition to technical writing, I have experience in the following areas:
 
-### Programming languages
+### Programming Languages
 
 - C
 - Java
 
-### Markup and styling languages
+### Markup and Styling Languages
 
 - HTML/CSS
 - Markdown
 - MediaWiki
 - XML
 
-### Tools and technologies
+### Tools and Technologies
 
 - Adobe Suite
 - Asana
