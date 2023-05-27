@@ -1,32 +1,21 @@
 ---
 layout: default
-title: Terminal Punctuation in UI Text
+title: Terminal Punctuation Examples
 parent: Splunk Style Guide
 grand_parent: Style
 nav_order: 2
 ---
 
-# Terminal Punctuation in UI Text
+# Terminal Punctuation Examples
 {: .no_toc }
 
 May 17, 2023 ∙ [UI Text Guidelines](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/UIGuidelines#Terminal_punctuation)
 {: .fs-5 : .fw-300 }
 
 {: .about }
-> I created the following guidelines for terminal punctuation in user interface (UI) text at Splunk.
+> I created the following examples of terminal punctuation in user interface (UI) text at Splunk.
 
 ## Terminal punctuation
-
-Follow these best practices for terminal punctuation:
-
-*   Use a period at the end of complete sentences.
-*   When writing single, short, descriptive phrases that are not complete sentences, don't use a period at the end.
-*   If a UI element requires more than one phrase of description, write them as sentences and use a period or other appropriate punctuation to distinguish them from one another and to enhance readability.
-*   If a word or phrase is meant to be read as a question, use a question mark.
-*   Don't use exclamation marks.
-*   If a single view, page, or dialog box contains descriptive text that uses both full sentences and fragments, try rewriting the full sentences into fragments. If it isn't possible to rewrite the full sentences into fragments, use terminal punctuation for all of the text for consistency.
-
-For more punctuation guidelines, see [Punctuation and symbols](http://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Showingsymbolsintext).
 
 See the following examples of correct and incorrect punctuation:
 
