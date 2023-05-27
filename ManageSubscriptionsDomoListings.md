@@ -11,7 +11,7 @@ Apr 19, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005
 {: .fs-5 : .fw-300 }
 
 {:  .about }
-> The Domo Appstore offers user-created listings that extend the functionality of Domo, a business intelligence (BI) platform.
+> Domo is a business intelligence platform whose Appstore offers a wide range of listings to help users integrate, visualize, and analyze their data more efficiently.
 
 Some Appstore listings require a monthly subscription. After you make the first subscription payment, anyone in your company's Domo instance can install and use the listing. You can also cancel your subscription at any time.
 
