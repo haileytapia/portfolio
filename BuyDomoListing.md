@@ -6,7 +6,7 @@ parent: Software
 
 # Buy a Domo Listing
 
-Apr 26, 2023 ∙ By Hailey Tapia
+Apr 26, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005190?language=en_US)
 {: .fs-5 : .fw-300 }
 
 {:  .about }
