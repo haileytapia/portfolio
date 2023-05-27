@@ -10,9 +10,7 @@ Apr 26, 2023 ∙ By Hailey Tapia
 {: .fs-5 : .fw-300 }
 
 {:  .about }
-> As a technical writer intern at Domo, I wrote this article about purchasing one-time payment listings on their [BI platform](https://www.domo.com/business-intelligence), which provides data integration, visualization, and analysis tools.
-
-## Intro
+> Listings on the Domo Appstore extend the functionality of Domo, a business intelligence platform that provides tools for data integration, visualization, and analysis.
 
 In addition to free listings, the Appstore offers paid listings. Payments are processed through Stripe, and there are three types of paid listings:
 
