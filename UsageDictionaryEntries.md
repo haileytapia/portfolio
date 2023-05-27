@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Usage Dictionary
+title: Usage Dictionary Entries
 parent: Splunk Style Guide
 grand_parent: Style
 nav_order: 3
 ---
 
-# Usage Dictionary
+# Usage Dictionary Entries
 {: .no_toc }
 
 May 18, 2023 ∙ [Usage Dictionary](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary)
