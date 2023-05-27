@@ -27,8 +27,6 @@ I am pursuing a B.A. in English: Technical Communication at the University of Ce
 - Domo
 - LSC Communications
 
-During my internships, I collaborated with subject matter experts to ensure accurate and timely documentation, honing my technical communication skills in hands-on environments.
-
 For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
 
 ## Skills
