@@ -32,12 +32,14 @@ Follow these steps to buy a one-time payment listing:
 
     The **Search Apps** page opens.  
 3.  Under the **Price** Quick Filter, select the **One time payment** checkbox. There are additional Quick Filters to sort the listings by component, category, publisher name, and data source.  
+
     All listings that require a one-time payment and match any other Quick Filters display.  
                  
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128HG&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubpZ)  
      
 4.  Select a one-time payment listing to open its Details page.  
 5.  Review the listing details, then select **Buy Now**.  
+
     You are redirected to Stripe to complete the payment.  
       
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128HG&feoid=00N5w00000Ri7BU&refid=0EM5w000006ua0V)  
