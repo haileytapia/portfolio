@@ -49,7 +49,7 @@ This article describes how to:
       
     ![Subscribe](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubck)
 
-If the payment is successful, you are redirected to the **Creating App** modal in Domo. Select **Notify Me** to be notified when your listing is ready for use.  
+If the payment succeeds, you are redirected to the **Creating App** modal in Domo. Select **Notify Me** to be notified when your listing is ready for use.  
 
 <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ucUS" alt="GIF" width="400">
   
@@ -152,7 +152,7 @@ You are no longer subscribed to the listing, but you still have access to it unt
       
     <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubnT" width="300">
 
-If the renewal is successful, you return to the previous page showing your current subscriptions; your subscription no longer has the **Canceled** tag above it.
+If the renewal succeeds, you return to the previous page showing your current subscriptions; your subscription no longer has the **Canceled** tag above it.
 
 In Domo, the subscription status changes from **Expiring on** _**Date**_ to **Active** in the **Installed Apps** > **Appstore Purchases** section. For more details about your subscription, see the [View your subscriptions](ManageSubscriptionsDomoListings#view-your-subscriptions) section of this article.
 
