@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Terminal Punctuation
+title: Terminal Punctuation in UI Text
 parent: Splunk Style Guide
 grand_parent: Style
 nav_order: 2
 ---
 
-# Terminal Punctuation
+# Terminal Punctuation in UI Text
 {: .no_toc }
 
 May 17, 2023 ∙ [UI Text Guidelines](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/UIGuidelines#Terminal_punctuation)
