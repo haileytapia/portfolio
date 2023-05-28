@@ -12,7 +12,7 @@ Apr 26, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005
 {:  .about }
 > Listings on the Domo Appstore extend the functionality of Domo, a business intelligence platform that provides tools for data integration, visualization, and analysis.
 
-In addition to free listings, the Appstore offers three types of paid listings:
+In addition to free listings, the Appstore offers the following types of paid listings:
 
 *   **One-time payment:** A listing that you pay for once. See the [Buy a listing](#buy-a-listing) heading for instructions.
 *   **Monthly subscription:** A listing that you pay for every month. See [Manage Subscriptions to Domo Listings](/portfolio/ManageSubscriptionsDomoListings) for more information.
