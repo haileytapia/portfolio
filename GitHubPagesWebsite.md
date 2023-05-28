@@ -10,7 +10,7 @@ parent: Software
 May 24, 2023 ∙ How-To Guide
 {: .fs-5 : .fw-300 }
 
-GitHub Pages is a free service that lets you host a static website directly from a GitHub repository. A static website consists of static files, which do not change while your website is running, and does not change unless you make changes to the website's static files.
+GitHub Pages is a free service that lets you host a static website directly from a GitHub repository. A static website consists of static files, which do not change while your website is running; a static website changes only when you make changes to the files.
 
 This guide describes how to:
 
