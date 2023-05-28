@@ -34,8 +34,6 @@ To create a repository:
 2.  If you have more than one GitHub account, use the **Owner** dropdown menu to select the account you want to own the repository.
 3.  In the **Repository name** field, use the following format to name your repository: `<yourusername>.github.io`
     
-    ![Enter the formatted name in the **Repository name** field.](https://github.com/haileytapia/portfolio/assets/78626762/63facdda-dcf7-4915-a0b7-069088a8fcab)
-
 4.  Leave the repository as **Public** if you want your website to be accessible to anyone.  
     {:  .note }
     > Select **Private** if you want to restrict access to only selected individuals. This may require a paid GitHub subscription.
