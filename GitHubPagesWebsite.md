@@ -39,7 +39,7 @@ To create a repository:
 4.  Leave the repository as **Public** if you want your website to be accessible to anyone.  
     {:  .note }
     >Select **Private** if you want to restrict access to certain users. This may require a paid GitHub subscription.
-5.  Select **Initialize this repository with a README**.
+5.  Select **Add a README file**.
 6.  Select **Create repository**.
 
 ## Configure GitHub Pages for your repository
