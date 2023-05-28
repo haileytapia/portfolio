@@ -14,60 +14,13 @@ Apr 26, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005
 
 In addition to free listings, the Appstore offers the following types of paid listings:
 
-<table>
-    <tbody>
-        <tr>
-            <td>
-                Listing type
-            </td>
-            <td>
-                Description
-            </td>
-            <td>
-                For more information
-            </td>
-        </tr>
-        <tr>
-            <td>
-                One-time payment
-            </td>
-            <td>
-                A listing you pay for once.
-            </td>
-            <td>
-                See the Buy a listing heading in this article.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Monthly subscription
-            </td>
-            <td>
-                A listing you pay for every month.
-            </td>
-            <td>
-                See <a href="https://haileytapia.github.io/portfolio/ManageSubscriptionsDomoListings">Manage Subscriptions to Domo Listings</a>.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Quote
-            </td>
-            <td>
-                When you request a quote, Domo processes the request and contacts you for next steps.
-            </td>
-            <td>
-                &nbsp;
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-*   **One-time payment:** A listing you pay for once. See the [Buy a listing](#buy-a-listing) heading for instructions.
-*   **Monthly subscription:** A listing you pay for every month. See [Manage Subscriptions to Domo Listings](/portfolio/ManageSubscriptionsDomoListings) for more information.
-*   **Quote:** When you request a quote, Domo processes the request and contacts you for next steps.
+*   **A one-time payment:** This article describes how to buy a listing with a one-time payment.
+*   **A monthly subscription:** See [Manage Subscriptions to Domo Listings](/portfolio/ManageSubscriptionsDomoListings) for information.
+*   **A quote:** When you request a quote, Domo processes the request and contacts you for next steps.
 
 ## Buy a listing
+
+One-time payment listings are listings you pay for once.
 
 To buy a one-time payment listing:
 
