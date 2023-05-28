@@ -24,7 +24,8 @@ You need a GitHub account to create a repository. If you do not have a GitHub ac
 To create a repository:
 
 1.  In the upper-right corner of any GitHub page, select **+** > **New repository**.
-2.  Use the following format to name your repository: `<user>.github.io`
+    The **Create a new repository** page opens.
+2.  In the **Repository name** field, use the following format to name your repository: `<user>.github.io`
 3.  Leave the repository as **Public** if you want your website to be accessible to anyone.  
     {:  .note }
     > Select **Private** if you want to restrict access to only selected individuals. This may require a paid GitHub subscription.
