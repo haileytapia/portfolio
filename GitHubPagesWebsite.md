@@ -17,7 +17,7 @@ This guide describes how to:
 - TOC
 {:toc}
 
-## Create a repository
+## Create a GitHub repository
 
 ## Configure GitHub Pages for your repository
 
