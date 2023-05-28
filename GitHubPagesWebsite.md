@@ -26,7 +26,7 @@ To create a repository:
 1.  In the upper-right corner of any GitHub page, select **+** > **New repository**.
 2.  Use the following format to name your repository: `<user>.github.io`
 3.  Leave the repository as **Public** if you want your website to be accessible to anyone.  
-    {  .note }
+    {: .note }
     > Select **Private** if you want to restrict access to only selected individuals. This may require a paid GitHub subscription.
 4.  Select **Initialize this repository with a README**.
 5.  Select **Create repository**.
