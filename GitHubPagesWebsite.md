@@ -24,7 +24,8 @@ You need a GitHub account to create a repository. If you do not have a GitHub ac
 To create a repository:
 
 1.  In the upper-right corner of any GitHub page, select **+** > **New repository**.
-
+    
+    <img src="https://github.com/haileytapia/portfolio/assets/78626762/cf17357a-28e7-49c4-aae3-d2abc2ee2494" alt="GIF" width="400">
     ![Select **+**, then select **New repository**.](https://github.com/haileytapia/portfolio/assets/78626762/cf17357a-28e7-49c4-aae3-d2abc2ee2494)
 
     The **Create a new repository** page opens.
