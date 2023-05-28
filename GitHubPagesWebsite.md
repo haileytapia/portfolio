@@ -31,7 +31,7 @@ To create a repository:
 
     ![The **Create a new repository** page.](https://github.com/haileytapia/portfolio/assets/78626762/4126c2c4-f877-4ee6-8a26-10048eb4b853)
 
-2.  In the **Repository name** field, use the following format to name your repository: `<user>.github.io`
+2.  In the **Repository name** field, use the following format to name your repository: `<yourusername>.github.io`
 3.  Leave the repository as **Public** if you want your website to be accessible to anyone.  
     {:  .note }
     > Select **Private** if you want to restrict access to only selected individuals. This may require a paid GitHub subscription.
