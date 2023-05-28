@@ -28,6 +28,9 @@ To create a repository:
     <img src="https://github.com/haileytapia/portfolio/assets/78626762/cf17357a-28e7-49c4-aae3-d2abc2ee2494" alt="GIF" width="300">
     
     The **Create a new repository** page opens.
+
+    ![The **Create a new repository** page.](https://github.com/haileytapia/portfolio/assets/78626762/4126c2c4-f877-4ee6-8a26-10048eb4b853)
+
 2.  In the **Repository name** field, use the following format to name your repository: `<user>.github.io`
 3.  Leave the repository as **Public** if you want your website to be accessible to anyone.  
     {:  .note }
