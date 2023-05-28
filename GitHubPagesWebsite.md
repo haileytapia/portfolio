@@ -31,15 +31,16 @@ To create a repository:
 
     ![The **Create a new repository** page.](https://github.com/haileytapia/portfolio/assets/78626762/4126c2c4-f877-4ee6-8a26-10048eb4b853)
 
-2.  In the **Repository name** field, use the following format to name your repository: `<yourusername>.github.io`
+2.  If you have more than one GitHub account, use the **Owner** dropdown menu to select the account you want to own the repository.
+3.  In the **Repository name** field, use the following format to name your repository: `<yourusername>.github.io`
     
     ![Enter the formatted name in the **Repository name** field.](https://github.com/haileytapia/portfolio/assets/78626762/63facdda-dcf7-4915-a0b7-069088a8fcab)
 
-3.  Leave the repository as **Public** if you want your website to be accessible to anyone.  
+4.  Leave the repository as **Public** if you want your website to be accessible to anyone.  
     {:  .note }
     > Select **Private** if you want to restrict access to only selected individuals. This may require a paid GitHub subscription.
-4.  Select **Initialize this repository with a README**.
-5.  Select **Create repository**.
+5.  Select **Initialize this repository with a README**.
+6.  Select **Create repository**.
 
 ## Configure GitHub Pages for your repository
 
