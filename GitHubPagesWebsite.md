@@ -25,6 +25,8 @@ To create a repository:
 
 1.  In the upper-right corner of any GitHub page, select **+** > **New repository**.
 
+    ![+ New Repo](https://github.com/haileytapia/portfolio/assets/78626762/c10f1035-0d78-4d4d-8ce2-09fe3e29148a)
+
     <img src="https://github.com/haileytapia/portfolio/assets/78626762/83291e3d-8694-4c5c-a6fb-6f7ba37321dd" alt="GIF" width="300">
     
     The **Create a new repository** page opens.
