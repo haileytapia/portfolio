@@ -37,6 +37,7 @@ To create a repository:
     ![Use the format to name your repository.](https://github.com/haileytapia/portfolio/assets/78626762/ab070d64-c71d-4537-ba9e-0ac903f7a23c)
     
 4.  Leave the repository as **Public** if you want your website to be accessible to anyone.  
+
     {:  .note }
     >Select **Private** if you want to restrict access to certain users. This may require a paid GitHub subscription.
 5.  Select **Add a README file**.
