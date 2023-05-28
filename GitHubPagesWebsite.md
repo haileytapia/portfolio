@@ -19,7 +19,7 @@ This guide describes how to:
 
 ## Create a GitHub repository
 
-You need a GitHub account to create a repository on GitHub. If you do not have a GitHub account, create one for free at https://github.com.
+You need a GitHub account to create a repository. If you do not have a GitHub account, create one for free at [https://github.com](https://github.com).
 
 To create a repository:
 
