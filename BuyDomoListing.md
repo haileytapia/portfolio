@@ -20,8 +20,6 @@ In addition to free listings, the Appstore offers the following types of paid li
 
 ## Buy a listing
 
-One-time payment listings are listings you pay for once.
-
 To buy a one-time payment listing:
 
 1.  Select **Appstore** from the navigation header.
