@@ -22,6 +22,3 @@ callouts:
   about:
     title: About
     color: purple
-  toc:
-    title: Table of Contents
-    color: grey-dk
