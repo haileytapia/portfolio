@@ -32,7 +32,7 @@ To create a repository:
     ![The **Create a new repository** page.](https://github.com/haileytapia/portfolio/assets/78626762/4126c2c4-f877-4ee6-8a26-10048eb4b853)
 
 2.  If you have more than one GitHub account, use the **Owner** dropdown menu to select the account you want to own the repository.
-3.  In the **Repository name** field, use the following format to name your repository: `<yourusername>.github.io`
+3.  Use the following format to name your repository: `<yourusername>.github.io`
 
     ![Use the format to name your repository.](https://github.com/haileytapia/portfolio/assets/78626762/ab070d64-c71d-4537-ba9e-0ac903f7a23c)
     
