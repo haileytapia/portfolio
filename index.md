@@ -21,11 +21,12 @@ The menu is expanded to the left of this text on desktop computers and displays 
 
 ## About me
 
-I am pursuing a B.A. in English: Technical Communication at the University of Central Florida and have interned as a technical writer at the following companies:
+I am pursuing a B.A. in English: Technical Communication at the University of Central Florida and have worked as a technical writer at the following companies:
 
 - Splunk
 - Domo
 - LSC Communications
+- Clay Strategic Designs
 
 For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
 
