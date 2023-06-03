@@ -11,7 +11,7 @@ Apr 19, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005
 {: .fs-5 : .fw-300 }
 
 {:  .about }
-> Listings on the Domo Appstore extend the functionality of Domo, a business intelligence platform that provides tools for data integration, visualization, and analysis. 
+> Listings on the Domo Appstore extend the functionality of Domo, an ABI platform that provides tools for data integration, visualization, and analysis.
 
 Some Appstore listings require a monthly subscription. After you make the first subscription payment, anyone in your company's Domo instance can install and use the listing. You can also cancel your subscription at any time.
 
