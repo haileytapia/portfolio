@@ -10,7 +10,7 @@ Apr 26, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005
 {: .fs-5 : .fw-300 }
 
 {:  .about }
-> Listings on the Domo Appstore extend the functionality of Domo, a business intelligence platform that provides tools for data integration, visualization, and analysis.
+> Listings on the Domo Appstore extend the functionality of Domo, an ABI platform that provides tools for data integration, visualization, and analysis.
 
 In addition to free listings, the Appstore offers the following types of paid listings:
 
