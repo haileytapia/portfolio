@@ -39,12 +39,11 @@ In addition to technical writing, I have experience in the following areas:
 - C
 - Java
 
-### Markup and styling
+### Markup and styling languages
 
 - HTML/CSS
 - Markdown
 - MediaWiki
-- PHP
 - XML
 
 ### Tools and technologies
