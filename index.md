@@ -51,6 +51,7 @@ In addition to technical writing, I have experience in the following areas:
 - Adobe Suite
 - Asana
 - Confluence
+- Figma
 - HubSpot
 - Jira
 - Salesforce
