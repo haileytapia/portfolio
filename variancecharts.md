@@ -92,7 +92,7 @@ Some unique properties of variance charts are shown in the following table:
             </td>
             <td>
                 <figure class="image">
-                    <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w000001277K&amp;feoid=00N5w00000Ri7BU&amp;refid=0EM5w000006u8jU" alt="image.png">
+                    <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w000001277K&amp;feoid=00N5w00000Ri7BU&amp;refid=0EM5w000006u8jU" alt="Line Style">
                 </figure>
             </td>
         </tr>
@@ -104,7 +104,9 @@ Some unique properties of variance charts are shown in the following table:
                 Allows you to select the color displayed when the variance is positive.
             </td>
             <td>
-                ![Positive Color](https://github.com/haileytapia/portfolio/assets/78626762/87824250-8bfd-4f96-8090-b0f52297a10b)
+                <figure class="image">
+                    <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w000001277K&amp;feoid=00N5w00000Ri7BU&amp;refid=0EM5w000006u8jZ" alt="Positive Color">
+                </figure>
             </td>
         </tr>
         <tr>
