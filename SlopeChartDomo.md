@@ -23,7 +23,7 @@ The following image shows a typical slope chart:
 
 ## Power slope charts
 
-A slope chart requires a `date` field and a `value` field. You then select the start and end points from a variety of predefined options. The chart can also include other dimensions for multiple lines per dimension.
+To create a slope chart, specify a `date` field and a `value` field, then select the start and end points from a variety of predefined options. You can also include multiple lines per dimension in the slope chart.
 
 For information about value, category, and series data, see our article about [Understanding Chart Data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
 
