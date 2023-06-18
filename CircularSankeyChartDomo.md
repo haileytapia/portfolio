@@ -40,11 +40,11 @@ The following image emphasizes the chart's circular reference:
 
 To power a circular Sankey chart, specify each of the following:
 
-* **A `from` dimension:** The source of the flow.
-* **A `to` dimension:** The destination of the flow.
+* **A `Erom` dimension:** The source of the flow.
+* **A `To` dimension:** The destination of the flow.
 * **A value:** The size of the flow.
 
-For information about value, category, and series data, see our article about [Understanding Chart Data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
+For more information about value, category, and series data, see our article about [Understanding Chart Data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
 
 In Analyzer, you can choose the columns containing the data for your circular Sankey chart. For more information about choosing data columns, see our article about [Applying DataSet Columns to Your Chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
 
