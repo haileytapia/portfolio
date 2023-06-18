@@ -38,7 +38,7 @@ The following image emphasizes the chart's circular reference:
 
 ## Power circular Sankey charts
 
-A circular Sankey chart requires each of the following:
+To power a circular Sankey chart, specify each of the following:
 
 * **A `from` dimension:** The source of the flow.
 * **A `to` dimension:** The destination of the flow.
