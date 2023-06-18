@@ -25,7 +25,7 @@ The following charts show the same sales versus budget data for the last three y
 
 ## Power variance charts
 
-A variance chart requires a `Date` field and an `Actual` value. Although not required, a `Target` value is key to emphasizing the power of the chart. For information about value, category, and series data, see our article about [Understanding Chart Data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
+A variance chart requires a `Date` field and an `Actual` value. A `Target` value is optional, but it can highlight how much each value varies from the target. For information about value, category, and series data, see our article about [Understanding Chart Data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
 
 In Analyzer, you can choose the columns containing the data for your variance chart. For more information about choosing data columns, see our article about [Applying DataSet Columns to Your Chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
 
