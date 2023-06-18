@@ -32,3 +32,127 @@ The following image shows how data from a typical column-based spreadsheet is co
 ![Data converted from spreadsheet to variance chart.](https://github.com/haileytapia/portfolio/assets/78626762/62ef91ef-f7f1-44d4-8991-721566adbd5b)
 
 ## Customize variance charts
+
+You can customize the appearance of a variance chart in several ways, many of which are possible with the **Chart Properties** tool. For more information, see our [Chart Properties](https://domo-support.domo.com/s/article/360042925374?language=en_US) article.
+
+Some unique properties of variance charts are shown in the following table:
+
+<table>
+    <tbody>
+        <tr>
+            <td>
+                Property
+            </td>
+            <td>
+                Description
+            </td>
+            <td>
+                Example
+            </td>
+        </tr>
+        <tr>
+            <td>
+                General &gt; Value Format
+            </td>
+            <td>
+                Determines whether currency symbols are appended to values.
+            </td>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td>
+                General &gt; Value Decimal Places
+            </td>
+            <td>
+                Determines the number of decimal places in values.
+            </td>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td>
+                General &gt; Percent Value Decimal Places
+            </td>
+            <td>
+                Determines the number of decimal places in percent values.
+            </td>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td>
+                General &gt; Line Style
+            </td>
+            <td>
+                Allows you to select a default, straight, curved, or steeped line style between points. You can see which one looks best for your data.
+            </td>
+            <td>
+                ![Line Style](https://github.com/haileytapia/portfolio/assets/78626762/6ce7b656-d9f0-4fa5-b996-0c75f9e0e208)
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                General &gt; Positive Color
+            </td>
+            <td>
+                Allows you to select the color displayed when the variance is positive.
+            </td>
+            <td>
+                ![Positive Color](https://github.com/haileytapia/portfolio/assets/78626762/87824250-8bfd-4f96-8090-b0f52297a10b)
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                General &gt; Negative Color
+            </td>
+            <td>
+                Allows you to select the color displayed when the variance is negative.
+            </td>
+            <td>
+                ![Negative Color](https://github.com/haileytapia/portfolio/assets/78626762/fa943573-cc83-43d3-acf3-5c00a9f03efd)
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                General &gt; Show Absolute Difference
+            </td>
+            <td>
+                Displays the values as absolute differences relative to zero. This better visualizes the size or scope of the differences.
+            </td>
+            <td>
+                ![Show Absolute Difference](https://github.com/haileytapia/portfolio/assets/78626762/db4318ee-bed1-4847-b001-b8eacaf468f4)
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Actual Line
+            </td>
+            <td>
+                Allows you to set the type, color, and thickness of the actual line.
+            </td>
+            <td>
+                ![Actual Line](https://github.com/haileytapia/portfolio/assets/78626762/3c0f88a2-76e9-42bb-8a8e-94ebd4004fa4)
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Target Line
+            </td>
+            <td>
+                Allows you to set the value, label, type, color, and thickness of the target line.
+            </td>
+            <td>
+                ![Target Line](https://github.com/haileytapia/portfolio/assets/78626762/aaf2ae80-bbfa-4e3b-a5ba-3026afcbcef1)
+            </td>
+        </tr>
+    </tbody>
+</table>
