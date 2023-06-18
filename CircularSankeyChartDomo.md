@@ -15,9 +15,9 @@ Mar 22, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005
 {:  .about }
 > Charts in Domo, an ABI platform, are visual representations of data that help users understand and analyze information more easily.
 
-The Sankey chart—also known as the flow diagram—is used to illustrate flows, including flows of energy, materials, and web page paths. In addition to the flow of an item, the Sankey chart captures the relative size of the flow itself by changing the line width from node to node. For more information, see our [Sankey Chart](https://domo-support.domo.com/s/article/360043429273?language=en_US) article.
+A Sankey chart is a type of flow diagram that uses the width of its lines to represent the relative amounts of flow between different nodes. It is often used to visualize energy flows, material flows, or web page paths. For more information about Sankey charts, see our [Sankey Chart](https://domo-support.domo.com/s/article/360043429273?language=en_US) article.
 
-Sankey charts consist of nodes, or end points, and colored arrows or lines. The following image shows a typical Sankey chart:
+Sankey charts are made up of nodes, which are the endpoints of the flows, and colored arrows, which represent the flows themselves. The width of the arrows is proportional to the amount of flow. The following image shows a typical Sankey chart:
 
 ![Sankey chart](https://github.com/haileytapia/portfolio/assets/78626762/6f89c694-a97b-4aa0-b8c9-f3a4a05a911b)
 
