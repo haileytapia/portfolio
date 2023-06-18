@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Manage Subscriptions to Domo Listings
-parent: Software
+title: Manage Subscriptions to Listings
+parent: Domo
+grand_parent: Software
+nav_order: 2
 ---
 
-# Manage Subscriptions to Domo Listings
+# Manage Subscriptions to Listings
 {: .no_toc }
 
 Apr 19, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005183?language=en_US)
