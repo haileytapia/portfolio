@@ -19,6 +19,9 @@ Variance charts show the differences between two sets of data. This chart type i
 
 This article describes how to:
 
+- TOC
+{:toc}
+
 ## Understand variance charts
 
 The following two-line chart shows sales versus budget data for the last three years. Although the lines are colored differently to help distinguish between sales and budget, the chart does not highlight the differences between the data.
