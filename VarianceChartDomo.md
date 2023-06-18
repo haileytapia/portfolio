@@ -21,7 +21,7 @@ The following two-line chart shows sales versus budget data for the past three y
 
 ![Two-line chart](https://github.com/haileytapia/portfolio/assets/78626762/9c98424a-334c-4b49-bb4d-8f0b9d85932b)
 
-The following variance chart shows the same data in a more effective way. The variance chart highlights the delta, or difference, between sales and budget. This makes it easier to distinguish the lines and see how sales have changed over time relative to budget.
+The following variance chart shows the same data in a more effective way. The chart highlights the delta, or difference, between sales and budget. This makes it easier to distinguish the lines and see how sales have changed over time relative to budget.
 
 ![Variance chart](https://github.com/haileytapia/portfolio/assets/78626762/23aa52fa-224e-443f-bfe5-4b90664c305b)
 
