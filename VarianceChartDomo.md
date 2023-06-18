@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Variance Charts in Domo
-parent: Software
+title: Variance Chart
+parent: Domo
+grand_parent: Software
+nav_order: 3
 ---
 
-# Variance Charts in Domo
+# Variance Chart
 {: .no_toc }
 
 Mar 24, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005156?language=en_US)
