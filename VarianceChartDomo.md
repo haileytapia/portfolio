@@ -165,3 +165,9 @@ Some unique properties of variance charts are shown in the following table:
         </tr>
     </tbody>
 </table>
+
+---
+
+[Back to top](#top)
+
+Thanks for visiting my portfolio! Don't hesitate to get in touch if you have any questions or feedback.
