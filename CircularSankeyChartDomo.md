@@ -52,6 +52,21 @@ You can customize the appearance of a circular Sankey chart in several ways, man
 
 Some unique properties of circular Sankey charts are shown in the following table:
 
+| Property | Description | Example |
+| --- | --- | --- |
+| General > Value Format | Determines whether currency symbols are appended to values. | — |
+| General > Value Decimal Places | Determines the number of decimal places in values. | — |
+| General > Percent Value Decimal Places | Determines the number of decimal places in percent values. | — |
+| General > Layout method | Allows you to select different layouts for your Sankey data. You can see which one works best for your data. | ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128YR&feoid=00N5w00000Ri7BU&refid=0EM5w000006u8ej) |
+| General > Hide Circular | 
+Allows you to hide circular references in the chart.
+
+When you select this checkbox, the chart handles recursion but doesn't display the loops back.
+
+ | ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128YR&feoid=00N5w00000Ri7BU&refid=0EM5w000006u8eo) |
+| Node Options | Allows you to set the fill and border colors for nodes. | ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128YR&feoid=00N5w00000Ri7BU&refid=0EM5w000006u8eQ) |
+| Flow Options | Allows you to set the fill and border colors for flows. | ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128YR&feoid=00N5w00000Ri7BU&refid=0EM5w000006u8ey) |
+
 ---
 
 [Back to top](#top)
