@@ -58,7 +58,7 @@ Some unique properties of variance charts are shown in the following table:
                 Determines whether currency symbols are appended to values.
             </td>
             <td>
-                &nbsp;
+                —
             </td>
         </tr>
         <tr>
@@ -69,7 +69,7 @@ Some unique properties of variance charts are shown in the following table:
                 Determines the number of decimal places in values.
             </td>
             <td>
-                &nbsp;
+                —
             </td>
         </tr>
         <tr>
@@ -80,7 +80,7 @@ Some unique properties of variance charts are shown in the following table:
                 Determines the number of decimal places in percent values.
             </td>
             <td>
-                &nbsp;
+                —
             </td>
         </tr>
         <tr>
