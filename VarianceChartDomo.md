@@ -17,7 +17,7 @@ Mar 24, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005
 
 Variance charts show the differences between two sets of data. This chart type is useful for comparing performance over time, identifying trends, and spotting outliers.
 
-The following two-line chart shows sales versus budget data for the last three years. Although the lines are colored differently to help distinguish between sales and budget, the chart does not actually highlight the differences between the data.
+The following two-line chart shows sales versus budget data for the last three years. Although the lines are colored differently to help distinguish between sales and budget, the chart does not highlight the differences between the data.
 
 ![Two-line chart](https://github.com/haileytapia/portfolio/assets/78626762/9c98424a-334c-4b49-bb4d-8f0b9d85932b)
 
