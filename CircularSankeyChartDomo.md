@@ -17,6 +17,12 @@ Mar 22, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005
 
 Circular Sankey charts are a type of flow diagram that are recursive in nature. This means that the flow can loop back to previous nodes, creating a circular pattern.
 
+This article describes how to:
+
+- TOC
+{:toc}
+
+## Understand circular Sankey charts
 
 Sankey charts visualize the flow of data or resources through a system. This chart type consist of nodes, which represent the start and end points of the flow, and arrows, which represent the flow itself. The width of the arrows is proportional to the amount of data or resources flowing. For more information about Sankey charts, see our [Sankey Chart](https://domo-support.domo.com/s/article/360043429273?language=en_US) article.
 
