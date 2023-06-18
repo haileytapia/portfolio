@@ -21,7 +21,7 @@ The following image shows a typical Sankey chart:
 
 ![Sankey chart](https://github.com/haileytapia/portfolio/assets/78626762/6f89c694-a97b-4aa0-b8c9-f3a4a05a911b)
 
-The original Sankey chart is ideal for physical flows that go to a destination once per flow, like energy and materials. However, it's not ideal for recursive concepts like web traffic, where flows need to circle back to previous nodes and require special treatment to display properly. To meet these needs, Domo has created the circular Sankey chart.
+The original Sankey chart is ideal for physical flows that go to a destination once per flow, like energy and materials. However, it's not ideal for recursive concepts like web traffic, where flows can circle back to previous nodes. To address this limitation, Domo has created the circular Sankey chart.
 
 The following image emphasizes the chart's circular reference:
 
