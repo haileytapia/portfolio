@@ -41,13 +41,13 @@ Some unique properties of variance charts are shown in the following table:
     <tbody>
         <tr>
             <td>
-                Property
+                **Property**
             </td>
             <td>
-                Description
+                **Description**
             </td>
             <td>
-                Example
+                **Example**
             </td>
         </tr>
         <tr>
