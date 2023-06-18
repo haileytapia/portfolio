@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Buy a Listing on the Appstore
+title: Buy an Appstore Listing
 parent: Domo
 grand_parent: Software
 nav_order: 1
 ---
 
-# Buy a Listing on the Appstore
+# Buy an Appstore Listing
 
 Apr 26, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005190?language=en_US)
 {: .fs-5 : .fw-300 }
@@ -17,7 +17,7 @@ Apr 26, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005
 In addition to free listings, the Appstore offers the following types of paid listings:
 
 *   **A one-time payment:** This article describes how to buy a listing with a one-time payment.
-*   **A monthly subscription:** See [Manage Subscriptions to Domo Listings](/portfolio/ManageSubscriptionsDomoListings) for information.
+*   **A monthly subscription:** See [Manage Subscriptions to Listings](/portfolio/ManageSubscriptionsDomoListings) for information.
 *   **A quote:** When you request a quote, Domo processes the request and contacts you for next steps.
 
 ## Buy a listing
