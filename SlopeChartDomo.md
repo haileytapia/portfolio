@@ -21,6 +21,11 @@ The following image shows a typical slope chart:
 
 ![Slope chart](https://github.com/haileytapia/portfolio/assets/78626762/1cb0143b-0cb9-4264-b71d-b17cad7486e4)
 
+This article describes how to:
+
+- TOC
+{:toc}
+
 ## Power slope charts
 
 To create a slope chart, specify a `date` field and `value` field, then select the start and end points from the predefined options. You can also include multiple lines per dimension in the slope chart.
