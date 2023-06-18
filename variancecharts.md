@@ -92,7 +92,6 @@ Some unique properties of variance charts are shown in the following table:
             </td>
             <td>
                 ![Line Style](https://github.com/haileytapia/portfolio/assets/78626762/6ce7b656-d9f0-4fa5-b996-0c75f9e0e208)
-
             </td>
         </tr>
         <tr>
@@ -104,7 +103,6 @@ Some unique properties of variance charts are shown in the following table:
             </td>
             <td>
                 ![Positive Color](https://github.com/haileytapia/portfolio/assets/78626762/87824250-8bfd-4f96-8090-b0f52297a10b)
-
             </td>
         </tr>
         <tr>
@@ -116,7 +114,6 @@ Some unique properties of variance charts are shown in the following table:
             </td>
             <td>
                 ![Negative Color](https://github.com/haileytapia/portfolio/assets/78626762/fa943573-cc83-43d3-acf3-5c00a9f03efd)
-
             </td>
         </tr>
         <tr>
@@ -128,7 +125,6 @@ Some unique properties of variance charts are shown in the following table:
             </td>
             <td>
                 ![Show Absolute Difference](https://github.com/haileytapia/portfolio/assets/78626762/db4318ee-bed1-4847-b001-b8eacaf468f4)
-
             </td>
         </tr>
         <tr>
@@ -140,7 +136,6 @@ Some unique properties of variance charts are shown in the following table:
             </td>
             <td>
                 ![Actual Line](https://github.com/haileytapia/portfolio/assets/78626762/3c0f88a2-76e9-42bb-8a8e-94ebd4004fa4)
-
             </td>
         </tr>
         <tr>
