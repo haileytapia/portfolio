@@ -34,7 +34,9 @@ The following variance chart shows the same data in a more effective way. The ch
 
 ## Power variance charts
 
-A variance chart requires a `date` field and an `actual` value. A `target` value is optional, but it can highlight how much each value varies from the target. For information about value, category, and series data, see our article about [Understanding Chart Data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
+A variance chart requires a `date` field and an `actual` value. A `target` value is optional, but it can highlight how much each value varies from the target.
+
+For information about value, category, and series data, see our article about [Understanding Chart Data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
 
 In Analyzer, you can choose the columns containing the data for your variance chart. For more information about choosing data columns, see our article about [Applying DataSet Columns to Your Chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
 
