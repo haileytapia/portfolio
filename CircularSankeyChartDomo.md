@@ -40,7 +40,7 @@ The following image emphasizes the chart's circular reference:
 
 To power a circular Sankey chart, specify each of the following:
 
-* **A `Erom` dimension:** The source of the flow.
+* **A `From` dimension:** The source of the flow.
 * **A `To` dimension:** The destination of the flow.
 * **A value:** The size of the flow.
 
