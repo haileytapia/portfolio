@@ -91,9 +91,9 @@ Some unique properties of variance charts are shown in the following table:
                 Allows you to select a default, straight, curved, or steeped line style between points. You can see which one looks best for your data.
             </td>
             <td>
-                [<figure class="image">
-                    <img src="https://github.com/haileytapia/portfolio/assets/78626762/6ce7b656-d9f0-4fa5-b996-0c75f9e0e208>
-                </figure>](https://github.com/haileytapia/portfolio/assets/78626762/6ce7b656-d9f0-4fa5-b996-0c75f9e0e208)
+                <figure class="image">
+                    <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w000001277K&amp;feoid=00N5w00000Ri7BU&amp;refid=0EM5w000006u8jU" alt="image.png">
+                </figure>
             </td>
         </tr>
         <tr>
