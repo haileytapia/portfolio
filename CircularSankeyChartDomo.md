@@ -40,8 +40,8 @@ The following image emphasizes the chart's circular reference:
 
 A circular Sankey chart requires each of the following:
 
-* **A `From` dimension:** The source of the flow.
-* **A `To` dimension:** The destination of the flow.
+* **A `from` dimension:** The source of the flow.
+* **A `to` dimension:** The destination of the flow.
 * **A value:** The size of the flow.
 
 For information about value, category, and series data, see our article about [Understanding Chart Data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
