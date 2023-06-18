@@ -91,7 +91,9 @@ Some unique properties of variance charts are shown in the following table:
                 Allows you to select a default, straight, curved, or steeped line style between points. You can see which one looks best for your data.
             </td>
             <td>
-                ![Line Style](https://github.com/haileytapia/portfolio/assets/78626762/6ce7b656-d9f0-4fa5-b996-0c75f9e0e208)
+                <figure class="image">
+                    <img src="https://github.com/haileytapia/portfolio/assets/78626762/6ce7b656-d9f0-4fa5-b996-0c75f9e0e208>
+                </figure>
             </td>
         </tr>
         <tr>
