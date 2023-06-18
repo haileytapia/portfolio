@@ -117,7 +117,9 @@ Some unique properties of variance charts are shown in the following table:
                 Allows you to select the color displayed when the variance is negative.
             </td>
             <td>
-                ![Negative Color](https://github.com/haileytapia/portfolio/assets/78626762/fa943573-cc83-43d3-acf3-5c00a9f03efd)
+                <figure class="image">
+                    <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w000001277K&amp;feoid=00N5w00000Ri7BU&amp;refid=0EM5w000006u8je" alt="Negative Color">
+                </figure>
             </td>
         </tr>
         <tr>
@@ -128,7 +130,9 @@ Some unique properties of variance charts are shown in the following table:
                 Displays the values as absolute differences relative to zero. This better visualizes the size or scope of the differences.
             </td>
             <td>
-                ![Show Absolute Difference](https://github.com/haileytapia/portfolio/assets/78626762/db4318ee-bed1-4847-b001-b8eacaf468f4)
+                <figure class="image">
+                    <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w000001277K&amp;feoid=00N5w00000Ri7BU&amp;refid=0EM5w000006u8kh" alt="Show Absolute Difference">
+                </figure>
             </td>
         </tr>
         <tr>
@@ -139,7 +143,9 @@ Some unique properties of variance charts are shown in the following table:
                 Allows you to set the type, color, and thickness of the actual line.
             </td>
             <td>
-                ![Actual Line](https://github.com/haileytapia/portfolio/assets/78626762/3c0f88a2-76e9-42bb-8a8e-94ebd4004fa4)
+                <figure class="image">
+                    <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w000001277K&amp;feoid=00N5w00000Ri7BU&amp;refid=0EM5w000006uAdO" alt="Actual Line">
+                </figure>
             </td>
         </tr>
         <tr>
@@ -150,7 +156,9 @@ Some unique properties of variance charts are shown in the following table:
                 Allows you to set the value, label, type, color, and thickness of the target line.
             </td>
             <td>
-                ![Target Line](https://github.com/haileytapia/portfolio/assets/78626762/aaf2ae80-bbfa-4e3b-a5ba-3026afcbcef1)
+                <figure class="image">
+                    <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w000001277K&amp;feoid=00N5w00000Ri7BU&amp;refid=0EM5w000006u8jo" alt="Target Line">
+                </figure>
             </td>
         </tr>
     </tbody>
