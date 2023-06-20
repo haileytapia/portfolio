@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Terminal Punctuation Examples
-parent: Splunk Style Guide
+parent: Splunk
 grand_parent: Style
 nav_order: 2
 ---
