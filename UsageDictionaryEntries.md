@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Usage Dictionary Entries
-parent: Splunk Style Guide
+parent: Splunk
 grand_parent: Style
 nav_order: 3
 ---
