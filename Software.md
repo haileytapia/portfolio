@@ -10,4 +10,4 @@ has_children: true
 This section contains content I've created to help end users navigate and understand cloud services.
 {: .fs-6 : .fw-300 }
 
-To view a sample of my software documentation, select an item from the table of contents below.
+To view a sample of my software documentation, select an item from the following table of contents.
