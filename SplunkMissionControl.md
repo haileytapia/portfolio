@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Domo
+title: Splunk Mission Control
 parent: Software
 has_children: true
 ---
