@@ -21,7 +21,7 @@ The menu is expanded to the left of this text on desktop computers and displays 
 
 ## About me
 
-I am pursuing a B.A. in English: Technical Communication at the University of Central Florida and have over two years of technical writing experience. For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
+I am pursuing a B.A. in English: Technical Communication at the University of Central Florida and have two years of technical writing experience. For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
 
 ## Skills
 
