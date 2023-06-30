@@ -11,7 +11,7 @@ has_children: true
 This subsection contains content I've created for Domo's knowledge base.
 {: .fs-6 : .fw-300 }
 
-To view a sample of my Domo documentation, select an item from the table of contents below.
+To view a sample of my Domo documentation, select an item from the following table of contents.
 
 - TOC
 {:toc}
