@@ -2,6 +2,7 @@
 layout: default
 title: Domo
 parent: Software
+nav_order: 1
 has_children: true
 ---
 
