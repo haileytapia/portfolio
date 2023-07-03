@@ -52,7 +52,7 @@ The following image shows how data from a typical column-based spreadsheet is co
 
 ![Data converted from spreadsheet to circular Sankey chart.](https://github.com/haileytapia/portfolio/assets/78626762/ccb84f53-8b9d-44b8-b083-5a82cdb5925c)
 
-## Customize circular sankey charts
+## Customize circular Sankey charts
 
 You can customize the appearance of a circular Sankey chart in several ways, many of which are possible with the **Chart Properties** tool. For more information, see our [Chart Properties](https://domo-support.domo.com/s/article/360042925374?language=en_US) article.
 
