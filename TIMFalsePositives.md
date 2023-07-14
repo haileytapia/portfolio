@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Scenario: Wei creates an intelligence workflow in Splunk Mission Control to reduce false positives
-parent: Domo
+parent: Splunk
 grand_parent: Software
-nav_order: 2
+nav_order: 1
 ---
 
 # Scenario: Wei creates an intelligence workflow in Splunk Mission Control to reduce false positives
