@@ -81,3 +81,9 @@ To learn more about Threat Intelligence Management in Splunk Mission Control, se
 * [Assess threats using intelligence data in Splunk Mission Control](http://docs.splunk.com/Documentation/MC/Current/Detect/Intelligence)
 * [Configure intelligence workflows for Splunk Mission Control to automate processing indicators](http://docs.splunk.com/Documentation/MC/Current/Detect/IntelligenceWorkflows)
 * [Enrich incidents in Splunk Mission Control with threat intelligence sources](http://docs.splunk.com/Documentation/MC/Current/Detect/IntelligenceSources)
+
+---
+
+[Back to top](#top)
+
+Thanks for visiting my portfolio! Don't hesitate to get in touch if you have any questions or feedback.
