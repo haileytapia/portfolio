@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Create an Intelligence Workflow to Reduce False Positives
+title: Create an intelligence workflow to reduce false positives
 parent: Splunk Mission Control
 grand_parent: Software
 nav_order: 1
 ---
 
-# Scenario: Wei Creates an Intelligence Workflow in Splunk Mission Control to Reduce False Positives
+# Scenario: Wei creates an intelligence workflow in Splunk Mission Control to reduce false positives
 
 July 13, 2023 ∙ [Splunk Documentation](https://docs.splunk.com/Documentation/MC/Current/Detect/TIMFalsePositives)
 {: .fs-5 : .fw-300 }
