@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Buy an Appstore Listing
+title: Buy an Appstore listing
 parent: Domo
 grand_parent: Software
 nav_order: 1
