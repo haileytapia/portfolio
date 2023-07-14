@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Create an Intelligence Workflow in Splunk Mission Control to Reduce False Positives
+title: Create an Intelligence Workflow to Reduce False Positives
 parent: Splunk Mission Control
 grand_parent: Software
 nav_order: 1
