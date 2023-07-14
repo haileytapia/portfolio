@@ -12,7 +12,7 @@ July 13, 2023 ∙ [Splunk Documentation](https://docs.splunk.com/Documentation/M
 {: .fs-5 : .fw-300 }
 
 {:  .about }
-> Threat Intelligence Management in Splunk Mission Control correlates your internal event data with intelligence sources to help you detect and respond to security threats.
+> Threat Intelligence Management in Splunk Mission Control correlates your internal event data with intelligence sources to help you detect, contextualize, and respond to security threats.
 
 The following scenario features Buttercup Games, a fictitious game company.
 
