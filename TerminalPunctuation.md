@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Terminal Punctuation Examples
+title: Terminal punctuation examples
 parent: Splunk
 grand_parent: Style
 nav_order: 2
 ---
 
-# Terminal Punctuation Examples
+# Terminal punctuation examples
 {: .no_toc }
 
-May 17, 2023 ∙ [UI Text Guidelines](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/UIGuidelines#Terminal_punctuation)
+May 17, 2023 ∙ [UI text guidelines](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/UIGuidelines#Terminal_punctuation)
 {: .fs-5 : .fw-300 }
 
 {: .about }
