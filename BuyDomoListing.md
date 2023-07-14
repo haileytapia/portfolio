@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Buy an Appstore listing
+title: Buy a listing
 parent: Domo
 grand_parent: Software
 nav_order: 1
 ---
 
-# Buy an Appstore listing
+# Buy a listing
 
 Apr 26, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005190?language=en_US)
 {: .fs-5 : .fw-300 }
