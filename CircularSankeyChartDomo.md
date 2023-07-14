@@ -6,7 +6,7 @@ grand_parent: Software
 nav_order: 3
 ---
 
-# Circular Sankey Chart
+# Circular Sankey chart
 {: .no_toc }
 
 Mar 22, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005155?language=en_US)
