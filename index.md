@@ -31,6 +31,7 @@ In addition to technical writing, I have experience in the following areas:
 
 - C
 - Java
+- Python
 
 ### Markup and styling languages
 
