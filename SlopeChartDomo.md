@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Slope Chart
+title: Slope chart
 parent: Domo
 grand_parent: Software
 nav_order: 3
 ---
 
-# Slope Chart
+# Slope chart
 {: .no_toc }
 
 Mar 13, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005154?language=en_US)
