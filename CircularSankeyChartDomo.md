@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Circular Sankey Chart
+title: Circular Sankey chart
 parent: Domo
 grand_parent: Software
 nav_order: 3
