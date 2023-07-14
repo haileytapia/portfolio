@@ -1,7 +1,5 @@
 # Hailey's portfolio
 
-This portfolio of my technical writing uses the Just the Docs Jekyll theme and is  hosted on GitHub Pages at haileytapia.github.io/portfolio.
-
 ## About me
 
 I am a student at the University of Central Florida pursuing a B.A. in English: Technical Communication. Having completed three internships as a technical writer, I have experience creating high-quality documentation for various technical products and writing in a clear, concise, and user-friendly manner.
