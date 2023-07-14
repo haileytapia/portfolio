@@ -6,7 +6,7 @@ grand_parent: Software
 nav_order: 2
 ---
 
-# Manage Subscriptions to Listings
+# Manage subscriptions to listings
 {: .no_toc }
 
 Apr 19, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005183?language=en_US)
