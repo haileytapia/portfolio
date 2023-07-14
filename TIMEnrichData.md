@@ -3,7 +3,7 @@ layout: default
 title: Create an intelligence workflow to enrich data
 parent: Splunk Mission Control
 grand_parent: Software
-nav_order: 1
+nav_order: 2
 ---
 
 # Scenario: Wei creates an intelligence workflow in Splunk Mission Control to enrich data
