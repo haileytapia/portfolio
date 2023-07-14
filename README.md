@@ -1,6 +1,6 @@
 # Hailey's portfolio
 
-To view samples of my technical writing, visit my portfolio!
+Built using the Just the Docs Jekyll theme and hosted on GitHub Pages at haileytapia.github.io/portfolio.
 
 You can also contact me with any questions or feedback.
 
