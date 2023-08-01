@@ -15,7 +15,7 @@ Mar 22, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005
 {:  .about }
 > Charts in Domo, an ABI platform, are visual representations of data that help users understand and analyze information more easily.
 
-Circular Sankey charts are a type of Sankey chart that you can use to visualize recursive data, or data that returns to the same point from which it started.
+The circular Sankey chart is a type of Sankey chart that allows you to visualize recursive data, which is data that returns to the same point from which it started.
 
 This article describes how to:
 
