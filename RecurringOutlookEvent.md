@@ -9,7 +9,7 @@ nav_order: 1
 # Create a recurring event in Outlook on the Web
 {: .no_toc }
 
-Mar 7, 2023 ∙ How-to guide
+Mar 7, 2023
 {: .fs-5 : .fw-300 }
 
 Recurring events are events that occur on a regular basis, such as daily standups or weekly one-on-one meetings. You can use the calendar and scheduling component of [Outlook on the web](https://outlook.live.com/owa/) to create recurring events.
