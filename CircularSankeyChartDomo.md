@@ -44,9 +44,9 @@ To power a circular sankey chart, specify each of the following:
 * **A `To` dimension:** The destination of the flow.
 * **A value:** The size of the flow.
 
-For more information about value, category, and series data, see our article about [Understanding Chart Data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
+For more information about value, category, and series data, see our article about [Understanding chart data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
 
-In Analyzer, you can choose the columns containing the data for your circular sankey chart. For more information about choosing data columns, see our article about [Applying DataSet Columns to Your Chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
+In Analyzer, you can choose the columns containing the data for your circular sankey chart. For more information about choosing data columns, see our article about [Applying dataset columns to your chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
 
 The following image shows how data from a typical column-based spreadsheet is converted into a circular sankey chart:
 
