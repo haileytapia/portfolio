@@ -8,7 +8,7 @@ nav_order: 1
 
 # Scenario: Wei creates an intelligence workflow in Splunk Mission Control to reduce false positives
 
-July 13, 2023 ∙ [Splunk Documentation](https://docs.splunk.com/Documentation/MC/Current/Detect/TIMFalsePositives)
+July 13, 2023 ∙ [Splunk docs](https://docs.splunk.com/Documentation/MC/Current/Detect/TIMFalsePositives)
 {: .fs-5 : .fw-300 }
 
 {:  .about }
