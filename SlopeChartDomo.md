@@ -35,7 +35,7 @@ The following image shows how data from a typical column-based spreadsheet is co
 
 ## Customize slope charts
 
-You can customize the appearance of a slope chart in several ways, many of which are possible with the **Chart Properties** tool. For more information, see our [Chart Properties](https://domo-support.domo.com/s/article/360042925374?language=en_US) article.
+You can customize the appearance of a circular sankey chart in several ways using the **Chart Properties** tool. For more information, see our [Chart Properties](https://domo-support.domo.com/s/article/360042925374?language=en_US) article.
 
 Some unique properties of slope charts are shown in the following table:
 
