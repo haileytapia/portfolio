@@ -18,7 +18,7 @@ In addition to free listings, the Appstore offers the following types of paid li
 
 *   **A one-time payment:** This article describes how to buy a listing with a one-time payment.
 *   **A monthly subscription:** See [Manage subscriptions to listings](/portfolio/ManageSubscriptionsDomoListings) for information.
-*   **A quote:** When you request a quote, Domo processes the request and contacts you for next steps.
+*   **A quote:** When you request a quote, Domo processes the request and contacts you with next steps.
 
 ## Buy a listing
 
