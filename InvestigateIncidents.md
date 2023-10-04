@@ -36,8 +36,8 @@ Follow the steps in this table to view other types of incident information:
 
 | Information | Description |
 | --- | --- |
-| Recent activity for a notable event | If an incident was ingested from Splunk Enterprise Security (ES), select **View all recent activity for this Notable Event** to view incident activity for the time period you select. |
-| Contributing events | You can further investigate an incident by opening a contributing search. A contributing search identifies which events contributed to the generation of the incident. Select **View contributing events** to open the search. To learn more about events, see [Add events to an incident in Splunk Mission Control](http://docs.splunk.com/Documentation/MC/Current/Detect/Events). |
+| Recent activity for a notable event | If an incident was ingested from Splunk Enterprise Security (ES), select **View all recent activity for this Notable Event** to view incident activity for the time period of your choice. |
+| Contributing events | You can further investigate an incident by opening a contributing search, which identifies the events that contributed to the incident's generation. Select **View contributing events** to open the search. To learn more about events, see [Add events to an incident in Splunk Mission Control](http://docs.splunk.com/Documentation/MC/Current/Detect/Events). |
 | SOAR container | Each incident in Splunk Mission Control is associated with a container in Splunk SOAR. Select **View container** to open Splunk SOAR and see the container associated with the incident. |
 | ES notable | Some incidents in Splunk Mission Control are associated with a notable event in ES. If applicable, select **View notable event** to open ES and see the notable event from which the incident originated. |
 
