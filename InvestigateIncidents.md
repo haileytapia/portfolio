@@ -8,7 +8,7 @@ nav_order: 3
 
 # Investigate an incident
 
-July 28, 2023 ∙ [Splunk Documentation](https://docs.splunk.com/Documentation/MC/Current/Detect/Investigate)
+June 28, 2023 ∙ [Splunk Documentation](https://docs.splunk.com/Documentation/MC/Current/Detect/Investigate)
 {: .fs-5 : .fw-300 }
 
 After you triage an incident on the **Incident review** page of Splunk Mission Control, select either the incident or **Preview** then **View details** to start investigating it. The summary fields and custom fields are listed in the **Overview** tab, while the incident fields are listed in the side panel.
@@ -30,7 +30,7 @@ In the **Overview** tab, you can edit the summary field values, including any va
 
 ## View incident information
 
-To view details and dates associated with an incident, see the **Info** section of the side panel. The details reveal field-value pairs that are valuable to your [investigation](https://docs.splunk.com/Splexicon:Investigation). For example, you can find the source and destination of a malware infection in an endpoint incident, as well as the incident's reference ID, which is its globally unique identifier.
+To view details and dates associated with an incident, see the **Info** section of the side panel. The details reveal field-value pairs that are valuable to your [investigation](https://docs.splunk.com/Splexicon:Investigation). For example, you can find the source and destination of a malware infection in an endpoint incident.
 
 Follow the steps in this table to view other types of incident information:
 
