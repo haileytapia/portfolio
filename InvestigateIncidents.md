@@ -14,13 +14,13 @@ July 28, 2023 ∙ [Splunk Documentation](https://docs.splunk.com/Documentation/M
 {:  .about }
 > Threat Intelligence Management in Splunk Mission Control correlates your internal event data with intelligence sources to help you detect, contextualize, and respond to security threats.
 
-After you triage an incident on the **Incident** review page of Splunk Mission Control, select either the incident or **Preview** then **View details** to start investigating it. You can find the summary fields and custom fields listed in the **Overview** tab, and you can find the incident fields in the side panel.
+After you triage an incident on the **Incident** review page of Splunk Mission Control, select either the incident or **Preview** then **View details** to start investigating it. The summary fields and custom fields are listed in the **Overview** tab, while the incident fields are listed in the side panel.
 
 {:  .note }
 > To investigate a specific incident, search for it on the **Incident review** page using the incident ID with the `MC-XXXXX` syntax.
 
 ## Edit field values for an incident
-When investigating an incident in Splunk Mission Control, you can edit and automatically save changes to the following incident field values in the **Info** section of the side panel:
+When investigating an incident in Splunk Mission Control, you can edit and automatically save changes to the following incident fields in the **Info** section of the side panel:
 
 *   Owner
 *   Status
@@ -33,7 +33,7 @@ In the **Overview** tab, you can edit the summary field values, including any va
 
 ## View incident information
 
-To view details and dates associated with an incident, see the **Info** section of the side panel. The details reveal field-value pairs that are valuable to your [investigation](https://docs.splunk.com/Splexicon:Investigation). For example, you can find the source and destination of a malware infection in an endpoint incident, as well as the reference ID, which is the incident's globally unique identifier.
+To view details and dates associated with an incident, see the **Info** section of the side panel. The details reveal field-value pairs that are valuable to your [investigation](https://docs.splunk.com/Splexicon:Investigation). For example, you can find the source and destination of a malware infection in an endpoint incident, as well as the incident's reference ID, which is its globally unique identifier.
 
 Follow the steps in this table to view other types of incident information:
 
@@ -46,7 +46,7 @@ Follow the steps in this table to view other types of incident information:
 
 ## View risk-based alerting scores for artifacts
 
-You can view the risk-based alerting (RBA) scores for certain [**artifacts**](https://docs.splunk.com/Splexicon:Artifact) in the **Overview** tab. This information can help you understand the likelihood of the artifact being a potential threat. The RBA score and color are ingested from Splunk Enterprise Security and are represented by the following badge colors and number ranges:
+You can view the risk-based alerting (RBA) scores for certain [artifacts](https://docs.splunk.com/Splexicon:Artifact) in the **Overview** tab. This information can help you understand the likelihood of the artifact being a potential threat. The RBA score and color are ingested from Splunk Enterprise Security and are represented by the following badge colors and number ranges:
 
 *   Yellow: 0-25
 *   Orange: 26-50
