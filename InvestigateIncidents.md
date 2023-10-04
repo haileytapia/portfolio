@@ -11,16 +11,13 @@ nav_order: 1
 July 28, 2023 ∙ [Splunk Documentation](https://docs.splunk.com/Documentation/MC/Current/Detect/Investigate)
 {: .fs-5 : .fw-300 }
 
-{:  .about }
-> Threat Intelligence Management in Splunk Mission Control correlates your internal event data with intelligence sources to help you detect, contextualize, and respond to security threats.
-
 After you triage an incident on the **Incident** review page of Splunk Mission Control, select either the incident or **Preview** then **View details** to start investigating it. The summary fields and custom fields are listed in the **Overview** tab, while the incident fields are listed in the side panel.
 
 {:  .note }
 > To investigate a specific incident, search for it on the **Incident review** page using the incident ID with the `MC-XXXXX` syntax.
 
 ## Edit field values for an incident
-When investigating an incident in Splunk Mission Control, you can edit and automatically save changes to the following incident fields in the **Info** section of the side panel:
+When investigating an incident in Splunk Mission Control, you can edit and automatically save changes to the following incident field values in the **Info** section of the side panel:
 
 *   Owner
 *   Status
@@ -39,14 +36,14 @@ Follow the steps in this table to view other types of incident information:
 
 | Information | Description |
 | --- | --- |
-| Recent activity for a notable event | If an incident was ingested from Splunk Enterprise Security (ES), you can select **View all recent activity for this Notable Event**. You are taken to the search page where you can see the activity of the incident for the time period you select. |
+| Recent activity for a notable event | If an incident was ingested from Splunk Enterprise Security (ES), select **View all recent activity for this Notable Event** to view incident activity for the time period you select. |
 | Contributing events | You can further investigate an incident by opening a contributing search. A contributing search identifies which events contributed to the generation of the incident. Select **View contributing events** to open the search. To learn more about events, see [Add events to an incident in Splunk Mission Control](http://docs.splunk.com/Documentation/MC/Current/Detect/Events). |
 | SOAR container | Each incident in Splunk Mission Control is associated with a container in Splunk SOAR. Select **View container** to open Splunk SOAR and see the container associated with the incident. |
 | ES notable | Some incidents in Splunk Mission Control are associated with a notable event in ES. If applicable, select **View notable event** to open ES and see the notable event from which the incident originated. |
 
 ## View risk-based alerting scores for artifacts
 
-You can view the risk-based alerting (RBA) scores for certain [artifacts](https://docs.splunk.com/Splexicon:Artifact) in the **Overview** tab. This information can help you understand the likelihood of the artifact being a potential threat. The RBA score and color are ingested from Splunk Enterprise Security and are represented by the following badge colors and number ranges:
+You can view the risk-based alerting (RBA) scores for certain [artifacts](https://docs.splunk.com/Splexicon:Artifact) in the **Overview** tab. This information can help you determine the likelihood that the artifact is a potential threat. The RBA score and color are ingested from Splunk Enterprise Security and are represented by the following badge colors and number ranges:
 
 *   Yellow: 0-25
 *   Orange: 26-50
