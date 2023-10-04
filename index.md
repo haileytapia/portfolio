@@ -49,9 +49,8 @@ In addition to technical writing, I have experience in the following areas:
 - Confluence
 - Figma
 - GitHub
-- Oxygen
 - Jira
-- Salesforce
+- Oxygen
 
 ---
 
