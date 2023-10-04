@@ -36,6 +36,7 @@ In addition to technical writing, I have experience in the following areas:
 
 ### Markup and styling languages
 
+- DITA
 - HTML/CSS
 - Markdown
 - WikiText
@@ -47,7 +48,8 @@ In addition to technical writing, I have experience in the following areas:
 - Asana
 - Confluence
 - Figma
-- HubSpot
+- GitHub
+- Oxygen
 - Jira
 - Salesforce
 
