@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Investigate an incident in Splunk Mission Control
+title: Investigate an incident
 parent: Splunk Mission Control
 grand_parent: Software
 nav_order: 1
 ---
 
-# Investigate an incident in Splunk Mission Control
+# Investigate an incident
 
 July 28, 2023 ∙ [Splunk Documentation](https://docs.splunk.com/Documentation/MC/Current/Detect/Investigate)
 {: .fs-5 : .fw-300 }
