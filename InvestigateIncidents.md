@@ -17,7 +17,7 @@ After you triage an incident on the **Incident review** page of Splunk Mission C
 > To investigate a specific incident, search for it on the **Incident review** page using the incident ID with the `MC-XXXXX` syntax.
 
 ## Edit field values for an incident
-When investigating an incident in Splunk Mission Control, you can edit and automatically save changes to the following incident field values in the **Info** section of the side panel:
+When investigating an incident, you can edit and automatically save changes to the following incident field values in the **Info** section of the side panel:
 
 *   Owner
 *   Status
