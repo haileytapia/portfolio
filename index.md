@@ -12,7 +12,7 @@ My technical writing skills, developed through past internships and personal pro
 
 ## Navigation 
 
-Use the navigation menu to explore my portfolio, which currently contains the following sections:
+Use the navigation menu to explore my portfolio, which contains the following sections:
 
 - [Software](/portfolio/Software)
 - [Style](/portfolio/Style)
