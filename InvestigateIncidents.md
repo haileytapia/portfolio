@@ -50,7 +50,7 @@ You can view the risk-based alerting (RBA) scores for specific [artifacts](https
 *   Light red: 51-75
 *   Dark red: 76 and higher
 
-To learn more about risk-based alerting, see [How risk scores work in Splunk Enterprise Security](http://docs.splunk.com/Documentation/ES/7.2.0/RBA/Analyzerisk) in the _Use Splunk Enterprise Security Risk-based Alerting_ manual.
+To learn more about RBA, see [How risk scores work in Splunk Enterprise Security](http://docs.splunk.com/Documentation/ES/7.2.0/RBA/Analyzerisk) in the _Use Splunk Enterprise Security Risk-based Alerting_ manual.
 
 ---
 
