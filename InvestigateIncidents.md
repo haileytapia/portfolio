@@ -45,9 +45,9 @@ Follow the steps in this table to view other types of incident information:
 
 You can view the risk-based alerting (RBA) scores for specific [artifacts](https://docs.splunk.com/Splexicon:Artifact) in the **Overview** tab. This information can help you determine the likelihood that an artifact is a potential threat. The RBA score and color are ingested from Splunk Enterprise Security and are represented by the following badge colors and number ranges:
 
-*   Yellow: 0-25
-*   Orange: 26-50
-*   Light red: 51-75
+*   Yellow: 0 to 25
+*   Orange: 26 to 50
+*   Light red: 51 to 75
 *   Dark red: 76 and higher
 
 To learn more about RBA, see [How risk scores work in Splunk Enterprise Security](http://docs.splunk.com/Documentation/ES/7.2.0/RBA/Analyzerisk) in the _Use Splunk Enterprise Security Risk-based Alerting_ manual.
