@@ -11,7 +11,7 @@ nav_order: 3
 June 28, 2023 ∙ [Splunk Documentation](https://docs.splunk.com/Documentation/MC/Current/Detect/Investigate)
 {: .fs-5 : .fw-300 }
 
-After you triage an incident on the **Incident review** page of Splunk Mission Control, select either the incident or **Preview** then **View details** to start investigating it. The summary fields and custom fields are listed in the **Overview** tab, while the incident fields are listed in the side panel.
+After you triage an incident on the **Incident review** page of Splunk Mission Control, select either the incident or **Preview** then **View details** to start investigating it. You can find incident fields in the side panel and summary fields and custom fields in the **Overview** tab.
 
 {:  .note }
 > To investigate a specific incident, search for it on the **Incident review** page using the incident ID with the `MC-XXXXX` syntax.
@@ -26,7 +26,7 @@ When investigating an incident, you can edit and automatically save changes to t
 *   Incident type
 *   Disposition
 
-In the **Overview** tab, you can edit the summary field values, including any values for custom fields you created, by selecting the edit icon ( ![edit icon](https://docs.splunk.com/images/5/52/PencilEdit.png) ). After you edit the field values, select **Save**.
+In the **Overview** tab, you can edit summary field values, including any values for custom fields you created, by selecting the edit icon ( ![edit icon](https://docs.splunk.com/images/5/52/PencilEdit.png) ). After you edit the field values, select **Save**.
 
 ## View incident information
 
