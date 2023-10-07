@@ -15,11 +15,6 @@ May 19, 2023 ∙ [Splunk Style Guide](https://docs.splunk.com/Documentation/Styl
 {: .about }
 > During my internship, Splunk changed its documentation style to use numerals instead of words for most numbers. I wrote the following guidance for the new style.
 
-To navigate this page, select one of the following links:
-
-- TOC
-{:toc}
-
 ## Using numerals
 
 In general, use numerals for numbers in text, even for numbers less than 10. This includes numbers associated with counts, dates, decimals, fractions, measurements, percentages, ranges, time, versions, weight, and other data for comparison or analysis.
