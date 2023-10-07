@@ -24,17 +24,15 @@ The menu is expanded to the left of this text on desktop computers and displays 
 
 I am pursuing a B.A. in English: Technical Communication at the University of Central Florida and have two years of technical writing experience. For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
 
-### Skills
-
 In addition to technical writing, I have experience in the following areas:
 
-#### Programming languages
+### Programming languages
 
 - C
 - Java
 - Python
 
-#### Markup and styling languages
+### Markup and styling languages
 
 - DITA
 - HTML/CSS
@@ -42,7 +40,7 @@ In addition to technical writing, I have experience in the following areas:
 - WikiText
 - XML
 
-#### Tools and technologies
+### Tools and technologies
 
 - Adobe Suite
 - Asana
