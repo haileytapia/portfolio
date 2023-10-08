@@ -8,7 +8,7 @@ has_children: true
 # Splunk
 {: .no_toc }
 
-To view a section of the [Splunk Style Guide](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Howtouse) to which I contributed, select an item from the following table of contents.
+This subsection contains content I've created for the the [Splunk Style Guide](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Howtouse), which provides guidance for writing Splunk documentation and products.
 
 - TOC
 {:toc}
