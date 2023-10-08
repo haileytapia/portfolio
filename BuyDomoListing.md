@@ -8,7 +8,7 @@ nav_order: 1
 
 # Buy a listing
 
-Apr 26, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005190?language=en_US)
+Apr 26, 2023 ∙ [Original Document](https://domo-support.domo.com/s/article/000005190?language=en_US)
 {: .fs-5 : .fw-300 }
 
 {:  .about }
