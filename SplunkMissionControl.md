@@ -9,10 +9,8 @@ has_children: true
 # Splunk Mission Control
 {: .no_toc }
 
-This subsection contains documentation I've created for Splunk Mission Control (MC).
+This subsection contains documentation I've created for Splunk Mission Control.
 {: .fs-6 : .fw-300 }
-
-To view a sample of my MC documentation, select an item from the following table of contents.
 
 - TOC
 {:toc}
