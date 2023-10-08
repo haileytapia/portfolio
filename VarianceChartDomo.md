@@ -9,7 +9,7 @@ nav_order: 3
 # Variance chart
 {: .no_toc }
 
-Mar 24, 2023 ∙ [Original article](https://domo-support.domo.com/s/article/000005156?language=en_US)
+Mar 24, 2023 ∙ [Original document](https://domo-support.domo.com/s/article/000005156?language=en_US)
 {: .fs-5 : .fw-300 }
 
 {:  .about }
