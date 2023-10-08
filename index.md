@@ -14,7 +14,7 @@ My technical writing skills, developed through past internships and personal pro
 
 The following samples represent some of my best technical writing:
 
-- [Create an intelligence workflow to enrich data](/portfolio/Software/portfolio/TIMEnrichData)
+- [Create an intelligence workflow to enrich data](/portfolio/TIMEnrichData)
 - [Manage subscriptions to listings](/portfolio/ManageSubscriptionsDomoListings)
 
 ## Navigation 
