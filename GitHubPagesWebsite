@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Host a Website for Free With GitHub Pages
+title: Host a website for free with GitHub Pages
 parent: Software
 ---
 
-# Host a Website for Free With GitHub Pages
+# Host a website for free with GitHub Pages
 {: .no_toc }
 
-May 24, 2023 ∙ How-To Guide
+May 24, 2023 ∙ How-to guide
 {: .fs-5 : .fw-300 }
 
 GitHub Pages is a free service that lets you host a static website directly from a GitHub repository.
