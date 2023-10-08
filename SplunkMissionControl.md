@@ -10,6 +10,7 @@ has_children: true
 {: .no_toc }
 
 This subsection contains documentation I've created for Splunk Mission Control, a cloud-based security operations platform that unifies detection, investigation, and response capabilities.
+{: .fs-6 : .fw-300 }
 
 - TOC
 {:toc}
