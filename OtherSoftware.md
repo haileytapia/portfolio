@@ -10,7 +10,6 @@ has_children: true
 {: .no_toc }
 
 This subsection contains documentation I've created for miscellaneous software.
-{: .fs-6 : .fw-300 }
 
 - TOC
 {:toc}
