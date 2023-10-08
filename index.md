@@ -12,8 +12,6 @@ My technical writing skills, developed through past internships and personal pro
 
 ## Featured samples
 
-The following samples represent some of my best technical writing:
-
 - [Create an intelligence workflow in Splunk Mission Control to enrich data](/portfolio/TIMEnrichData)
 - [Manage subscriptions to Domo Appstore listings](/portfolio/ManageSubscriptionsDomoListings)
 
