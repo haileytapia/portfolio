@@ -10,7 +10,6 @@ has_children: true
 {: .no_toc }
 
 This subsection contains content I've created for Domo's knowledge base.
-{: .fs-6 : .fw-300 }
 
 - TOC
 {:toc}
