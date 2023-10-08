@@ -9,7 +9,7 @@ nav_order: 3
 # Slope chart
 {: .no_toc }
 
-Mar 13, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005154?language=en_US)
+Mar 13, 2023 ∙ [Original article](https://domo-support.domo.com/s/article/000005154?language=en_US)
 {: .fs-5 : .fw-300 }
 
 {:  .about }
