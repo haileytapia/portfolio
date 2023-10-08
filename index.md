@@ -10,6 +10,13 @@ description: Welcome to my technical writing portfolio!
 My technical writing skills, developed through past internships and personal projects, are showcased here.
 {: .fs-6 : .fw-300 }
 
+## Featured samples
+
+The following samples represent some of my best technical writing:
+
+- [Create an intelligence workflow to enrich data](/portfolio/Software/portfolio/TIMEnrichData)
+- [Manage subscriptions to listings](/portfolio/ManageSubscriptionsDomoListings)
+
 ## Navigation 
 
 Use the navigation menu to explore my portfolio, which contains the following sections:
