@@ -8,7 +8,7 @@ nav_order: 3
 
 # Investigate an incident
 
-June 28, 2023 ∙ [Splunk Documentation](https://docs.splunk.com/Documentation/MC/Current/Detect/Investigate)
+June 28, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/MC/Current/Detect/Investigate)
 {: .fs-5 : .fw-300 }
 
 After you triage an incident on the **Incident review** page of Splunk Mission Control, select either the incident or **Preview** then **View details** to start investigating it. Incient fields are in the side panel, while summary fields and custom fields are in the **Overview** tab.
