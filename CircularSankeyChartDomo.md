@@ -9,7 +9,7 @@ nav_order: 3
 # Circular sankey chart
 {: .no_toc }
 
-Mar 22, 2023 ∙ [Domo Knowledge](https://domo-support.domo.com/s/article/000005155?language=en_US)
+Mar 22, 2023 ∙ [Original article](https://domo-support.domo.com/s/article/000005155?language=en_US)
 {: .fs-5 : .fw-300 }
 
 {:  .about }
