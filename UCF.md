@@ -11,7 +11,7 @@ has_children: true
 This section contains content I've created as part of my undergraduate coursework.
 {: .fs-6 : .fw-300 }
 
-Table of contents
+## Table of contents
 {:text-delta }
 
 - TOC
