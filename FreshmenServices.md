@@ -1,6 +1,6 @@
 ---
 layout: forward
-target: https://docs.google.com/document/d/1_eT3RTmUsYodaBNK6127DUGTdMtbuAhxLljXzaOlvuA/edit?usp=sharing)https://docs.google.com/document/d/1_eT3RTmUsYodaBNK6127DUGTdMtbuAhxLljXzaOlvuA/edit?usp=sharing
+target: https://github.com/haileytapia/portfolio/blob/main/Freshmen%20Services.pdf)https://github.com/haileytapia/portfolio/blob/main/Freshmen%20Services.pdf
 title: Freshmen services
 parent: UCF
 ---
