@@ -1,6 +1,6 @@
 ---
 layout: forward
 target: https://haileytapia.github.io/portfolio/FreshmenServices.pdf
-title: Freshmen services
+title: Guide to student services
 parent: UCF
 ---
