@@ -34,11 +34,9 @@ The following variance chart shows the previous data more effectively by highlig
 
 ## Power variance charts
 
-To power a variance chart, specify a `Date` field and an `Actual` value. You can also specify a `Target` value to highlight how much each value varies from the target.
+To power a variance chart, specify a `Date` field and an `Actual` value. You can also specify a `Target` value to highlight how much each value varies from the target. See [Understanding chart data](https://domo-support.domo.com/s/article/360043428693?language=en_US) for more information about value, category, and series data.
 
-For more information about value, category, and series data, see [Understanding chart data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
-
-In Analyzer, you can choose the columns containing the data for your variance chart. For more information about choosing data columns, see [Applying dataset columns to your chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
+In Analyzer, you can choose the columns containing the data for your variance chart. See [Applying dataset columns to your chart](https://domo-support.domo.com/s/article/360043428713?language=en_US) for more information.
 
 The following image shows data from a typical column-based spreadsheet as a variance chart:
 
