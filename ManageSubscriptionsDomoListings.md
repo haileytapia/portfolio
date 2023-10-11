@@ -150,7 +150,7 @@ You are no longer subscribed to the listing, but you still have access to it unt
     ![Edit](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubnJ)  
 
     The **Renew your plan** page opens.  
-5.  Review the name, price, and renewal date of your plan, then select **Renew plan** to proceed with the renewal or **Go back** to exit.
+5.  Review the name, price, and renewal date of your plan, then select **Renew plan** to proceed with the renewal.
       
     <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubnT" width="300">
 
