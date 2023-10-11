@@ -27,7 +27,7 @@ To create a recurring event:
       
     ![New event modal](https://github.com/haileytapia/portfolio/assets/78626762/43e2f8a0-5774-4e43-931d-9931fb3c6166)  
 3.  Enter the event title, attendees, start time, end time, and other details in the appropriate fields.
-4.  <a id="step-four"></a>Select <img src="https://github.com/haileytapia/portfolio/assets/78626762/71cd859b-98ed-4fbb-85aa-2485ae6cd02e" width="20"> **Don’t repeat** and choose how often you want the event to occur: **Daily**, **Weekly**, **Monthly**, **Yearly**, or a **Custom** frequency.
+4.  <a id="step-four"></a>Select <img src="https://github.com/haileytapia/portfolio/assets/78626762/71cd859b-98ed-4fbb-85aa-2485ae6cd02e" width="20"> **Don’t repeat**, then select how often you want the event to occur: **Daily**, **Weekly**, **Monthly**, **Yearly**, or a **Custom** frequency.
 
     <img src="https://github.com/haileytapia/portfolio/assets/78626762/75f67b9c-3614-49d1-b4bc-f94b865df24a" width="550">
     
