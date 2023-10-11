@@ -37,7 +37,7 @@ To buy a one-time payment listing:
                  
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128HG&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubpZ)  
      
-4.  Select a one-time payment listing to open its Details page.  
+4.  Select a one-time payment listing to open its details page.  
 5.  Review the listing details, then select **Buy Now**.  
       
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128HG&feoid=00N5w00000Ri7BU&refid=0EM5w000006ua0V)  
