@@ -79,7 +79,7 @@ Your subscriptions display in a list with the following details:
 | Detail      | Description |
 | ----------- | ----------- |
 | Listing      | The name of the listing. Selecting it takes you to the listing's details page.       |
-| Purchaser   | The user who purchased the subscription, which is only you in this case. To view subscriptions purchased by others in your company, select a different user from the [**Purchased by**](#purchased-by) list.        |
+| Purchaser   | The user who purchased the subscription, which is only you in this case.        |
 |Next Payment   | The next due date for the monthly subscription. If the subscription has been canceled, **N/A** displays.        |
 |Type   | The listing type, which is only **Subscription** in this case.        |
 |Installed   |The number of times the listing has been installed in your company's instance.        |
