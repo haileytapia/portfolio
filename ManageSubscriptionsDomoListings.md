@@ -76,8 +76,6 @@ To view a list of your subscriptions and their details:
 
 Your subscriptions display in a list with the following details:
 
-![Subscription list](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uc08)
-
 | Detail      | Description |
 | ----------- | ----------- |
 | Listing      | The name of the listing. Selecting it takes you to the listing's details page.       |
