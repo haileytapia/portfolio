@@ -38,7 +38,7 @@ To power a variance chart, specify a `Date` field and an `Actual` value. You can
 
 For more information about value, category, and series data, see [Understanding chart data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
 
-In Analyzer, you can choose the columns containing the data for your circular Sankey chart. For more information about choosing data columns, see [Applying dataset columns to your chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
+In Analyzer, you can choose the columns containing the data for your variance chart. For more information about choosing data columns, see [Applying dataset columns to your chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
 
 The following image shows how data from a typical column-based spreadsheet is converted into a variance chart:
 
