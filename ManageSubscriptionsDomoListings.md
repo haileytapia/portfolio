@@ -30,12 +30,12 @@ This article describes how to:
     ![Search Apps](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uW1D)  
 
     The **Search Apps** page opens.  
-3.  Under the **Price** Quick Filter, select the **Monthly** checkbox. There are additional Quick Filters to sort the listings by component, category, publisher name, and data source.  
+3.  Under the **Price** quick filter, select the **Monthly** checkbox. There are additional quick filters to sort the listings by component, category, publisher name, and data source.  
 
-    All listings that require a monthly payment and match any other Quick Filters display.  
+    All listings that require a monthly payment and match any other quick filters display.  
       
     ![Monthly payment listings](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uc0D)  
-4.  Select a subscription listing to open its Details page.  
+4.  Select a subscription listing to open its details page.  
 5.  Review the listing details, then select **Subscribe Now**.  
       
     ![Subscribe Now](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubcV)  
@@ -80,7 +80,7 @@ Your subscriptions display in a list with the following details:
 
 | Detail      | Description |
 | ----------- | ----------- |
-| Listing      | The name of the listing. Selecting it takes you to the listing Details page.       |
+| Listing      | The name of the listing. Selecting it takes you to the listing's details page.       |
 | Purchaser   | The user who purchased the subscription, which is only you in this case. To view subscriptions purchased by others in your company, select a different user from the [**Purchased by**](#purchased-by) list.        |
 |Next Payment   | The next due date for the monthly subscription. If the subscription has been canceled, **N/A** displays.        |
 |Type   | The listing type, which is only **Subscription** in this case.        |
@@ -94,7 +94,7 @@ To the right of each subscription in the list is an <img src="https://domo-suppo
 | View listing | The listing Details page. |
 | Manage listing | A menu with options to manage the subscription on Stripe or cancel the subscription. |
 | View transactions | A page containing the transaction history for the subscription. |
-| Cancel subscription | The same modal that displays when you [cancel a subscription](Manage-Subscriptions-to-Domo-Listings.html#cancel-a-subscription) from the listing Details page. |
+| Cancel subscription | The same modal that displays when you [cancel a subscription](Manage-Subscriptions-to-Domo-Listings.html#cancel-a-subscription) from the listing's details page. |
 
 ## Cancel a subscription
 
@@ -105,7 +105,7 @@ To the right of each subscription in the list is an <img src="https://domo-suppo
      
 
 2.  Use the [search bar](ManageSubscriptionsDomoListings.html#subscribe-to-a-listing) on the **Search Apps** page to find and select the listing whose subscription you want to cancel.     
-3.  On the listing Details page, select **Manage** \> **Cancel Subscription**.  
+3.  On the listing's details page, select **Manage** \> **Cancel Subscription**.  
       
     ![Manage > Cancel Subscription](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ublN)  
       
@@ -137,7 +137,7 @@ You are no longer subscribed to the listing, but you still have access to it unt
      
 
 2.  Use the [search bar](Manage-Subscriptions-to-Domo-Listings.html#subscribe-to-a-listing) on the **Search Apps** page to find and select the listing whose subscription you want to cancel.  
-3.  On the listing Details page, select **Manage Subscription**.  
+3.  On the listing's details page, select **Manage Subscription**.  
 
     ![Manage Subscription](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubmf)  
 
