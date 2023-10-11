@@ -24,7 +24,7 @@ This article describes how to:
 
 ## Understand circular Sankey charts
 
-Sankey charts visualize the flow of data or resources through a system. This chart type consist of nodes, which represent the start and end points of the flow, and arrows, which represent the flow itself. The width of the arrows is proportional to the amount of data or resources flowing. For more information about Sankey charts, see our [Sankey Chart](https://domo-support.domo.com/s/article/360043429273?language=en_US) article.
+Sankey charts visualize the flow of data or resources through a system. This chart type consist of nodes, which represent the start and end points of the flow, and arrows, which represent the flow itself. The width of the arrows is proportional to the amount of data or resources flowing. For more information about Sankey charts, see our [Sankey chart](https://domo-support.domo.com/s/article/360043429273?language=en_US) article.
 
 The following image shows a typical Sankey chart:
 
