@@ -81,7 +81,7 @@ Your subscriptions display in a list with the following details:
 | Listing      | The name of the listing. Select this to open the listing's details page.       |
 | Purchaser   | The user who purchased the subscription, which is only you in this case.        |
 |Next Payment   | The next due date for the monthly subscription. If the subscription has been canceled, **N/A** displays.        |
-|Type   | The listing type, which is only **Subscription** in this case.        |
+|Type   | The type of listing, which is only **Subscription** in this case.        |
 |Installed   |The number of times the listing has been installed in your company's instance.        |
 |Status   |The status of the subscription, which is either **Active**, **Canceled**, **Expiring on _Date_**, or **Payment required**.        |
 
