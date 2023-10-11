@@ -104,7 +104,7 @@ To the right of each subscription in the list is an <img src="https://domo-suppo
 1.  Select **Appstore** from the navigation header.
      
 
-2.  Use the [search bar](ManageSubscriptionsDomoListings.html#subscribe-to-a-listing) on the **Search Apps** page to find and select the listing whose subscription you want to cancel.     
+2.  Use the [search bar](ManageSubscriptionsDomoListings.html#subscribe-to-a-listing) on the **Search Apps** page to find the listing whose subscription you want to cancel.     
 3.  On the listing's details page, select **Manage** \> **Cancel Subscription**.  
       
     ![Manage > Cancel Subscription](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ublN)  
@@ -136,7 +136,7 @@ You are no longer subscribed to the listing, but you still have access to it unt
 1.  Select **Appstore** from the navigation header.
      
 
-2.  Use the [search bar](Manage-Subscriptions-to-Domo-Listings.html#subscribe-to-a-listing) on the **Search Apps** page to find and select the listing whose subscription you want to cancel.  
+2.  Use the [search bar](Manage-Subscriptions-to-Domo-Listings.html#subscribe-to-a-listing) on the **Search Apps** page to find the listing whose subscription you want to cancel.  
 3.  On the listing's details page, select **Manage Subscription**.  
 
     ![Manage Subscription](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubmf)  
