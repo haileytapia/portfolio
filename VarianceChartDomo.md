@@ -46,7 +46,7 @@ The following image shows how data from a typical column-based spreadsheet is co
 
 ## Customize variance charts
 
-You can customize the appearance of a variance using the **Chart Properties** tool. For more information, see [Chart properties](https://domo-support.domo.com/s/article/360042925374?language=en_US).
+Use the Chart Properties tool to customize the appearance of a variance chart. For more information, see [Chart properties](https://domo-support.domo.com/s/article/360042925374?language=en_US).
 
 The following table shows the unique properties of variance charts:
 
