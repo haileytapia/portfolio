@@ -54,7 +54,7 @@ The following image shows how data from a typical column-based spreadsheet is co
 
 ## Customize circular Sankey charts
 
-You can customize the appearance of a circular Sankey chart using the **Chart Properties** tool. For more information, see [Chart properties](https://domo-support.domo.com/s/article/360042925374?language=en_US).
+Use the Chart Properties tool to customize the appearance of a circular Sankey chart. For more information, see [Chart properties](https://domo-support.domo.com/s/article/360042925374?language=en_US).
 
 {:  .important }
 > Circular Sankey charts have a 500 row limit.
