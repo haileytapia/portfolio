@@ -91,7 +91,7 @@ To the right of each subscription in the list is an <img src="https://domo-suppo
 
 | Menu option | Select this option to open... |
 | --- | --- |
-| View listing | The listing Details page. |
+| View listing | The listing's details page. |
 | Manage listing | A menu with options to manage the subscription on Stripe or cancel the subscription. |
 | View transactions | A page containing the transaction history for the subscription. |
 | Cancel subscription | The same modal that displays when you [cancel a subscription](Manage-Subscriptions-to-Domo-Listings.html#cancel-a-subscription) from the listing's details page. |
@@ -124,7 +124,7 @@ To the right of each subscription in the list is an <img src="https://domo-suppo
 
     <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ublr" width="470">
 
-You are no longer subscribed to the listing, but you still have access to it until the next scheduled payment date, which displays in red text on the listing Details page. Renew the subscription before this date by following the steps to [renew a subscription](ManageSubscriptionsDomoListings#renew-a-subscription).  
+You are no longer subscribed to the listing, but you still have access to it until the next scheduled payment date, which displays in red text on the listing's details page. Renew the subscription before this date by following the steps to [renew a subscription](ManageSubscriptionsDomoListings#renew-a-subscription).  
   
 ![Next scheduled payment date](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubmk)
 
