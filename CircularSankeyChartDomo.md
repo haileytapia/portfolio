@@ -24,7 +24,7 @@ This article describes how to:
 
 ## Understand circular Sankey charts
 
-Sankey charts visualize the flow of data or resources through a system. This chart type consist of nodes, which represent the start and end points of the flow, and arrows, which represent the flow itself. The width of the arrows is proportional to the amount of data or resources flowing. For more information about Sankey charts, see our [Sankey chart](https://domo-support.domo.com/s/article/360043429273?language=en_US) article.
+Sankey charts visualize the flow of data or resources through a system. This chart type consist of nodes, which represent the start and end points of the flow, and arrows, which represent the flow itself. The width of the arrows is proportional to the amount of data or resources flowing. For more information about Sankey charts, see [Sankey chart](https://domo-support.domo.com/s/article/360043429273?language=en_US).
 
 The following image shows a typical Sankey chart:
 
@@ -44,9 +44,9 @@ To power a circular Sankey chart, specify each of the following:
 * **A `To` dimension:** The destination of the flow.
 * **A value:** The size of the flow.
 
-For more information about value, category, and series data, see our article about [Understanding chart data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
+For more information about value, category, and series data, see [Understanding chart data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
 
-In Analyzer, you can choose the columns containing the data for your circular Sankey chart. For more information about choosing data columns, see our article about [Applying dataset columns to your chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
+In Analyzer, you can choose the columns containing the data for your circular Sankey chart. For more information about choosing data columns, see [Applying dataset columns to your chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
 
 The following image shows how data from a typical column-based spreadsheet is converted into a circular Sankey chart:
 
