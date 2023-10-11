@@ -36,9 +36,9 @@ The following variance chart shows the same data in a more effective way. The ch
 
 To power a variance chart, specify a `Date` field and an `Actual` value. You can also specify a `Target` value to highlight how much each value varies from the target.
 
-For more information about value, category, and series data, see our article about [Understanding chart data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
+For more information about value, category, and series data, see [Understanding chart data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
 
-In Analyzer, you can choose the columns containing the data for your circular sankey chart. For more information about choosing data columns, see our article about [Applying dataset columns to your chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
+In Analyzer, you can choose the columns containing the data for your circular Sankey chart. For more information about choosing data columns, see [Applying dataset columns to your chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
 
 The following image shows how data from a typical column-based spreadsheet is converted into a variance chart:
 
@@ -46,9 +46,9 @@ The following image shows how data from a typical column-based spreadsheet is co
 
 ## Customize variance charts
 
-You can customize the appearance of a circular sankey chart in several ways using the **Chart Properties** tool. For more information, see our [Chart Properties](https://domo-support.domo.com/s/article/360042925374?language=en_US) article.
+You can customize the appearance of a variance using the **Chart Properties** tool. For more information, see [Chart properties](https://domo-support.domo.com/s/article/360042925374?language=en_US).
 
-Some unique properties of variance charts are shown in the following table:
+The following table shows the unique properties of variance charts:
 
 <table>
     <tbody>
