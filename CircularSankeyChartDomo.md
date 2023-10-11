@@ -24,7 +24,7 @@ This article describes how to:
 
 ## Understand circular sankey charts
 
-Sankey charts visualize the flow of data or resources through a system. This chart type consist of nodes, which represent the start and end points of the flow, and arrows, which represent the flow itself. The width of the arrows is proportional to the amount of data or resources flowing. For more information about sankey charts, see our [Sankey chart](https://domo-support.domo.com/s/article/360043429273?language=en_US) article.
+Sankey charts visualize the flow of data or resources through a system. This chart type consist of nodes, which represent the start and end points of the flow, and arrows, which represent the flow itself. The width of the arrows is proportional to the amount of data or resources flowing. For more information about sankey charts, see our [Sankey Chart](https://domo-support.domo.com/s/article/360043429273?language=en_US) article.
 
 The following image shows a typical sankey chart:
 
@@ -54,7 +54,7 @@ The following image shows how data from a typical column-based spreadsheet is co
 
 ## Customize circular sankey charts
 
-You can customize the appearance of a circular sankey chart in several ways using the **Chart Properties** tool. For more information, see our [Chart Properties](https://domo-support.domo.com/s/article/360042925374?language=en_US) article.
+You can customize the appearance of a circular sankey chart using the **Chart Properties** tool. For more information, see our [Chart Properties](https://domo-support.domo.com/s/article/360042925374?language=en_US) article.
 
 {:  .important }
 > Circular sankey charts have a 500 row limit.
