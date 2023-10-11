@@ -40,7 +40,7 @@ For more information about value, category, and series data, see [Understanding 
 
 In Analyzer, you can choose the columns containing the data for your variance chart. For more information about choosing data columns, see [Applying dataset columns to your chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
 
-The following image shows how data from a typical column-based spreadsheet is converted into a variance chart:
+The following image shows data from a typical column-based spreadsheet as a variance chart:
 
 ![Data converted from spreadsheet to variance chart.](https://github.com/haileytapia/portfolio/assets/78626762/62ef91ef-f7f1-44d4-8991-721566adbd5b)
 
