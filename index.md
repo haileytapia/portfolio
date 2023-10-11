@@ -16,6 +16,7 @@ The following samples best represent my technical writing:
 
 - [Create an intelligence workflow in Splunk Mission Control to enrich data](/portfolio/TIMEnrichData)
 - [Manage subscriptions to Domo Appstore listings](/portfolio/ManageSubscriptionsDomoListings)
+- [Create a recurring event in Outlook on the Web](/portfolio/CurrentOutlookEvent)
 - [Guide to UCF student services](/portfolio/FreshmenServices.pdf)
 
 ## Navigation 
