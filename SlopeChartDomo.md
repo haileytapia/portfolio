@@ -25,9 +25,9 @@ The following image shows a typical slope chart:
 
 To power a slope chart, specify a `Date` field and `Value` field, then select the start and end points from predefined options. You can also include multiple lines per dimension in the slope chart.
 
-For more information about value, category, and series data, see our article about [Understanding chart data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
+For more information about value, category, and series data, see [Understanding chart data](https://domo-support.domo.com/s/article/360043428693?language=en_US).
 
-In Analyzer, you can choose the columns containing the data for your circular sankey chart. For more information about choosing data columns, see our article about [Applying dataset columns to your chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
+In Analyzer, you can choose the columns containing the data for your circular Sankey chart. For more information about choosing data columns, see [Applying dataset columns to your chart](https://domo-support.domo.com/s/article/360043428713?language=en_US).
 
 The following image shows how data from a typical column-based spreadsheet is converted into a slope chart:
 
@@ -35,9 +35,9 @@ The following image shows how data from a typical column-based spreadsheet is co
 
 ## Customize slope charts
 
-You can customize the appearance of a circular sankey chart in several ways using the **Chart Properties** tool. For more information, see our [Chart Properties](https://domo-support.domo.com/s/article/360042925374?language=en_US) article.
+You can customize the appearance of a slope chart using the **Chart Properties** tool. For more information, see [Chart Properties](https://domo-support.domo.com/s/article/360042925374?language=en_US).
 
-Some unique properties of slope charts are shown in the following table:
+The following table shows the unique properties of slope charts:
 
 | Property | Description | Example |
 | --- | --- | --- |
