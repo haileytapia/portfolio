@@ -15,7 +15,7 @@ Mar 24, 2023 ∙ [Original document](https://domo-support.domo.com/s/article/000
 {:  .about }
 > Charts in Domo, an ABI platform, are visual representations of data that help users understand and analyze information more easily.
 
-Variance charts show the differences between two sets of data. This chart type is useful for comparing performance over time, identifying trends, and spotting outliers.
+Variance charts show the differences between two sets of data. Use this chart type to compare performance over time, identify trends, spot outliers, and track progress toward goals.
 
 This article describes how to:
 
@@ -24,11 +24,11 @@ This article describes how to:
 
 ## Understand variance charts
 
-The following two-line chart shows sales versus budget data for the last three years. Although the lines are colored differently to help distinguish between sales and budget, the chart does not highlight the differences between the data.
+The following two-line chart shows sales versus budget data for the past three years. Although the lines are colored differently to distinguish between sales and budget, the chart does not highlight the differences between the data.
 
 ![Two-line chart](https://github.com/haileytapia/portfolio/assets/78626762/9c98424a-334c-4b49-bb4d-8f0b9d85932b)
 
-The following variance chart shows the same data in a more effective way. The chart highlights the delta, or difference, between sales and budget. This makes it easier to see how sales have changed over time relative to budget.
+The following variance chart shows the previous data more effectively by highlighting the delta, or difference, between sales and budget. This makes it easier to see how sales have changed over time relative to budget.
 
 ![Variance chart](https://github.com/haileytapia/portfolio/assets/78626762/23aa52fa-224e-443f-bfe5-4b90664c305b)
 
