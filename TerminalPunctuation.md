@@ -2,7 +2,7 @@
 layout: default
 title: Terminal punctuation examples
 parent: Splunk
-nav_order: 2
+nav_order: 4
 ---
 
 # Terminal punctuation examples
