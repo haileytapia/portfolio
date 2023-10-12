@@ -8,7 +8,7 @@ has_children: true
 # Splunk
 {: .no_toc }
 
-I created the following content for Mission Control, a cloud-based security operations console that unifies threat detection, investigation, and response.
+I created the following content for Splunk Mission Control, a cloud-based security operations console that unifies threat detection, investigation, and response.
 
 - TOC
 {:toc}
