@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Splunk Mission Control
-nav_order: 1
+title: Splunk
+nav_order: 2
 has_children: true
 ---
 
