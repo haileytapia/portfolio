@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Create an intelligence workflow to reduce false positives
-parent: Splunk Mission Control
-grand_parent: Software
+parent: Splunk
 nav_order: 2
 ---
 
