@@ -11,9 +11,6 @@ nav_order: 3
 Mar 13, 2023 ∙ [Original document](https://domo-support.domo.com/s/article/000005154?language=en_US)
 {: .fs-5 : .fw-300 }
 
-{:  .about }
-> Charts in Domo, an ABI platform, are visual representations of data that help users understand and analyze information more easily.
-
 Slope charts visualize data from a given time period based on the period's start and end points. By simplifying the data into lines, this chart type allows you to focus on relevant information rather than the clutter of intermediate data points.
 
 The following image shows a typical slope chart:
