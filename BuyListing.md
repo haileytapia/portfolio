@@ -10,8 +10,6 @@ nav_order: 1
 Apr 26, 2023 ∙ [Original document](https://domo-support.domo.com/s/article/000005190?language=en_US)
 {: .fs-5 : .fw-300 }
 
-{:  .about }
-
 In addition to free listings, the Appstore offers the following types of paid listings:
 
 *   **A one-time payment:** This article describes how to buy a listing with a one-time payment.
