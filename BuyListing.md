@@ -5,7 +5,7 @@ parent: Domo
 nav_order: 1
 ---
 
-# Buy a listing
+# Buy an Appstore listing
 
 Apr 26, 2023 ∙ [Original document](https://domo-support.domo.com/s/article/000005190?language=en_US)
 {: .fs-5 : .fw-300 }
