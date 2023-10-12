@@ -2,7 +2,6 @@
 layout: default
 title: Create a recurring event in Outlook on the Web
 parent: Other
-grand_parent: Software
 nav_order: 1
 ---
 
