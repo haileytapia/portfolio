@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Numbers
+title: Using numbers in text
 parent: Splunk
 nav_order: 3
 ---
