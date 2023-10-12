@@ -2,7 +2,6 @@
 layout: default
 title: Numbers
 parent: Splunk
-grand_parent: Style
 nav_order: 1
 ---
 
