@@ -1,18 +1,15 @@
 ---
 layout: default
-title: Terminal punctuation examples
+title: Terminal punctuation in UI text
 parent: Splunk
 nav_order: 4
 ---
 
-# Terminal punctuation examples
+# Terminal punctuation in UI text
 {: .no_toc }
 
 May 17, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/UIGuidelines#Terminal_punctuation)
 {: .fs-5 : .fw-300 }
-
-{: .about }
-> I created the following examples of correct and incorrect terminal punctuation in user interface (UI) text at Splunk.
 
 ## Terminal punctuation
 
