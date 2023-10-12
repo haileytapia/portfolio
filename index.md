@@ -35,29 +35,24 @@ I am pursuing a B.A. in English: Technical Communication at the University of Ce
 
 In addition to technical writing, I have experience in the following areas:
 
-### Programming languages
+### Languages
 
 - C
-- Java
-- Python
-
-### Markup and styling languages
-
-- DITA
+- DITA XML
 - HTML/CSS
 - Markdown
+- Python
 - WikiText
-- XML
 
 ### Tools and technologies
 
-- Adobe Suite
+- Adobe Creative Suite
 - Asana
 - Confluence
-- Figma
-- GitHub
+- Git/GitHub
 - Jira
-- Oxygen
+- Oxygen XML Editor
+- Visio
 
 ---
 
