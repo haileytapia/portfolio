@@ -2,7 +2,6 @@
 layout: default
 title: Usage Dictionary entries
 parent: Splunk
-grand_parent: Style
 nav_order: 3
 ---
 
