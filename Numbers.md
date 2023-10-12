@@ -2,10 +2,10 @@
 layout: default
 title: Numbers
 parent: Splunk
-nav_order: 1
+nav_order: 3
 ---
 
-# Numbers
+# Using numbers in text
 {: .no_toc }
 
 May 19, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals)
