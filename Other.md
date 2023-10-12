@@ -1,15 +1,14 @@
 ---
 layout: default
 title: Other
-parent: Software
-nav_order: 3
+nav_order: 4
 has_children: true
 ---
 
 # Other
 {: .no_toc }
 
-I created the following content for miscellaneous software.
+I created the following content as personal and academic projects.
 {: .fs-6 : .fw-300 }
 
 - TOC
