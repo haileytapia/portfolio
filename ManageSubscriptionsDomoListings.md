@@ -2,7 +2,6 @@
 layout: default
 title: Manage subscriptions to listings
 parent: Domo
-grand_parent: Software
 nav_order: 2
 ---
 
