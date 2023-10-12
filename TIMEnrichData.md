@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Create an intelligence workflow to enrich data
-parent: Splunk Mission Control
-grand_parent: Software
+parent: Splunk
 nav_order: 2
 ---
 
