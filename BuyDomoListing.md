@@ -2,7 +2,6 @@
 layout: default
 title: Buy a listing
 parent: Domo
-grand_parent: Software
 nav_order: 1
 ---
 
