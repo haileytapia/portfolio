@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Manage subscriptions to listings
+title: Manage subscriptions to Appstore listings
 parent: Domo
 nav_order: 2
 ---
