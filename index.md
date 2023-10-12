@@ -38,18 +38,19 @@ In addition to technical writing, I have experience in the following areas:
 ### Languages
 
 - C
-- DITA XML
 - HTML/CSS
 - Markdown
 - Python
 - WikiText
+- XML
 
 ### Tools and technologies
 
 - Adobe Creative Suite
 - Asana
 - Confluence
-- Git/GitHub
+- DITA
+- Git
 - Jira
 - Oxygen XML Editor
 - Visio
