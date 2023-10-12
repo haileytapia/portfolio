@@ -5,7 +5,7 @@ nav_order: 1
 has_children: true
 ---
 
-# Splunk Mission Control
+# Splunk
 {: .no_toc }
 
 I created the following content for Splunk Mission Control, a security operations platform that unifies threat detection, investigation, and response.
