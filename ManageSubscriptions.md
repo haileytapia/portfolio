@@ -5,7 +5,7 @@ parent: Domo
 nav_order: 2
 ---
 
-# Manage subscriptions to listings
+# Manage subscriptions to Appstore listings
 {: .no_toc }
 
 Apr 19, 2023 ∙ [Original document](https://domo-support.domo.com/s/article/000005183?language=en_US)
