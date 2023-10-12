@@ -11,9 +11,6 @@ nav_order: 3
 Mar 24, 2023 ∙ [Original document](https://domo-support.domo.com/s/article/000005156?language=en_US)
 {: .fs-5 : .fw-300 }
 
-{:  .about }
-> Charts in Domo, an ABI platform, are visual representations of data that help users understand and analyze information more easily.
-
 Variance charts show the differences between two sets of data. Use this chart type to compare performance over time, identify trends, spot outliers, and track progress toward goals.
 
 This article describes how to:
