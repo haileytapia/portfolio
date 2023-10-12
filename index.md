@@ -46,7 +46,7 @@ In addition to technical writing, I have experience in the following areas:
 
 ### Tools and technologies
 
-- Adobe Creative Suite
+- Adobe Suite
 - Asana
 - Confluence
 - DITA
