@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Create an intelligence workflow to enrich data
+title: Scenario: Wei creates an intelligence workflow to enrich data
 parent: Splunk
 nav_order: 2
 ---
