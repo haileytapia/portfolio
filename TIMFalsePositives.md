@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Scenario: Wei creates an intelligence workflow to reduce false positives
+title: Wei creates an intelligence workflow to reduce false positives
 parent: Splunk
 nav_order: 2
 ---
