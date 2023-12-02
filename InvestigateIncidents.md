@@ -25,7 +25,7 @@ To create a summary field for an incident:
 
 1. Select an incident from the **Incident review** page of Splunk Mission Control.
 2. In the **Summary** section of the **Overview** tab, select **+**.
-3. Enter a name and value for your summary field.
+3. Enter a name and value for the summary field.
     1. (Optional) To add a value to your summary field, select **+** next to the field.
     2. (Optional) To delete a value from your summary field, select **×** next to the value.
     3. (Optional) To delete your summary field entirely, select **×** next to the field. Your field must have only one value for you to delete it.
