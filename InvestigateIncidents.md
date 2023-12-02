@@ -28,7 +28,7 @@ To create a summary field for an incident:
 3. Enter a name and value for the summary field.
     1. (Optional) To add a value to your summary field, select **+** next to the field.
     2. (Optional) To delete a value from your summary field, select **×** next to the value.
-    3. (Optional) To delete your summary field entirely, select **×** next to the field. Your field must have only one value for you to delete it.
+    3. (Optional) To delete the summary field entirely, select **×** next to the field. Your field must have only one value for you to delete it.
 4. (Optional) To create an additional field, select **+ Summary field**, then follow the instructions in the previous step.
 5. Select **Submit**.
 
