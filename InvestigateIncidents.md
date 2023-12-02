@@ -15,7 +15,25 @@ After you triage an incident on the **Incident review** page of Splunk Mission C
 {:  .note }
 > To investigate a specific incident, search for it on the **Incident review** page using the incident ID with the `MC-XXXXX` syntax.
 
+## Create a summary field for an incident
+
+Use summary fields to document metadata that isn't automatically provided for an incident in Splunk Mission Control. Unlike custom fields, summary fields apply only to the incidents for which you create them. See [Create a custom field](http://docs.splunk.com/Documentation/MC/Current/Detect/IncidentSettings#Create_a_custom_field) for more information about custom fields.
+
+When you create a summary field, you must specify its name and one or more values. For example, if you want to document the IP address associated with a particular incident, you can create a summary field named `IP` with a value of `20.20.20.20`. You can view and edit summary field values for an incident in the **Overview** tab.
+
+To create a summary field for an existing incident, follow these steps:
+
+1. Select an incident from the **Incident review** page of Splunk Mission Control.
+2. In the **Summary** section of the **Overview** tab, select **+**.
+3. Enter a name and value for the summary field.
+    1. (Optional) To add a value to your summary field, select **+** next to the field.
+    2. (Optional) To delete a value from your summary field, select **×** next to the value.
+    3. (Optional) To delete your summary field entirely, select **×** next to the field. Your field must have only one value for you to delete it.
+4. (Optional) To create an additional field, select **+ Summary field**, then follow the instructions in the previous step.
+5. Select **Submit**.
+
 ## Edit field values for an incident
+
 When investigating an incident, you can edit and automatically save changes to the following incident field values in the **Info** section of the side panel:
 
 *   Owner
