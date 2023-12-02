@@ -21,7 +21,7 @@ Use summary fields to document metadata that isn't automatically provided for an
 
 When you create a summary field, you must specify its name and one or more values. For example, if you want to document the IP address associated with a particular incident, you can create a summary field named `IP` with a value of `20.20.20.20`. You can view and edit summary field values for an incident in the **Overview** tab.
 
-To create a summary field for an existing incident, follow these steps:
+To create a summary field for an existing incident:
 
 1. Select an incident from the **Incident review** page of Splunk Mission Control.
 2. In the **Summary** section of the **Overview** tab, select **+**.
