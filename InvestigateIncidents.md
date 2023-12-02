@@ -17,7 +17,7 @@ After you triage an incident on the **Incident review** page of Splunk Mission C
 
 ## Create a summary field for an incident
 
-Use summary fields to document metadata that isn't automatically provided for an incident in Splunk Mission Control. Unlike custom fields, summary fields apply only to the incidents for which you create them. See [Create a custom field](http://docs.splunk.com/Documentation/MC/Current/Detect/IncidentSettings#Create_a_custom_field) for more information about custom fields.
+Use summary fields to document metadata that isn't automatically provided for an incident. Unlike custom fields, summary fields apply only to the incidents for which you create them. See [Create a custom field](http://docs.splunk.com/Documentation/MC/Current/Detect/IncidentSettings#Create_a_custom_field) for more information about custom fields.
 
 When you create a summary field, you must specify its name and one or more values. For example, if you want to document the IP address associated with a particular incident, you can create a summary field named `IP` with a value of `20.20.20.20`. You can view and edit summary field values for an incident in the **Overview** tab.
 
