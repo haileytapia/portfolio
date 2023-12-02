@@ -43,7 +43,7 @@ When investigating an incident, you can edit and automatically save changes to t
 *   Incident type
 *   Disposition
 
-In the **Overview** tab, you can edit summary and custom field values by selecting the edit icon ( ![edit icon](https://docs.splunk.com/images/5/52/PencilEdit.png) ). After you edit the field values, select **Save**.
+In the **Overview** tab, you can edit both summary and custom field values by selecting the edit icon ( ![edit icon](https://docs.splunk.com/images/5/52/PencilEdit.png) ). After you edit the field values, select **Save**.
 
 ## View incident information
 
