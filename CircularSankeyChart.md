@@ -44,7 +44,7 @@ See [Understanding chart data](https://domo-support.domo.com/s/article/360043428
 
 In Analyzer, you can choose the columns that contain the data for your circular Sankey chart. See [Applying dataset columns to your chart](https://domo-support.domo.com/s/article/360043428713?language=en_US) for more information.
 
-The following image shows data from a typical column-based spreadsheet as a circular Sankey chart:
+The following image shows data from a column-based spreadsheet as a circular Sankey chart:
 
 ![Data converted from spreadsheet to circular Sankey chart.](https://github.com/haileytapia/portfolio/assets/78626762/ccb84f53-8b9d-44b8-b083-5a82cdb5925c)
 
