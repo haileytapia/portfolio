@@ -1,4 +1,4 @@
-# Hailey's portfolio
+# Hailey's Portfolio
 
 Hosted on GitHub Pages at haileytapia.github.io/portfolio.
 
