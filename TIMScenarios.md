@@ -81,8 +81,6 @@ To learn more about Threat Intelligence Management in Splunk Mission Control, se
 * [Configure intelligence workflows for Splunk Mission Control to automate processing indicators](http://docs.splunk.com/Documentation/MC/Current/Detect/IntelligenceWorkflows)
 * [Enrich incidents in Splunk Mission Control with threat intelligence sources](http://docs.splunk.com/Documentation/MC/Current/Detect/IntelligenceSources)
 
----
-
 # Scenario #2: Wei creates an intelligence workflow in Mission Control to reduce false positives
 
 July 13, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/MC/Current/Detect/TIMFalsePositives)
