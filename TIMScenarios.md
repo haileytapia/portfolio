@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Scenarios: Wei creates intelligence workflows in Mission Control"
-parent: Splunk
 nav_order: 1
 ---
 
