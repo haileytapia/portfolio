@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Wei creates an intelligence workflow to enrich data
+title: Wei creates an intelligence workflow in Mission Control to enrich data
 parent: Splunk
 nav_order: 1
 ---
 
-# Scenario: Wei creates an intelligence workflow to enrich data
+# Scenario: Wei creates an intelligence workflow in Mission Control to enrich data
 
 July 13, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/MC/Current/Detect/TIMEnrichData)
 {: .fs-5 : .fw-300 }
