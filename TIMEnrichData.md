@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Wei creates an intelligence workflow in Mission Control to enrich data
+title: "Scenario: Wei creates an intelligence workflow in Mission Control to enrich data"
 parent: Splunk
 nav_order: 1
 ---
