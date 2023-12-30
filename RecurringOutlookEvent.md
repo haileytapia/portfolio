@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Create a recurring event in Outlook on the Web
+title: Create a recurring event in Outlook on the web
 parent: Other
 nav_order: 1
 ---
 
-# Create a recurring event in Outlook on the Web
+# Create a recurring event in Outlook on the web
 {: .no_toc }
 
 Mar 7, 2023 ∙ How-to guide
