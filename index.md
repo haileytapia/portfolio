@@ -7,9 +7,6 @@ description: Welcome to my technical writing portfolio!
 
 # Welcome to my portfolio!
 
-My technical writing skills, developed through past internships and personal projects, are showcased here.
-{: .fs-6 : .fw-300 }
-
 ## Featured samples
 
 The following samples best represent my technical writing:
