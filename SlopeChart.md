@@ -29,7 +29,7 @@ The following image shows data from a typical column-based spreadsheet as a slop
 
 ## Customize slope charts
 
-Use the Chart Properties tool to customize the appearance of a slope chart. See [Chart properties](https://domo-support.domo.com/s/article/360042925374?language=en_US) for more information.
+Use the Chart Properties tool to customize the appearance of a slope chart. See [Properties for tables](https://domo-support.domo.com/s/article/360042925374?language=en_US) for more information.
 
 The following table shows the unique properties of slope charts:
 
