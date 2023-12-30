@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Wei creates an intelligence workflow to reduce false positives
+title: Wei creates an intelligence workflow in Mission Control to reduce false positives
 parent: Splunk
 nav_order: 2
 ---
 
-# Scenario: Wei creates an intelligence workflow to reduce false positives
+# Scenario: Wei creates an intelligence workflow in Mission Control to reduce false positives
 
 July 13, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/MC/Current/Detect/TIMFalsePositives)
 {: .fs-5 : .fw-300 }
