@@ -34,7 +34,7 @@ To create a summary field for an incident:
 
 ## Edit field values for an incident
 
-When investigating an incident, you can edit and automatically save changes to the following incident field values in the **Info** section of the side panel:
+When investigating an incident, you can edit and save changes to the following incident field values in the **Info** section of the side panel:
 
 *   Owner
 *   Status
