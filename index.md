@@ -6,7 +6,7 @@ description: Welcome to my technical writing portfolio!
 ---
 
 # Welcome to my portfolio!
-My technical writing skills, developed through past internships and projects, are showcased here.
+My technical writing skills are showcased here.
 {: .fs-6 : .fw-300 }
 
 ## Featured samples
@@ -41,14 +41,13 @@ In addition to technical writing, I have experience in the following areas:
 - Markdown
 - Python
 - WikiText
-- XML
+- DITA XML
 
 ### Tools and technologies
 
 - Adobe Suite
 - Asana
 - Confluence
-- DITA
 - Git
 - Jira
 - Oxygen XML Editor
