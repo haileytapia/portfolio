@@ -12,7 +12,7 @@ May 19, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/Style
 {: .fs-5 : .fw-300 }
 
 {: .about }
-> During my internship, Splunk changed its documentation style to use numerals instead of words for most numbers. I wrote the following guidance for the new style.
+> During my internship, Splunk changed its documentation style to use numerals instead of words for most numbers. I created the following guidelines for the new style.
 
 ## Using numerals
 
