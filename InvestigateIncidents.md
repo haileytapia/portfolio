@@ -5,7 +5,7 @@ parent: Splunk
 nav_order: 3
 ---
 
-# Investigate an incident
+# Investigate an incident in Mission Control
 
 June 28, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/MC/Current/Detect/Investigate)
 {: .fs-5 : .fw-300 }
