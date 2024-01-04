@@ -3,6 +3,7 @@ layout: default
 title: Create a recurring event in Outlook on the web
 parent: Other
 nav_order: 1
+permalink: /other/recurring-outlook-event
 ---
 
 # Create a recurring event in Outlook on the web
