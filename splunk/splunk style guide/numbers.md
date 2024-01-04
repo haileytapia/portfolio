@@ -4,6 +4,7 @@ title: Using numbers in text
 parent: Splunk Style Guide
 grand_parent: Splunk
 nav_order: 3
+permalink: /splunk/splunk-style-guide/numbers
 ---
 
 # Using numbers in text
