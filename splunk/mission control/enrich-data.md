@@ -4,6 +4,7 @@ title: Wei creates an intelligence workflow in Mission Control to enrich data
 parent: Mission Control
 grand_parent: Splunk
 nav_order: 1
+permalink: /splunk/mission-control/enrich-data
 ---
 
 # Scenario: Wei creates an intelligence workflow in Mission Control to enrich data
