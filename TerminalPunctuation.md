@@ -2,7 +2,8 @@
 layout: default
 title: Terminal punctuation in UI text
 parent: Splunk Style Guide
-nav_order: 4
+grand_parent: Splunk
+nav_order: 2
 ---
 
 # Terminal punctuation in UI text
