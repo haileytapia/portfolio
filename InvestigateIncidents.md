@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Investigate an incident in Mission Control
-parent: Splunk
+parent: Mission Control
 nav_order: 3
 ---
 
