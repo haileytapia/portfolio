@@ -3,6 +3,7 @@ layout: default
 title: Domo
 nav_order: 3
 has_children: true
+permalink: /domo
 ---
 
 # Domo
