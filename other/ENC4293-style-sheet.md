@@ -8,7 +8,7 @@ permalink: /other/ENC4293-style-sheet
 # Spring 2023 ENC4293 Style Sheet
 {: .no_toc }
 
-Feb 17, 2023 ∙ [Style Sheet](https://docs.google.com/document/d/15q64Ki6b-51MB_ZH6b07z3myC_IUEK3btADp_hx1O3o/edit?usp=sharing)
+Feb 17, 2023 ∙ [Style sheet](https://docs.google.com/document/d/15q64Ki6b-51MB_ZH6b07z3myC_IUEK3btADp_hx1O3o/edit?usp=sharing)
 {: .fs-5 : .fw-300 }
 
 {: .about }
