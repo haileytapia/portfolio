@@ -4,6 +4,7 @@ title: Terminal punctuation in UI text
 parent: Splunk Style Guide
 grand_parent: Splunk
 nav_order: 2
+permalink: /splunk/splunk-style-guide/terminal-punctuation
 ---
 
 # Terminal punctuation in UI text
