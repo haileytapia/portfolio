@@ -3,7 +3,7 @@ layout: default
 title: Splunk
 nav_order: 2
 has_children: true
-permalink: /portfolio/splunk
+permalink: /splunk
 ---
 
 # Splunk
