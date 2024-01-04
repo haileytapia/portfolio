@@ -2,6 +2,7 @@
 layout: default
 title: Wei creates an intelligence workflow in Mission Control to reduce false positives
 parent: Mission Control
+grandparent: Splunk
 nav_order: 2
 ---
 
