@@ -3,6 +3,7 @@ layout: default
 title: Circular Sankey chart
 parent: Domo
 nav_order: 3
+permalink: /domo/circular-sankey-chart
 ---
 
 # Circular Sankey chart
