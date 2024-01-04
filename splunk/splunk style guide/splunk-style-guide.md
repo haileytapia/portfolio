@@ -4,6 +4,7 @@ title: Splunk Style Guide
 parent: Splunk
 nav_order: 2
 has_children: true
+permalink: /splunk-style-guide
 ---
 
 # Splunk Style Guide
