@@ -38,11 +38,11 @@ In addition to technical writing, I have experience in the following areas:
 ### Languages
 
 - C
+- DITA XML
 - HTML/CSS
 - Markdown
 - Python
 - WikiText
-- DITA XML
 
 ### Tools and technologies
 
