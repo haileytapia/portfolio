@@ -4,6 +4,7 @@ title: Usage Dictionary entries
 parent: Splunk Style Guide
 grand_parent: Splunk
 nav_order: 1
+permalink: /splunk/splunk-style-guide/usage-dictionary
 ---
 
 # Usage Dictionary entries
