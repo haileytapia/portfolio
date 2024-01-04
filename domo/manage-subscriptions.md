@@ -142,7 +142,7 @@ You are no longer subscribed to the listing, but you still have access to it unt
 
 If the renewal succeeds, you return to the previous page showing your current subscriptions; your subscription no longer has the **Canceled** tag above it.
 
-In Domo, the subscription status changes from **Expiring on** _**Date**_ to **Active** in the **Installed Apps** > **Appstore Purchases** section. For more details about your subscription, see the [View your subscriptions](ManageSubscriptions#view-your-subscriptions) section of this article.
+In Domo, the subscription status changes from **Expiring on** _**Date**_ to **Active** in the **Installed Apps** > **Appstore Purchases** section. For more details about your subscription, see the [View your subscriptions](manage-subscriptions#view-your-subscriptions) section of this article.
 
 ---
 
