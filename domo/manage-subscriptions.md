@@ -3,6 +3,7 @@ layout: default
 title: Manage subscriptions to Appstore listings
 parent: Domo
 nav_order: 1
+permalink: /domo/manage-subscriptions
 ---
 
 # Manage subscriptions to Appstore listings
