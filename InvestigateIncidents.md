@@ -10,7 +10,7 @@ nav_order: 3
 June 28, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/MC/Current/Detect/Investigate)
 {: .fs-5 : .fw-300 }
 
-After you triage an incident on the **Incident review** page of Splunk Mission Control, select either the incident or **Preview** then **View details** to start investigating it. You can view incident fields in the side panel, and you can view summary fields and custom fields in the **Overview** tab.
+After you triage an incident on the **Incident review** page of Splunk Mission Control, select either the incident or **Preview** then **View details** to start investigating it. You can view incident fields in the side panel, and you can view summary fields and custom fields on the **Overview** tab.
 
 {:  .note }
 > To investigate a specific incident, search for it on the **Incident review** page using the incident ID with the `MC-XXXXX` syntax.
@@ -19,7 +19,7 @@ After you triage an incident on the **Incident review** page of Splunk Mission C
 
 Use summary fields to document metadata that isn't automatically provided for an incident. Unlike custom fields, summary fields apply only to the incidents for which you create them. See [Create a custom field](http://docs.splunk.com/Documentation/MC/Current/Detect/IncidentSettings#Create_a_custom_field) for more information about custom fields.
 
-When you create a summary field, you must specify its name and one or more values. For example, if you want to document the IP address associated with a particular incident, you can create a summary field named `IP` with a value of `20.20.20.20`. You can view and edit summary field values for an incident in the **Overview** tab.
+When you create a summary field, you must specify its name and one or more values. For example, if you want to document the IP address associated with a particular incident, you can create a summary field named `IP` with a value of `20.20.20.20`. You can view and edit summary field values for an incident on the **Overview** tab.
 
 To create a summary field for an incident:
 
@@ -43,7 +43,7 @@ When investigating an incident, you can edit and save changes to the following i
 *   Incident type
 *   Disposition
 
-In the **Overview** tab, you can edit summary field values, including any values for custom fields you created, by selecting the edit icon ( <img src="https://docs.splunk.com/images/5/52/PencilEdit.png" alt="edit icon" width="17"/> ). After you edit the field values, select **Save**.
+On the **Overview** tab, you can edit summary field values, including any values for custom fields you created, by selecting the edit icon ( <img src="https://docs.splunk.com/images/5/52/PencilEdit.png" alt="edit icon" width="17"/> ). After you edit the field values, select **Save**.
 
 ## View incident information
 
@@ -60,7 +60,7 @@ Follow the steps in this table to view other types of incident information:
 
 ## View risk-based alerting scores for artifacts
 
-You can view the risk-based alerting (RBA) scores for specific [artifacts](https://docs.splunk.com/Splexicon:Artifact) in the **Overview** tab. This information can help you determine the likelihood that an artifact is a potential threat. The RBA score and color are ingested from Splunk Enterprise Security and are represented by the following badge colors and number ranges:
+You can view the risk-based alerting (RBA) scores for specific [artifacts](https://docs.splunk.com/Splexicon:Artifact) on the **Overview** tab. This information can help you determine the likelihood that an artifact is a potential threat. The RBA score and color are ingested from Splunk Enterprise Security and are represented by the following badge colors and number ranges:
 
 *   Yellow: 0 to 25
 *   Orange: 26 to 50
