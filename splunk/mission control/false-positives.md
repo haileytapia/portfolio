@@ -4,6 +4,7 @@ title: Wei creates an intelligence workflow in Mission Control to reduce false p
 parent: Mission Control
 grand_parent: Splunk
 nav_order: 2
+permalink: /splunk/mission-control/false-positives
 ---
 
 # Scenario: Wei creates an intelligence workflow in Mission Control to reduce false positives
