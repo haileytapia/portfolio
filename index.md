@@ -14,18 +14,18 @@ My technical writing skills, developed through past internships and coursework, 
 
 The following samples best represent my technical writing:
 
-- [Scenario: Wei creates an intelligence workflow in Splunk Mission Control to enrich data](/portfolio/enrich-data)
-- [Investigate an incident in Splunk Mission Control](/portfolio/investigate-incidents)
-- [Manage subscriptions to Domo Appstore listings](/portfolio/manage-subscriptions)
-- [Guide to UCF student services](/portfolio/freshmen-services.pdf)
+- [Scenario: Wei creates an intelligence workflow in Splunk Mission Control to enrich data](/portfolio/splunk/mission-control/enrich-data)
+- [Investigate an incident in Splunk Mission Control](/portfolio/splunk/mission-control/investigate-incidents)
+- [Manage subscriptions to Domo Appstore listings](/portfolio/domo/manage-subscriptions)
+- [Guide to UCF student services](/portfolio/other/freshmen-services.pdf)
 
 ## Navigation 
 
 Use the navigation menu to explore my portfolio, which contains the following sections:
 
-- [Splunk](/portfolio/Splunk)
-- [Domo](/portfolio/Domo)
-- [Other](/portfolio/Other)
+- [Splunk](/portfolio/splunk)
+- [Domo](/portfolio/domo)
+- [Other](/portfolio/other)
 
 The menu is expanded to the left of this text on desktop computers and displays as a <img src="https://github.com/haileytapia/portfolio/assets/78626762/d3f823ac-7ddd-40da-88e5-2ca5b7f4f22b" width="20"> hamburger menu on mobile devices.
 
