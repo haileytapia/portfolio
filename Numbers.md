@@ -2,7 +2,8 @@
 layout: default
 title: Using numbers in text
 parent: Splunk Style Guide
-nav_order: 6
+grand_parent: Splunk
+nav_order: 3
 ---
 
 # Using numbers in text
