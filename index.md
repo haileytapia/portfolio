@@ -14,10 +14,10 @@ My technical writing skills, developed through past internships and coursework, 
 
 The following samples best represent my technical writing:
 
-- [Scenario: Wei creates an intelligence workflow in Splunk Mission Control to enrich data](/portfolio/TIMEnrichData)
-- [Investigate an incident in Splunk Mission Control](/portfolio/InvestigateIncidents)
-- [Manage subscriptions to Domo Appstore listings](/portfolio/ManageSubscriptions)
-- [Guide to UCF student services](/portfolio/FreshmenServices.pdf)
+- [Scenario: Wei creates an intelligence workflow in Splunk Mission Control to enrich data](/portfolio/enrich-data)
+- [Investigate an incident in Splunk Mission Control](/portfolio/investigate-incidents)
+- [Manage subscriptions to Domo Appstore listings](/portfolio/manage-subscriptions)
+- [Guide to UCF student services](/portfolio/freshmen-services.pdf)
 
 ## Navigation 
 
