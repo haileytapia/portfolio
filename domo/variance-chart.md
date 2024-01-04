@@ -3,6 +3,7 @@ layout: default
 title: Variance chart
 parent: Domo
 nav_order: 3
+permalink: /domo/variance-chart
 ---
 
 # Variance chart
