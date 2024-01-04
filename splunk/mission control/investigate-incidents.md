@@ -4,6 +4,7 @@ title: Investigate an incident in Mission Control
 parent: Mission Control
 grand_parent: Splunk
 nav_order: 3
+permalink: /splunk/mission-control/investigate-incidents
 ---
 
 # Investigate an incident in Mission Control
