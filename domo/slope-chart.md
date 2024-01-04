@@ -3,6 +3,7 @@ layout: default
 title: Slope chart
 parent: Domo
 nav_order: 3
+permalink: /domo/slope-chart
 ---
 
 # Slope chart
