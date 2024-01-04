@@ -2,11 +2,11 @@
 layout: default
 title: Splunk Style Guide
 parent: Splunk
-nav_order: 1
+nav_order: 2
 has_children: true
 ---
 
-# Mission Control
+# Splunk Style Guide
 {: .no_toc }
 
 I created the following content for the [Splunk Style Guide](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Howtouse), the writing style reference for Splunk documentation.
