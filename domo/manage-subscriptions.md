@@ -32,7 +32,7 @@ This article describes how to:
     All listings that require a monthly payment and match any other Quick Filters display.  
       
     ![Monthly payment listings](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006uc0D)  
-4.  Select a subscription listing to open its details page.  
+4.  Select a subscription listing to open its Details page.  
 5.  Review the listing details, then select **Subscribe Now**.  
       
     ![Subscribe Now](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubcV)  
@@ -75,7 +75,7 @@ Your subscriptions display in a list with the following details:
 
 | Detail      | Description |
 | ----------- | ----------- |
-| Listing      | The name of the listing. Select this to open the listing's details page.       |
+| Listing      | The name of the listing. Select this to open the listing's Details page.       |
 | Purchaser   | The user who purchased the subscription, which is only you in this case.        |
 |Next Payment   | The next due date for the monthly subscription. If the subscription has been canceled, **N/A** displays.        |
 |Type   | The type of listing, which is only **Subscription** in this case.        |
@@ -91,7 +91,7 @@ Your subscriptions display in a list with the following details:
      
 
 2.  Use the [search bar](manage-subscriptions#subscribe-to-a-listing) on the **Search Apps** page to find the listing whose subscription you want to cancel.     
-3.  On the listing's details page, select **Manage** \> **Cancel Subscription**.  
+3.  On the listing's Details page, select **Manage** \> **Cancel Subscription**.  
       
     ![Manage > Cancel Subscription](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ublN)  
       
@@ -110,7 +110,7 @@ Your subscriptions display in a list with the following details:
 
     <img src="https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ublr" width="470">
 
-You are no longer subscribed to the listing, but you still have access to it until the next scheduled payment date, which displays in red text on the listing's details page. Renew the subscription before this date by following the steps to [renew a subscription](ManageSubscriptions#renew-a-subscription).  
+You are no longer subscribed to the listing, but you still have access to it until the next scheduled payment date, which displays in red text on the listing's Details page. Renew the subscription before this date by following the steps to [renew a subscription](ManageSubscriptions#renew-a-subscription).  
   
 ![Next scheduled payment date](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubmk)
 
@@ -123,7 +123,7 @@ You are no longer subscribed to the listing, but you still have access to it unt
      
 
 2.  Use the [search bar](manage-subscriptions#subscribe-to-a-listing) on the **Search Apps** page to find the listing whose subscription you want to cancel.  
-3.  On the listing's details page, select **Manage Subscription**.  
+3.  On the listing's Details page, select **Manage Subscription**.  
 
     ![Manage Subscription](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubmf)  
 
