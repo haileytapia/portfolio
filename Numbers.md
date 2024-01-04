@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Using numbers in text
-parent: Splunk
+parent: Splunk Style Guide
 nav_order: 6
 ---
 
