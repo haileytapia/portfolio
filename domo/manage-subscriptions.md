@@ -43,7 +43,7 @@ This article describes how to:
     {:  .note }
     >The **Email** field automatically populates with the email associated with your Domo account.
  
-7.  (Optional) Select the **Save my info for 1-click checkout with Link** checkbox to reuse your payment information for future transactions. If you select this checkbox, you must also enter your phone number to enable the **Subscribe** button.  
+7.  (Optional) Select **Save my info for 1-click checkout with Link** to reuse your payment information for future transactions. If you select this checkbox, you must also enter your phone number to enable the **Subscribe** button.  
 8.  Select **Subscribe** to charge your card for the first subscription payment.  
       
     ![Subscribe](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128Er&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubck)
