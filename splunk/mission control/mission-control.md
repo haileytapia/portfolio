@@ -10,7 +10,7 @@ permalink: /splunk/mission-control
 # Mission Control
 {: .no_toc }
 
-I created the following manual content for Mission Control, a cloud-based security operations application.
+I created the following content for Mission Control, a cloud-based security operations application.
 {: .fs-6 : .fw-300 }
 
 - TOC
