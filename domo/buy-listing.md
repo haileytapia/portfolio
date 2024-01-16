@@ -46,7 +46,7 @@ To buy a one-time payment listing:
     {:  .note }
     >The **Email** field automatically populates with the email associated with your Domo account. 
 
-7.  (Optional) Select the **Securely save my information for 1-click checkout** checkbox to reuse your payment information for future transactions. If you select this checkbox, you must also enter your phone number to enable the **Pay** button.  
+7.  (Optional) Select **Securely save my information for 1-click checkout** to reuse your payment information for future transactions. If you select this checkbox, you must also enter your phone number to enable the **Pay** button.  
 8.  Select **Pay** to charge the one-time payment to your card.  
       
     ![image.png](https://domo-support.domo.com/servlet/rtaImage?eid=ka05w00000128HG&feoid=00N5w00000Ri7BU&refid=0EM5w000006ubpU)
