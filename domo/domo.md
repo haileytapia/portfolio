@@ -9,7 +9,7 @@ permalink: /domo
 # Domo
 {: .no_toc }
 
-I created the following [knowledge base](https://domo-support.domo.com/s/knowledge-base/?language=en_US) articles for Domo, a cloud-based business intelligence platform for data visualization and analysis.
+I created the following [knowledge base](https://domo-support.domo.com/s/knowledge-base/?language=en_US) articles for Domo, a cloud-based business intelligence platform.
 {: .fs-6 : .fw-300 }
 
 - TOC
