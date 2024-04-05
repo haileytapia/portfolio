@@ -19,14 +19,17 @@ To create a recurring event:
 1.  Select <img src="https://github.com/haileytapia/portfolio/assets/78626762/408b742a-1cde-49a1-a5a1-1f5b2786905f" width="15"> **Calendar** from the navigation menu.
 
     ![Calendar](https://github.com/haileytapia/portfolio/assets/78626762/8fa65fea-68fe-4ae4-b1a2-e627f0eb9308)
+
 2.  Select **New event**.  
       
     ![New event](https://github.com/haileytapia/portfolio/assets/78626762/3cbe775b-47a2-4986-995f-0845fcaf24ec)
 
     The **New event** modal appears and prompts you for the event details.  
       
-    ![New event modal](https://github.com/haileytapia/portfolio/assets/78626762/43e2f8a0-5774-4e43-931d-9931fb3c6166)  
+    ![New event modal](https://github.com/haileytapia/portfolio/assets/78626762/43e2f8a0-5774-4e43-931d-9931fb3c6166)
+
 3.  Enter the event title, attendees, start time, end time, and other details in the appropriate fields.
+
 4.  <a id="step-four"></a>Select <img src="https://github.com/haileytapia/portfolio/assets/78626762/71cd859b-98ed-4fbb-85aa-2485ae6cd02e" width="20"> **Don’t repeat** and choose how often you want the event to occur: **Daily**, **Weekly**, **Monthly**, **Yearly**, or a **Custom** frequency.
 
     <img src="https://github.com/haileytapia/portfolio/assets/78626762/75f67b9c-3614-49d1-b4bc-f94b865df24a" width="550">
@@ -34,6 +37,7 @@ To create a recurring event:
     The **Repeat** modal appears. 
 
     ![Repeat modal](https://github.com/haileytapia/portfolio/assets/78626762/cadff286-4f88-41cf-99f7-eb3091c343c7)
+
 5.  In the **Start** field, enter the date on which the event should begin.
 
 6.  (Conditional) Follow the steps for the event frequency you selected in [step four](#step-four):
@@ -43,7 +47,8 @@ To create a recurring event:
 7.  Choose the end date for the event, then select **Save**.  
 
     Outlook saves the recurrence settings and returns you to the **New event** modal.
-8. When you are ready to create your event, select **Save** (if you have not added attendees) or **Send** (if you have added attendees).
+
+8. When you're ready to create your event, select **Save** (if you have not added attendees) or **Send** (if you have added attendees).
 
    ![Save](https://github.com/haileytapia/portfolio/assets/78626762/d6df9be4-cb95-4c28-a642-7c584d4d9ab2)
 
