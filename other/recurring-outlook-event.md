@@ -48,7 +48,7 @@ To create a recurring event:
 
     Outlook saves the recurrence settings and returns you to the **New event** modal.
 
-8. When you're ready to create your event, select **Save** (if you have not added attendees) or **Send** (if you have added attendees).
+8. When you're ready to create the event, select **Save** (if you have not added attendees) or **Send** (if you have added attendees).
 
    ![Save](https://github.com/haileytapia/portfolio/assets/78626762/d6df9be4-cb95-4c28-a642-7c584d4d9ab2)
 
