@@ -18,7 +18,7 @@ May 18, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/Style
 
 ## after
 
-> Use to denote a chronological sequence of events that doesn't rely on cause and effect. Don't use to mean "when". See also [when](#when).
+> Use to denote a chronological sequence of events that doesn't rely on cause and effect. Don't use to mean "when." See also [when](#when).
 > 
 > **Correct**
 > 
