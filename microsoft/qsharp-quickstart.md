@@ -92,7 +92,7 @@ You put a qubit into superposition by applying the Hadamard, `H`, operation:
         H(q1);
 ```
 
-The resulting state of q1 is ![One over the square root of two.](https://latex.codecogs.com/svg.image?\frac{1}{\sqrt{2}})(∣0⟩ + ∣1⟩), which is an even superposition of ∣0⟩ and ∣1⟩.
+The resulting state of q1 is <img src="https://latex.codecogs.com/svg.image?\frac{1}{\sqrt{2}}" alt="One over the square root of two." width="15"/>(∣0⟩ + ∣1⟩), which is an even superposition of ∣0⟩ and ∣1⟩.
 
 ### Entangle the qubits
 
@@ -105,7 +105,7 @@ For this quickstart, you set `q1` as the control qubit and `q2` as the target qu
         CNOT(q1, q2);
 ```
 
-The resulting state of both qubits is the Bell pair ![One over the square root of two.](https://latex.codecogs.com/svg.image?\frac{1}{\sqrt{2}})(∣00⟩ + ∣11⟩).
+The resulting state of both qubits is the Bell pair <img src="https://latex.codecogs.com/svg.image?\frac{1}{\sqrt{2}}" alt="One over the square root of two." width="15"/>(∣00⟩ + ∣11⟩).
 
 {: .tip }
 > To learn how the Hadamard and CNOT operations transform the state of the qubits, see [Creating entanglement with quantum operations](https://learn.microsoft.com/en-us/azure/quantum/concepts-entanglement#creating-entanglement-with-quantum-operations).
