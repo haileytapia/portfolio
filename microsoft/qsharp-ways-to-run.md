@@ -12,7 +12,7 @@ permalink: /microsoft/qsharp-ways-to-run
 August 5, 2024 ∙ [Original document](https://learn.microsoft.com/en-us/azure/quantum/qsharp-ways-to-work)
 {: .fs-5 : .fw-300 }
 
-Azure Quantum offers different development options for writing and running quantum programs. Each environment uses the Quantum Development Kit (QDK), a set of open-source tools that includes the Q# programming language. For more information, see [Introduction to Q#](https://learn.microsoft.com/en-us/azure/quantum/qsharp-overview).
+Azure Quantum offers different development options for writing and running quantum programs. Each environment uses the Quantum Development Kit (QDK), a set of open-source tools that includes the Q# programming language. For more information, see [Introduction to Q#](/portfolio/microsoft/qsharp-intro).
 
 In this article, you learn the differences between each option and how to choose the right one for your needs.
 
@@ -119,6 +119,12 @@ To learn and explore the Q# programming language, use the following resources:
 - **[Quantum Katas](https://quantum.microsoft.com/experience/quantum-katas):** Learn quantum computing and programming simultaneously with these self-paced tutorials, each with relevant theory and Q# exercises to test your knowledge.
 - **[Q# code samples](https://github.com/microsoft/qsharp/tree/main/samples):** Build your first quantum solution with these ready-to-use Q# samples. They cover four areas: quantum algorithms, resource estimation, language constructs, and Jupyter Notebooks.
 - **[QDK playground](https://vscode.dev/quantum/playground/):** Explore common quantum algorithms written in Q#. The playground is hosted on VS Code for the Web and comes preconfigured with the QDK, so you don't need to install anything.
+
+## Related content
+
+- [Set up the QDK](https://learn.microsoft.com/en-us/azure/quantum/install-overview-qdk)
+- [Quickstart: Create your first Q# program](/portfolio/microsoft/qsharp-quickstart]
+- [Reference: QDK extension for VS Code](https://learn.microsoft.com/en-us/azure/quantum/vscode-qsharp-reference)
 
 ---
 
