@@ -14,7 +14,7 @@ June 28, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/MC/C
 
 After you triage an incident on the **Incident review** page of Splunk Mission Control, select either the incident or **Preview** then **View details** to start investigating it. You can view incident fields in the side panel, and you can view summary fields and custom fields on the **Overview** tab.
 
-{:  .note }
+{: .note }
 > To investigate a specific incident, search for it on the **Incident review** page using the incident ID with the `MC-XXXXX` syntax.
 
 ## Create a summary field for an incident
