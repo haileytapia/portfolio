@@ -32,7 +32,7 @@ The menu is expanded to the left of this text on desktop computers and displays 
 
 ## About me
 
-I am pursuing a B.A. in English: Technical Communication at the University of Central Florida and have almost two years of technical writing experience. For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
+I'm pursuing a B.A. in English: Technical Communication at the University of Central Florida and have almost two years of technical writing experience. For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
 
 In addition to technical writing, I have experience in the following areas:
 
