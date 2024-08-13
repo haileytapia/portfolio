@@ -18,9 +18,9 @@ When two or more [qubits](https://learn.microsoft.com/en-us/azure/quantum/concep
 
 In this quickstart, you:
 
-✔ Create a Q# file. <br>
-✔ Allocate a pair of qubits. <br>
-✔ Entangle the qubits.
+- [x] Create a Q# file.
+- [x] Allocate a pair of qubits.
+- [x] Entangle the qubits.
 
 ## Prerequisites
 
