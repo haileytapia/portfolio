@@ -108,7 +108,7 @@ For this quickstart, you set `q1` as the control qubit and `q2` as the target qu
 
 The resulting state of both qubits is the Bell pair $\frac{1}{√2}$(∣00⟩ + ∣11⟩).
 
-{: .tip }
+{:  .tip }
 > If you want to learn how the Hadamard and CNOT operations transform the state of the qubits, see [Creating entanglement with quantum operations](https://learn.microsoft.com/en-us/azure/quantum/concepts-entanglement#creating-entanglement-with-quantum-operations).
 
 ### Display the entangled state
@@ -150,7 +150,7 @@ Finally, to complete the `EntangleQubits` operation and observe the entangled st
         return (m1, m2);
 ```
 
-{: .tip }
+{:  .tip }
 > If you want to learn more about a Q# function or operation, hover over it.
 > 
 > ![Screenshot of the details that appear when you hover the 'H' operation in Visual Studio Code.](https://github.com/user-attachments/assets/8a216327-6bc4-4df9-9963-251155c5223d)
