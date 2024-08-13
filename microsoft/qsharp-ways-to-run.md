@@ -123,7 +123,7 @@ To learn and explore the Q# programming language, use the following resources:
 ## Related content
 
 - [Set up the QDK](https://learn.microsoft.com/en-us/azure/quantum/install-overview-qdk)
-- [Quickstart: Create your first Q# program](/portfolio/microsoft/qsharp-quickstart]
+- [Quickstart: Create your first Q# program](/portfolio/microsoft/qsharp-quickstart)
 - [Reference: QDK extension for VS Code](https://learn.microsoft.com/en-us/azure/quantum/vscode-qsharp-reference)
 
 ---
