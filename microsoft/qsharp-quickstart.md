@@ -14,8 +14,7 @@ August 5, 2024 ∙ [Original document](https://learn.microsoft.com/en-us/azure/q
 
 Learn how to write a basic Q# program that demonstrates entanglement, a key concept of quantum computing.
 
-When two or more [qubits](https://learn.microsoft.com/en-us/azure/quantum/concepts-the-qubit) are entangled, they share quantum information, which means whatever happens to one qubit also happens to the other. In this quickstart, you create a particular two-qubit entangled state called a Bell pair. In a Bell pair, if you measure one qubit in the 
-∣0⟩ state, you know the other qubit is also in the ∣0⟩ state without measuring it. For more information, see [Quantum entanglement](https://learn.microsoft.com/en-us/azure/quantum/concepts-entanglement).
+When two or more [qubits](https://learn.microsoft.com/en-us/azure/quantum/concepts-the-qubit) are entangled, they share quantum information, meaning whatever happens to one qubit also happens to the other. This quickstart focuses on a two-qubit entangled state called a Bell pair. In a Bell pair, if you measure one qubit in the ∣0⟩ state, you know the other qubit is also in the ∣0⟩ state without measuring it. For more information, see [Quantum entanglement](https://learn.microsoft.com/en-us/azure/quantum/concepts-entanglement).
 
 In this quickstart, you:
 
