@@ -12,6 +12,10 @@ aux_links:
   "LinkedIn":
     - "https://www.linkedin.com/in/haileytapia/"
 
+compress_html:
+  ignore:
+    envs: all
+    
 callouts:
   important:
     title: Important
