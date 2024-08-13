@@ -56,9 +56,68 @@ The Azure Quantum website lets you run Q# programs in your browser and access va
 
 The following table shows what you can and can't do on the Azure Quantum website:
 
-| You can:                                                                                                                                                                                                                       | You can't:                                                                                                                             | You need:                                            |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
-| • &nbsp; Run Q# programs online. <br> • &nbsp; Simulate your programs in the Quantinuum H-Series Emulator. <br> • &nbsp; Ask Copilot to explain quantum computing concepts or generate Q# programs. <br> • &nbsp; Learn quantum programming using tutorials in the Quantum Katas. | <br> • &nbsp; Debug your programs. <br> • &nbsp; Save your programs and results. <br> • &nbsp; Select any quantum computing provider. <br> • &nbsp; Run Python code. <br> • &nbsp; Manage your quantum jobs. | <br> • &nbsp; No installation required. <br> • &nbsp; No Azure account required. |
+<table>
+    <tbody>
+        <tr>
+            <td>
+                You can:
+            </td>
+            <td>
+                You can't:
+            </td>
+            <td>
+                You need:
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>
+                        Run Q# programs online.
+                    </li>
+                    <li>
+                        Simulate your programs in the Quantinuum H-Series Emulator.
+                    </li>
+                    <li>
+                        Ask Copilot to explain quantum computing concepts or generate Q# programs.
+                    </li>
+                    <li>
+                        Learn quantum programming using tutorials in the Quantum Katas.
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>
+                        Debug your programs.
+                    </li>
+                    <li>
+                        Save your programs and results.
+                    </li>
+                    <li>
+                        Select any quantum computing provider.
+                    </li>
+                    <li>
+                        Run Python code.
+                    </li>
+                    <li>
+                        Manage your quantum jobs.
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>
+                        No installation required.
+                    </li>
+                    <li>
+                        No Azure account required.
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## Azure portal
 
