@@ -38,8 +38,9 @@ The option you choose for running Q# programs depends on your coding experience,
 | Local setup                |                       |              |          ✔         |
 | Quantum workspace creation |                       |       ✔      |                    |
 
-* VS Code provides rich Q# support, such as CodeLens, IntelliSense, and debugging.
-** QPU access in VS Code requires an Azure subscription.
+\* VS Code provides rich Q# support, such as CodeLens, IntelliSense, and debugging.
+
+\** QPU access in VS Code requires an Azure subscription.
 
 ## Azure Quantum website
 
