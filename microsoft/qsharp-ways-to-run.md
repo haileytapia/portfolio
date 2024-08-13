@@ -56,68 +56,11 @@ The Azure Quantum website lets you run Q# programs in your browser and access va
 
 The following table shows what you can and can't do on the Azure Quantum website:
 
-<table>
-    <tbody>
-        <tr>
-            <td>
-                You can:
-            </td>
-            <td>
-                You can't:
-            </td>
-            <td>
-                You need:
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <ul>
-                    <li>
-                        Run Q# programs online.
-                    </li>
-                    <li>
-                        Simulate your programs in the Quantinuum H-Series Emulator.
-                    </li>
-                    <li>
-                        Ask Copilot to explain quantum computing concepts or generate Q# programs.
-                    </li>
-                    <li>
-                        Learn quantum programming using tutorials in the Quantum Katas.
-                    </li>
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>
-                        Debug your programs.
-                    </li>
-                    <li>
-                        Save your programs and results.
-                    </li>
-                    <li>
-                        Select any quantum computing provider.
-                    </li>
-                    <li>
-                        Run Python code.
-                    </li>
-                    <li>
-                        Manage your quantum jobs.
-                    </li>
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>
-                        No installation required.
-                    </li>
-                    <li>
-                        No Azure account required.
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
+From the Azure portal, you can grant a group of users, like your team members or students, access to your quantum workspace. If you want to manage your subscriptions, review your invoices, or add quantum providers, the Azure portal is for you.
+
+| You can: | You can't: | You need: |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-----------------------------------------------------------------------|
+| <br> • &nbsp; Create quantum workspaces. <br> • &nbsp; Manage your subscriptions and workspaces. <br> • &nbsp; Copy access keys of your workspace. <br> • &nbsp; Manage your quantum jobs. <br> • &nbsp; Run Q# and Python programs in Azure notebooks. <br> • &nbsp; Save your programs and results. <br> • &nbsp; Select any quantum computing provider. | <br> • &nbsp; Access the Quantum Copilot. <br> • &nbsp; Debug your programs. | <br> • &nbsp; An Azure subscription. <br> • &nbsp; A quantum workspace. <br> • &nbsp; No installation required. |
 
 ## Azure portal
 
@@ -134,7 +77,7 @@ You can also use the [Azure Quantum Resource Estimator](https://learn.microsoft.
 
 From the Azure portal, you can grant a group of users, like your team members or students, access to your quantum workspace. If you want to manage your subscriptions, review your invoices, or add quantum providers, the Azure portal is for you.
 
-| You can:                                                                                                                                                                                                                                                 | You can't:                                       | You need:                                                             |
+| You can: | You can't: | You need: |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-----------------------------------------------------------------------|
 | <br> • &nbsp; Create quantum workspaces. <br> • &nbsp; Manage your subscriptions and workspaces. <br> • &nbsp; Copy access keys of your workspace. <br> • &nbsp; Manage your quantum jobs. <br> • &nbsp; Run Q# and Python programs in Azure notebooks. <br> • &nbsp; Save your programs and results. <br> • &nbsp; Select any quantum computing provider. | <br> • &nbsp; Access the Quantum Copilot. <br> • &nbsp; Debug your programs. | <br> • &nbsp; An Azure subscription. <br> • &nbsp; A quantum workspace. <br> • &nbsp; No installation required. |
 
