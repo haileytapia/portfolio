@@ -12,6 +12,8 @@ aux_links:
   "LinkedIn":
     - "https://www.linkedin.com/in/haileytapia/"
 
+enable_copy_code_button: true
+
 compress_html:
   ignore:
     envs: all
