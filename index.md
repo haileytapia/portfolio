@@ -23,6 +23,7 @@ The following samples best represent my technical writing:
 
 Use the navigation menu to explore my portfolio, which contains the following sections:
 
+- [Microsoft](/portfolio/microsoft)
 - [Splunk](/portfolio/splunk)
 - [Domo](/portfolio/domo)
 - [Other](/portfolio/other)
