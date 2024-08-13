@@ -6,7 +6,7 @@ nav_order: 1
 permalink: /microsoft/qsharp-intro
 ---
 
-# Introduction to Q#
+# Introduction to the quantum programming language Q#
 {: .no_toc }
 
 August 5, 2024 ∙ [Original document](https://learn.microsoft.com/en-us/azure/quantum/qsharp-overview)
