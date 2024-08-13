@@ -105,7 +105,7 @@ For this quickstart, you set `q1` as the control qubit and `q2` as the target qu
         CNOT(q1, q2);
 ```
 
-The resulting state of both qubits is the Bell pair! [One over the square root of two.](https://latex.codecogs.com/svg.image?\frac{1}{\sqrt{2}})(∣00⟩ + ∣11⟩).
+The resulting state of both qubits is the Bell pair ![One over the square root of two.](https://latex.codecogs.com/svg.image?\frac{1}{\sqrt{2}})(∣00⟩ + ∣11⟩).
 
 {: .tip }
 > To learn how the Hadamard and CNOT operations transform the state of the qubits, see [Creating entanglement with quantum operations](https://learn.microsoft.com/en-us/azure/quantum/concepts-entanglement#creating-entanglement-with-quantum-operations).
