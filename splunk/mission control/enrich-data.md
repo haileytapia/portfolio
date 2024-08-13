@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Wei creates an intelligence workflow in Mission Control to enrich data
+title: Wei creates an intelligence workflow to enrich data
 parent: Mission Control
 grand_parent: Splunk
 nav_order: 1
