@@ -63,7 +63,7 @@ The following table shows what you can and can't do on the Azure Quantum website
 
 The [Azure portal](https://portal.azure.com/https://portal.azure.com/) is the main interface of the Microsoft Azure cloud computing platform. From the portal, you can create an [Azure Quantum workspace](https://learn.microsoft.com/en-us/azure/quantum/how-to-create-workspace) to run quantum programs, send them to [quantum hardware providers](https://learn.microsoft.com/en-us/azure/quantum/qc-target-list), and store their results in an Azure Quantum storage account. You can also manage your subscriptions, activity, credit usage, quotas, and access control.
 
-{:  .note }
+{: .note }
 > First-time users automatically receive USD500 free Azure Quantum Credits to use with any participating quantum hardware provider.
 
 Quantum workspaces include [Azure Quantum notebooks](https://learn.microsoft.com/en-us/azure/quantum/get-started-jupyter-notebook), which are web-based Jupyter Notebooks in the Azure portal. Use Azure notebooks to create, upload, store, and run Q# and Python programs on quantum simulators or hardware. From your quantum workspace, you can use sample notebooks to get started with quantum programming.
@@ -88,7 +88,7 @@ You don't need an Azure account to use the QDK in VS Code. However, if you have 
 
 To get started, see [Set up the QDK](https://learn.microsoft.com/en-us/azure/quantum/install-overview-qdk).
 
-{:  .note }
+{: .note }
 > The QDK extension is also available for [VS Code for the Web](https://vscode.dev/quantum), which provides the same Azure connectivity and Q# language features as the desktop version. However, it doesn't support Python, Qiskit, or Cirq.
 
 ### Integration of Q# and Python
