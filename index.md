@@ -14,9 +14,9 @@ My technical writing skills, developed through past internships and coursework, 
 
 The following samples best represent my technical writing:
 
+- [Quickstart: Create your first Q# program](/portfolio/microsoft/qsharp-quickstart)
 - [Scenario: Wei creates an intelligence workflow in Splunk Mission Control to enrich data](/portfolio/splunk/mission-control/enrich-data)
 - [Investigate an incident in Splunk Mission Control](/portfolio/splunk/mission-control/investigate-incidents)
-- [Manage subscriptions to Domo Appstore listings](/portfolio/domo/manage-subscriptions)
 - [Guide to UCF student services](/portfolio/other/freshmen-services.pdf)
 
 ## Navigation 
