@@ -190,12 +190,6 @@ namespace Superposition {
 }
 ```
 
-## Related content
-
-- [Different ways to run Q# programs](https://learn.microsoft.com/en-us/azure/quantum/qsharp-ways-to-work)
-- [Set up the QDK](https://learn.microsoft.com/en-us/azure/quantum/install-overview-qdk)
-- [Quickstart: Create your first Q# program](https://learn.microsoft.com/en-us/azure/quantum/qsharp-quickstart)
-
 ---
 
 [Back to top](#top)
