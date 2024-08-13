@@ -19,17 +19,6 @@ The following samples best represent my technical writing:
 - [Investigate an incident in Splunk Mission Control](/portfolio/splunk/mission-control/investigate-incidents)
 - [Guide to UCF student services](/portfolio/other/freshmen-services.pdf)
 
-## Navigation 
-
-Use the navigation menu to explore my portfolio, which contains the following sections:
-
-- [Microsoft](/portfolio/microsoft)
-- [Splunk](/portfolio/splunk)
-- [Domo](/portfolio/domo)
-- [Other](/portfolio/other)
-
-The menu is expanded to the left of this text on desktop computers and displays as a <img src="https://github.com/haileytapia/portfolio/assets/78626762/d3f823ac-7ddd-40da-88e5-2ca5b7f4f22b" width="20"> hamburger menu on mobile devices.
-
 ## About me
 
 I'm pursuing a B.A. in English: Technical Communication at the University of Central Florida and have nearly two years of technical writing experience. For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
