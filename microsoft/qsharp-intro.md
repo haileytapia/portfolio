@@ -24,7 +24,7 @@ As a quantum programming language, Q# meets the following language, compiler, an
 
 Before you start writing quantum programs, it's important to understand their structure and components. Consider the following Q# program that creates a superposition state:
 
-```qsharp
+```Q#
 namespace Superposition {
     @EntryPoint()
     operation MeasureOneQubit() : Result {
@@ -47,7 +47,7 @@ Based on the comments (`//`), the `Superposition` program first allocates a qubi
 
 ### User namespaces
 
-Q# programs start with a user-defined namespace, such as:
+Q# programs start with a user-defined [namespace](https://learn.microsoft.com/en-us/azure/quantum/user-guide/language/programstructure/namespaces), such as:
 
 ```qsharp
 namespace Superposition {
@@ -71,7 +71,7 @@ operation MeasureOneQubit() : Result {
 
 ### Types
 
-Q# provides built-in types that are common to most languages, including `Int`, `Double`, `Bool`, and `String`, and types that are specific to quantum computing. For example, the `Result` type represents the result of a qubit measurement and can have one of two values: `Zero` or `One`.
+Q# provides [built-in types](https://learn.microsoft.com/en-us/azure/quantum/user-guide/language/typesystem/) that are common to most languages, including `Int`, `Double`, `Bool`, and `String`, and types that are specific to quantum computing. For example, the `Result` type represents the result of a qubit measurement and can have one of two values: `Zero` or `One`.
 
 In the `Superposition` program, the `MeasureOneQubit()` operation returns a `Result` type, which corresponds to the return type of the `M` operation. The measurement result is stored in a new variable that's defined using the `let` statement:
 
@@ -84,11 +84,11 @@ operation MeasureOneQubit() : Result {
     ...
 ```
 
-Q# also provides types that define ranges, arrays, and tuples. You can even define your own custom types.
+Q# also provides types that define ranges, arrays, and tuples. You can even define your own [custom types](https://learn.microsoft.com/en-us/azure/quantum/user-guide/language/programstructure/typedeclarations).
 
 ## Allocating qubits
 
-In Q#, you allocate qubits using the `use` keyword. Qubits are always allocated in the  state.
+In Q#, you allocate qubits using the `use` keyword. Qubits are always allocated in the ∣0⟩ state.
 
 The `Superposition` program defines a single qubit:
 
@@ -105,11 +105,11 @@ H(qubits[0]); // Apply H to the first qubit.
 X(qubits[1]); // Apply X to the second qubit.
 ```
 
-For more information, see Use statement.
+For more information, see [Use statement](https://learn.microsoft.com/en-us/azure/quantum/user-guide/language/statements/quantummemorymanagement#use-statement).
 
 ### Quantum operations
 
-After allocating a qubit, you can pass it to operations and functions, also known as callables. Operations are the basic building blocks of a Q# program. A Q# operation is a quantum subroutine, or a callable routine that contains quantum operations that change the state of the qubit register.
+After allocating a qubit, you can pass it to operations and functions, also known as [callables](https://learn.microsoft.com/en-us/azure/quantum/user-guide/language/programstructure/callabledeclarations). [Operations](https://learn.microsoft.com/en-us/azure/quantum/user-guide/language/typesystem/operationsandfunctions) are the basic building blocks of a Q# program. A Q# operation is a quantum subroutine, or a callable routine that contains quantum operations that change the state of the qubit register.
 
 To define a Q# operation, you specify a name for the operation, its inputs, and its output. In the `Superposition` program, the `MeasureOneQubit()` operation is essentially the entire program. It takes no parameters and returns a `Result` type:
 
@@ -131,11 +131,11 @@ The Q# standard library also provides operations you can use in quantum programs
 
 ### Measuring qubits
 
-While there are many types of quantum measurements, Q# focuses on projective measurements on single qubits, also known as Pauli measurements.
+While there are many types of quantum measurements, Q# focuses on projective measurements on single qubits, also known as [Pauli measurements](https://learn.microsoft.com/en-us/azure/quantum/concepts-pauli-measurements).
 
 In Q#, the `Measure` operation measures one or more qubits in the specified Pauli basis, which can be `PauliX`, `PauliY`, or `PauliZ`. `Measure` returns a `Result` type of either `Zero` or `One`.
 
-To implement a measurement in the computational basis , you can also use the `M` operation, which measures a qubit in the Pauli Z-basis. This makes `M` equivalent to `Measure([PauliZ], [qubit])`.
+To implement a measurement in the computational basis {∣0⟩, ∣1⟩}, you can also use the `M` operation, which measures a qubit in the Pauli Z-basis. This makes `M` equivalent to `Measure([PauliZ], [qubit])`.
 
 The `Superposition` program uses the `M` operation:
 
@@ -146,7 +146,7 @@ let result = M(q);
 
 ### Resetting qubits
 
-In Q#, qubits must be in the  state when they're released. Use the `Reset` operation to reset each qubit to the  state before releasing it at the end of the program. Failure to reset a qubit results in a runtime error.
+In Q#, qubits must be in the ∣0⟩ state when they're released. Use the `Reset` operation to reset each qubit to the ∣0⟩ state before releasing it at the end of the program. Failure to reset a qubit results in a runtime error.
 
 ```qsharp
 // Reset a qubit.
