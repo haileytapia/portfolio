@@ -7,12 +7,12 @@ nav_order: 3
 permalink: /splunk/mission-control/investigate-incidents
 ---
 
-# Investigate an incident in Mission Control
+# Investigate an incident in Splunk Mission Control
 
 June 28, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/MC/Current/Detect/Investigate)
 {: .fs-5 : .fw-300 }
 
-After you triage an incident on the **Incident review** page of Mission Control, select either the incident or **Preview** then **View details** to start investigating it. You can view incident fields in the side panel, and you can view summary fields and custom fields on the **Overview** tab.
+After you triage an incident on the **Incident review** page of Splunk Mission Control, select either the incident or **Preview** then **View details** to start investigating it. You can view incident fields in the side panel, and you can view summary fields and custom fields on the **Overview** tab.
 
 {: .note }
 > To investigate a specific incident, search for it on the **Incident review** page using the incident ID with the `MC-XXXXX` syntax.
@@ -25,7 +25,7 @@ When you create a summary field, you must specify its name and one or more value
 
 To create a summary field for an incident:
 
-1. Select an incident from the **Incident review** page of Mission Control.
+1. Select an incident from the **Incident review** page of Splunk Mission Control.
 2. In the **Summary** section of the **Overview** tab, select **+**.
 3. Enter a name and value for the summary field.
     1. (Optional) To add a value to your summary field, select **+** next to the field.
@@ -56,9 +56,9 @@ Follow the steps in this table to view other types of incident information:
 | Information | Description |
 | --- | --- |
 | Recent activity for a notable event | If the incident was ingested from Splunk Enterprise Security (ES), select **View all recent activity for this notable event** to view incident activity over a specified time period. |
-| Contributing events | Select **View contributing events** to open a contributing search, which identifies the events that generated the incident. To learn more about events, see [Add events to an incident in Mission Control](http://docs.splunk.com/Documentation/MC/Current/Detect/Events). |
-| SOAR container | Each incident in Mission Control is associated with a container in Splunk SOAR. Select **View container** to open Splunk SOAR and see the container associated with the incident. |
-| ES notable | Some incidents in Mission Control are associated with a notable event in ES. If applicable, select **View notable event** to open ES and see the notable event from which the incident originated. |
+| Contributing events | Select **View contributing events** to open a contributing search, which identifies the events that generated the incident. To learn more about events, see [Add events to an incident in Splunk Mission Control](http://docs.splunk.com/Documentation/MC/Current/Detect/Events). |
+| SOAR container | Each incident in Splunk Mission Control is associated with a container in Splunk SOAR. Select **View container** to open Splunk SOAR and see the container associated with the incident. |
+| ES notable | Some incidents in Splunk Mission Control are associated with a notable event in ES. If applicable, select **View notable event** to open ES and see the notable event from which the incident originated. |
 
 ## View risk-based alerting scores for artifacts
 
