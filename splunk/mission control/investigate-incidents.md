@@ -7,7 +7,7 @@ nav_order: 3
 permalink: /splunk/mission-control/investigate-incidents
 ---
 
-# Investigate an incident in Mission Control
+# Investigate an incident in Splunk Mission Control
 
 June 28, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/MC/Current/Detect/Investigate)
 {: .fs-5 : .fw-300 }
