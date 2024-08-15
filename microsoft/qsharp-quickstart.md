@@ -61,7 +61,7 @@ In your `BellPair` namespace, use an `open` statement to import the `Microsoft.Q
 
 After opening the relevant libraries, define your quantum operation and its input and output values. For this quickstart, your operation is `EntangleQubits`. This is where you'll write the remaining Q# code to allocate, manipulate, and measure two qubits.
 
-`EntangleQubits` takes no parameters and returns two Result values, Zero or One, which represent the results of the qubit measurements:
+`EntangleQubits` takes no parameters and returns two `Result` values, `Zero` or `One`, which represent the results of the qubit measurements:
 
 ```qsharp
     operation EntangleQubits() : (Result, Result) {
@@ -85,20 +85,20 @@ The `EntangleQubits` operation is currently empty, so the next step is to alloca
 
 The qubits `q1` and `q2` are in the ∣0⟩ state. To prepare the qubits for entanglement, you must put one of them into an even superposition, where it has a 50% chance of being measured as ∣0⟩ or ∣1⟩.
 
-You put a qubit into superposition by applying the Hadamard, `H`, operation:
+In Q#, you put a qubit into superposition using the Hadamard, `H`, operation:
 
 ```qsharp
         // Put q1 into an even superposition.
         H(q1);
 ```
 
-The resulting state of q1 is <img src="https://latex.codecogs.com/svg.image?\frac{1}{\sqrt{2}}" alt="One over the square root of two." width="15"/>(∣0⟩ + ∣1⟩), which is an even superposition of ∣0⟩ and ∣1⟩.
+The resulting state of `q1` is <img src="https://latex.codecogs.com/svg.image?\frac{1}{\sqrt{2}}" alt="One over the square root of two." width="15"/>(∣0⟩ + ∣1⟩), which is an even superposition of ∣0⟩ and ∣1⟩.
 
 ### Entangle the qubits
 
 You're now ready to entangle the qubits using the controlled-NOT, `CNOT`, operation. `CNOT` is a control operation that takes two qubits, one acting as the control and the other as the target.
 
-For this quickstart, you set `q1` as the control qubit and `q2` as the target qubit. This means CNOT flips the state of `q2` when the state of `q1` is ∣1⟩.
+For this quickstart, you set `q1` as the control qubit and `q2` as the target qubit. This means `CNOT` flips the state of `q2` when the state of `q1` is ∣1⟩.
 
 ```qsharp
         // Entangle q1 and q2, making q2 depend on q1.
@@ -108,7 +108,7 @@ For this quickstart, you set `q1` as the control qubit and `q2` as the target qu
 The resulting state of both qubits is the Bell pair <img src="https://latex.codecogs.com/svg.image?\frac{1}{\sqrt{2}}" alt="One over the square root of two." width="15"/>(∣00⟩ + ∣11⟩).
 
 {: .tip }
-> To learn how the Hadamard and CNOT operations transform the state of the qubits, see [Creating entanglement with quantum operations](https://learn.microsoft.com/en-us/azure/quantum/concepts-entanglement#creating-entanglement-with-quantum-operations).
+> To learn how the Hadamard and controlled-NOT operations transform the state of the qubits, see [Creating entanglement with quantum operations](https://learn.microsoft.com/en-us/azure/quantum/concepts-entanglement#creating-entanglement-with-quantum-operations).
 
 ### Display the entangled state
 
