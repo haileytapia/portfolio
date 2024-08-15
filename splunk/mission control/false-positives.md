@@ -7,7 +7,7 @@ nav_order: 2
 permalink: /splunk/mission-control/false-positives
 ---
 
-# Scenario: Wei creates an intelligence workflow in Mission Control to reduce false positives
+# Scenario: Wei creates an intelligence workflow in Splunk Mission Control to reduce false positives
 
 July 13, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/MC/Current/Detect/TIMFalsePositives)
 {: .fs-5 : .fw-300 }
