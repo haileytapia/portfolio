@@ -19,7 +19,7 @@ The following scenario features Buttercup Games, a fictitious game company.
 
 Buttercup Games recently released the latest version of its artificial intelligence gaming software. Wei, a security operations center (SOC) administrator at Buttercup Games, uses Threat Intelligence Management in Splunk Mission Control to detect and enrich threats.
 
-While monitoring the Buttercup Games software, Wei faces a high volume of false positives for IP addresses. False positives are security alerts that incorrectly indicate the presence of threats. To make more accurate detections, Wei decides to use an intelligence workflow in Splunk Mission Control to prioritize IP addresses by threat. Only company administrators can create and manage intelligence workflows, and because Wei is a SOC administrator at Buttercup Games, they can configure the workflow.
+While monitoring the Buttercup Games software, Wei faces a high volume of false positives for IP addresses. False positives are security alerts that incorrectly indicate the presence of threats. To make more accurate detections, Wei decides to prioritize IP addresses by threat using an intelligence workflow in Splunk Mission Control. Only company administrators can create and manage intelligence workflows, and because Wei is a SOC administrator at Buttercup Games, they can configure the workflow.
 
 In this scenario, Wei uses Threat Intelligence Management in Splunk Mission Control to create an intelligence workflow that rules out false positives for IP addresses.
 
