@@ -30,7 +30,7 @@ In this quickstart, you:
 ## Create a Q# file
 
 1. Open Visual Studio Code.
-2. Select **File** > **New Text File**.
+2. Select **File** then **New Text File**.
 3. Save the file as `Entanglement.qs`. The .qs extension denotes a Q# program.
 
 ## Write your Q# code
