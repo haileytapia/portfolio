@@ -34,7 +34,7 @@ In addition to technical writing, I have the following skills:
 - Q#
 - WikiText
 
-### Tools and technologies
+### Tools
 
 - Adobe Creative Suite
 - Asana
