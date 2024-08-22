@@ -36,7 +36,7 @@ In addition to technical writing, I have the following skills:
 
 ### Tools
 
-- Adobe Creative Suite
+- Adobe Creative Cloud
 - Asana
 - Confluence
 - Git
