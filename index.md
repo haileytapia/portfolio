@@ -39,7 +39,7 @@ In addition to technical writing, I have the following skills:
 - Adobe Creative Suite
 - Asana
 - Confluence
-- Git/GitHub
+- Git
 - Jira
 - Oxygen XML Editor
 - Snagit
