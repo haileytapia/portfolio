@@ -42,6 +42,7 @@ In addition to technical writing, I have the following skills:
 - Git/GitHub
 - Jira
 - Oxygen XML Editor
+- Snagit
 - Visio
 - Visual Studio Code
 
