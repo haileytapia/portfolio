@@ -156,7 +156,7 @@ Finally, to complete the `EntangleQubits` operation and observe the entangled st
 
 ## Run your Q# code
 
-Congratulations! You wrote a Q# program that entangles two qubits and creates a Bell pair. Before running your program, use the `@EntryPoint()` attribute to tell the Q# compiler where to start executing the program. Every Q# program must contain one `@EntryPoint()`. In this case, place `@EntryPoint()` before the `EntangleQubits` operation.
+Congratulations! You've written a Q# program that entangles two qubits and creates a Bell pair. Before running your program, use the `@EntryPoint()` attribute to tell the Q# compiler where to start executing the program. Every Q# program must contain one `@EntryPoint()`. In this case, place `@EntryPoint()` before the `EntangleQubits` operation.
 
 Your final Q# program should look like this:
 
