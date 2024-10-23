@@ -9,7 +9,7 @@ permalink: /microsoft
 # Microsoft
 {: .no_toc }
 
-I created the following content for Q#, a programming language for developing and running quantum algorithms.
+I created the following content for Q#, a programming language for expressing quantum algorithms.
 {: .fs-6 : .fw-300 }
 
 - TOC
