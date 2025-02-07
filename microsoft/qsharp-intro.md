@@ -119,7 +119,7 @@ operation MeasureOneQubit() : Result {
 }
 ```
 
-Here's a basic example that takes no parameters and expects no return value. The Unit value is equivalent to `NULL` in other languages:
+Here's a basic example that takes no parameters and expects no return value. The `Unit` value is equivalent to `NULL` in other languages:
 
 ```qsharp
 operation SayHelloQ() : Unit {
