@@ -8,7 +8,7 @@ permalink: /domo/buy-listing
 
 # Buy an Appstore listing
 
-Apr 26, 2023 ∙ [Original document](https://domo-support.domo.com/s/article/000005190?language=en_US)
+Apr 26, 2023 ∙ [Original article](https://domo-support.domo.com/s/article/000005190?language=en_US)
 {: .fs-5 : .fw-300 }
 
 In addition to free listings, the Appstore offers the following types of paid listings:

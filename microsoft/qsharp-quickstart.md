@@ -9,7 +9,7 @@ permalink: /microsoft/qsharp-quickstart
 # Quickstart: Create your first Q# program
 {: .no_toc }
 
-August 5, 2024 ∙ [Original document](https://learn.microsoft.com/en-us/azure/quantum/qsharp-quickstart)
+August 5, 2024 ∙ [Original article](https://learn.microsoft.com/en-us/azure/quantum/qsharp-quickstart)
 {: .fs-5 : .fw-300 }
 
 Learn how to write a basic Q# program that demonstrates entanglement, a key concept of quantum computing.

@@ -9,7 +9,7 @@ permalink: /splunk/mission-control/investigate-incidents
 
 # Investigate an incident in Splunk Mission Control
 
-June 28, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/MC/Current/Detect/Investigate)
+June 28, 2023 ∙ [Original article](https://docs.splunk.com/Documentation/MC/Current/Detect/Investigate)
 {: .fs-5 : .fw-300 }
 
 After you triage an incident on the **Incident review** page of Splunk Mission Control, select either the incident or **Preview** then **View details** to start investigating it. You can view incident fields in the side panel, and you can view summary fields and custom fields on the **Overview** tab.

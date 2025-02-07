@@ -10,7 +10,7 @@ permalink: /splunk/splunk-style-guide/usage-dictionary
 # Usage Dictionary entries
 {: .no_toc }
 
-May 18, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary)
+May 18, 2023 ∙ [Original article](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary)
 {: .fs-5 : .fw-300 }
 
 {: .about }

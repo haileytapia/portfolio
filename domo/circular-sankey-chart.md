@@ -9,7 +9,7 @@ permalink: /domo/circular-sankey-chart
 # Circular Sankey chart
 {: .no_toc }
 
-Mar 22, 2023 ∙ [Original document](https://domo-support.domo.com/s/article/000005155?language=en_US)
+Mar 22, 2023 ∙ [Original article](https://domo-support.domo.com/s/article/000005155?language=en_US)
 {: .fs-5 : .fw-300 }
 
 Use the circular Sankey chart to visualize recursive data, or data that returns to the same point from which it started.

@@ -9,7 +9,7 @@ permalink: /microsoft/qsharp-ways-to-run
 # Different ways to run Q# programs
 {: .no_toc }
 
-August 5, 2024 ∙ [Original document](https://learn.microsoft.com/en-us/azure/quantum/qsharp-ways-to-work)
+August 5, 2024 ∙ [Original article](https://learn.microsoft.com/en-us/azure/quantum/qsharp-ways-to-work)
 {: .fs-5 : .fw-300 }
 
 Azure Quantum offers different development options for writing and running quantum programs. Each environment uses the Quantum Development Kit (QDK), a set of open-source tools that includes the Q# programming language. For more information, see [Introduction to Q#](/portfolio/microsoft/qsharp-intro).

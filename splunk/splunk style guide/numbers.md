@@ -10,7 +10,7 @@ permalink: /splunk/splunk-style-guide/numbers
 # Using numbers in text
 {: .no_toc }
 
-May 19, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals)
+May 19, 2023 ∙ [Original article](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals)
 {: .fs-5 : .fw-300 }
 
 {: .about }

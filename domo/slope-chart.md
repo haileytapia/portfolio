@@ -9,7 +9,7 @@ permalink: /domo/slope-chart
 # Slope chart
 {: .no_toc }
 
-Mar 13, 2023 ∙ [Original document](https://domo-support.domo.com/s/article/000005154?language=en_US)
+Mar 13, 2023 ∙ [Original article](https://domo-support.domo.com/s/article/000005154?language=en_US)
 {: .fs-5 : .fw-300 }
 
 Slope charts visualize data from a given time period based on the period's start and end points. By simplifying data into lines, you can use this chart type to focus on relevant information rather than the clutter of intermediate data points.

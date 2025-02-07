@@ -9,7 +9,7 @@ permalink: /microsoft/qsharp-intro
 # Introduction to the quantum programming language Q#
 {: .no_toc }
 
-August 5, 2024 ∙ [Original document](https://learn.microsoft.com/en-us/azure/quantum/qsharp-overview)
+August 5, 2024 ∙ [Original article](https://learn.microsoft.com/en-us/azure/quantum/qsharp-overview)
 {: .fs-5 : .fw-300 }
 
 Q# is a high-level, [open-source](https://github.com/microsoft/qsharp) programming language for developing and running quantum algorithms. Q# is included in the Quantum Development Kit (QDK). For more information, see [Set up the QDK](https://learn.microsoft.com/en-us/azure/quantum/install-overview-qdk).

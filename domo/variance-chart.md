@@ -9,7 +9,7 @@ permalink: /domo/variance-chart
 # Variance chart
 {: .no_toc }
 
-Mar 24, 2023 ∙ [Original document](https://domo-support.domo.com/s/article/000005156?language=en_US)
+Mar 24, 2023 ∙ [Original article](https://domo-support.domo.com/s/article/000005156?language=en_US)
 {: .fs-5 : .fw-300 }
 
 Variance charts show the differences between two sets of data. Use this chart type to compare performance over time, identify trends, spot outliers, and track progress toward goals.

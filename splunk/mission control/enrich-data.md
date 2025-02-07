@@ -9,7 +9,7 @@ permalink: /splunk/mission-control/enrich-data
 
 # Scenario: Wei creates an intelligence workflow in Splunk Mission Control to enrich data
 
-July 13, 2023 ∙ [Original document](https://docs.splunk.com/Documentation/MC/Current/Detect/TIMEnrichData)
+July 13, 2023 ∙ [Original article](https://docs.splunk.com/Documentation/MC/Current/Detect/TIMEnrichData)
 {: .fs-5 : .fw-300 }
 
 {:  .about }

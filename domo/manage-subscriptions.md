@@ -9,7 +9,7 @@ permalink: /domo/manage-subscriptions
 # Manage subscriptions to Appstore listings
 {: .no_toc }
 
-Apr 19, 2023 ∙ [Original document](https://domo-support.domo.com/s/article/000005183?language=en_US)
+Apr 19, 2023 ∙ [Original article](https://domo-support.domo.com/s/article/000005183?language=en_US)
 {: .fs-5 : .fw-300 }
 
 Some Appstore listings require a monthly subscription. After you make the first subscription payment, anyone in your company's Domo instance can install and use the listing. You can cancel your subscription at any time.
