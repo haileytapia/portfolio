@@ -8,7 +8,6 @@ permalink: /microsoft/azure-ai-search/create-search-service
 ---
 
 # Create an Azure AI Search service in the Azure portal
-{: .no_toc }
 
 February 21, 2025 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/search-create-service-portal)
 {: .fs-5 : .fw-300 }
@@ -65,7 +64,7 @@ If you're implementing [customer-managed encryption](https://learn.microsoft.com
 
 ## Set a resource group
 
-A resource group is a container that holds related resources for an Azure solution. Use it to consolidate same-solution resources, monitor costs, and check the creation date of your search service.
+A resource group is a container of related resources for an Azure solution. Use it to consolidate same-solution resources, monitor costs, and check the creation date of your search service.
 
 ![Screenshot of the Create a Resource Group dialog on the Create a Search Service page.](/portfolio/media/create-search-service/create-resource-group.png)
 
@@ -109,13 +108,13 @@ In most cases, choose a region near you, unless any of the following apply:
 
 1. Do you have a specific tier in mind? Check [region availability by tier](https://learn.microsoft.com/en-us/azure/search/search-sku-tier#region-availability-by-tier).
 
-1. Do you have business continuity and disaster recovery (BCDR) requirements? Create two or more search services in [regional pairs](/azure/reliability/cross-region-replication-azure#azure-paired-regions) within [availability zones](https://learn.microsoft.com/en-us/azure/search/search-reliability#availability-zones). For example, if you're operating in North America, you might choose East US and West US, or North Central US and South Central US, for each search service.
+1. Do you have business continuity and disaster recovery (BCDR) requirements? Create two or more search services in [regional pairs](/azure/reliability/cross-region-replication-azure#azure-paired-regions) within [availability zones](https://learn.microsoft.com/en-us/azure/search/search-reliability#availability-zones). For example, if you're operating in North America, you might choose East US and West US for each search service.
 
 1. Do you need [AI enrichment](https://learn.microsoft.com/en-us/azure/search/cognitive-search-concept-intro), [integrated data chunking and vectorization](https://learn.microsoft.com/en-us/azure/search/vector-search-integrated-vectorization), or [multimodal image search](https://learn.microsoft.com/en-us/azure/search/search-get-started-portal-image-search)? Azure AI Search, Azure OpenAI, and Azure AI multiservice must coexist in the same region.
 
    + Start with [Azure OpenAI regions](/azure/ai-services/openai/concepts/models#model-summary-table-and-region-availability) because they have the most variability. Azure OpenAI provides embedding models and chat models for RAG and integrated vectorization.
 
-   + Check [Azure AI Search regions](search-region-support.md#azure-public-regions) for a match to your Azure OpenAI region. If you're using OCR, entity recognition, or other skills backed by Azure AI, the **AI service integration** column indicates whether Azure AI multiservice and Azure AI Search are in the same region.
+   + Check [Azure AI Search regions](search-region-support.md#azure-public-regions) for a match to your Azure OpenAI region. If you're using OCR, entity recognition, or other skills backed by Azure AI, the `AI service integration` column indicates whether Azure AI multiservice and Azure AI Search are in the same region.
 
    + Check [multimodal embedding regions](/azure/ai-services/computer-vision/overview-image-analysis#region-availability) for multimodal APIs and image search. This API is accessed through an Azure AI multiservice account, but in general, it's available in fewer regions than Azure AI multiservice.
 
@@ -144,8 +143,7 @@ The Basic and Standard tiers are the most common for production workloads, but m
 ![Screenshot of the Select Pricing Tier page in the Azure portal.](/portfolio/media/create-search-service/select-tier.png)
 
 {: .note }
-> + You can't change the tier after creating your search service, so choose carefully.
-> + Search services created after April 3, 2024 have larger partitions and higher vector quotas at every billable tier.
+> Search services created after April 3, 2024 have larger partitions and higher vector quotas at every billable tier.
 
 ## Create your service
 
@@ -171,7 +169,7 @@ To enable role-based access for your service:
 
 ## Scale your service
 
-After deploying your search service, you can [scale it to meet your needs](https://learn.microsoft.com/en-us/azure/search/search-limits-quotas-capacity). Azure AI Search offers two scaling dimensions: *replicas* and *partitions*. Replicas allow your service to handle a higher load of search queries, while partitions allow your service to store and search through more documents.
+After deploying your search service, you can [scale it to your workload](https://learn.microsoft.com/en-us/azure/search/search-limits-quotas-capacity). Azure AI Search offers two scaling dimensions: *replicas* and *partitions*. Replicas allow your service to handle a higher load of search queries, while partitions allow your service to store and search through more documents.
 
 Scaling is available only on billable tiers. On the Free tier, you can't scale your service or configure replicas and partitions.
 
@@ -224,7 +222,7 @@ To request more subscription quotas:
 
    ![Screenshot of the Usage filter for search services in your current subscription.](/portfolio/media/create-search-service/usage-filter.png)
 
-1. Next to the tier and region that need more quotas, select **Request adjustment** <img src=/portfolio/media/create-search-service/request-adjustment.png alt="Screenshot of the Request Adjustment icon, which is the outline of a pencil." width="14">.
+1. Next to the tier and region that need more quotas, select **Request adjustment** <img src="/portfolio/media/create-search-service/request-adjustment.png" alt="Screenshot of the Request Adjustment icon, which is the outline of a pencil." width="14">.
 
 1. In **New Quota Request**, enter a new limit for your subscription quota. The new limit must be greater than your current limit. If regional capacity is constrained, your request won't be automatically approved, and an incident report will be generated for investigation and resolution.
 
@@ -232,10 +230,10 @@ To request more subscription quotas:
 
 1. Check notifications in the Azure portal for updates on the new limit. Most requests are approved within 24 hours.
 
-## Related ontent
+## Related content
 
 + [Quickstart: Create an Azure AI Search index in the Azure portal](https://learn.microsoft.com/en-us/azure/search/search-get-started-portal)
-+ [Quickstart: Start using Cost analysis](https://learn.microsoft.com/en-us/azure/search/search-create-service-portal)
++ [Quickstart: Start using Cost analysis](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis?WT.mc_id=costmanagementcontent_docsacmhorizontal_-inproduct-learn)
 
 ---
 
