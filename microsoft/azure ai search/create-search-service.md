@@ -13,7 +13,7 @@ permalink: /microsoft/azure-ai-search/create-search-service
 February 21, 2025 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/search-create-service-portal)
 {: .fs-5 : .fw-300 }
 
-Azure AI Search is an information-retrieval platform for the enterprise. It supports traditional search and conversational, AI-driven search for "chat with your data" experiences across proprietary content.
+Azure AI Search is an information retrieval platform for the enterprise. It supports traditional search and conversational, AI-driven search for "chat with your data" experiences across proprietary content.
 
 The easiest way to create a search service is through the Azure portal, which is covered in this article. You can also use:
 

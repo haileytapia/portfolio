@@ -21,7 +21,7 @@ The following samples best represent my technical writing:
 
 ## About me
 
-I'm pursuing a BA in English: Technical Communication at the University of Central Florida and have nearly two years of technical writing experience. For a complete overview of my professional background, see [my LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
+I'm a UCF alumna with a BA in English: Technical Communication. My internships exposed me to both hardware and software documentation, leading to my current role as a writer for Azure AI Search at Microsoft. For a complete overview of my professional background, see my [LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
 
 In addition to technical writing, I have the following skills:
 
