@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Ways to run Q# programs
-parent: Microsoft
+parent: Azure Quantum
+grand_parent: Microsoft
 nav_order: 2
-permalink: /microsoft/qsharp-ways-to-run
+permalink: /microsoft/azure-quantum/qsharp-ways-to-run
 ---
 
 # Different ways to run Q# programs

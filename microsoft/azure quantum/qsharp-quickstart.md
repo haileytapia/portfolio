@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Create your first Q# program
-parent: Microsoft
+parent: Azure Quantum
+grand_parent: Microsoft
 nav_order: 3
-permalink: /microsoft/qsharp-quickstart
+permalink: /microsoft/azure-quantum/qsharp-quickstart
 ---
 
 # Quickstart: Create your first Q# program

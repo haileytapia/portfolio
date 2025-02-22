@@ -19,8 +19,8 @@ compress_html:
     envs: all
     
 callouts:
-  important:
-    title: Important
+  warning:
+    title: Warning
     color: red
   note:
     title: Note
@@ -31,3 +31,6 @@ callouts:
   tip:
     title: Tip
     color: green
+  important:
+    title: Important
+    color: blue  

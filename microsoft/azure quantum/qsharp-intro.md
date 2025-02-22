@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Introduction to Q#
-parent: Microsoft
+parent: Azure Quantum
+grand_parent: Microsoft
 nav_order: 1
-permalink: /microsoft/qsharp-intro
+permalink: /microsoft/azure-quantum/qsharp-intro
 ---
 
 # Introduction to the quantum programming language Q#
