@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Create a search service in the Azure portal
+title: Create a search service
 parent: Azure AI Search
 grand_parent: Microsoft
 nav_order: 1
