@@ -51,11 +51,11 @@ To try Azure AI Search for free, [start a trial subscription](https://azure.micr
 
 1. In the upper-left corner of your dashboard, select **Create a resource**.
 
-   ![Screenshot of the Create a Resource button in the Azure portal.](/media/create-search-service/create-resource.png)
+   ![Screenshot of the Create a Resource button in the Azure portal.](/portfolio/media/create-search-service/create-resource.png)
 
 1. Use the search box to find **Azure AI Search**.
 
-   ![Screenshot of the Azure AI Search tile in the Azure portal.](/media/create-search-service/search-tile.png)
+   ![Screenshot of the Azure AI Search tile in the Azure portal.](/portfolio/media/create-search-service/search-tile.png)
 
 ## Choose a subscription
 
@@ -67,11 +67,11 @@ If you're implementing [customer-managed encryption](https://learn.microsoft.com
 
 A resource group is a container that holds related resources for an Azure solution. Use it to consolidate same-solution resources, monitor costs, and check the creation date of your search service.
 
-![Screenshot of the Create a Resource Group dialog on the Create a Search Service page.](/media/create-search-service/create-resource-group.png)
+![Screenshot of the Create a Resource Group dialog on the Create a Search Service page.](/portfolio/media/create-search-service/create-resource-group.png)
 
 Over time, you can track current and projected costs for individual resources and for the overall resource group. The following screenshot shows the cost information that's available when you combine multiple resources into one group:
 
-![Screenshot of the Cost Management page in the Azure portal.](/media/create-search-service/manage-costs.png)
+![Screenshot of the Cost Management page in the Azure portal.](/portfolio/media/create-search-service/manage-costs.png)
 
 ## Name your service
 
@@ -141,7 +141,7 @@ Each tier has its own [capacity and limits](https://learn.microsoft.com/en-us/az
 
 The Basic and Standard tiers are the most common for production workloads, but many customers start with the Free tier. The billable tiers differ primarily in partition size, partition speed, and limits on the number of objects you can create.
 
-![Screenshot of the Select Pricing Tier page in the Azure portal.](/media/create-search-service/select-tier.png)
+![Screenshot of the Select Pricing Tier page in the Azure portal.](/portfolio/media/create-search-service/select-tier.png)
 
 {: .note }
 > + You can't change the tier after creating your search service, so choose carefully.
@@ -151,11 +151,11 @@ The Basic and Standard tiers are the most common for production workloads, but m
 
 After providing the necessary inputs, create your search service.
 
-![Screenshot of the Review and Create button on the Create a Search Service page.](/media/create-search-service/create-service.png)
+![Screenshot of the Review and Create button on the Create a Search Service page.](/portfolio/media/create-search-service/create-service.png)
 
 Your service is deployed within minutes, and you can monitor its progress with Azure notifications. Consider pinning the service to your dashboard for quick access in the future.
 
-![Screenshot of the Notifications tab in the Azure portal.](/media/create-search-service/notifications-tab.png)
+![Screenshot of the Notifications tab in the Azure portal.](/portfolio/media/create-search-service/notifications-tab.png)
 
 ## Configure authentication
 
@@ -167,7 +167,7 @@ To enable role-based access for your service:
 
 1. From the left pane, select **Settings** > **Keys**. You can connect to your service using [API keys](https://learn.microsoft.com/en-us/azure/search/search-security-api-keys), [Azure roles](https://learn.microsoft.com/en-us/azure/search/search-security-rbac), or both. Select **Both** until you assign roles, after which you can select **Role-based access control**.
 
-   ![Screenshot of the Keys tab with authentication options.](/media/create-search-service/authentication-options.png)
+   ![Screenshot of the Keys tab with authentication options.](/portfolio/media/create-search-service/authentication-options.png)
 
 ## Scale your service
 
@@ -183,7 +183,7 @@ To scale your service:
 
 1. From the left pane, select **Settings** > **Scale**.
 
-   ![Screenshot of the Scale tab with sliders for adding replicas and partitions.](/media/create-search-service/scale-options.png)
+   ![Screenshot of the Scale tab with sliders for adding replicas and partitions.](/portfolio/media/create-search-service/scale-options.png)
 
 1. Use the sliders to add replicas and partitions.
 
@@ -214,17 +214,17 @@ To request more subscription quotas:
 
 1. Use the search box to find the **Quotas** service.
 
-   ![Screenshot of the Quota search term and the Quotas service in the results.](/media/create-search-service/quota-search.png)
+   ![Screenshot of the Quota search term and the Quotas service in the results.](/portfolio/media/create-search-service/quota-search.png)
 
 1. On the **Overview** tab, select the **Search** tile.
 
-   ![Screenshot of the Search tile on the Overview page.](/media/create-search-service/search-tile-overview.png)
+   ![Screenshot of the Search tile on the Overview page.](/portfolio/media/create-search-service/search-tile-overview.png)
 
 1. Set filters to review the existing quota for search services in your current subscription. We recommend filtering by usage.
 
-   ![Screenshot of the Usage filter for search services in your current subscription.](/media/create-search-service/usage-filter.png)
+   ![Screenshot of the Usage filter for search services in your current subscription.](/portfolio/media/create-search-service/usage-filter.png)
 
-1. Next to the tier and region that need more quotas, select **Request adjustment** <img src=/media/create-search-service/request-adjustment.png alt="Screenshot of the Request Adjustment icon, which is the outline of a pencil." width="14">.
+1. Next to the tier and region that need more quotas, select **Request adjustment** <img src=/portfolio/media/create-search-service/request-adjustment.png alt="Screenshot of the Request Adjustment icon, which is the outline of a pencil." width="14">.
 
 1. In **New Quota Request**, enter a new limit for your subscription quota. The new limit must be greater than your current limit. If regional capacity is constrained, your request won't be automatically approved, and an incident report will be generated for investigation and resolution.
 
