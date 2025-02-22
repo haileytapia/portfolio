@@ -8,17 +8,17 @@ permalink: /microsoft/azure-ai-search/create-search-service
 ---
 
 # Create an Azure AI Search service in the Azure portal
-- TOC
-{:toc}
-
-## In this article
-{: .no_toc .text-delta }
-
-- TOC
-{:toc}
-
 February 21, 2025 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/search-create-service-portal)
 {: .fs-5 : .fw-300 }
+
+<details open markdown="block">
+  <summary>
+    In this article
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 Azure AI Search is an information retrieval platform for the enterprise. It supports traditional search and conversational, AI-driven search for "chat with your data" experiences across proprietary content.
 
