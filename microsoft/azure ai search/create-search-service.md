@@ -8,6 +8,7 @@ permalink: /microsoft/azure-ai-search/create-search-service
 ---
 
 # Create an Azure AI Search service in the Azure portal
+{: .no_toc }
 
 February 21, 2025 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/search-create-service-portal)
 {: .fs-5 : .fw-300 }
