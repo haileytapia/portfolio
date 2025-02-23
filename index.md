@@ -18,7 +18,7 @@ The following samples best represent my technical writing:
 - [Introduction to the Q# programming language](/portfolio/microsoft/azure-quantum/qsharp-intro)
 - [Quickstart: Create your first Q# program](/portfolio/microsoft/azure-quantum/qsharp-quickstart)
 - [Scenario: Wei creates an intelligence workflow in Splunk Mission Control to enrich data](/portfolio/splunk/mission-control/enrich-data)
-- [Notion user manual](/portfolio/other/notion-manual.pdf)
+- [Guide to Notion](/portfolio/other/notion-user-guide.pdf)
 
 ## About me
 
