@@ -61,7 +61,7 @@ To try Azure AI Search for free, [start a trial subscription](https://azure.micr
 
 If you have multiple Azure subscriptions, choose one for your search service.
 
-If you're implementing [customer-managed encryption](https://learn.microsoft.com/en-us/azure/search/search-security-manage-encryption-keys) or using features that rely on managed service identities for [external data access](https://learn.microsoft.com/en-us/azure/search/search-indexer-securing-resources), choose the subscription you use for those services, such as Azure Key Vault.
+If you're using [customer-managed encryption](https://learn.microsoft.com/en-us/azure/search/search-security-manage-encryption-keys) or features that rely on managed service identities for [external data access](https://learn.microsoft.com/en-us/azure/search/search-indexer-securing-resources), choose the same subscription you use for those services, such as Azure Key Vault.
 
 ## Set a resource group
 
