@@ -214,7 +214,7 @@ Result: "(Zero, Zero)"
 
 ## Next step
 
-To learn more about quantum entanglement with Q#, see [Tutorial: Explore quantum entanglement with Q#](https://learn.microsoft.com/en-us/azure/quantum/tutorial-qdk-explore-entanglement). The tutorial expands on the concepts covered in this quickstart and helps you write a more advanced entanglement program.
+To learn more about entanglement with Q#, see [Tutorial: Explore quantum entanglement with Q#](https://learn.microsoft.com/en-us/azure/quantum/tutorial-qdk-explore-entanglement). The tutorial expands on the concepts covered in this quickstart and helps you write a more advanced entanglement program.
 
 ---
 
