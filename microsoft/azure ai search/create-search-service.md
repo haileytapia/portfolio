@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Create a search service
+title: Create a search service in the Azure portal
 parent: Azure AI Search
 grand_parent: Microsoft
 nav_order: 1
-permalink: /microsoft/azure-ai-search/create-search-service
+permalink: /microsoft/azure-ai-search/create-search-service-portal
 ---
 
 # Create an Azure AI Search service in the Azure portal
