@@ -14,7 +14,7 @@ My technical writing skills, developed through previous roles and coursework, ar
 
 The following samples best represent my technical writing:
 
-- [Create an Azure AI Search service in the Azure portal](/portfolio/microsoft/azure-ai-search/create-search-service)
+- [Create an Azure AI Search service in the Azure portal](/portfolio/microsoft/azure-ai-search/create-search-service-portal)
 - [Introduction to the quantum programming language Q#](/portfolio/microsoft/azure-quantum/qsharp-intro)
 - [Quickstart: Create your first Q# program](/portfolio/microsoft/azure-quantum/qsharp-quickstart)
 - [Scenario: Wei creates an intelligence workflow in Splunk Mission Control to enrich data](/portfolio/splunk/mission-control/enrich-data)
