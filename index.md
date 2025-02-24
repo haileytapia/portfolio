@@ -7,7 +7,7 @@ description: Welcome to my technical writing portfolio!
 
 # Welcome to my portfolio!
 
-My technical writing skills, developed through past internships and coursework, are showcased here.
+My technical writing skills, developed through previous roles and coursework, are showcased here.
 {: .fs-6 : .fw-300 }
 
 ## Featured samples
@@ -40,6 +40,7 @@ In addition to technical writing, I have the following skills:
 - Adobe Creative Cloud
 - Asana
 - Confluence
+- GIMP
 - Git
 - Jira
 - Oxygen XML Editor
