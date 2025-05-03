@@ -1,5 +1,5 @@
-title: Hailey's Portfolio
-description: A collection of my technical writing work!
+title: Hailey's portfolio
+description: A collection of my technical writing!
 theme: just-the-docs
 
 favicon_ico: /favicon.png
@@ -24,7 +24,7 @@ callouts:
     color: red
   note:
     title: Note
-    color: grey-dk
+    color: purple
   about:
     title: About
     color: purple
