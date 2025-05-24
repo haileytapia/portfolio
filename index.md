@@ -14,7 +14,7 @@ My technical writing skills, developed through previous roles and coursework, ar
 
 The following samples best represent my technical writing:
 
-- [Set up integrated vectorization in Azure AI Search using REST APIs](https://learn.microsoft.com/azure/search/search-how-to-integrated-vectorization)
+- [Quickstart: Run agentic retrieval using Python or REST](https://learn.microsoft.com/azure/search/search-get-started-agentic-retrieval?pivots=python)
 - [Introduction to the quantum programming language Q#](/portfolio/microsoft/azure-quantum/qsharp-intro)
 - [Quickstart: Create your first Q# program](/portfolio/microsoft/azure-quantum/qsharp-quickstart)
 - [Scenario: Wei creates an intelligence workflow in Splunk Mission Control to enrich data](/portfolio/splunk/mission-control/enrich-data)
