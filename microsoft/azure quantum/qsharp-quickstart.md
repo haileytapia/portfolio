@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Create your first Q# program
+title: Create first Q# program
 parent: Azure Quantum
 grand_parent: Microsoft
 nav_order: 3
