@@ -20,11 +20,13 @@ Technical documentation optimized for both human and agentic consumption.
 
 ## About me
 
-I started out in technical writing obsessed with perfecting individual sentences. Today, I oversee all-up portfolio strategy, managing the big picture instead of just the copy.
+I started out in technical writing obsessed with perfecting individual sentences. Today, I lead documentation strategy, shaping the information architecture and governance that scale complex technical knowledge.
 
-Moving beyond traditional authorship, I embed within cross-functional product teams to transform complex engineering inputs into authoritative guidance, establish clear content governance, and streamline contributor workflows. My experience spans both hardware and software, from early writing internships to ownership of a mature, developer-focused content portfolio at Microsoft. For my full background, see my [LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
+Moving beyond traditional authorship, I embed with cross-functional product teams to turn complex engineering inputs into authoritative guidance and streamline contributor workflows. My experience spans both hardware and software, from early writing internships to owning a mature, developer-focused content portfolio at Microsoft. For my full background, see my [LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
 
-To ground this scale and strategy, I have the following skills:
+## Skills
+
+I'm skilled in the following languages and tools:
 
 ### Languages
 
