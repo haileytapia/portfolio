@@ -10,7 +10,7 @@ permalink: /microsoft/azure-ai-search
 # Azure AI Search
 {: .no_toc }
 
-I created the following content for Azure AI Search, an information retrieval tool for indexing and querying heterogeneous content.
+I created the following content for Azure AI Search, an enterprise retrieval engine that grounds agents in both indexed and remote data.
 {: .fs-6 : .fw-300 }
 
 - TOC
