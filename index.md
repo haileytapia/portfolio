@@ -28,27 +28,24 @@ My experience spans both hardware and software, from early technical-writing int
 
 ## Skills
 
-I'm skilled in the following languages and tools:
+I'm skilled in the following languages, frameworks, and platforms:
 
-### Languages
+### Languages and frameworks
 
-- C
+- Azure SDKs (C#, Java, JavaScript, Python, & TypeScript)
 - DITA XML
 - HTML/CSS
 - Markdown
-- Q#
-- WikiText
+- REST APIs
 
-### Tools
+### Software and platforms
 
-- Adobe Creative Cloud
-- Asana
+- Azure DevOps
+- Copilot
 - Confluence
-- GIMP
-- Git
+- Git/GitHub (docs as code)
 - Jira
-- Oxygen XML Editor
-- Snagit
+- Oxygen XML
 - Visio
 - Visual Studio Code
 
