@@ -7,12 +7,10 @@ description: Welcome to my technical writing portfolio!
 
 # Welcome to my portfolio!
 
-My technical writing skills, developed through previous roles and coursework, are showcased here.
+Technical documentation optimized for both human and agentic consumption.
 {: .fs-6 : .fw-300 }
 
 ## Featured samples
-
-The following samples best represent my technical writing:
 
 - [Quickstart: Run agentic retrieval in Azure AI Search using Python or REST](https://learn.microsoft.com/azure/search/search-get-started-agentic-retrieval?pivots=python)
 - [Introduction to the quantum programming language Q#](/portfolio/microsoft/azure-quantum/qsharp-intro)
@@ -22,9 +20,11 @@ The following samples best represent my technical writing:
 
 ## About me
 
-I'm a UCF alumna with a BA in English: Technical Communication. My internships exposed me to both hardware and software documentation, leading to my current role as a writer for Azure AI Search at Microsoft. For a complete overview of my professional background, see my [LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
+I started out in technical writing obsessed with perfecting individual sentences. Today, I oversee all-up portfolio strategy, managing the big picture instead of just the copy.
 
-In addition to technical writing, I have the following skills:
+Moving beyond traditional authorship, I embed within cross-functional product teams to transform complex engineering inputs into authoritative guidance, establish clear content governance, and streamline contributor workflows. My experience spans both hardware and software, from early writing internships to ownership of a mature, developer-focused content portfolio at Microsoft. For a full background, see my [LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
+
+To ground this scale and strategy, I have the following skills:
 
 ### Languages
 
