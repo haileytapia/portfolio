@@ -1,3 +1,3 @@
-# Hailey's portfolio
+# Hailey Tapia's portfolio
 
 Thanks for stopping by!
