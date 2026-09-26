@@ -20,7 +20,7 @@ Technical documentation optimized for both human and agentic consumption.
 
 ## About me
 
-I started out in technical writing obsessed with perfecting individual sentences. Today, I lead documentation strategy, connecting those sentences to the systems that give hundreds of articles structure and purpose.
+I started out in technical writing obsessed with perfecting individual sentences. Today, I lead documentation strategy, shaping the broader architecture those sentences serve.
 
 Much of my work involves synthesizing scattered inputs (from engineering specs and one-pagers to GTM strategies) into authoritative guidance, ensuring article-level accuracy and usability. Zooming out, I'm equally comfortable designing hub and landing pages, taxonomies, and TOCs, as well as crafting portfolio-wide assets and messaging. I tie everything together by governing the content lifecycle, sequencing and interconnecting content, creating and enforcing structural templates, setting editorial standards, and optimizing every touchpoint for human readers and AI retrieval alike.
 
