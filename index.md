@@ -22,7 +22,7 @@ Technical documentation optimized for both human and agentic consumption.
 
 I started out in technical writing obsessed with perfecting individual sentences. Today, I lead documentation strategy, shaping the broader architecture those sentences serve.
 
-Much of my work involves synthesizing scattered inputs (from engineering specs and one-pagers to GTM strategies) into authoritative guidance, ensuring article-level accuracy and usability. Zooming out, I'm equally comfortable designing hub and landing pages, taxonomies, and TOCs, as well as crafting portfolio-wide assets and messaging. I tie everything together by governing the content lifecycle, sequencing and interconnecting content, creating and enforcing structural templates, setting editorial standards, and optimizing every touchpoint for human readers and AI retrieval alike.
+Much of my work involves synthesizing scattered inputs (from engineering specs and one-pagers to GTM strategies) into authoritative guidance, ensuring article-level accuracy and usability. Zooming out, I'm equally comfortable designing hub and landing pages, taxonomies, and TOCs, as well as crafting portfolio-wide assets and messaging. I tie everything together by governing the content lifecycle, sequencing and interconnecting content, enforcing structural templates, setting editorial standards, and optimizing every touchpoint for human readers and AI retrieval alike.
 
 My experience spans both hardware and software, from early technical-writing internships at Domo, Splunk, and Intel to ownership of a mature, developer-focused content portfolio at Microsoft. For my full background, see my [LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
 
