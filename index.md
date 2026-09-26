@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: Welcome to my technical writing portfolio!
+description: Welcome to my technical-writing portfolio!
 ---
 
 # Welcome to my portfolio!
@@ -22,7 +22,7 @@ Technical documentation optimized for both human and agentic consumption.
 
 I started out in technical writing obsessed with perfecting individual sentences. Today, I lead documentation strategy, shaping the information architecture and governance that scale complex technical knowledge.
 
-Moving beyond traditional authorship, I embed with cross-functional product teams to turn complex engineering inputs into authoritative guidance and streamline contributor workflows. My experience spans both hardware and software, from early writing internships to owning a mature, developer-focused content portfolio at Microsoft. For my full background, see my [LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
+Moving beyond traditional authorship, I embed with cross-functional product teams to turn complex engineering inputs into authoritative guidance and streamline contributor workflows. My experience spans both hardware and software, from early writing internships at Domo, Splunk, and Intel to owning a mature, developer-focused content portfolio at Microsoft. For my full background, see my [LinkedIn profile](https://www.linkedin.com/in/haileytapia/).
 
 ## Skills
 
