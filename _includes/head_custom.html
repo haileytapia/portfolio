@@ -12,10 +12,10 @@
   .content-tab-header {
     display: flex;
     overflow-x: auto;
-    overflow-y: hidden; /* Kills the vertical scrollbar */
-    background-color: #f6f8fa;
+    overflow-y: hidden;
+    background-color: #f1f3f5; /* Slightly deeper background for crisp framing */
     border-bottom: 1px solid #e1e4e8;
-    padding: 6px 6px 0 6px;
+    padding: 8px;
     gap: 6px;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
@@ -24,30 +24,24 @@
   .content-tab-btn {
     background: transparent;
     border: none;
-    padding: 10px 20px;
+    padding: 8px 16px;
     font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
-    color: #586069;
-    border-bottom: 2px solid transparent;
-    border-radius: 6px 6px 0 0;
+    color: #4b5563;
+    border-radius: 6px; /* Smooth rounded button aesthetic */
     transition: all 0.2s ease;
   }
 
   .content-tab-btn:hover {
-    color: #6b46c1; /* Just the Docs matching purple */
-    background-color: rgba(107, 70, 193, 0.04);
+    color: #6b46c1;
+    background-color: rgba(107, 70, 193, 0.08);
   }
 
   .content-tab-btn.active {
-    color: #6b46c1; /* Just the Docs matching purple */
-    background-color: #ffffff;
-    border-bottom-color: #6b46c1;
-    border-top: 1px solid #e1e4e8;
-    border-left: 1px solid #e1e4e8;
-    border-right: 1px solid #e1e4e8;
-    margin-bottom: -1px;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.03);
+    color: #ffffff !important;
+    background-color: #6b46c1 !important; /* Solid rich purple for strong contrast */
+    box-shadow: 0 2px 4px rgba(107, 70, 193, 0.25);
   }
 
   .content-tab-pane {
@@ -60,57 +54,3 @@
     display: block;
   }
 </style>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const savedTab = localStorage.getItem("portfolio-content-tab-pref");
-    if (savedTab) {
-      activateTab(savedTab);
-    }
-
-    // Upgraded with .closest() to guarantee clicks register smoothly
-    document.addEventListener("click", function (event) {
-      const button = event.target.closest(".content-tab-btn");
-      if (!button) return;
-
-      const targetLang = button.getAttribute("data-target");
-      if (!targetLang) return;
-      
-      localStorage.setItem("portfolio-content-tab-pref", targetLang);
-      activateTab(targetLang);
-    });
-
-    function activateTab(lang) {
-      const containers = document.querySelectorAll(".content-tab-container");
-
-      containers.forEach(container => {
-        const buttons = container.querySelectorAll(".content-tab-btn");
-        const panes = container.querySelectorAll(".content-tab-pane");
-
-        let matched = false;
-
-        buttons.forEach(btn => {
-          if (btn.getAttribute("data-target") === lang) {
-            btn.classList.add("active");
-            matched = true;
-          } else {
-            btn.classList.remove("active");
-          }
-        });
-
-        panes.forEach(pane => {
-          if (pane.getAttribute("data-content") === lang) {
-            pane.classList.add("active");
-          } else {
-            pane.classList.remove("active");
-          }
-        });
-        
-        if (!matched && buttons.length > 0) {
-          buttons[0].classList.add("active");
-          panes[0].classList.add("active");
-        }
-      });
-    }
-  });
-</script>
