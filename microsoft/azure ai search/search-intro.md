@@ -130,7 +130,7 @@ Before you get started, use this checklist to make key decisions:
 
 ### Choose your learning resources
 
-The following quickstarts and samples are available to help you get started.
+Use following quickstarts and samples to get started:
 
 #### Quickstarts
 
