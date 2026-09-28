@@ -7,6 +7,10 @@ layout: default
     {{ content }}
   </div>
 
-  <aside id="auto-toc" class="doc-toc-sidebar">
-  </aside>
+  {% if page.toc != false %}
+  <details id="auto-toc" class="doc-toc">
+    <summary>In this article</summary>
+    <nav class="doc-toc-content" aria-label="In this article"></nav>
+  </details>
+  {% endif %}
 </div>

@@ -158,59 +158,42 @@
 </script>
 
 <style>
-  /* --- Automated Right-Side Sticky TOC Layout --- */
-  @media (min-width: 1024px) {
-    .doc-layout-container {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 240px;
-      gap: 3rem;
-      align-items: start;
-    }
-
-    .doc-toc-sidebar {
-      position: sticky;
-      top: 2rem;
-      max-height: calc(100vh - 4rem);
-      overflow-y: auto;
-      font-size: 0.85rem;
-      padding-left: 1rem;
-      border-left: 1px solid #e2e8f0;
-    }
-
-    .doc-toc-sidebar ul {
-      list-style: none;
-      padding-left: 0;
-      margin: 0.5rem 0 0 0;
-    }
-
-    .doc-toc-sidebar li {
-      margin-bottom: 0.5rem;
-    }
-
-    .doc-toc-sidebar a {
-      color: #64748b;
-      text-decoration: none;
-      transition: color 0.15s ease;
-    }
-
-    .doc-toc-sidebar a:hover {
-      color: #7c3aed;
-    }
-
-    .doc-toc-sidebar .toc-heading {
-      font-size: 0.75rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: #0f172a;
-      margin-bottom: 0.75rem;
-    }
+  .doc-layout-container {
+    width: 100%;
   }
 
-  @media (max-width: 1023.98px) {
-    .doc-toc-sidebar {
-      display: none;
-    }
+  .doc-toc {
+    margin: 1.5rem 0;
+    padding: 0.75rem 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    background: #ffffff;
+  }
+
+  .doc-toc summary {
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .doc-toc-content ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+    gap: 0.25rem 1.25rem;
+    list-style: none !important;
+    margin: 0.75rem 0 0;
+    padding: 0;
+  }
+
+  .doc-toc-content li,
+  .doc-toc-content li::before {
+    margin: 0;
+    padding: 0;
+    content: none !important;
+  }
+
+  .doc-toc-content a {
+    display: block;
+    padding: 0.25rem 0;
   }
 </style>
 
@@ -221,27 +204,33 @@
     
     if (!mainContent || !tocContainer) return;
 
-    const h2s = mainContent.querySelectorAll("h2");
+    const h2s = Array.from(mainContent.querySelectorAll("h2"))
+      .filter(heading => !heading.closest(".content-tab-pane"));
     
     if (h2s.length === 0) {
-      tocContainer.style.display = "none";
+      tocContainer.remove();
       return;
     }
 
-    let tocHtml = '<div class="toc-heading">In this article</div><ul>';
+    const list = document.createElement("ul");
     
-    h2s.forEach((h2) => {
-      if (!h2.id) {
-        h2.id = h2.textContent
+    h2s.forEach((heading, index) => {
+      if (!heading.id) {
+        heading.id = heading.textContent
           .toLowerCase()
           .replace(/[^\w]+/g, "-")
-          .replace(/^-+|-+$/g, "");
+          .replace(/^-+|-+$/g, "") || `section-${index + 1}`;
       }
-      
-      tocHtml += `<li><a href="#${h2.id}">${h2.textContent}</a></li>`;
+
+      const item = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = `#${heading.id}`;
+      link.textContent = heading.textContent;
+      item.appendChild(link);
+      list.appendChild(item);
     });
-    
-    tocHtml += '</ul>';
-    tocContainer.innerHTML = tocHtml;
+
+    tocContainer.querySelector(".doc-toc-content").appendChild(list);
+    h2s[0].before(tocContainer);
   });
 </script>

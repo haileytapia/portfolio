@@ -3,6 +3,7 @@ layout: portfolio
 title: Home
 nav_order: 1
 description: Welcome to my documentation portfolio!
+toc: false
 ---
 
 # Welcome to my portfolio!
