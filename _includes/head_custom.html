@@ -12,7 +12,7 @@
   .content-tab-header {
     display: flex;
     overflow-x: auto;
-    overflow-y: hidden; /* Kills the unwanted vertical scrollbar */
+    overflow-y: hidden; /* Kills the vertical scrollbar */
     background-color: #f6f8fa;
     border-bottom: 1px solid #e1e4e8;
     padding: 6px 6px 0 6px;
@@ -60,3 +60,57 @@
     display: block;
   }
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const savedTab = localStorage.getItem("portfolio-content-tab-pref");
+    if (savedTab) {
+      activateTab(savedTab);
+    }
+
+    // Upgraded with .closest() to guarantee clicks register smoothly
+    document.addEventListener("click", function (event) {
+      const button = event.target.closest(".content-tab-btn");
+      if (!button) return;
+
+      const targetLang = button.getAttribute("data-target");
+      if (!targetLang) return;
+      
+      localStorage.setItem("portfolio-content-tab-pref", targetLang);
+      activateTab(targetLang);
+    });
+
+    function activateTab(lang) {
+      const containers = document.querySelectorAll(".content-tab-container");
+
+      containers.forEach(container => {
+        const buttons = container.querySelectorAll(".content-tab-btn");
+        const panes = container.querySelectorAll(".content-tab-pane");
+
+        let matched = false;
+
+        buttons.forEach(btn => {
+          if (btn.getAttribute("data-target") === lang) {
+            btn.classList.add("active");
+            matched = true;
+          } else {
+            btn.classList.remove("active");
+          }
+        });
+
+        panes.forEach(pane => {
+          if (pane.getAttribute("data-content") === lang) {
+            pane.classList.add("active");
+          } else {
+            pane.classList.remove("active");
+          }
+        });
+        
+        if (!matched && buttons.length > 0) {
+          buttons[0].classList.add("active");
+          panes[0].classList.add("active");
+        }
+      });
+    }
+  });
+</script>
