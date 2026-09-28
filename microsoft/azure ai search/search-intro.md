@@ -13,9 +13,9 @@ permalink: /microsoft/azure-ai-search/search-intro
 Septemeber 17, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search)
 {: .fs-5 : .fw-300 }
 
-<details open markdown="block">
+<details">
   <summary>
-    In this article
+    Table of contents
   </summary>
   {: .no_toc, .text-delta }
 - TOC
