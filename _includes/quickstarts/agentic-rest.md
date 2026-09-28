@@ -25,7 +25,7 @@ Although you can use your own data, this quickstart uses [sample JSON documents]
 
 + The [Azure CLI](/cli/azure/install-azure-cli) for keyless authentication with Microsoft Entra ID.
 
-{% include shared/azure-prereqs.md %}
+{% include quickstarts/agentic-setup.md %}
 
 ## Set up the environment
 
