@@ -11,10 +11,13 @@
 
   .content-tab-header {
     display: flex;
+    overflow-x: auto; /* Lets users swipe/scroll through tabs horizontally on smaller screens */
     background-color: #f6f8fa;
     border-bottom: 1px solid #e1e4e8;
     padding: 6px 6px 0 6px;
     gap: 6px;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
   }
 
   .content-tab-btn {
