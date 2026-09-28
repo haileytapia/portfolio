@@ -66,8 +66,6 @@ During indexing, you can use [AI enrichment](cognitive-search-concept-intro.md) 
 
 [Querying](search-query-overview.md) targets an index populated with searchable content. This step occurs when your client app sends a query request to your search service. In your code, set up a search client to handle requests for [full-text queries](search-query-create.md), [vector queries](vector-search-how-to-query.md), [hybrid queries](hybrid-search-how-to-query.md), [multimodal queries](multimodal-search-overview.md), fuzzy search, autocomplete, geo-search, and other query types.
 
----
-
 ![Diagram of the Azure AI Search architecture for classic search](https://github.com/user-attachments/assets/9515d789-8a04-47a2-a0aa-511e865ec42b)
 
 {: .note }
@@ -139,8 +137,6 @@ The following quickstarts and samples are available to help you get started.
 + [Java samples](/azure/search/samples-java)
 + [JavaScript/TypeScript samples](/azure/search/samples-javascript)
 + [Vector samples](https://github.com/Azure/azure-search-vector-samples)
-
----
 
 {: .tip }
 > For help with complex or custom solutions, [contact a partner](https://partner.microsoft.com/partnership/find-a-partner) with deep expertise in Azure AI Search.
