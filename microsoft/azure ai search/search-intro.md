@@ -56,7 +56,7 @@ In this architecture, your search service sits between the data stores that cont
 
 This architecture has two primary workloads:
 
-<div class="content-tab-container" markdown="1">
+<div class="content-tab-container content-tab-container--inline" markdown="1">
 
 <div class="content-tab-header" markdown="0">
   <button class="content-tab-btn active" data-target="indexing">Indexing</button>
@@ -134,7 +134,7 @@ Before you get started, use this checklist to make key decisions:
 
 Use following quickstarts and samples to get started:
 
-<div class="content-tab-container">
+<div class="content-tab-container content-tab-container--inline">
   <div class="content-tab-header">
     <button class="content-tab-btn active" data-target="quickstarts">Quickstarts</button>
     <button class="content-tab-btn" data-target="samples">Samples</button>

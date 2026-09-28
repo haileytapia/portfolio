@@ -18,8 +18,6 @@ July 13, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/fou
 
 This article is part three of a three-part tutorial series. In this part of the tutorial, you create a knowledge source and knowledge base, register the MCP endpoint as a project connection, and run a validation prompt through an agent to confirm grounded, cited responses from private content. At this point, the network, identity, and retrieval layers come together in the same runtime path.
 
-This article uses preview REST API surfaces in two places. The knowledge base uses `outputMode` (preview) and `retrievalReasoningEffort` (preview) to explicitly specify extractive output and minimal reasoning, although equivalent behavior is generally available. The project connection uses `RemoteTool` (preview) and the project managed identity to authenticate to Azure AI Search.
-
 ## Prerequisites
 
 - Completion of [Set up private inbound connectivity](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval/private-inbound) and [Set up private outbound connectivity](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval/private-outbound).

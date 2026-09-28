@@ -10,6 +10,14 @@ permalink: /microsoft/azure-ai-search/search-create-knowledge-base
 # Create a knowledge base in Azure AI Search
 {: .no_toc }
 
+<div class="content-tab-container content-tab-container--top-level" data-tab-group="knowledge-base-language">
+<div class="content-tab-header" role="group" aria-label="Code language">
+  <button type="button" class="content-tab-btn active" data-target="csharp" aria-pressed="true">C#</button>
+  <button type="button" class="content-tab-btn" data-target="python" aria-pressed="false">Python</button>
+  <button type="button" class="content-tab-btn" data-target="rest" aria-pressed="false">REST API</button>
+</div>
+</div>
+
 August 12, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-create-knowledge-base)
 {: .fs-5 : .fw-300 }
 
@@ -41,12 +49,7 @@ A knowledge base specifies:
 
 + If the knowledge base specifies an LLM, the search service must have a [managed identity](https://learn.microsoft.com/en-us/azure/search/search-how-to-managed-identities) with **Cognitive Services User** permissions on the Microsoft Foundry resource.
 
-<div class="content-tab-header" role="group" aria-label="Code language">
-  <button type="button" class="content-tab-btn active" data-target="csharp" aria-pressed="true">C#</button>
-  <button type="button" class="content-tab-btn" data-target="python" aria-pressed="false">Python</button>
-  <button type="button" class="content-tab-btn" data-target="rest" aria-pressed="false">REST API</button>
-</div>
-<div class="content-tab-container">
+<div class="content-tab-container content-tab-container--inline" data-tab-group="knowledge-base-language">
   <div class="content-tab-pane active" data-content="csharp" markdown="1">
 + Required [`Azure.Search.Documents`](https://www.nuget.org/packages/Azure.Search.Documents) package:
 
@@ -109,7 +112,7 @@ Azure AI Search needs access to the LLM from Azure OpenAI in Foundry Models. We 
 
 ### Use roles
 
-<div class="content-tab-container">
+<div class="content-tab-container content-tab-container--inline" data-tab-group="knowledge-base-language">
   <div class="content-tab-pane active" data-content="csharp" markdown="1">
 1. [Enable role-based access control on Azure AI Search](https://learn.microsoft.com/en-us/azure/search/search-security-enable-roles).
 
@@ -163,7 +166,7 @@ Azure AI Search needs access to the LLM from Azure OpenAI in Foundry Models. We 
 
 ### Use keys
 
-<div class="content-tab-container">
+<div class="content-tab-container content-tab-container--inline" data-tab-group="knowledge-base-language">
   <div class="content-tab-pane active" data-content="csharp" markdown="1">
 1. [Copy an Azure AI Search admin API key](https://learn.microsoft.com/en-us/azure/search/search-security-api-keys#find-existing-keys) from the Azure portal.
 
@@ -214,7 +217,7 @@ A knowledge base is a top-level, reusable object. Knowing about existing knowled
 
 Run the following code to list existing knowledge bases by name. The list includes all knowledge bases on your search service, regardless of which API version you used to create them.
 
-<div class="content-tab-container">
+<div class="content-tab-container content-tab-container--inline" data-tab-group="knowledge-base-language">
   <div class="content-tab-pane active" data-content="csharp" markdown="1">
 ```csharp
 // List knowledge bases by name
@@ -262,7 +265,7 @@ Authorization: Bearer {{search-access-token}}
 
 You can also return a single knowledge base by name to review its JSON definition.
 
-<div class="content-tab-container">
+<div class="content-tab-container content-tab-container--inline" data-tab-group="knowledge-base-language">
   <div class="content-tab-pane active" data-content="csharp" markdown="1">
 ```csharp
 using Azure.Search.Documents.Indexes;
@@ -346,7 +349,7 @@ A knowledge base connects one or more knowledge sources (searchable content) to 
 
 After you create a knowledge base, you can update its properties at any time. If the knowledge base is in use, updates take effect on the next retrieval.
 
-<div class="content-tab-container">
+<div class="content-tab-container content-tab-container--inline" data-tab-group="knowledge-base-language">
   <div class="content-tab-pane active" data-content="csharp" markdown="1">
 #### Preview API: 2026-08-01-preview
 
@@ -586,7 +589,7 @@ The effective value for each property is determined independently in this order:
 
 The following example uses an existing search index knowledge source named `your-knowledge-source`. It stores a 45-second runtime budget, a maximum of eight output documents, and a 12,000-token output budget.
 
-<div class="content-tab-container">
+<div class="content-tab-container content-tab-container--inline" data-tab-group="knowledge-base-language">
   <div class="content-tab-pane active" data-content="csharp" markdown="1">
 ```csharp
 using System;
@@ -698,7 +701,7 @@ When you omit `corsOptions`, the knowledge base has no CORS policy, and browsers
 
 The following example creates a knowledge base that allows retrieve requests from one browser origin.
 
-<div class="content-tab-container">
+<div class="content-tab-container content-tab-container--inline" data-tab-group="knowledge-base-language">
   <div class="content-tab-pane active" data-content="csharp" markdown="1">
 ```csharp
 using Azure.Identity;
@@ -785,7 +788,7 @@ After you create a knowledge base, call the [retrieve action or MCP endpoint](ht
 
 If you no longer need the knowledge base or need to rebuild it on your search service, run the following code to delete the object.
 
-<div class="content-tab-container">
+<div class="content-tab-container content-tab-container--inline" data-tab-group="knowledge-base-language">
   <div class="content-tab-pane active" data-content="csharp" markdown="1">
 ```csharp
 // Delete a knowledge base

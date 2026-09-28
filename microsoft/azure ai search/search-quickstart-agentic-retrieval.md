@@ -13,7 +13,7 @@ permalink: /microsoft/azure-ai-search/search-quickstart-agentic-retrieval
 September 17, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/search-get-started-agentic-retrieval)
 {: .fs-5 : .fw-300 }
 
-<div class="content-tab-container">
+<div class="content-tab-container content-tab-container--top-level" data-tab-group="agentic-quickstart-language">
   <div class="content-tab-header">
     <button class="content-tab-btn active" data-target="csharp">C#</button>
     <button class="content-tab-btn" data-target="java">Java</button>

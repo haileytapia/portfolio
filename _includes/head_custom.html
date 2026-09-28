@@ -9,6 +9,26 @@
     overflow: hidden;
   }
 
+  .content-tab-container--inline {
+    margin: 1.25rem 0;
+    width: fit-content;
+    max-width: 100%;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(15, 23, 42, 0.03);
+    overflow: hidden;
+  }
+
+  .content-tab-container--inline .content-tab-header {
+    padding: 0 0.75rem;
+  }
+
+  .content-tab-container--inline .content-tab-pane {
+    padding: 1rem;
+    background: #ffffff;
+  }
+
   .content-tab-header {
     display: flex;
     overflow-x: auto;
@@ -70,9 +90,25 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const savedTab = localStorage.getItem("portfolio-content-tab-pref");
-    const initialTab = savedTab || document.querySelector(".content-tab-btn")?.getAttribute("data-target");
-    if (initialTab) activateTab(initialTab);
+    const containers = Array.from(document.querySelectorAll(".content-tab-container"));
+    const initializedGroups = new Set();
+
+    containers.forEach(container => {
+      const groupId = container.getAttribute("data-tab-group");
+      const groupKey = groupId ? `group:${groupId}` : container;
+      if (initializedGroups.has(groupKey)) return;
+      initializedGroups.add(groupKey);
+
+      const groupContainers = getGroupContainers(container);
+      const buttons = groupContainers.flatMap(item =>
+        Array.from(item.querySelectorAll(".content-tab-btn"))
+      );
+      const savedTab = groupId
+        ? localStorage.getItem(`portfolio-content-tab-pref:${groupId}`)
+        : null;
+      const initialTab = savedTab || buttons[0]?.getAttribute("data-target");
+      if (initialTab) activateTab(groupContainers, initialTab);
+    });
 
     document.addEventListener("click", function (event) {
       const button = event.target.closest(".content-tab-btn");
@@ -80,14 +116,30 @@
 
       const targetLang = button.getAttribute("data-target");
       if (!targetLang) return;
-      
-      localStorage.setItem("portfolio-content-tab-pref", targetLang);
-      activateTab(targetLang);
+
+      const container = button.closest(".content-tab-container");
+      if (!container) return;
+      const groupId = container.getAttribute("data-tab-group");
+      if (groupId) {
+        localStorage.setItem(`portfolio-content-tab-pref:${groupId}`, targetLang);
+      }
+      activateTab(getGroupContainers(container), targetLang);
     });
 
-    function activateTab(lang) {
-      const buttons = Array.from(document.querySelectorAll(".content-tab-btn"));
-      const panes = document.querySelectorAll(".content-tab-pane");
+    function getGroupContainers(container) {
+      const groupId = container.getAttribute("data-tab-group");
+      if (!groupId) return [container];
+
+      return containers.filter(item => item.getAttribute("data-tab-group") === groupId);
+    }
+
+    function activateTab(groupContainers, lang) {
+      const buttons = groupContainers.flatMap(container =>
+        Array.from(container.querySelectorAll(".content-tab-btn"))
+      );
+      const panes = groupContainers.flatMap(container =>
+        Array.from(container.querySelectorAll(".content-tab-pane"))
+      );
       const activeLang = buttons.some(btn => btn.getAttribute("data-target") === lang)
         ? lang
         : buttons[0]?.getAttribute("data-target");
@@ -102,5 +154,94 @@
         pane.classList.toggle("active", pane.getAttribute("data-content") === activeLang);
       });
     }
+  });
+</script>
+
+<style>
+  /* --- Automated Right-Side Sticky TOC Layout --- */
+  @media (min-width: 1024px) {
+    .doc-layout-container {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 240px;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    .doc-toc-sidebar {
+      position: sticky;
+      top: 2rem;
+      max-height: calc(100vh - 4rem);
+      overflow-y: auto;
+      font-size: 0.85rem;
+      padding-left: 1rem;
+      border-left: 1px solid #e2e8f0;
+    }
+
+    .doc-toc-sidebar ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0.5rem 0 0 0;
+    }
+
+    .doc-toc-sidebar li {
+      margin-bottom: 0.5rem;
+    }
+
+    .doc-toc-sidebar a {
+      color: #64748b;
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+
+    .doc-toc-sidebar a:hover {
+      color: #7c3aed;
+    }
+
+    .doc-toc-sidebar .toc-heading {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #0f172a;
+      margin-bottom: 0.75rem;
+    }
+  }
+
+  @media (max-width: 1023.98px) {
+    .doc-toc-sidebar {
+      display: none;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const mainContent = document.querySelector(".doc-main-content");
+    const tocContainer = document.getElementById("auto-toc");
+    
+    if (!mainContent || !tocContainer) return;
+
+    const h2s = mainContent.querySelectorAll("h2");
+    
+    if (h2s.length === 0) {
+      tocContainer.style.display = "none";
+      return;
+    }
+
+    let tocHtml = '<div class="toc-heading">In this article</div><ul>';
+    
+    h2s.forEach((h2) => {
+      if (!h2.id) {
+        h2.id = h2.textContent
+          .toLowerCase()
+          .replace(/[^\w]+/g, "-")
+          .replace(/^-+|-+$/g, "");
+      }
+      
+      tocHtml += `<li><a href="#${h2.id}">${h2.textContent}</a></li>`;
+    });
+    
+    tocHtml += '</ul>';
+    tocContainer.innerHTML = tocHtml;
   });
 </script>

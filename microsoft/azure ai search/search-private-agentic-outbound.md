@@ -209,4 +209,4 @@ For more information about the topics covered in this part of the tutorial, see 
 
 ## Next step
 
-[Validate end-to-end private agentic retrieval](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval/private-retrieval)
+[Validate end-to-end private agentic retrieval](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval/private-retrieval){: .btn .btn-purple }
