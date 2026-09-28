@@ -13,7 +13,7 @@
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
-    background: #ffffff; /* Pure white header - no messy gray track */
+    background: #ffffff;
     border-bottom: 1px solid #e2e8f0;
     padding: 0 1rem;
     gap: 0.5rem;
@@ -30,7 +30,7 @@
     cursor: pointer;
     color: #64748b;
     border-bottom: 2px solid transparent;
-    margin-bottom: -1px; /* Locks the bottom border perfectly onto the header line */
+    margin-bottom: -1px;
     transition: all 0.15s ease;
   }
 
@@ -41,16 +41,21 @@
   }
 
   .content-tab-btn.active {
-    color: #7c3aed; /* Vibrant professional tech purple */
+    color: #7c3aed;
     font-weight: 600;
-    border-bottom-color: #7c3aed; /* Crisp active indicator line */
+    border-bottom-color: #7c3aed;
     background: transparent;
   }
 
   .content-tab-pane {
     display: none;
-    padding: 1.5rem; /* Perfectly symmetrical padding (matches header/outer container spacing) */
+    padding: 1.5rem;
     background-color: #ffffff;
+  }
+
+  /* Strips out the default Markdown margin on the first element so top spacing matches the sides */
+  .content-tab-pane > *:first-child {
+    margin-top: 0 !important;
   }
 
   .content-tab-pane.active {
