@@ -25,7 +25,7 @@ Although you can use your own data, this quickstart uses [sample JSON documents]
 
 + The [Azure CLI](/cli/azure/install-azure-cli) for keyless authentication with Microsoft Entra ID.
 
-[!INCLUDE [agentic retrieval setup](agentic-retrieval-setup.md)]
+{% include shared/azure-prereqs.md %}
 
 ## Set up the environment
 
@@ -159,7 +159,8 @@ Each request returns different JSON based on the operation. The key output is fr
 
 ## Understand the code
 
-[!INCLUDE [understand code note](../understand-code-note.md)]
+{ .note }
+> The code snippets in this section might have been modified for readability. For a complete working example, see the source code.
 
 Now that you've run the code, let's break down the key steps:
 
@@ -411,7 +412,9 @@ The output contains the following components:
 
 ## Clean up resources
 
-[!INCLUDE [clean up resources (paid)](../resource-cleanup-paid.md)]
+When you work in your own subscription, it's a good idea to finish a project by removing the resources you no longer need. Resources that are left running can cost you money.
+
+In the Azure portal, select **All resources** or **Resource groups** from the left pane to find and manage resources. You can delete resources individually or delete the resource group to remove all resources at once.
 
 Otherwise, the following requests from `agentic-retrieval.rest` delete the objects you created in this quickstart.
 
