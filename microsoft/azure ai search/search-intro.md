@@ -8,7 +8,6 @@ permalink: /microsoft/azure-ai-search/search-intro
 ---
 
 # What is Azure AI Search?
-{: .no_toc }
 
 Septemeber 17, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search)
 {: .fs-5 : .fw-300 }
