@@ -1,11 +1,11 @@
 <style>
-  /* --- High-Impact Developer Panel Tabs --- */
+  /* --- High-Impact Light Developer Panel --- */
   .content-tab-container {
     margin: 2rem 0;
     background: #ffffff;
     border: 1px solid #cbd5e1;
-    border-radius: 10px;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.04), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
     overflow: hidden;
   }
 
@@ -13,12 +13,12 @@
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
-    background: #0f172a; /* Rich, high-contrast dark slate header for serious visual punch */
-    padding: 8px 12px 0 12px;
-    gap: 6px;
+    background: #f1f5f9; /* Crisp, high-contrast light control track */
+    border-bottom: 1px solid #cbd5e1;
+    padding: 6px;
+    gap: 4px;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
-    border-bottom: 1px solid #1e293b;
   }
 
   .content-tab-btn {
@@ -28,27 +28,26 @@
     font-size: 0.875rem;
     font-weight: 500;
     cursor: pointer;
-    color: #94a3b8; /* Crisp, legible muted text on dark */
-    border-radius: 6px 6px 0 0;
+    color: #475569; /* Sharp, highly legible dark slate text */
+    border-radius: 6px;
     transition: all 0.15s ease;
   }
 
   .content-tab-btn:hover {
-    color: #f8fafc;
-    background: rgba(255, 255, 255, 0.06);
+    color: #0f172a;
+    background: rgba(255, 255, 255, 0.6);
   }
 
   .content-tab-btn.active {
-    color: #ffffff;
-    background: #1e293b; /* Lighter dark surface to anchor the active tab */
+    color: #7c3aed; /* Vibrant professional tech purple */
+    background: #ffffff; /* Floating white card effect */
     font-weight: 600;
-    border-top: 2px solid #8b5cf6; /* Vibrant technical purple accent */
-    box-shadow: 0 -2px 6px rgba(139, 92, 246, 0.3);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
   }
 
   .content-tab-pane {
     display: none;
-    padding: 1.5rem; /* Snug, tight padding so content isn't floating too far from the borders */
+    padding: 1.25rem; /* Snug, tight padding so content sits nicely near the border */
     background-color: #ffffff;
   }
 
