@@ -1,44 +1,116 @@
-<html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  /* --- High-Impact Light Developer Panel --- */
+  .content-tab-container {
+    margin: 2rem 0;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.04), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+  }
 
-    {% assign time = 0 %}
-    {% assign targetname = page.target %}
- 
-    {% if page.time %}
-    {% assign time = page.time %}
-    {% endif %}
-    
-    {% if page.targetname %}
-    {% assign targetname = page.targetname %}
-    {% endif %}
+  .content-tab-header {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background: #f1f5f9; /* Crisp, high-contrast light control track */
+    border-bottom: 1px solid #cbd5e1;
+    padding: 6px;
+    gap: 4px;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
 
-    {% capture title %}Redirecting to {{ targetname }}{% endcapture %}
-    {% if page.targettitle %}
-    {% assign title = page.targettitle %}
-    {% endif %}
-    <meta http-equiv="refresh" content="{{ time }};url={{ page.target }}"/>
-    <link rel="canonical" href="{{ page.target }}"/>
-    <title>{{ title }}</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            max-width: 40em;
-            margin: 1em auto;
+  .content-tab-btn {
+    background: transparent;
+    border: none;
+    padding: 8px 16px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: #475569; /* Sharp, highly legible dark slate text */
+    border-radius: 6px;
+    transition: all 0.15s ease;
+  }
+
+  .content-tab-btn:hover {
+    color: #0f172a;
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  .content-tab-btn.active {
+    color: #7c3aed; /* Vibrant professional tech purple */
+    background: #ffffff; /* Floating white card effect */
+    font-weight: 600;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  }
+
+  .content-tab-pane {
+    display: none;
+    padding: 1.25rem; /* Snug, tight padding so content sits nicely near the border */
+    background-color: #ffffff;
+  }
+
+  .content-tab-pane.active {
+    display: block;
+    animation: fadeIn 0.15s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(2px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const savedTab = localStorage.getItem("portfolio-content-tab-pref");
+    if (savedTab) {
+      activateTab(savedTab);
+    }
+
+    document.addEventListener("click", function (event) {
+      const button = event.target.closest(".content-tab-btn");
+      if (!button) return;
+
+      const targetLang = button.getAttribute("data-target");
+      if (!targetLang) return;
+      
+      localStorage.setItem("portfolio-content-tab-pref", targetLang);
+      activateTab(targetLang);
+    });
+
+    function activateTab(lang) {
+      const containers = document.querySelectorAll(".content-tab-container");
+
+      containers.forEach(container => {
+        const buttons = container.querySelectorAll(".content-tab-btn");
+        const panes = container.querySelectorAll(".content-tab-pane");
+
+        let matched = false;
+
+        buttons.forEach(btn => {
+          if (btn.getAttribute("data-target") === lang) {
+            btn.classList.add("active");
+            matched = true;
+          } else {
+            btn.classList.remove("active");
+          }
+        });
+
+        panes.forEach(pane => {
+          if (pane.getAttribute("data-content") === lang) {
+            pane.classList.add("active");
+          } else {
+            pane.classList.remove("active");
+          }
+        });
+        
+        if (!matched && buttons.length > 0) {
+          buttons[0].classList.add("active");
+          panes[0].classList.add("active");
         }
-    </style>
-</head>
-<body>
-    <h1>{{ title }}</h1>
-   
-    {% if page.message %}
-    <p>{{ page.message }}</p>
-    {% else %}
-    <p>This document has moved!</p>
-    {% endif %}
-
-    <p>Redirecting to <a href="{{ page.target }}">{{ targetname }}</a> in {{ time }} seconds.</p>
-
-</body>
-</html>
+      });
+    }
+  });
+</script>

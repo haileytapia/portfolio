@@ -12,7 +12,8 @@ Technical documentation optimized for both human and agentic consumption.
 
 ## Featured samples
 
-- [Quickstart: Run agentic retrieval in Azure AI Search using Python or REST](https://learn.microsoft.com/azure/search/search-get-started-agentic-retrieval?pivots=python)
+- [Introduction to Azure AI Search](/portfolio/microsoft/azure-ai-search/search-intro)
+- [Quickstart: Agentic retrieval in Azure AI Search](/portfolio/microsoft/azure-ai-search/search-quickstart-agentic-retrieval)
 - [Introduction to the quantum programming language Q#](/portfolio/microsoft/azure-quantum/qsharp-intro)
 - [Quickstart: Create your first Q# program](/portfolio/microsoft/azure-quantum/qsharp-quickstart)
 - [Scenario: Wei creates an intelligence workflow in Splunk Mission Control to enrich data](/portfolio/splunk/mission-control/enrich-data)
