@@ -1,6 +1,6 @@
 <style>
-  /* --- MS Learn Style Zone Pivots --- */
-  .zone-pivot-container {
+  /* --- Standard Code Tabs Construct --- */
+  .code-tab-container {
     margin: 1.5rem 0;
     border: 1px solid #e1e4e8;
     border-radius: 6px;
@@ -8,7 +8,7 @@
     background-color: #f6f8fa;
   }
 
-  .zone-pivot-header {
+  .code-tab-header {
     display: flex;
     background-color: #eaeef2;
     border-bottom: 1px solid #e1e4e8;
@@ -16,7 +16,7 @@
     gap: 4px;
   }
 
-  .zone-pivot-btn {
+  .code-tab-btn {
     background: transparent;
     border: none;
     padding: 8px 16px;
@@ -29,57 +29,57 @@
     transition: all 0.2s ease;
   }
 
-  .zone-pivot-btn:hover {
+  .code-tab-btn:hover {
     color: #0366d6;
     background-color: rgba(0, 0, 0, 0.03);
   }
 
-  .zone-pivot-btn.active {
+  .code-tab-btn.active {
     color: #0366d6;
     background-color: #ffffff;
     border-bottom-color: #0366d6;
     box-shadow: 0 -1px 3px rgba(0,0,0,0.05);
   }
 
-  .zone-pivot-content {
+  .code-tab-content {
     display: none;
     padding: 1rem;
     background-color: #ffffff;
     margin: 0;
   }
 
-  .zone-pivot-content.active {
+  .code-tab-content.active {
     display: block;
   }
 
-  .zone-pivot-content pre {
+  .code-tab-content pre {
     margin-bottom: 0;
   }
 </style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const savedLang = localStorage.getItem("ms-learn-pivot-pref");
-    if (savedLang) {
-      activatePivotLanguage(savedLang);
+    const savedTab = localStorage.getItem("portfolio-code-tab-pref");
+    if (savedTab) {
+      activateTab(savedTab);
     }
 
     document.addEventListener("click", function (event) {
-      if (!event.target.classList.contains("zone-pivot-btn")) return;
+      if (!event.target.classList.contains("code-tab-btn")) return;
 
       const button = event.target;
       const targetLang = button.getAttribute("data-target");
       
-      localStorage.setItem("ms-learn-pivot-pref", targetLang);
-      activatePivotLanguage(targetLang);
+      localStorage.setItem("portfolio-code-tab-pref", targetLang);
+      activateTab(targetLang);
     });
 
-    function activatePivotLanguage(lang) {
-      const containers = document.querySelectorAll(".zone-pivot-container");
+    function activateTab(lang) {
+      const containers = document.querySelectorAll(".code-tab-container");
 
       containers.forEach(container => {
-        const buttons = container.querySelectorAll(".zone-pivot-btn");
-        const contents = container.querySelectorAll(".zone-pivot-content");
+        const buttons = container.querySelectorAll(".code-tab-btn");
+        const contents = container.querySelectorAll(".code-tab-content");
 
         let matched = false;
 
