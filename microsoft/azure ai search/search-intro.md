@@ -13,8 +13,6 @@ permalink: /microsoft/azure-ai-search/search-intro
 Septemeber 17, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search)
 {: .fs-5 : .fw-300 }
 
-
-
 Azure AI Search is a fully managed, cloud-hosted service that connects your data to AI. The service unifies access to enterprise and web content so agents and large language models (LLMs) can use context, chat history, and multi-source signals to produce reliable, grounded answers.
 
 Common use cases include *classic search* and retrieval-augmented generation (RAG) using *agentic retrieval*, where the service orchestrates query planning, retrieval, and response construction. These capabilities support scenarios ranging from traditional search experiences to AI-powered agents and chat applications suitable for both enterprise and consumer scenarios.
@@ -58,15 +56,26 @@ In this architecture, your search service sits between the data stores that cont
 
 This architecture has two primary workloads:
 
-### Indexing
+<div class="content-tab-container" markdown="1">
+
+<div class="content-tab-header" markdown="0">
+  <button class="content-tab-btn active" data-target="indexing">Indexing</button>
+  <button class="content-tab-btn" data-target="querying">Querying</button>
+</div>
+
+<div class="content-tab-pane active" data-content="indexing" markdown="1">
 
 [Indexing](https://learn.microsoft.com/en-us/azure/search/search-what-is-an-index) loads content into an index and makes it searchable. Internally, inbound text is tokenized and stored in inverted indexes, while inbound vectors are stored in vector indexes. Azure AI Search can only index JSON documents. You can use the [push method](https://learn.microsoft.com/en-us/azure/search/search-what-is-data-import#pushing-data-to-an-index) to upload JSON documents directly or the [pull method](https://learn.microsoft.com/en-us/azure/search/search-what-is-data-import#pulling-data-into-an-index) (indexer or logic app workflow) to retrieve and serialize data into JSON.
 
 During indexing, you can use [AI enrichment](https://learn.microsoft.com/en-us/azure/search/cognitive-search-concept-intro) to chunk text, generate vectors, and apply other transformations that create structure and content. Azure AI Search then serializes the enriched output into JSON documents and ingests them into the index.
 
-### Querying
+</div>
+
+<div class="content-tab-pane active" data-content="querying" markdown="1">
 
 [Querying](https://learn.microsoft.com/en-us/azure/search/search-query-overview) targets an index populated with searchable content. This step occurs when your client app sends a query request to your search service. In your code, set up a search client to handle requests for [full-text queries](https://learn.microsoft.com/en-us/azure/search/search-query-create), [vector queries](https://learn.microsoft.com/en-us/azure/search/vector-search-how-to-query), [hybrid queries](https://learn.microsoft.com/en-us/azure/search/hybrid-search-how-to-query), [multimodal queries](https://learn.microsoft.com/en-us/azure/search/multimodal-search-overview), fuzzy search, autocomplete, geo-search, and other query types.
+
+</div>
 
 ![Diagram of the Azure AI Search architecture for classic search](https://github.com/user-attachments/assets/9515d789-8a04-47a2-a0aa-511e865ec42b)
 
@@ -125,13 +134,21 @@ Before you get started, use this checklist to make key decisions:
 
 Use following quickstarts and samples to get started:
 
-#### Quickstarts
+<div class="content-tab-container">
+  <div class="content-tab-header">
+    <button class="content-tab-btn active" data-target="quickstarts">Quickstarts</button>
+    <button class="content-tab-btn" data-target="samples">Samples</button>
+  </div>
+  
+<div class="content-tab-pane active" data-content="quickstarts" markdown="1">
 
 + Quickstart: Agentic retrieval ([portal](https://learn.microsoft.com/en-us/azure/search/get-started-portal-agentic-retrieval) or [programmatic](https://learn.microsoft.com/en-us/azure/search/search-get-started-agentic-retrieval))
 + Quickstart: Full-text search ([portal](https://learn.microsoft.com/en-us/azure/search/search-get-started-portal) or [programmatic](https://learn.microsoft.com/en-us/azure/search/search-get-started-text))
 + Quickstart: Vector search ([portal](https://learn.microsoft.com/en-us/azure/search/search-get-started-portal-import-vectors) or [programmatic](https://learn.microsoft.com/en-us/azure/search/search-get-started-vector))
 
-#### Samples
+</div>
+
+<div class="content-tab-pane active" data-content="samples" markdown="1">
 
 + [REST samples](https://learn.microsoft.com/en-us/azure/search/samples-rest)
 + [Python samples](https://learn.microsoft.com/en-us/azure/search/samples-python)
@@ -140,6 +157,8 @@ Use following quickstarts and samples to get started:
 + [JavaScript/TypeScript samples](https://learn.microsoft.com/en-us/azure/search/samples-javascript)
 + [Vector samples](https://github.com/Azure/azure-search-vector-samples)
 
+</div>
+
 {: .tip }
 > For help with complex or custom solutions, [contact a partner](https://partner.microsoft.com/partnership/find-a-partner) with deep expertise in Azure AI Search.
 
@@ -147,4 +166,4 @@ Use following quickstarts and samples to get started:
 
 [Back to top](#top)
 
-Thanks for visiting my portfolio! Don't hesitate to get in touch if you have any questions or feedback.
+Thanks for visiting my portfolio! If you have any questions or feedback, please feel free to reach out.

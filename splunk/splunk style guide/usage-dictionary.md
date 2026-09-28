@@ -58,4 +58,4 @@ May 18, 2023 ∙ [Original article](https://docs.splunk.com/Documentation/StyleG
 
 [Back to top](#top)
 
-Thanks for visiting my portfolio! Don't hesitate to get in touch if you have any questions or feedback.
+Thanks for visiting my portfolio! If you have any questions or feedback, please feel free to reach out.

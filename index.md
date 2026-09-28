@@ -13,7 +13,8 @@ Technical documentation optimized for both human and agentic consumption.
 ## Featured samples
 
 - [Introduction to Azure AI Search](/portfolio/microsoft/azure-ai-search/search-intro)
-- [Quickstart: Agentic retrieval in Azure AI Search](/portfolio/microsoft/azure-ai-search/search-quickstart-agentic-retrieval)
+- [Quickstart: Agentic retrieval](/portfolio/microsoft/azure-ai-search/search-quickstart-agentic-retrieval) (Azure AI Search)
+- [Tutorial: Private agentic retrieval](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval) (Azure AI Search)
 - [Introduction to the quantum programming language Q#](/portfolio/microsoft/azure-quantum/qsharp-intro)
 - [Quickstart: Create your first Q# program](/portfolio/microsoft/azure-quantum/qsharp-quickstart)
 - [Scenario: Wei creates an intelligence workflow in Splunk Mission Control to enrich data](/portfolio/splunk/mission-control/enrich-data)
@@ -54,4 +55,4 @@ I'm skilled in the following languages, frameworks, and platforms:
 
 [Back to top](#top)
 
-Thanks for visiting my portfolio! Don't hesitate to get in touch if you have any questions or feedback.
+Thanks for visiting my portfolio! If you have any questions or feedback, please feel free to reach out.

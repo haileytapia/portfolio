@@ -176,4 +176,4 @@ The following table shows the unique properties of variance charts:
 
 [Back to top](#top)
 
-Thanks for visiting my portfolio! Don't hesitate to get in touch if you have any questions or feedback.
+Thanks for visiting my portfolio! If you have any questions or feedback, please feel free to reach out.

@@ -15,7 +15,7 @@
     overflow-y: hidden;
     background: #ffffff;
     border-bottom: 1px solid #e2e8f0;
-    padding: 0 1rem;
+    padding: 0 1.25rem;
     gap: 0.5rem;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
@@ -29,7 +29,7 @@
     font-weight: 500;
     cursor: pointer;
     color: #64748b;
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
     margin-bottom: -1px;
     transition: all 0.15s ease;
   }
@@ -49,11 +49,10 @@
 
   .content-tab-pane {
     display: none;
-    padding: 1.5rem;
+    padding: 2rem;
     background-color: #ffffff;
   }
 
-  /* Strips out the default Markdown margin on the first element so top spacing matches the sides */
   .content-tab-pane > *:first-child {
     margin-top: 0 !important;
   }
@@ -72,9 +71,8 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const savedTab = localStorage.getItem("portfolio-content-tab-pref");
-    if (savedTab) {
-      activateTab(savedTab);
-    }
+    const initialTab = savedTab || document.querySelector(".content-tab-btn")?.getAttribute("data-target");
+    if (initialTab) activateTab(initialTab);
 
     document.addEventListener("click", function (event) {
       const button = event.target.closest(".content-tab-btn");
@@ -88,35 +86,20 @@
     });
 
     function activateTab(lang) {
-      const containers = document.querySelectorAll(".content-tab-container");
+      const buttons = Array.from(document.querySelectorAll(".content-tab-btn"));
+      const panes = document.querySelectorAll(".content-tab-pane");
+      const activeLang = buttons.some(btn => btn.getAttribute("data-target") === lang)
+        ? lang
+        : buttons[0]?.getAttribute("data-target");
 
-      containers.forEach(container => {
-        const buttons = container.querySelectorAll(".content-tab-btn");
-        const panes = container.querySelectorAll(".content-tab-pane");
+      buttons.forEach(btn => {
+        const isActive = btn.getAttribute("data-target") === activeLang;
+        btn.classList.toggle("active", isActive);
+        btn.setAttribute("aria-pressed", String(isActive));
+      });
 
-        let matched = false;
-
-        buttons.forEach(btn => {
-          if (btn.getAttribute("data-target") === lang) {
-            btn.classList.add("active");
-            matched = true;
-          } else {
-            btn.classList.remove("active");
-          }
-        });
-
-        panes.forEach(pane => {
-          if (pane.getAttribute("data-content") === lang) {
-            pane.classList.add("active");
-          } else {
-            pane.classList.remove("active");
-          }
-        });
-        
-        if (!matched && buttons.length > 0) {
-          buttons[0].classList.add("active");
-          panes[0].classList.add("active");
-        }
+      panes.forEach(pane => {
+        pane.classList.toggle("active", pane.getAttribute("data-content") === activeLang);
       });
     }
   });

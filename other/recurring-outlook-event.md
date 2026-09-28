@@ -60,4 +60,4 @@ Outlook creates your recurring event and displays all of its occurrences on your
 
 [Back to top](#top)
 
-Thanks for visiting my portfolio! Don't hesitate to get in touch if you have any questions or feedback.
+Thanks for visiting my portfolio! If you have any questions or feedback, please feel free to reach out.
