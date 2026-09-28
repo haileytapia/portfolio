@@ -24,27 +24,27 @@ September 17, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azur
   </div>
   
   <div class="content-tab-pane active" data-content="csharp" markdown="1">
-    {% include quickstarts/agentic-csharp.md %}
+{% include quickstarts/agentic-csharp.md %}
   </div>
 
   <div class="content-tab-pane" data-content="java" markdown="1">
-    {% include quickstarts/agentic-java.md %}
+{% include quickstarts/agentic-java.md %}
   </div>
 
   <div class="content-tab-pane" data-content="javascript" markdown="1">
-    {% include quickstarts/agentic-javascript.md %}
+{% include quickstarts/agentic-javascript.md %}
   </div>
 
   <div class="content-tab-pane" data-content="python" markdown="1">
-    {% include quickstarts/agentic-python.md %}
+{% include quickstarts/agentic-python.md %}
   </div>
 
   <div class="content-tab-pane" data-content="typescript" markdown="1">
-    {% include quickstarts/agentic-typescript.md %}
+{% include quickstarts/agentic-typescript.md %}
   </div>
 
   <div class="content-tab-pane" data-content="rest" markdown="1">
-    {% include quickstarts/agentic-rest.md %}
+{% include quickstarts/agentic-rest.md %}
   </div>
 </div>
 
