@@ -7,10 +7,13 @@ layout: default
     {{ content }}
   </div>
 
-  {% if page.toc != false %}
-  <details id="auto-toc" class="doc-toc">
-    <summary>In this article</summary>
-    <nav class="doc-toc-content" aria-label="In this article"></nav>
-  </details>
-  {% endif %}
 </div>
+
+{% if page.toc != false %}
+<aside id="doc-toc-rail" class="doc-toc-rail">
+  <button id="doc-toc-toggle" class="doc-toc-toggle" type="button" aria-expanded="false" aria-controls="auto-toc">
+    In this article
+  </button>
+  <nav id="auto-toc" class="doc-toc-panel" aria-label="In this article" hidden></nav>
+</aside>
+{% endif %}

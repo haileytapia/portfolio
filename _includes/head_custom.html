@@ -13,11 +13,11 @@
     margin: 1.25rem 0;
     width: fit-content;
     max-width: 100%;
+    overflow: visible;
     background: #ffffff;
     border: 1px solid #e2e8f0;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(15, 23, 42, 0.03);
-    overflow: hidden;
   }
 
   .content-tab-container--inline .content-tab-header {
@@ -158,79 +158,173 @@
 </script>
 
 <style>
-  .doc-layout-container {
-    width: 100%;
+  .doc-toc-rail {
+    position: fixed;
+    z-index: 1000;
+    top: 42vh;
+    right: 0;
   }
 
-  .doc-toc {
-    margin: 1.5rem 0;
+  .doc-toc-toggle {
+    display: block;
+    padding: 0.75rem 0.5rem;
+    border: 1px solid #d8dee8;
+    border-right: 0;
+    border-radius: 6px 0 0 6px;
+    background: #ffffff;
+    color: #334155;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12);
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.8rem;
+    font-weight: 600;
+    writing-mode: vertical-rl;
+  }
+
+  .doc-toc-toggle:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+  }
+
+  .doc-toc-panel {
+    position: absolute;
+    top: 0;
+    right: calc(100% + 0.5rem);
+    width: min(22rem, calc(100vw - 5rem));
+    max-height: min(70vh, 36rem);
+    overflow: auto;
     padding: 0.75rem 1rem;
-    border: 1px solid #e2e8f0;
+    border: 1px solid #d8dee8;
     border-radius: 6px;
     background: #ffffff;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.18);
   }
 
-  .doc-toc summary {
-    cursor: pointer;
-    font-weight: 600;
+  .doc-toc-panel[hidden] {
+    display: none;
   }
 
-  .doc-toc-content ul {
+  .doc-toc-panel ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
-    gap: 0.25rem 1.25rem;
-    list-style: none !important;
-    margin: 0.75rem 0 0;
+    gap: 0.25rem;
+    margin: 0;
     padding: 0;
+    list-style: none !important;
   }
 
-  .doc-toc-content li,
-  .doc-toc-content li::before {
+  .doc-toc-panel li,
+  .doc-toc-panel li::before {
     margin: 0;
     padding: 0;
     content: none !important;
   }
 
-  .doc-toc-content a {
+  .doc-toc-panel a {
     display: block;
-    padding: 0.25rem 0;
+    padding: 0.35rem 0;
+    color: #334155;
+    text-decoration: none;
+  }
+
+  .doc-toc-panel a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+  }
+
+  .doc-toc-panel a.toc-subheading {
+    padding-left: 1rem;
+    color: #64748b;
+    font-size: 0.9em;
+  }
+
+  @media (max-width: 640px) {
+    .doc-toc-rail {
+      top: auto;
+      bottom: 1rem;
+    }
   }
 </style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const mainContent = document.querySelector(".doc-main-content");
-    const tocContainer = document.getElementById("auto-toc");
-    
-    if (!mainContent || !tocContainer) return;
+    const tocRail = document.getElementById("doc-toc-rail");
+    const tocToggle = document.getElementById("doc-toc-toggle");
+    const tocPanel = document.getElementById("auto-toc");
 
-    const h2s = Array.from(mainContent.querySelectorAll("h2"))
+    if (!mainContent || !tocRail || !tocToggle || !tocPanel) return;
+
+    const headings = Array.from(mainContent.querySelectorAll("h2, h3"))
       .filter(heading => !heading.closest(".content-tab-pane"));
-    
-    if (h2s.length === 0) {
-      tocContainer.remove();
+
+    if (headings.length === 0) {
+      tocRail.remove();
       return;
     }
 
     const list = document.createElement("ul");
-    
-    h2s.forEach((heading, index) => {
+    const usedIds = new Set();
+
+    headings.forEach((heading, index) => {
       if (!heading.id) {
-        heading.id = heading.textContent
+        const baseId = heading.textContent
           .toLowerCase()
           .replace(/[^\w]+/g, "-")
           .replace(/^-+|-+$/g, "") || `section-${index + 1}`;
+        let headingId = baseId;
+        let suffix = 2;
+        while (document.getElementById(headingId) || usedIds.has(headingId)) {
+          headingId = `${baseId}-${suffix++}`;
+        }
+        heading.id = headingId;
       }
+      usedIds.add(heading.id);
 
       const item = document.createElement("li");
       const link = document.createElement("a");
       link.href = `#${heading.id}`;
       link.textContent = heading.textContent;
+      if (heading.tagName === "H3") link.classList.add("toc-subheading");
       item.appendChild(link);
       list.appendChild(item);
     });
 
-    tocContainer.querySelector(".doc-toc-content").appendChild(list);
-    h2s[0].before(tocContainer);
+    tocPanel.appendChild(list);
+
+    function setTocOpen(open) {
+      tocPanel.hidden = !open;
+      tocToggle.setAttribute("aria-expanded", String(open));
+    }
+
+    tocToggle.addEventListener("click", function () {
+      setTocOpen(tocPanel.hidden);
+    });
+
+    tocRail.addEventListener("mouseenter", function () {
+      setTocOpen(true);
+    });
+
+    tocRail.addEventListener("mouseleave", function () {
+      if (!tocRail.matches(":focus-within")) setTocOpen(false);
+    });
+
+    tocRail.addEventListener("focusin", function () {
+      setTocOpen(true);
+    });
+
+    tocRail.addEventListener("focusout", function (event) {
+      if (!tocRail.contains(event.relatedTarget)) setTocOpen(false);
+    });
+
+    tocPanel.addEventListener("click", function (event) {
+      if (event.target.closest("a")) setTocOpen(false);
+    });
+
+    tocRail.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") {
+        setTocOpen(false);
+        tocToggle.focus();
+      }
+    });
   });
 </script>
