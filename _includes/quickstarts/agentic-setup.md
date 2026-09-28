@@ -16,7 +16,7 @@ To configure access for this quickstart:
 
 1. On your Microsoft Foundry resource, assign **Cognitive Services User** to the managed identity of your search service.
 
-> [!IMPORTANT]
+> {: .important }
 > Agentic retrieval has two token-based billing models:
 >
 > + Billing from Azure AI Search for agentic retrieval.
