@@ -4,7 +4,7 @@ The *knowledge base* uses LLM-based query planning (preview) to decompose comple
 
 Although you can use your own data, this quickstart uses [sample JSON documents](https://github.com/Azure-Samples/azure-search-sample-data/tree/main/nasa-e-book/earth-at-night-json) from NASA's Earth at Night e-book.
 
-{ .tip }
+{: .tip }
 > Want to get started right away? Download the [source code](https://github.com/Azure-Samples/azure-search-rest-samples/tree/main/Quickstart-agentic-retrieval) on GitHub.
 
 ## Prerequisites
@@ -159,7 +159,7 @@ Each request returns different JSON based on the operation. The key output is fr
 
 ## Understand the code
 
-{ .note }
+{: .note }
 > The code snippets in this section might have been modified for readability. For a complete working example, see the source code.
 
 Now that you've run the code, let's break down the key steps:
