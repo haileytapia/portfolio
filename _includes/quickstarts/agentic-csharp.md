@@ -1,4 +1,6 @@
-In this quickstart, you use [agentic retrieval](../../agentic-retrieval-overview.md) to create a conversational search experience powered by documents indexed in Azure AI Search and a large language model (LLM) from Azure OpenAI in Foundry Models.
+{% include _includes/search-fiq-banner.md %}
+
+In this quickstart, you use [agentic retrieval](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview) to create a conversational search experience powered by documents indexed in Azure AI Search and a large language model (LLM) from Azure OpenAI in Foundry Models.
 
 The *knowledge base* uses LLM-based query planning (preview) to decompose complex queries into subqueries. It then runs the subqueries against one or more *knowledge sources* and returns results with metadata. By default, a knowledge base returns raw content from its sources, but this quickstart uses answer synthesis (preview) to generate natural-language answers.
 
@@ -11,19 +13,19 @@ Although you can use your own data, this quickstart uses [sample JSON documents]
 
 + An Azure account with an active subscription. [Create an account for free](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
-+ An [Azure AI Search service](../../search-create-service-portal.md) in any [region that provides agentic retrieval](../../search-region-support.md). This quickstart requires the Basic tier or higher for managed identity support.
++ An [Azure AI Search service](https://learn.microsoft.com/en-us/azure/search/search-create-service-portal) in any [region that provides agentic retrieval](https://learn.microsoft.com/en-us/azure/search/search-region-support). This quickstart requires the Basic tier or higher for managed identity support.
 
-+ A [Microsoft Foundry project](/azure/ai-foundry/how-to/create-projects) and resource. When you create a project, the resource is automatically created.
++ A [Microsoft Foundry project](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/create-projects) and resource. When you create a project, the resource is automatically created.
 
-+ An embedding model [deployed to your project](/azure/ai-foundry/how-to/deploy-models-openai) for text-to-vector conversion. You can use any `text-embedding` model, such as `text-embedding-3-large`.
++ An embedding model [deployed to your project](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/deploy-models-openai) for text-to-vector conversion. You can use any `text-embedding` model, such as `text-embedding-3-large`.
 
-+ An LLM [deployed to your project](/azure/ai-foundry/how-to/deploy-models-openai) for query planning and answer generation. You can use any [supported LLM](../../agentic-retrieval-how-to-create-knowledge-base.md#supported-models), such as `gpt-5-mini`.
++ An LLM [deployed to your project](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/deploy-models-openai) for query planning and answer generation. You can use any [supported LLM](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-create-knowledge-base#supported-models), such as `gpt-5-mini`.
 
 + [.NET 8](https://dotnet.microsoft.com/download/dotnet/8.0) or later.
 
 + [Git](https://git-scm.com/downloads) to clone the sample repository.
 
-+ The [Azure CLI](/cli/azure/install-azure-cli) for keyless authentication with Microsoft Entra ID.
++ The [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) for keyless authentication with Microsoft Entra ID.
 
 {% include quickstarts/agentic-setup.md %}
 
@@ -235,7 +237,7 @@ await indexClient.CreateOrUpdateIndexAsync(index);
 Console.WriteLine($"Index '{indexName}' created or updated successfully.");
 ```
 
-**Reference:** [SearchField](/dotnet/api/azure.search.documents.indexes.models.searchfield), [SimpleField](/dotnet/api/azure.search.documents.indexes.models.simplefield), [VectorSearch](/dotnet/api/azure.search.documents.indexes.models.vectorsearch), [SemanticSearch](/dotnet/api/azure.search.documents.indexes.models.semanticsearch), [SearchIndex](/dotnet/api/azure.search.documents.indexes.models.searchindex), [SearchIndexClient](/dotnet/api/azure.search.documents.indexes.searchindexclient)
+**Reference:** [SearchField](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.indexes.models.searchfield), [SimpleField](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.indexes.models.simplefield), [VectorSearch](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.indexes.models.vectorsearch), [SemanticSearch](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.indexes.models.semanticsearch), [SearchIndex](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.indexes.models.searchindex), [SearchIndexClient](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.indexes.searchindexclient)
 
 ### Upload documents to the index
 
@@ -263,7 +265,7 @@ await searchIndexingBufferedSender.FlushAsync();
 Console.WriteLine($"Documents uploaded to index '{indexName}' successfully.");
 ```
 
-**Reference:** [SearchClient](/dotnet/api/azure.search.documents.searchclient), [SearchIndexingBufferedSender](/dotnet/api/azure.search.documents.searchindexingbufferedsender-1)
+**Reference:** [SearchClient](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.searchclient), [SearchIndexingBufferedSender](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.searchindexingbufferedsender-1)
 
 ### Create a knowledge source
 
@@ -285,7 +287,7 @@ await indexClient.CreateOrUpdateKnowledgeSourceAsync(indexKnowledgeSource);
 Console.WriteLine($"Knowledge source '{knowledgeSourceName}' created or updated successfully.");
 ```
 
-**Reference:** [SearchIndexKnowledgeSource](/dotnet/api/azure.search.documents.indexes.models.searchindexknowledgesource)
+**Reference:** [SearchIndexKnowledgeSource](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.indexes.models.searchindexknowledgesource)
 
 ### Create a knowledge base
 
@@ -319,7 +321,7 @@ await indexClient.CreateOrUpdateKnowledgeBaseAsync(knowledgeBase);
 Console.WriteLine($"Knowledge base '{knowledgeBaseName}' created or updated successfully.");
 ```
 
-**Reference:** [KnowledgeBaseAzureOpenAIModel](/dotnet/api/azure.search.documents.indexes.models.knowledgebaseazureopenaimodel), [KnowledgeBase](/dotnet/api/azure.search.documents.indexes.models.knowledgebase)
+**Reference:** [KnowledgeBaseAzureOpenAIModel](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.indexes.models.knowledgebaseazureopenaimodel), [KnowledgeBase](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.indexes.models.knowledgebase)
 
 ### Set up messages
 
@@ -382,7 +384,7 @@ messages.Add(new Dictionary<string, string>
 });
 ```
 
-**Reference:** [KnowledgeBaseRetrievalClient](/dotnet/api/azure.search.documents.knowledgebases.knowledgebaseretrievalclient?view=azure-dotnet-preview&preserve-view=true), [KnowledgeBaseRetrievalRequest](/dotnet/api/azure.search.documents.knowledgebases.models.knowledgebaseretrievalrequest?view=azure-dotnet-preview&preserve-view=true)
+**Reference:** [KnowledgeBaseRetrievalClient](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.knowledgebases.knowledgebaseretrievalclient?view=azure-dotnet-preview&preserve-view=true), [KnowledgeBaseRetrievalRequest](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.knowledgebases.models.knowledgebaseretrievalrequest?view=azure-dotnet-preview&preserve-view=true)
 
 #### Review the response, activity, and references
 

@@ -1,4 +1,6 @@
-In this quickstart, you use [agentic retrieval](../../agentic-retrieval-overview.md) to create a conversational search experience powered by documents indexed in Azure AI Search and a large language model (LLM) from Azure OpenAI in Foundry Models. 
+{% include _includes/search-fiq-banner.md %}
+
+In this quickstart, you use [agentic retrieval](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview) to create a conversational search experience powered by documents indexed in Azure AI Search and a large language model (LLM) from Azure OpenAI in Foundry Models.
 
 The *knowledge base* uses LLM-based query planning (preview) to decompose complex queries into subqueries. It then runs the subqueries against one or more *knowledge sources* and returns results with metadata. By default, a knowledge base returns raw content from its sources, but this quickstart uses answer synthesis (preview) to generate natural-language answers.
 
@@ -11,19 +13,19 @@ Although you can use your own data, this quickstart uses [sample JSON documents]
 
 + An Azure account with an active subscription. [Create an account for free](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
-+ An [Azure AI Search service](../../search-create-service-portal.md) in any [region that provides agentic retrieval](../../search-region-support.md). This quickstart requires the Basic tier or higher for managed identity support.
++ An [Azure AI Search service](https://learn.microsoft.com/en-us/azure/search/search-create-service-portal) in any [region that provides agentic retrieval](https://learn.microsoft.com/en-us/azure/search/search-region-support). This quickstart requires the Basic tier or higher for managed identity support.
 
-+ A [Microsoft Foundry project](/azure/ai-foundry/how-to/create-projects) and resource. When you create a project, the resource is automatically created.
++ A [Microsoft Foundry project](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/create-projects) and resource. When you create a project, the resource is automatically created.
 
-+ An embedding model [deployed to your project](/azure/ai-foundry/how-to/deploy-models-openai) for text-to-vector conversion. You can use any `text-embedding` model, such as `text-embedding-3-large`.
++ An embedding model [deployed to your project](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/deploy-models-openai) for text-to-vector conversion. You can use any `text-embedding` model, such as `text-embedding-3-large`.
 
-+ An LLM [deployed to your project](/azure/ai-foundry/how-to/deploy-models-openai) for query planning and answer generation. You can use any [supported LLM](../../agentic-retrieval-how-to-create-knowledge-base.md#supported-models), such as `gpt-5-mini`.
++ An LLM [deployed to your project](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/deploy-models-openai) for query planning and answer generation. You can use any [supported LLM](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-create-knowledge-base#supported-models), such as `gpt-5-mini`.
 
 + [Visual Studio Code](https://code.visualstudio.com/download) with the [REST Client extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
 
 + [Git](https://git-scm.com/downloads) to clone the sample repository.
 
-+ The [Azure CLI](/cli/azure/install-azure-cli) for keyless authentication with Microsoft Entra ID.
++ The [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) for keyless authentication with Microsoft Entra ID.
 
 {% include quickstarts/agentic-setup.md %}
 
@@ -252,7 +254,7 @@ Authorization: Bearer {{token}}
 }
 ```
 
-**Reference:** [Indexes - Create](/rest/api/searchservice/indexes/create)
+**Reference:** [Indexes - Create](https://learn.microsoft.com/en-us/rest/api/searchservice/indexes/create)
 
 ### Upload documents to the index
 
@@ -288,7 +290,7 @@ Authorization: Bearer {{token}}
 }
 ```
 
-**Reference:** [Documents - Index](/rest/api/searchservice/documents/index)
+**Reference:** [Documents - Index](https://learn.microsoft.com/en-us/rest/api/searchservice/documents/index)
 
 ### Create a knowledge source
 
@@ -317,7 +319,7 @@ Authorization: Bearer {{token}}
 }
 ```
 
-**Reference:** [Knowledge Sources - Create](/rest/api/searchservice/knowledge-sources/create?view=rest-searchservice-2026-08-01-preview&preserve-view=true)
+**Reference:** [Knowledge Sources - Create](https://learn.microsoft.com/en-us/rest/api/searchservice/knowledge-sources/create?view=rest-searchservice-2026-08-01-preview&preserve-view=true)
 
 ### Create a knowledge base
 
@@ -353,7 +355,7 @@ Authorization: Bearer {{token}}
 }
 ```
 
-**Reference:** [Knowledge Bases - Create](/rest/api/searchservice/knowledge-bases/create?view=rest-searchservice-2026-08-01-preview&preserve-view=true)
+**Reference:** [Knowledge Bases - Create](https://learn.microsoft.com/en-us/rest/api/searchservice/knowledge-bases/create?view=rest-searchservice-2026-08-01-preview&preserve-view=true)
 
 ### Run the retrieval pipeline
 
@@ -400,7 +402,7 @@ Authorization: Bearer {{token}}
 }
 ```
 
-**Reference:** [Knowledge Retrieval - Retrieve](/rest/api/searchservice/knowledge-retrieval/retrieve?view=rest-searchservice-2026-08-01-preview&preserve-view=true)
+**Reference:** [Knowledge Retrieval - Retrieve](https://learn.microsoft.com/en-us/rest/api/searchservice/knowledge-retrieval/retrieve?view=rest-searchservice-2026-08-01-preview&preserve-view=true)
 
 The output contains the following components:
 

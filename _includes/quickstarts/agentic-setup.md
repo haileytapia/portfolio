@@ -1,6 +1,6 @@
 ## Configure access
 
-Before you begin, make sure you have permissions to access content and operations. This quickstart uses Microsoft Entra ID for authentication and role-based access for authorization. You must be an **Owner** or **User Access Administrator** to assign roles. If roles aren't feasible, use [key-based authentication](../../search-security-api-keys.md) instead.
+Before you begin, make sure you have permissions to access content and operations. This quickstart uses Microsoft Entra ID for authentication and role-based access for authorization. You must be an **Owner** or **User Access Administrator** to assign roles. If roles aren't feasible, use [key-based authentication](https://learn.microsoft.com/en-us/azure/search/search-security-api-keys) instead.
 
 To configure access for this quickstart:
 
@@ -8,11 +8,11 @@ To configure access for this quickstart:
 
 1. On your Azure AI Search service:
 
-    1. [Enable role-based access](../../search-security-enable-roles.md).
+    1. [Enable role-based access](https://learn.microsoft.com/en-us/azure/search/search-security-enable-roles).
 
-    1. [Create a system-assigned managed identity](../../search-how-to-managed-identities.md#create-a-system-managed-identity).
+    1. [Create a system-assigned managed identity](https://learn.microsoft.com/en-us/azure/search/search-how-to-managed-identities#create-a-system-managed-identity).
 
-    1. [Assign the following roles](../../search-security-rbac.md) to your user account: **Search Service Contributor**, **Search Index Data Contributor**, and **Search Index Data Reader**.
+    1. [Assign the following roles](https://learn.microsoft.com/en-us/azure/search/search-security-rbac) to your user account: **Search Service Contributor**, **Search Index Data Contributor**, and **Search Index Data Reader**.
 
 1. On your Microsoft Foundry resource, assign **Cognitive Services User** to the managed identity of your search service.
 
@@ -22,7 +22,7 @@ To configure access for this quickstart:
 > + Billing from Azure AI Search for agentic retrieval.
 > + Billing from Azure OpenAI for query planning and answer synthesis.
 >
-> For more information, see [Region availability, limits, and billing](../../agentic-retrieval-overview.md#region-availability-limits-and-billing).
+> For more information, see [Region availability, limits, and billing](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview#region-availability-limits-and-billing).
 
 ## Get endpoints
 
