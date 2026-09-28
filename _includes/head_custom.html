@@ -158,24 +158,24 @@
 </script>
 
 <style>
-  /* --- Margin-Placed Widescreen TOC (Zero Main Container Compression) --- */
-  .doc-page-wrapper {
-    position: relative;
-    max-width: 768px; /* Keeps your main text column at its exact comfortable reading width */
-    margin: 0 auto;   /* Centers the article on the page */
-  }
+  /* --- Dynamically Scaling Documentation Layout --- */
+  @media (min-width: 1024px) {
+    .doc-dynamic-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 240px; /* Flexible text column + fixed 240px TOC column */
+      gap: 3.5rem;
+      align-items: start;
+      max-width: 1120px; /* Comfortably widens the center without feeling stretched */
+      margin: 0 auto;
+    }
 
-  @media (min-width: 1100px) {
     .doc-toc-sidebar {
-      display: block;
-      position: absolute;
-      top: 0;
-      left: calc(100% + 2.5rem); /* Positions it directly in the right margin */
-      width: 220px;
+      position: sticky;
+      top: 2rem;
       max-height: calc(100vh - 4rem);
       overflow-y: auto;
       font-size: 0.85rem;
-      padding-left: 1rem;
+      padding-left: 1.25rem;
       border-left: 1px solid #e2e8f0;
     }
 
@@ -184,12 +184,14 @@
       padding-left: 0;
       margin: 0.5rem 0 0 0;
       display: grid;
-      gap: 0.4rem;
+      gap: 0.5rem;
     }
 
     .doc-toc-sidebar a {
       color: #64748b;
       text-decoration: none;
+      line-height: 1.4;
+      display: block;
       transition: color 0.15s ease;
     }
 
@@ -207,8 +209,8 @@
     }
   }
 
-  /* Automatically hides sidebar on screens too narrow to have side margins */
-  @media (max-width: 1099.98px) {
+  /* Automatically collapses to a clean single column on tablets and mobile */
+  @media (max-width: 1023.98px) {
     .doc-toc-sidebar {
       display: none;
     }
@@ -222,10 +224,11 @@
     
     if (!mainContent || !tocContainer) return;
 
-    // Scan ONLY H2 headers (excluding tabs)
+    // Scan ONLY H2 headers (excluding tab contents)
     const headings = Array.from(mainContent.querySelectorAll("h2"))
       .filter(heading => !heading.closest(".content-tab-pane"));
     
+    // If an article has no H2s, remove the sidebar element entirely
     if (headings.length === 0) {
       tocContainer.remove();
       return;
