@@ -81,7 +81,7 @@ A knowledge base consists of one or more [knowledge sources](agentic-knowledge-s
 
 Under the hood, agentic retrieval builds on the classic search architecture by adding a context layer (knowledge base) that orchestrates multi-source retrieval. Knowledge sources can be indexed or remote: indexed sources use the same indexing and query engines as classic search, while remote sources bypass indexing and are queried live.
 
-:::image type="content" source="media/search-what-is-azure-search/agentic-retrieval-architecture.png" alt-text="Diagram of the Azure AI Search architecture for agentic retrieval." lightbox="media/search-what-is-azure-search/agentic-retrieval-architecture.png" :::
+![Diagram of the Azure AI Search architecture for agentic retrieval.](https://github.com/user-attachments/assets/da67e0d7-6e12-4dfb-91ab-652f087aec2a)
 
 ## How they compare
 
