@@ -26,8 +26,7 @@ When you create a search service, the following capabilities are included:
 + Azure scale, security, monitoring, and compliance.
 + Azure integrations with supported data platforms, Azure OpenAI, and Microsoft Foundry.
 
-> [!div class="nextstepaction"]
-> [Create a search service](search-create-service-portal.md)
+[Create a search service](search-create-service-portal.md){: .btn .btn-purple }
 
 ## Why use Azure AI Search?
 
@@ -57,21 +56,21 @@ In this architecture, your search service sits between the data stores that cont
 
 This architecture has two primary workloads:
 
-### [Indexing](#tab/indexing)
+### Indexing
 
 [Indexing](search-what-is-an-index.md) loads content into an index and makes it searchable. Internally, inbound text is tokenized and stored in inverted indexes, while inbound vectors are stored in vector indexes. Azure AI Search can only index JSON documents. You can use the [push method](search-what-is-data-import.md#pushing-data-to-an-index) to upload JSON documents directly or the [pull method](search-what-is-data-import.md#pulling-data-into-an-index) (indexer or logic app workflow) to retrieve and serialize data into JSON.
 
 During indexing, you can use [AI enrichment](cognitive-search-concept-intro.md) to chunk text, generate vectors, and apply other transformations that create structure and content. Azure AI Search then serializes the enriched output into JSON documents and ingests them into the index.
 
-### [Querying](#tab/querying)
+### Querying
 
 [Querying](search-query-overview.md) targets an index populated with searchable content. This step occurs when your client app sends a query request to your search service. In your code, set up a search client to handle requests for [full-text queries](search-query-create.md), [vector queries](vector-search-how-to-query.md), [hybrid queries](hybrid-search-how-to-query.md), [multimodal queries](multimodal-search-overview.md), fuzzy search, autocomplete, geo-search, and other query types.
 
 ---
 
-:::image type="content" source="media/search-what-is-azure-search/classic-search-architecture.png" alt-text="Diagram of the Azure AI Search architecture for classic search." lightbox="media/search-what-is-azure-search/classic-search-architecture.png" :::
+![Diagram of the Azure AI Search architecture for classic search](https://github.com/user-attachments/assets/9515d789-8a04-47a2-a0aa-511e865ec42b)
 
-> [!NOTE]
+{: .note }
 > This diagram separates the indexing and query engines for clarity, but in Azure AI Search, they're the same component operating in read-write and read-only modes.
 
 ## What is agentic retrieval?
@@ -126,15 +125,15 @@ Before you get started, use this checklist to make key decisions:
 
 These quickstarts and samples are available to help you get started.
 
-### [Quickstarts](#tab/quickstarts)
+### Quickstarts
 
 + Quickstart: Agentic retrieval ([portal](get-started-portal-agentic-retrieval.md) or [programmatic](search-get-started-agentic-retrieval.md))
 + Quickstart: Full-text search ([portal](search-get-started-portal.md) or [programmatic](search-get-started-text.md))
 + Quickstart: Vector search ([portal](search-get-started-portal-import-vectors.md) or [programmatic](search-get-started-vector.md))
 
-### [Samples](#tab/samples)
+### Samples
 
-Microsoft maintains samples that use REST APIs and supported SDK programming languages:
+Microsoft maintains samples that use REST APIs and supported Azure SDK programming languages:
 
 + [REST samples](/azure/search/samples-rest)
 + [Python samples](/azure/search/samples-python)
@@ -145,7 +144,7 @@ Microsoft maintains samples that use REST APIs and supported SDK programming lan
 
 ---
 
-> [!TIP]
+{: .tip }
 > For help with complex or custom solutions, [contact a partner](https://partner.microsoft.com/partnership/find-a-partner) with deep expertise in Azure AI Search.
 
 ---
