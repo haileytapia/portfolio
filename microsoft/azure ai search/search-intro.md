@@ -123,17 +123,15 @@ Before you get started, use this checklist to make key decisions:
 
 ### Choose your learning resources
 
-These quickstarts and samples are available to help you get started.
+The following quickstarts and samples are available to help you get started.
 
-### Quickstarts
+#### Quickstarts
 
 + Quickstart: Agentic retrieval ([portal](get-started-portal-agentic-retrieval.md) or [programmatic](search-get-started-agentic-retrieval.md))
 + Quickstart: Full-text search ([portal](search-get-started-portal.md) or [programmatic](search-get-started-text.md))
 + Quickstart: Vector search ([portal](search-get-started-portal-import-vectors.md) or [programmatic](search-get-started-vector.md))
 
-### Samples
-
-Microsoft maintains samples that use REST APIs and supported Azure SDK programming languages:
+#### Samples
 
 + [REST samples](/azure/search/samples-rest)
 + [Python samples](/azure/search/samples-python)
