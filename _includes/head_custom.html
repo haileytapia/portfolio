@@ -157,86 +157,78 @@
   });
 </script>
 
+{% if page.url != '/' and page.url != '/index.html' and page.toc != false %}
 <style>
-  /* --- Dynamically Scaling Documentation Layout --- */
-  @media (min-width: 1024px) {
-    .doc-dynamic-layout {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 240px; /* Flexible text column + fixed 240px TOC column */
-      gap: 3.5rem;
-      align-items: start;
-      max-width: 1120px; /* Comfortably widens the center without feeling stretched */
-      margin: 0 auto;
-    }
-
-    .doc-toc-sidebar {
-      position: sticky;
-      top: 2rem;
-      max-height: calc(100vh - 4rem);
-      overflow-y: auto;
-      font-size: 0.85rem;
-      padding-left: 1.25rem;
-      border-left: 1px solid #e2e8f0;
-    }
-
-    .doc-toc-sidebar ul {
-      list-style: none;
-      padding-left: 0;
-      margin: 0.5rem 0 0 0;
-      display: grid;
-      gap: 0.5rem;
-    }
-
-    .doc-toc-sidebar a {
-      color: #64748b;
-      text-decoration: none;
-      line-height: 1.4;
-      display: block;
-      transition: color 0.15s ease;
-    }
-
-    .doc-toc-sidebar a:hover {
-      color: #7c3aed; /* Professional tech purple accent */
-    }
-
-    .doc-toc-sidebar .toc-heading {
-      font-size: 0.75rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: #0f172a;
-      margin-bottom: 0.75rem;
-    }
+  /* --- Editorial Top-Card TOC (Theme-Aligned) --- */
+  .doc-top-toc {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0 2.5rem 0;
   }
 
-  /* Automatically collapses to a clean single column on tablets and mobile */
-  @media (max-width: 1023.98px) {
-    .doc-toc-sidebar {
-      display: none;
-    }
+  .doc-top-toc .toc-heading {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #0f172a;
+    margin-bottom: 0.75rem;
+  }
+
+  .doc-top-toc ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.5rem;
+    /* Automatically creates a tidy 2-column list if you have many headers */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .doc-top-toc a {
+    color: #475569;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    transition: color 0.15s ease;
+  }
+
+  .doc-top-toc a::before {
+    content: "→";
+    margin-right: 8px;
+    color: #94a3b8;
+    font-size: 0.8rem;
+  }
+
+  .doc-top-toc a:hover {
+    color: #7c3aed; /* Your purple accent */
   }
 </style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const mainContent = document.querySelector(".doc-main-content");
-    const tocContainer = document.getElementById("auto-toc");
-    
-    if (!mainContent || !tocContainer) return;
+    if (!mainContent) return;
 
     // Scan ONLY H2 headers (excluding tab contents)
     const headings = Array.from(mainContent.querySelectorAll("h2"))
       .filter(heading => !heading.closest(".content-tab-pane"));
-    
-    // If an article has no H2s, remove the sidebar element entirely
-    if (headings.length === 0) {
-      tocContainer.remove();
-      return;
-    }
 
-    let tocHtml = '<div class="toc-heading">In this article</div><ul>';
-    const usedIds = new Set();
+    // If an article has fewer than 2 H2s, skip the TOC card
+    if (headings.length < 2) return;
+
+    const tocBox = document.createElement("nav");
+    tocBox.className = "doc-top-toc";
+    tocBox.setAttribute("aria-label", "Table of contents");
     
+    tocBox.innerHTML = '<div class="toc-heading">Table of contents</div>';
+    
+    const list = document.createElement("ul");
+    const usedIds = new Set();
+
     headings.forEach((heading, index) => {
       if (!heading.id) {
         const baseId = heading.textContent
@@ -251,11 +243,19 @@
         heading.id = headingId;
       }
       usedIds.add(heading.id);
-      
-      tocHtml += `<li><a href="#${heading.id}">${heading.textContent}</a></li>`;
+
+      const item = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = `#${heading.id}`;
+      link.textContent = heading.textContent;
+      item.appendChild(link);
+      list.appendChild(item);
     });
-    
-    tocHtml += '</ul>';
-    tocContainer.innerHTML = tocHtml;
+
+    tocBox.appendChild(list);
+
+    // Inject at the very top of the main content area
+    mainContent.insertBefore(tocBox, mainContent.firstChild);
   });
 </script>
+{% endif %}

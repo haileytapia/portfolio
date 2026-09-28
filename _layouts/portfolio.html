@@ -2,22 +2,6 @@
 layout: default
 ---
 
-{% assign is_home = false %}
-{% if page.url == '/' or page.url == '/index.html' %}
-  {% assign is_home = true %}
-{% endif %}
-
-{% if is_home or page.toc == false %}
-  <!-- Home page or TOC disabled: full width single column -->
-  <div class="doc-main-content" markdown="1">
-    {{ content }}
-  </div>
-{% else %}
-  <!-- Documentation page: dynamically scaling 2-column layout -->
-  <div class="doc-dynamic-layout">
-    <div class="doc-main-content" markdown="1">
-      {{ content }}
-    </div>
-    <aside id="auto-toc" class="doc-toc-sidebar" aria-label="In this article"></aside>
-  </div>
-{% endif %}
+<div class="doc-main-content" markdown="1">
+  {{ content }}
+</div>
