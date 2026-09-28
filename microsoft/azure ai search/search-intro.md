@@ -15,7 +15,7 @@ Septemeber 17, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azu
 
 <details>
   <summary>
-    Table of contents
+    In this article
   </summary>
   {: .no_toc, .text-delta }
 - TOC
