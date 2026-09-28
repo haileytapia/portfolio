@@ -1,85 +1,85 @@
 <style>
-  /* --- Standard Code Tabs Construct --- */
-  .code-tab-container {
-    margin: 1.5rem 0;
+  /* --- Multi-Section Content Tabs --- */
+  .content-tab-container {
+    margin: 2rem 0;
     border: 1px solid #e1e4e8;
-    border-radius: 6px;
+    border-radius: 8px;
     overflow: hidden;
-    background-color: #f6f8fa;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
   }
 
-  .code-tab-header {
+  .content-tab-header {
     display: flex;
-    background-color: #eaeef2;
+    background-color: #f6f8fa;
     border-bottom: 1px solid #e1e4e8;
-    padding: 4px 4px 0 4px;
-    gap: 4px;
+    padding: 6px 6px 0 6px;
+    gap: 6px;
   }
 
-  .code-tab-btn {
+  .content-tab-btn {
     background: transparent;
     border: none;
-    padding: 8px 16px;
-    font-size: 0.85rem;
+    padding: 10px 20px;
+    font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
     color: #586069;
     border-bottom: 2px solid transparent;
-    border-radius: 4px 4px 0 0;
+    border-radius: 6px 6px 0 0;
     transition: all 0.2s ease;
   }
 
-  .code-tab-btn:hover {
+  .content-tab-btn:hover {
     color: #0366d6;
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: rgba(0, 0, 0, 0.02);
   }
 
-  .code-tab-btn.active {
+  .content-tab-btn.active {
     color: #0366d6;
     background-color: #ffffff;
     border-bottom-color: #0366d6;
-    box-shadow: 0 -1px 3px rgba(0,0,0,0.05);
+    border-top: 1px solid #e1e4e8;
+    border-left: 1px solid #e1e4e8;
+    border-right: 1px solid #e1e4e8;
+    margin-bottom: -1px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.03);
   }
 
-  .code-tab-content {
+  .content-tab-pane {
     display: none;
-    padding: 1rem;
+    padding: 2rem;
     background-color: #ffffff;
-    margin: 0;
   }
 
-  .code-tab-content.active {
+  .content-tab-pane.active {
     display: block;
-  }
-
-  .code-tab-content pre {
-    margin-bottom: 0;
   }
 </style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const savedTab = localStorage.getItem("portfolio-code-tab-pref");
+    const savedTab = localStorage.getItem("portfolio-content-tab-pref");
     if (savedTab) {
       activateTab(savedTab);
     }
 
     document.addEventListener("click", function (event) {
-      if (!event.target.classList.contains("code-tab-btn")) return;
+      if (!event.target.classList.contains("content-tab-btn")) return;
 
       const button = event.target;
       const targetLang = button.getAttribute("data-target");
       
-      localStorage.setItem("portfolio-code-tab-pref", targetLang);
+      localStorage.setItem("portfolio-content-tab-pref", targetLang);
       activateTab(targetLang);
     });
 
     function activateTab(lang) {
-      const containers = document.querySelectorAll(".code-tab-container");
+      const containers = document.querySelectorAll(".content-tab-container");
 
       containers.forEach(container => {
-        const buttons = container.querySelectorAll(".code-tab-btn");
-        const contents = container.querySelectorAll(".code-tab-content");
+        const buttons = container.querySelectorAll(".content-tab-btn");
+        const panes = container.querySelectorAll(".content-tab-pane");
 
         let matched = false;
 
@@ -92,17 +92,17 @@
           }
         });
 
-        contents.forEach(content => {
-          if (content.getAttribute("data-content") === lang) {
-            content.classList.add("active");
+        panes.forEach(pane => {
+          if (pane.getAttribute("data-content") === lang) {
+            pane.classList.add("active");
           } else {
-            content.classList.remove("active");
+            pane.classList.remove("active");
           }
         });
         
         if (!matched && buttons.length > 0) {
           buttons[0].classList.add("active");
-          contents[0].classList.add("active");
+          panes[0].classList.add("active");
         }
       });
     }
