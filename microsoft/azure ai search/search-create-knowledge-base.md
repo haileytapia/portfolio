@@ -10,6 +10,9 @@ permalink: /microsoft/azure-ai-search/search-create-knowledge-base
 # Create a knowledge base in Azure AI Search
 {: .no_toc }
 
+August 12, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-create-knowledge-base)
+{: .fs-5 : .fw-300 }
+
 <div class="content-tab-container content-tab-container--top-level" data-tab-group="knowledge-base-language">
 <div class="content-tab-header" role="group" aria-label="Code language">
   <button type="button" class="content-tab-btn active" data-target="csharp" aria-pressed="true">C#</button>
@@ -17,9 +20,6 @@ permalink: /microsoft/azure-ai-search/search-create-knowledge-base
   <button type="button" class="content-tab-btn" data-target="rest" aria-pressed="false">REST API</button>
 </div>
 </div>
-
-August 12, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-create-knowledge-base)
-{: .fs-5 : .fw-300 }
 
 In Azure AI Search, a *knowledge base* is a top-level object that orchestrates [agentic retrieval](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview). It defines which knowledge sources to query and the default behavior for retrieval operations. At query time, the [retrieve method](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-retrieve) targets the knowledge base to run the configured retrieval pipeline.
 

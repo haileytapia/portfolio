@@ -158,173 +158,106 @@
 </script>
 
 <style>
+  /* --- Elite Floating TOC Rail --- */
   .doc-toc-rail {
     position: fixed;
-    z-index: 1000;
-    top: 42vh;
-    right: 0;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 999;
+    font-family: inherit;
   }
 
   .doc-toc-toggle {
-    display: block;
-    padding: 0.75rem 0.5rem;
-    border: 1px solid #d8dee8;
-    border-right: 0;
-    border-radius: 6px 0 0 6px;
+    display: flex;
+    align-items: center;
     background: #ffffff;
-    color: #334155;
-    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12);
+    color: #0f172a;
+    border: 1px solid #cbd5e1;
+    padding: 0.625rem 1rem;
+    border-radius: 9999px; /* Modern pill shape */
+    font-size: 0.8125rem;
+    font-weight: 500;
     cursor: pointer;
-    font: inherit;
-    font-size: 0.8rem;
-    font-weight: 600;
-    writing-mode: vertical-rl;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .doc-toc-toggle:focus-visible {
-    outline: 2px solid #2563eb;
-    outline-offset: 2px;
+  .doc-toc-toggle:hover {
+    border-color: #94a3b8;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    transform: translateY(-1px);
+  }
+
+  .doc-toc-toggle[aria-expanded="true"] {
+    background: #0f172a;
+    color: #ffffff;
+    border-color: #0f172a;
+  }
+
+  .doc-toc-toggle[aria-expanded="true"] svg {
+    stroke: #ffffff;
   }
 
   .doc-toc-panel {
     position: absolute;
-    top: 0;
-    right: calc(100% + 0.5rem);
-    width: min(22rem, calc(100vw - 5rem));
-    max-height: min(70vh, 36rem);
-    overflow: auto;
-    padding: 0.75rem 1rem;
-    border: 1px solid #d8dee8;
-    border-radius: 6px;
+    bottom: calc(100% + 0.75rem);
+    right: 0;
+    width: 280px;
+    max-height: 380px;
+    overflow-y: auto;
     background: #ffffff;
-    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.18);
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12), 0 2px 6px rgba(0, 0, 0, 0.04);
+    padding: 1rem 1.25rem;
+    transform-origin: bottom right;
   }
 
   .doc-toc-panel[hidden] {
     display: none;
   }
 
-  .doc-toc-panel ul {
-    display: grid;
-    gap: 0.25rem;
-    margin: 0;
-    padding: 0;
-    list-style: none !important;
+  .doc-toc-panel .toc-heading {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #64748b;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #f1f5f9;
   }
 
-  .doc-toc-panel li,
-  .doc-toc-panel li::before {
-    margin: 0;
+  .doc-toc-panel ul {
+    list-style: none;
     padding: 0;
-    content: none !important;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 
   .doc-toc-panel a {
-    display: block;
-    padding: 0.35rem 0;
-    color: #334155;
+    color: #475569;
     text-decoration: none;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    display: block;
+    transition: color 0.15s ease;
   }
 
   .doc-toc-panel a:hover {
-    color: #1d4ed8;
-    text-decoration: underline;
-  }
-
-  .doc-toc-panel a.toc-subheading {
-    padding-left: 1rem;
-    color: #64748b;
-    font-size: 0.9em;
+    color: #7c3aed; /* Vibrant documentation purple accent */
   }
 
   @media (max-width: 640px) {
     .doc-toc-rail {
-      top: auto;
-      bottom: 1rem;
+      bottom: 1.25rem;
+      right: 1.25rem;
+    }
+    .doc-toc-panel {
+      width: calc(100vw - 2.5rem);
+      max-width: 320px;
     }
   }
 </style>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const mainContent = document.querySelector(".doc-main-content");
-    const tocRail = document.getElementById("doc-toc-rail");
-    const tocToggle = document.getElementById("doc-toc-toggle");
-    const tocPanel = document.getElementById("auto-toc");
-
-    if (!mainContent || !tocRail || !tocToggle || !tocPanel) return;
-
-    const headings = Array.from(mainContent.querySelectorAll("h2, h3"))
-      .filter(heading => !heading.closest(".content-tab-pane"));
-
-    if (headings.length === 0) {
-      tocRail.remove();
-      return;
-    }
-
-    const list = document.createElement("ul");
-    const usedIds = new Set();
-
-    headings.forEach((heading, index) => {
-      if (!heading.id) {
-        const baseId = heading.textContent
-          .toLowerCase()
-          .replace(/[^\w]+/g, "-")
-          .replace(/^-+|-+$/g, "") || `section-${index + 1}`;
-        let headingId = baseId;
-        let suffix = 2;
-        while (document.getElementById(headingId) || usedIds.has(headingId)) {
-          headingId = `${baseId}-${suffix++}`;
-        }
-        heading.id = headingId;
-      }
-      usedIds.add(heading.id);
-
-      const item = document.createElement("li");
-      const link = document.createElement("a");
-      link.href = `#${heading.id}`;
-      link.textContent = heading.textContent;
-      if (heading.tagName === "H3") link.classList.add("toc-subheading");
-      item.appendChild(link);
-      list.appendChild(item);
-    });
-
-    tocPanel.appendChild(list);
-
-    function setTocOpen(open) {
-      tocPanel.hidden = !open;
-      tocToggle.setAttribute("aria-expanded", String(open));
-    }
-
-    tocToggle.addEventListener("click", function () {
-      setTocOpen(tocPanel.hidden);
-    });
-
-    tocRail.addEventListener("mouseenter", function () {
-      setTocOpen(true);
-    });
-
-    tocRail.addEventListener("mouseleave", function () {
-      if (!tocRail.matches(":focus-within")) setTocOpen(false);
-    });
-
-    tocRail.addEventListener("focusin", function () {
-      setTocOpen(true);
-    });
-
-    tocRail.addEventListener("focusout", function (event) {
-      if (!tocRail.contains(event.relatedTarget)) setTocOpen(false);
-    });
-
-    tocPanel.addEventListener("click", function (event) {
-      if (event.target.closest("a")) setTocOpen(false);
-    });
-
-    tocRail.addEventListener("keydown", function (event) {
-      if (event.key === "Escape") {
-        setTocOpen(false);
-        tocToggle.focus();
-      }
-    });
-  });
-</script>
