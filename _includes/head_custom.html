@@ -158,106 +158,101 @@
 </script>
 
 <style>
-  /* --- Elite Floating TOC Rail --- */
-  .doc-toc-rail {
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    z-index: 999;
-    font-family: inherit;
+  /* --- Margin-Placed Widescreen TOC (Zero Main Container Compression) --- */
+  .doc-page-wrapper {
+    position: relative;
+    max-width: 768px; /* Keeps your main text column at its exact comfortable reading width */
+    margin: 0 auto;   /* Centers the article on the page */
   }
 
-  .doc-toc-toggle {
-    display: flex;
-    align-items: center;
-    background: #ffffff;
-    color: #0f172a;
-    border: 1px solid #cbd5e1;
-    padding: 0.625rem 1rem;
-    border-radius: 9999px; /* Modern pill shape */
-    font-size: 0.8125rem;
-    font-weight: 500;
-    cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  }
-
-  .doc-toc-toggle:hover {
-    border-color: #94a3b8;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
-    transform: translateY(-1px);
-  }
-
-  .doc-toc-toggle[aria-expanded="true"] {
-    background: #0f172a;
-    color: #ffffff;
-    border-color: #0f172a;
-  }
-
-  .doc-toc-toggle[aria-expanded="true"] svg {
-    stroke: #ffffff;
-  }
-
-  .doc-toc-panel {
-    position: absolute;
-    bottom: calc(100% + 0.75rem);
-    right: 0;
-    width: 280px;
-    max-height: 380px;
-    overflow-y: auto;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 12px;
-    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12), 0 2px 6px rgba(0, 0, 0, 0.04);
-    padding: 1rem 1.25rem;
-    transform-origin: bottom right;
-  }
-
-  .doc-toc-panel[hidden] {
-    display: none;
-  }
-
-  .doc-toc-panel .toc-heading {
-    font-size: 0.7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #64748b;
-    margin-bottom: 0.75rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid #f1f5f9;
-  }
-
-  .doc-toc-panel ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .doc-toc-panel a {
-    color: #475569;
-    text-decoration: none;
-    font-size: 0.85rem;
-    line-height: 1.4;
-    display: block;
-    transition: color 0.15s ease;
-  }
-
-  .doc-toc-panel a:hover {
-    color: #7c3aed; /* Vibrant documentation purple accent */
-  }
-
-  @media (max-width: 640px) {
-    .doc-toc-rail {
-      bottom: 1.25rem;
-      right: 1.25rem;
+  @media (min-width: 1100px) {
+    .doc-toc-sidebar {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: calc(100% + 2.5rem); /* Positions it directly in the right margin */
+      width: 220px;
+      max-height: calc(100vh - 4rem);
+      overflow-y: auto;
+      font-size: 0.85rem;
+      padding-left: 1rem;
+      border-left: 1px solid #e2e8f0;
     }
-    .doc-toc-panel {
-      width: calc(100vw - 2.5rem);
-      max-width: 320px;
+
+    .doc-toc-sidebar ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0.5rem 0 0 0;
+      display: grid;
+      gap: 0.4rem;
+    }
+
+    .doc-toc-sidebar a {
+      color: #64748b;
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+
+    .doc-toc-sidebar a:hover {
+      color: #7c3aed; /* Professional tech purple accent */
+    }
+
+    .doc-toc-sidebar .toc-heading {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #0f172a;
+      margin-bottom: 0.75rem;
+    }
+  }
+
+  /* Automatically hides sidebar on screens too narrow to have side margins */
+  @media (max-width: 1099.98px) {
+    .doc-toc-sidebar {
+      display: none;
     }
   }
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const mainContent = document.querySelector(".doc-main-content");
+    const tocContainer = document.getElementById("auto-toc");
+    
+    if (!mainContent || !tocContainer) return;
+
+    // Scan ONLY H2 headers (excluding tabs)
+    const headings = Array.from(mainContent.querySelectorAll("h2"))
+      .filter(heading => !heading.closest(".content-tab-pane"));
+    
+    if (headings.length === 0) {
+      tocContainer.remove();
+      return;
+    }
+
+    let tocHtml = '<div class="toc-heading">In this article</div><ul>';
+    const usedIds = new Set();
+    
+    headings.forEach((heading, index) => {
+      if (!heading.id) {
+        const baseId = heading.textContent
+          .toLowerCase()
+          .replace(/[^\w]+/g, "-")
+          .replace(/^-+|-+$/g, "") || `section-${index + 1}`;
+        let headingId = baseId;
+        let suffix = 2;
+        while (document.getElementById(headingId) || usedIds.has(headingId)) {
+          headingId = `${baseId}-${suffix++}`;
+        }
+        heading.id = headingId;
+      }
+      usedIds.add(heading.id);
+      
+      tocHtml += `<li><a href="#${heading.id}">${heading.textContent}</a></li>`;
+    });
+    
+    tocHtml += '</ul>';
+    tocContainer.innerHTML = tocHtml;
+  });
+</script>
