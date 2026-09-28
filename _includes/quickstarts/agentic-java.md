@@ -1,4 +1,4 @@
-{% include search-fiq-banner.md %}
+
 
 In this quickstart, you use [agentic retrieval](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview) to create a conversational search experience powered by documents indexed in Azure AI Search and a large language model (LLM) from Azure OpenAI in Foundry Models. 
 

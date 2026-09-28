@@ -13,7 +13,7 @@ permalink: /microsoft/azure-ai-search/search-intro
 Septemeber 17, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search)
 {: .fs-5 : .fw-300 }
 
-{% include search-fiq-banner.md %}
+
 
 Azure AI Search is a fully managed, cloud-hosted service that connects your data to AI. The service unifies access to enterprise and web content so agents and large language models (LLMs) can use context, chat history, and multi-source signals to produce reliable, grounded answers.
 
