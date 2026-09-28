@@ -159,13 +159,15 @@
 
 {% if page.url != '/' and page.url != '/index.html' and page.toc != false %}
 <style>
-  /* --- Editorial Top-Card TOC (Theme-Aligned) --- */
+  /* --- Clean Vertical List TOC --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
-    border-radius: 6px;
+    border-radius: 8px;
     padding: 1.25rem 1.5rem;
-    margin: 1.5rem 0 2.5rem 0;
+    margin: 1.5rem 0 2rem 0;
+    width: fit-content;
+    min-width: 280px;
   }
 
   .doc-top-toc .toc-heading {
@@ -181,50 +183,49 @@
     list-style: none;
     padding-left: 0;
     margin: 0;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 0.5rem;
-    /* Automatically creates a tidy 2-column list if you have many headers */
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .doc-top-toc li {
+    margin: 0;
+    padding: 0;
   }
 
   .doc-top-toc a {
     color: #475569;
     text-decoration: none;
     font-size: 0.9rem;
-    display: flex;
-    align-items: center;
     transition: color 0.15s ease;
   }
 
-  .doc-top-toc a::before {
-    content: "→";
-    margin-right: 8px;
-    color: #94a3b8;
-    font-size: 0.8rem;
-  }
-
   .doc-top-toc a:hover {
-    color: #7c3aed; /* Your purple accent */
+    color: #7c3aed;
+    text-decoration: underline;
   }
 </style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const mainContent = document.querySelector(".doc-main-content");
+    // Target BOTH custom wrapper and Just the Docs' native main-content class
+    const mainContent = document.querySelector(".doc-main-content") || document.querySelector(".main-content");
     if (!mainContent) return;
 
-    // Scan ONLY H2 headers (excluding tab contents)
+    // Prevent duplicate TOCs if already rendered
+    if (mainContent.querySelector(".doc-top-toc")) return;
+
+    // Scan H2 headers (excluding tab contents)
     const headings = Array.from(mainContent.querySelectorAll("h2"))
       .filter(heading => !heading.closest(".content-tab-pane"));
 
-    // If an article has fewer than 2 H2s, skip the TOC card
-    if (headings.length < 2) return;
+    if (headings.length < 1) return;
 
     const tocBox = document.createElement("nav");
     tocBox.className = "doc-top-toc";
-    tocBox.setAttribute("aria-label", "Table of contents");
+    tocBox.setAttribute("aria-label", "In this article");
     
-    tocBox.innerHTML = '<div class="toc-heading">Table of contents</div>';
+    tocBox.innerHTML = '<div class="toc-heading">In this article</div>';
     
     const list = document.createElement("ul");
     const usedIds = new Set();
@@ -254,8 +255,15 @@
 
     tocBox.appendChild(list);
 
-    // Inject at the very top of the main content area
-    mainContent.insertBefore(tocBox, mainContent.firstChild);
+    // Inject right below H1 (or top of mainContent if no H1 exists)
+    const h1 = mainContent.querySelector("h1");
+    if (h1 && h1.nextSibling) {
+      h1.parentNode.insertBefore(tocBox, h1.nextSibling);
+    } else if (h1) {
+      h1.parentNode.appendChild(tocBox);
+    } else {
+      mainContent.insertBefore(tocBox, mainContent.firstChild);
+    }
   });
 </script>
 {% endif %}
