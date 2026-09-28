@@ -16,10 +16,10 @@ September 17, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azur
 <div class="content-tab-container">
   <div class="content-tab-header">
     <button class="content-tab-btn active" data-target="csharp">C#</button>
-    <button class="content-tab-btn" data-target="python">Python</button>
-    <button class="content-tab-btn" data-target="javascript">JavaScript</button>
-    <button class="content-tab-btn" data-target="typescript">TypeScript</button>
     <button class="content-tab-btn" data-target="java">Java</button>
+    <button class="content-tab-btn" data-target="javascript">JavaScript</button>
+    <button class="content-tab-btn" data-target="python">Python</button>
+    <button class="content-tab-btn" data-target="typescript">TypeScript</button>
     <button class="content-tab-btn" data-target="rest">REST API</button>
   </div>
   
