@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Microsoft
 nav_order: 1
 has_children: true

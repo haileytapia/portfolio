@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Terminal punctuation in UI text
 parent: Splunk Style Guide
 grand_parent: Splunk

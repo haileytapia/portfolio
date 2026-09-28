@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Circular Sankey chart
 parent: Domo
 nav_order: 3

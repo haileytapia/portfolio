@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Ways to run Q# programs
 parent: Azure Quantum
 grand_parent: Microsoft

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Investigate an incident
 parent: Mission Control
 grand_parent: Splunk

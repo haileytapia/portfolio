@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: 3 - Validate private retrieval
 parent: "Tutorial: Private agentic retrieval"
 grand_parent: Azure AI Search

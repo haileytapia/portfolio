@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: 1 - Set up private inbound connectivity
 parent: "Tutorial: Private agentic retrieval"
 grand_parent: Azure AI Search

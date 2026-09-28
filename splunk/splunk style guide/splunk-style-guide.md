@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Splunk Style Guide
 parent: Splunk
 nav_order: 2

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Create a recurring event in Outlook on the web
 parent: Other
 nav_order: 1

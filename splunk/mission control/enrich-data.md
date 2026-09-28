@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Wei creates an intelligence workflow to enrich data
 parent: Mission Control
 grand_parent: Splunk

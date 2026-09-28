@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Introduction to Q#
 parent: Azure Quantum
 grand_parent: Microsoft

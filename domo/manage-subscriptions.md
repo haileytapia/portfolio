@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Manage subscriptions to Appstore listings
 parent: Domo
 nav_order: 1

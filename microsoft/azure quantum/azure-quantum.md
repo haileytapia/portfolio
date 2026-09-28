@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Azure Quantum
 parent: Microsoft
 nav_order: 2

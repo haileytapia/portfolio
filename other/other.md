@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Other
 nav_order: 4
 has_children: true

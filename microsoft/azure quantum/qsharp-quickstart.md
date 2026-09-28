@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Create your first Q# program
 parent: Azure Quantum
 grand_parent: Microsoft

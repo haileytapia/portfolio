@@ -1,6 +1,6 @@
 <!-- 
 ---
-layout: default
+layout: portfolio
 title: Domo
 nav_order: 3
 has_children: true

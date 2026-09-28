@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Introduction to Azure AI Search
 parent: Azure AI Search
 grand_parent: Microsoft

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Using numbers in text
 parent: Splunk Style Guide
 grand_parent: Splunk

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Buy an Appstore listing
 parent: Domo
 nav_order: 2

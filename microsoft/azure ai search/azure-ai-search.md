@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Azure AI Search
 parent: Microsoft
 nav_order: 1

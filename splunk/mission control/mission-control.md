@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Mission Control
 parent: Splunk
 nav_order: 1

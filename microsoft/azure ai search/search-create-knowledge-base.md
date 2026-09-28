@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Create a knowledge base for agentic retrieval
 parent: Azure AI Search
 grand_parent: Microsoft

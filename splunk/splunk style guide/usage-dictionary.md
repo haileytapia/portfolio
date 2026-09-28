@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Usage Dictionary entries
 parent: Splunk Style Guide
 grand_parent: Splunk

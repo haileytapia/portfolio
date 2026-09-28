@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: "Quickstart: Agentic retrieval"
 parent: Azure AI Search
 grand_parent: Microsoft
