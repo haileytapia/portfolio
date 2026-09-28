@@ -7,7 +7,7 @@ nav_order: 2
 permalink: /microsoft/azure-ai-search/search-quickstart-agentic-retrieval
 ---
 
-# Quickstart: Agentic retrieval 
+# Quickstart: Agentic retrieval
 {: .no_toc }
 
 September 17, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/search-get-started-agentic-retrieval)
