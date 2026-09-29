@@ -455,3 +455,9 @@ For more information about the topics covered in this part of the tutorial, see 
 - [Add a new connection to your project](https://learn.microsoft.com/en-us/azure/foundry/how-to/connections-add)
 - [Quickstart: Create a prompt agent](https://learn.microsoft.com/en-us/azure/foundry/agents/quickstarts/prompt-agent)
 - [Connect a Foundry IQ knowledge base to Foundry Agent Service](https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/foundry-iq-connect)
+
+---
+
+[Back to top](#top)
+
+Thanks for visiting my portfolio! If you have any questions or feedback, please feel free to reach out.

@@ -52,3 +52,9 @@ The following table shows what you accomplish in each part, the components invol
 ## Next step
 
 [Set up private inbound connectivity](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval-inbound){: .btn .btn-purple }
+
+---
+
+[Back to top](#top)
+
+Thanks for visiting my portfolio! If you have any questions or feedback, please feel free to reach out.

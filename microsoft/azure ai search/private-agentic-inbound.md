@@ -531,3 +531,9 @@ For more information about the topics covered in this part of the tutorial, see 
 ## Next step
 
 [Set up private outbound connectivity](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval-outbound){: .btn .btn-purple }
+
+---
+
+[Back to top](#top)
+
+Thanks for visiting my portfolio! If you have any questions or feedback, please feel free to reach out.
