@@ -239,18 +239,19 @@
       const panes = Array.from(container.querySelectorAll(".content-tab-pane"));
       
       if (buttons.length > 0 && panes.length > 0) {
-        const target = savedTab && buttons.some(b => b.getAttribute("data-target") === savedTab) 
-          ? savedTab 
-          : buttons[0].getAttribute("data-target");
-        
-        buttons.forEach(btn => {
-          const active = btn.getAttribute("data-target") === target;
-          btn.classList.toggle("active", active);
-        });
-        panes.forEach(pane => {
-          const active = pane.getAttribute("data-content") === target;
-          pane.classList.toggle("active", active);
-        });
+        const hasActive = panes.some(p => p.classList.contains("active"));
+        if (!hasActive) {
+          const target = savedTab && buttons.some(b => b.getAttribute("data-target") === savedTab) 
+            ? savedTab 
+            : buttons[0].getAttribute("data-target");
+          
+          buttons.forEach(btn => {
+            btn.classList.toggle("active", btn.getAttribute("data-target") === target);
+          });
+          panes.forEach(pane => {
+            pane.classList.toggle("active", pane.getAttribute("data-content") === target);
+          });
+        }
       }
     });
 
@@ -299,7 +300,7 @@
 
 {% if page.url != '/' and page.url != '/index.html' and page.toc != false %}
 <style>
-  /* --- Compact TOC with Proportional Bullets & Inset Spacing --- */
+  /* --- Compact TOC with Properly Inset Bullets & Tight Spacing --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
@@ -323,7 +324,7 @@
   .doc-top-toc ul.toc-list {
     list-style: none !important;
     list-style-type: none !important;
-    padding-left: 0.85rem !important; /* Clean inset for custom bullets */
+    padding-left: 1.25rem !important; /* Proper margin from left border */
     margin: 0 !important;
     display: flex;
     flex-direction: column;
@@ -338,14 +339,14 @@
     position: relative !important;
   }
 
-  /* Controlled, proportional muted bullet */
+  /* Controlled, perfectly inset muted bullet */
   .doc-top-toc li::before {
     content: "•" !important;
     position: absolute !important;
-    left: -0.85rem !important;
+    left: -0.9rem !important;
     top: 0 !important;
     color: #94a3b8 !important; /* Soft muted slate grey */
-    font-size: 0.75rem !important; /* Smaller, balanced bullet size */
+    font-size: 0.85rem !important;
     line-height: 1.35 !important;
   }
 
@@ -381,7 +382,6 @@
     window.updateDynamicTOC = function() {
       let tocBox = mainContent.querySelector(".doc-top-toc");
       
-      // STRICTLY query H2 headers only
       const allHeadings = Array.from(mainContent.querySelectorAll("h2"));
       const activePane = mainContent.querySelector(".content-tab-pane.active");
 
@@ -389,7 +389,6 @@
         if (heading.closest("nav") || heading.closest("header") || heading.closest("footer") || heading.closest(".side-bar") || heading.closest(".site-header") || heading.closest(".doc-top-toc")) {
           return false;
         }
-        // If heading is inside a tab pane, only include it if that pane is active
         const pane = heading.closest(".content-tab-pane");
         if (pane) {
           return pane.classList.contains("active");
@@ -411,7 +410,6 @@
 
       tocBox.style.display = "block";
 
-      // Place TOC inside the active tab pane if present, otherwise at the top of mainContent
       if (activePane) {
         if (!activePane.contains(tocBox)) {
           activePane.insertBefore(tocBox, activePane.firstChild);
