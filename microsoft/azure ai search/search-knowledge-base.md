@@ -20,18 +20,19 @@ August 12, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/s
     <button type="button" class="content-tab-btn" data-target="rest" aria-pressed="false">REST API</button>
   </div>
 
-  <div class="content-tab-pane active" data-content="csharp" markdown="1">
-{% include how-tos/knowledge-base-csharp.md %}
+<div class="content-tab-pane active" data-content="csharp">
+    ## C# Content Works
   </div>
 
-  <div class="content-tab-pane" data-content="python" markdown="1">
-{% include how-tos/knowledge-base-python.md %}
+  <div class="content-tab-pane" data-content="python">
+    ## Python Test Content
+    <p>If you can see this when clicking the Python tab, the tab switcher is working and the issue is strictly inside your python include file.</p>
   </div>
 
-  <div class="content-tab-pane" data-content="rest" markdown="1">
-{% include how-tos/knowledge-base-rest.md %}
+  <div class="content-tab-pane" data-content="rest">
+    ## REST Test Content
+    <p>If you can see this when clicking the REST tab, the tab switcher is working.</p>
   </div>
-</div>
 
 ---
 
