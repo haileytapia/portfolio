@@ -302,12 +302,12 @@
 
 {% if page.url != '/' and page.url != '/index.html' and page.toc != false %}
 <style>
-  /* --- Compact TOC with Muted Custom Bullets --- */
+  /* --- Compact TOC with Inset Muted Bullets & Tight Spacing --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 6px;
-    padding: 1rem 1.25rem;
+    padding: 0.85rem 1.15rem;
     margin: 0 0 1.5rem 0;
     width: fit-content;
     min-width: 260px;
@@ -320,34 +320,33 @@
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: #64748b;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.35rem;
   }
 
   .doc-top-toc ul.toc-list {
     list-style: none !important;
-    padding-left: 0 !important;
+    padding-left: 1rem !important; /* Proper indentation from box border */
     margin: 0 !important;
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    gap: 0.1rem; /* Extremely compact vertical spacing */
   }
 
   .doc-top-toc li {
     list-style: none !important;
     margin: 0 !important;
-    padding: 0 0 0 1rem !important;
+    padding: 0 0 0 0.35rem !important;
     position: relative;
   }
 
-  /* Custom muted bullet to prevent theme clashes and double markers */
+  /* Custom muted bullet safely inset */
   .doc-top-toc li::before {
     content: "•" !important;
     position: absolute;
-    left: 0;
+    left: -0.6rem;
     color: #94a3b8; /* Soft muted slate grey */
-    font-size: 0.9rem;
-    line-height: 1.4;
-    display: inline-block;
+    font-size: 0.85rem;
+    line-height: 1.35;
   }
 
   .doc-top-toc li::after {
@@ -358,8 +357,8 @@
   .doc-top-toc a {
     color: #475569;
     text-decoration: none;
-    font-size: 0.875rem;
-    line-height: 1.4;
+    font-size: 0.85rem;
+    line-height: 1.35;
     display: inline;
     transition: color 0.15s ease;
   }
@@ -410,26 +409,32 @@
 
       tocBox.style.display = "block";
 
+      // Robust placement: inside active tab pane if tabs exist, otherwise standard top placement under H1
       if (activePane) {
-        activePane.insertBefore(tocBox, activePane.firstChild);
+        if (!activePane.contains(tocBox)) {
+          activePane.insertBefore(tocBox, activePane.firstChild);
+        }
       } else {
-        if (!mainContent.contains(tocBox)) {
-          const h1 = mainContent.querySelector("h1");
-          if (h1) {
-            let insertAfterNode = h1;
-            let nextElem = h1.nextElementSibling;
-            
-            if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
-              insertAfterNode = nextElem;
-            }
+        const hasTabContainers = mainContent.querySelector(".content-tab-container");
+        if (!hasTabContainers || !tocBox.parentNode) {
+          if (!mainContent.contains(tocBox)) {
+            const h1 = mainContent.querySelector("h1");
+            if (h1) {
+              let insertAfterNode = h1;
+              let nextElem = h1.nextElementSibling;
+              
+              if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
+                insertAfterNode = nextElem;
+              }
 
-            if (insertAfterNode.nextSibling) {
-              insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
+              if (insertAfterNode.nextSibling) {
+                insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
+              } else {
+                insertAfterNode.parentNode.appendChild(tocBox);
+              }
             } else {
-              insertAfterNode.parentNode.appendChild(tocBox);
+              mainContent.insertBefore(tocBox, mainContent.firstChild);
             }
-          } else {
-            mainContent.insertBefore(tocBox, mainContent.firstChild);
           }
         }
       }
