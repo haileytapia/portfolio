@@ -8,7 +8,7 @@ toc: false
 
 # Welcome to my portfolio!
 
-Technical documentation optimized for both human and agentic consumption.
+I create technical documentation optimized for both human and agentic consumption.
 {: .fs-6 : .fw-300 }
 
 ## Featured samples
