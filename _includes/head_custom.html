@@ -231,7 +231,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     const containers = Array.from(document.querySelectorAll(".content-tab-container"));
     
-    // Ensure initial active states are set immediately before TOC builds
+    // Ensure initial active states are set immediately
     containers.forEach(container => {
       const groupId = container.getAttribute("data-tab-group");
       const savedTab = groupId ? localStorage.getItem(`portfolio-content-tab-pref:${groupId}`) : null;
@@ -254,7 +254,6 @@
       }
     });
 
-    // Run TOC update now that tabs have active states
     if (typeof window.updateDynamicTOC === 'function') {
       window.updateDynamicTOC();
     }
@@ -300,13 +299,13 @@
 
 {% if page.url != '/' and page.url != '/index.html' and page.toc != false %}
 <style>
-  /* --- Compact TOC with Clean Aligned Bullets & Tight Spacing --- */
+  /* --- Compact TOC with Properly Aligned Bullets & Tight Spacing --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 6px;
     padding: 0.85rem 1.15rem;
-    margin: 0 0 1.5rem 0;
+    margin: 1.25rem 0 1.75rem 0;
     width: fit-content;
     min-width: 260px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
@@ -322,37 +321,34 @@
   }
 
   .doc-top-toc ul.toc-list {
-    list-style: none !important;
-    list-style-type: none !important;
-    padding-left: 1.1rem !important;
+    list-style: disc !important;
+    list-style-type: disc !important;
+    list-style-position: outside !important;
+    padding-left: 1.2rem !important; /* Prevents bullets from touching the left edge */
     margin: 0 !important;
     display: flex;
     flex-direction: column;
-    gap: 0.15rem;
+    gap: 0.2rem; /* Compact vertical spacing */
   }
 
   .doc-top-toc li {
-    list-style: none !important;
-    list-style-type: none !important;
+    list-style: disc !important;
+    list-style-type: disc !important;
+    list-style-position: outside !important;
     margin: 0 !important;
     padding: 0 !important;
-    position: relative !important;
   }
 
-  /* Single controlled bullet to prevent theme duplication */
-  .doc-top-toc li::before {
-    content: "•" !important;
-    position: absolute !important;
-    left: -1rem !important;
-    top: 0 !important;
-    color: #94a3b8 !important; /* Soft muted slate grey */
-    font-size: 1rem !important;
-    line-height: 1.35 !important;
-  }
-
+  /* Prevent theme duplication */
+  .doc-top-toc li::before,
   .doc-top-toc li::after {
     content: none !important;
     display: none !important;
+  }
+
+  /* Muted bullet color */
+  .doc-top-toc li::marker {
+    color: #94a3b8 !important;
   }
 
   .doc-top-toc a {
@@ -383,15 +379,10 @@
       let tocBox = mainContent.querySelector(".doc-top-toc");
       
       const allHeadings = Array.from(mainContent.querySelectorAll("h2"));
-      const activePane = mainContent.querySelector(".content-tab-pane.active");
 
       const validHeadings = allHeadings.filter(heading => {
         if (heading.closest("nav") || heading.closest("header") || heading.closest("footer") || heading.closest(".side-bar") || heading.closest(".site-header") || heading.closest(".doc-top-toc")) {
           return false;
-        }
-        const pane = heading.closest(".content-tab-pane");
-        if (pane) {
-          return pane.classList.contains("active");
         }
         return true;
       });
@@ -410,30 +401,24 @@
 
       tocBox.style.display = "block";
 
-      // Robust placement: inside active tab pane if tabs exist, otherwise standard top placement under H1
-      if (activePane) {
-        if (!activePane.contains(tocBox)) {
-          activePane.insertBefore(tocBox, activePane.firstChild);
-        }
-      } else {
-        if (!mainContent.contains(tocBox)) {
-          const h1 = mainContent.querySelector("h1");
-          if (h1) {
-            let insertAfterNode = h1;
-            let nextElem = h1.nextElementSibling;
-            
-            if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
-              insertAfterNode = nextElem;
-            }
-
-            if (insertAfterNode.nextSibling) {
-              insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
-            } else {
-              insertAfterNode.parentNode.appendChild(tocBox);
-            }
-          } else {
-            mainContent.insertBefore(tocBox, mainContent.firstChild);
+      // Consistently place TOC at the top of the article under H1 / metadata
+      if (!mainContent.contains(tocBox)) {
+        const h1 = mainContent.querySelector("h1");
+        if (h1) {
+          let insertAfterNode = h1;
+          let nextElem = h1.nextElementSibling;
+          
+          if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
+            insertAfterNode = nextElem;
           }
+
+          if (insertAfterNode.nextSibling) {
+            insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
+          } else {
+            insertAfterNode.parentNode.appendChild(tocBox);
+          }
+        } else {
+          mainContent.insertBefore(tocBox, mainContent.firstChild);
         }
       }
 
