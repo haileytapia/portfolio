@@ -293,7 +293,6 @@
         pane.classList.toggle("active", pane.getAttribute("data-content") === activeLang);
       });
 
-      // Re-render TOC dynamically when tabs switch so it shows only active tab headers
       if (typeof window.updateDynamicTOC === 'function') {
         window.updateDynamicTOC();
       }
@@ -303,7 +302,7 @@
 
 {% if page.url != '/' and page.url != '/index.html' and page.toc != false %}
 <style>
-  /* --- Clean, Aligned Vertical List TOC (No Double Bullets) --- */
+  /* --- Clean, Aligned Vertical List TOC (H2 Only) --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
@@ -327,7 +326,7 @@
   .doc-top-toc ul.toc-list {
     list-style-type: disc !important;
     list-style-position: outside !important;
-    padding-left: 1.25rem !important;
+    padding-left: 1.5rem !important;
     margin: 0 !important;
     display: flex;
     flex-direction: column;
@@ -335,9 +334,17 @@
   }
 
   .doc-top-toc li {
+    list-style-type: disc !important;
+    list-style-position: outside !important;
     margin: 0 !important;
     padding: 0 !important;
-    list-style: disc !important;
+  }
+
+  /* Strip out any theme-injected pseudo-element bullets */
+  .doc-top-toc li::before,
+  .doc-top-toc li::after {
+    content: none !important;
+    display: none !important;
   }
 
   .doc-top-toc a {
@@ -373,7 +380,6 @@
         tocBox.setAttribute("aria-label", "In this article");
         tocBox.innerHTML = '<div class="toc-heading">In this article</div><ul class="toc-list"></ul>';
         
-        // Inject below H1 and its metadata block
         const h1 = mainContent.querySelector("h1");
         if (h1) {
           let insertAfterNode = h1;
@@ -396,10 +402,10 @@
       const list = tocBox.querySelector("ul.toc-list");
       list.innerHTML = "";
 
-      // Gather valid headings: Global headings + headings inside the ACTIVE tab pane only
-      const allHeadings = Array.from(mainContent.querySelectorAll("h2, h3"));
+      // STRICTLY query H2 headers only (ignoring H3s and below)
+      const allHeadings = Array.from(mainContent.querySelectorAll("h2"));
       const validHeadings = allHeadings.filter(heading => {
-        if (heading.closest("nav") || heading.closest("header") || heading.closest("footer") || heading.closest(".side-bar") || heading.closest(".site-header")) {
+        if (heading.closest("nav") || heading.closest("header") || heading.closest("footer") || heading.closest(".side-bar") || heading.closest(".site-header") || heading.closest(".doc-top-toc")) {
           return false;
         }
         const pane = heading.closest(".content-tab-pane");
@@ -441,7 +447,6 @@
       });
     };
 
-    // Initial render on page load
     window.updateDynamicTOC();
   });
 </script>

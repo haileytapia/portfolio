@@ -134,7 +134,7 @@ Before you get started, use this checklist to make key decisions:
 
 ### Choose your learning resources
 
-Use following quickstarts and samples to get started:
+The following quickstarts and samples are available to help you get started.
 
 <div class="content-tab-container content-tab-container--inline">
   <div class="content-tab-header">
