@@ -4,7 +4,7 @@ title: 3 - Validate private retrieval
 parent: "Tutorial: Private agentic retrieval"
 grand_parent: Azure AI Search
 nav_order: 4
-permalink: /microsoft/azure-ai-search/private-agentic-retrieval/private-retrieval
+permalink: /microsoft/azure-ai-search/private-agentic-retrieval-validation
 ---
 
 # Validate end-to-end private agentic retrieval

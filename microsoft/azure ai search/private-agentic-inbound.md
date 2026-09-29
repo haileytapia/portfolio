@@ -4,7 +4,7 @@ title: 1 - Set up private inbound connectivity
 parent: "Tutorial: Private agentic retrieval"
 grand_parent: Azure AI Search
 nav_order: 2
-permalink: /microsoft/azure-ai-search/private-agentic-retrieval/private-inbound
+permalink: /microsoft/azure-ai-search/private-agentic-retrieval-inbound
 ---
 
 # Set up private inbound connectivity

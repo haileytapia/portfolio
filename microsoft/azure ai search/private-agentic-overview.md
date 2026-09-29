@@ -4,7 +4,7 @@ title: Overview
 parent: "Tutorial: Private agentic retrieval"
 grand_parent: Azure AI Search
 nav_order: 1
-permalink: /microsoft/azure-ai-search/private-agentic-retrieval/overview
+permalink: /microsoft/azure-ai-search/private-agentic-retrieval-overview
 ---
 
 # Tutorial: Deploy private agentic retrieval
