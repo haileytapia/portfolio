@@ -3,7 +3,7 @@ layout: portfolio
 title: "Quickstart: Agentic retrieval"
 parent: Azure AI Search
 grand_parent: Microsoft
-nav_order: 2
+nav_order: 3
 permalink: /microsoft/azure-ai-search/search-quickstart-agentic-retrieval
 ---
 

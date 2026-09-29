@@ -79,7 +79,7 @@ During indexing, you can use [AI enrichment](https://learn.microsoft.com/en-us/a
 
 </div>
 
-![Diagram of the Azure AI Search architecture for classic search](https://github.com/user-attachments/assets/9515d789-8a04-47a2-a0aa-511e865ec42b)
+![Diagram of the Azure AI Search architecture for classic search.](https://github.com/user-attachments/assets/9515d789-8a04-47a2-a0aa-511e865ec42b)
 
 {: .note }
 > This diagram separates the indexing and query engines for clarity, but in Azure AI Search, they're the same component operating in read-write and read-only modes.
@@ -150,7 +150,7 @@ The following quickstarts and samples are available to help you get started.
 
 </div>
 
-<div class="content-tab-pane active" data-content="samples" markdown="1">
+<div class="content-tab-pane" data-content="samples" markdown="1">
 
 + [REST samples](https://learn.microsoft.com/en-us/azure/search/samples-rest)
 + [Python samples](https://learn.microsoft.com/en-us/azure/search/samples-python)
