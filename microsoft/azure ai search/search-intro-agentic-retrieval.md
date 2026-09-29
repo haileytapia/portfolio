@@ -175,39 +175,52 @@ To create an agentic retrieval solution, you can use the Azure portal, Microsoft
   </div>
   
   <div class="content-tab-pane active" data-content="quickstarts" markdown="1">
+  
 + [Quickstart: Agentic retrieval in the Azure portal](https://learn.microsoft.com/en-us/azure/search/get-started-portal-agentic-retrieval)
 + [Quickstart: Agentic retrieval](https://learn.microsoft.com/en-us/azure/search/search-get-started-agentic-retrieval) (C#, Java, JavaScript, Python, TypeScript, REST API)
+
   </div>
 
   <div class="content-tab-pane" data-content="how-to-guides" markdown="1">
+
 The following articles cover core pipeline setup. For all how-to guides, see the table of contents.
 
 + [Create a search index for agentic retrieval](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-create-index)
 + [Create a knowledge source](https://learn.microsoft.com/en-us/azure/search/agentic-knowledge-source-overview#supported-knowledge-sources) (links to how-to guide for each knowledge source kind)
 + [Create a knowledge base](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-create-knowledge-base)
 + [Query a knowledge base using the retrieve action or MCP endpoint](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-retrieve)
+
   </div>
 
   <div class="content-tab-pane" data-content="tutorials" markdown="1">
+
 + [Tutorial: Build an end-to-end agentic retrieval solution](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-create-pipeline)
+
   </div>
 
   <div class="content-tab-pane" data-content="samples" markdown="1">
+
 + [Quickstart-Agentic-Retrieval: Python](https://github.com/Azure-Samples/azure-search-python-samples/tree/main/Quickstart-Agentic-Retrieval)
 + [Quickstart-Agentic-Retrieval: .NET](https://github.com/Azure-Samples/azure-search-dotnet-samples/blob/main/quickstart-agentic-retrieval)
 + [Quickstart-Agentic-Retrieval: REST](https://github.com/Azure-Samples/azure-search-rest-samples/tree/main/Quickstart-agentic-retrieval)
 + [End-to-end with Azure AI Search and Foundry Agent Service](https://github.com/Azure-Samples/azure-search-python-samples/tree/main/agentic-retrieval-pipeline-example)
+
   </div>
 
   <div class="content-tab-pane" data-content="demos" markdown="1">
+
 + [Azure OpenAI Demo](https://github.com/Azure-Samples/azure-search-openai-demo) has been updated to use agentic retrieval.
+
   </div>
 
   <div class="content-tab-pane" data-content="rest-api-references" markdown="1">
+
 + [Knowledge Sources](https://learn.microsoft.com/en-us/rest/api/searchservice/knowledge-sources)
 + [Knowledge Bases](https://learn.microsoft.com/en-us/rest/api/searchservice/knowledge-bases)
 + [Knowledge Retrieval](https://learn.microsoft.com/en-us/rest/api/knowledge-retrieval)
+
   </div>
+
 </div>
 
 ## Next step
