@@ -231,13 +231,17 @@
   (function () {
     function initTabs() {
       try {
-        // 1. Initialize tabs & restore local storage preferences
         const containers = Array.from(document.querySelectorAll(".content-tab-container"));
+        
         containers.forEach(container => {
           const groupId = container.getAttribute("data-tab-group");
           const savedTab = groupId ? localStorage.getItem(`portfolio-content-tab-pref:${groupId}`) : null;
-          const buttons = Array.from(container.querySelectorAll(".content-tab-btn"));
-          const panes = Array.from(container.querySelectorAll(".content-tab-pane"));
+          
+          // Strictly isolate to direct descendants belonging to this container
+          const buttons = Array.from(container.querySelectorAll(".content-tab-btn"))
+            .filter(b => b.closest(".content-tab-container") === container);
+          const panes = Array.from(container.querySelectorAll(".content-tab-pane"))
+            .filter(p => p.closest(".content-tab-container") === container);
           
           if (buttons.length > 0 && panes.length > 0) {
             const getTabKey = (el) => el.getAttribute("data-target") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
@@ -256,7 +260,6 @@
           }
         });
 
-        // 2. Tab Click Handler (Delegated globally)
         if (!window._docTabListenerAttached) {
           window._docTabListenerAttached = true;
           document.addEventListener("click", function (event) {
@@ -271,6 +274,7 @@
 
             const container = button.closest(".content-tab-container");
             if (!container) return;
+            
             const groupId = container.getAttribute("data-tab-group");
             if (groupId) {
               localStorage.setItem(`portfolio-content-tab-pref:${groupId}`, targetLang);
@@ -281,8 +285,10 @@
               : [container];
 
             groupContainers.forEach(gc => {
-              const btns = Array.from(gc.querySelectorAll(".content-tab-btn"));
-              const panes = Array.from(gc.querySelectorAll(".content-tab-pane"));
+              const btns = Array.from(gc.querySelectorAll(".content-tab-btn"))
+                .filter(b => b.closest(".content-tab-container") === gc);
+              const panes = Array.from(gc.querySelectorAll(".content-tab-pane"))
+                .filter(p => p.closest(".content-tab-container") === gc);
               
               btns.forEach(btn => {
                 const active = getTabKey(btn) === targetLang;
