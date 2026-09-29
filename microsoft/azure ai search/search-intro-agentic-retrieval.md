@@ -170,14 +170,14 @@ To create an agentic retrieval solution, you can use the Azure portal, Microsoft
     <button class="content-tab-btn" data-target="how-to-guides">How-to guides</button>
     <button class="content-tab-btn" data-target="tutorials">Tutorials</button>
     <button class="content-tab-btn" data-target="samples">Samples</button>
-    <button class="content-tab-btn" data-target="api-references">API references</button>
-    <button class="content-tab-btn" data-target="api-references">Demos</button>
+    <button class="content-tab-btn" data-target="demos">Demos</button>
+    <button class="content-tab-btn" data-target="api-references">REST API references</button>
   </div>
   
 <div class="content-tab-pane active" data-content="quickstarts" markdown="1">
 
 + [Quickstart: Agentic retrieval in the Azure portal](https://learn.microsoft.com/en-us/azure/search/get-started-portal-agentic-retrieval)
-+ [Quickstart: Agentic retrieval](https://learn.microsoft.com/en-us/azure/search/search-get-started-agentic-retrieval) (C#, Java, JavaScript, Python, TypeScript, REST)
++ [Quickstart: Agentic retrieval](https://learn.microsoft.com/en-us/azure/search/search-get-started-agentic-retrieval) (C#, Java, JavaScript, Python, TypeScript, REST API)
 
 </div>
 
@@ -207,17 +207,17 @@ The following articles cover core pipeline setup. For all how-to guides, see the
 
 </div>
 
-<div class="content-tab-pane" data-content="API references" markdown="1">
+<div class="content-tab-pane" data-content="Demos" markdown="1">
+
++ [Azure OpenAI Demo](https://github.com/Azure-Samples/azure-search-openai-demo) has been updated to use agentic retrieval.
+
+<div class="content-tab-pane" data-content="REST API references" markdown="1">
 
 + [Knowledge Sources](https://learn.microsoft.com/en-us/rest/api/searchservice/knowledge-sources)
 + [Knowledge Bases](https://learn.microsoft.com/en-us/rest/api/searchservice/knowledge-bases)
 + [Knowledge Retrieval](https://learn.microsoft.com/en-us/rest/api/knowledge-retrieval)
 
 </div>
-
-<div class="content-tab-pane" data-content="Demos" markdown="1">
-
-+ [Azure OpenAI Demo](https://github.com/Azure-Samples/azure-search-openai-demo) has been updated to use agentic retrieval.
 
 </div>
 
