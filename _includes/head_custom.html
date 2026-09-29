@@ -229,7 +229,7 @@
 
 {% if page.url != '/' and page.url != '/index.html' and page.layout != 'landing' and page.layout != 'home' and page.toc != false %}
 <style>
-  /* --- Clean Compact TOC with Perfectly Aligned Bullets --- */
+  /* --- Clean Compact TOC with Single Protected Bullets --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
@@ -252,6 +252,7 @@
 
   .doc-top-toc ul.toc-list {
     list-style-type: disc !important;
+    list-style: disc !important;
     padding-left: 1.25rem !important;
     margin: 0 !important;
     display: flex;
@@ -261,8 +262,16 @@
 
   .doc-top-toc li {
     list-style-type: disc !important;
+    list-style: disc !important;
     margin: 0 !important;
     padding: 0 !important;
+  }
+
+  /* Aggressively block theme global CSS from injecting duplicate bullets */
+  .doc-top-toc li::before,
+  .doc-top-toc li::after {
+    content: none !important;
+    display: none !important;
   }
 
   .doc-top-toc li::marker {
@@ -321,7 +330,7 @@
     window.updateDynamicTOC = function() {
       let tocBox = document.querySelector(".doc-top-toc");
       
-      // Gather all H2 headings while ignoring site chrome
+      // Gather H2 headings while ignoring site chrome and hub/card grid headings
       const allHeadings = Array.from(mainContent.querySelectorAll("h2")).filter(heading => {
         return !heading.closest("nav") && 
                !heading.closest("header") && 
@@ -329,7 +338,12 @@
                !heading.closest(".side-bar") && 
                !heading.closest(".site-header") && 
                !heading.closest(".site-nav") &&
-               !heading.closest(".doc-top-toc");
+               !heading.closest(".doc-top-toc") &&
+               !heading.closest(".card") &&
+               !heading.closest(".cards") &&
+               !heading.closest(".grid") &&
+               !heading.closest(".collection") &&
+               !heading.closest("a");
       });
 
       // Filter: Keep global H2s outside tabs, or H2s inside currently active tab panes only
