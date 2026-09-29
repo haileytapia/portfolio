@@ -299,176 +299,187 @@
 </style>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    try {
-      const mainContent = document.querySelector("article") || 
-                          document.querySelector(".main-content") || 
-                          document.querySelector(".doc-main-content") || 
-                          document.querySelector(".page-content") || 
-                          document.querySelector("main") || 
-                          document.body;
-                          
-      if (!mainContent) return;
+  (function () {
+    function initDocumentation() {
+      try {
+        const mainContent = document.querySelector("article") || 
+                            document.querySelector(".main-content") || 
+                            document.querySelector(".doc-main-content") || 
+                            document.querySelector(".page-content") || 
+                            document.querySelector("main") || 
+                            document.body;
+                            
+        if (!mainContent) return;
 
-      // 1. Initialize tabs with robust attribute matching
-      const containers = Array.from(document.querySelectorAll(".content-tab-container"));
-      containers.forEach(container => {
-        const groupId = container.getAttribute("data-tab-group");
-        const savedTab = groupId ? localStorage.getItem(`portfolio-content-tab-pref:${groupId}`) : null;
-        const buttons = Array.from(container.querySelectorAll(".content-tab-btn"));
-        const panes = Array.from(container.querySelectorAll(".content-tab-pane"));
-        
-        if (buttons.length > 0 && panes.length > 0) {
-          const getTabKey = (el) => el.getAttribute("data-target") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
-          const getPaneKey = (el) => el.getAttribute("data-content") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
-
-          const target = savedTab && buttons.some(b => getTabKey(b) === savedTab) 
-            ? savedTab 
-            : getTabKey(buttons[0]);
+        // 1. Initialize tabs with robust attribute matching
+        const containers = Array.from(document.querySelectorAll(".content-tab-container"));
+        containers.forEach(container => {
+          const groupId = container.getAttribute("data-tab-group");
+          const savedTab = groupId ? localStorage.getItem(`portfolio-content-tab-pref:${groupId}`) : null;
+          const buttons = Array.from(container.querySelectorAll(".content-tab-btn"));
+          const panes = Array.from(container.querySelectorAll(".content-tab-pane"));
           
-          buttons.forEach(btn => {
-            btn.classList.toggle("active", getTabKey(btn) === target);
-          });
-          panes.forEach(pane => {
-            pane.classList.toggle("active", getPaneKey(pane) === target);
-          });
-        }
-      });
+          if (buttons.length > 0 && panes.length > 0) {
+            const getTabKey = (el) => el.getAttribute("data-target") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
+            const getPaneKey = (el) => el.getAttribute("data-content") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
 
-      // 2. Dynamic TOC Generator
-      window.updateDynamicTOC = function() {
-        let existingToc = document.querySelector(".doc-top-toc");
-        if (existingToc) existingToc.remove();
-        
-        const allHeadings = Array.from(mainContent.querySelectorAll("h2")).filter(heading => {
-          return !heading.closest("nav") && 
-                 !heading.closest("header") && 
-                 !heading.closest("footer") && 
-                 !heading.closest(".side-bar") && 
-                 !heading.closest(".site-header") && 
-                 !heading.closest(".site-nav") &&
-                 !heading.closest(".doc-top-toc") &&
-                 !heading.closest(".card") &&
-                 !heading.closest(".cards") &&
-                 !heading.closest(".grid") &&
-                 !heading.closest(".collection") &&
-                 !heading.closest("a");
-        });
-
-        const validHeadings = allHeadings.filter(heading => {
-          const pane = heading.closest(".content-tab-pane");
-          if (pane) {
-            return pane.classList.contains("active");
-          }
-          return true;
-        });
-
-        if (validHeadings.length === 0) return;
-
-        const tocBox = document.createElement("nav");
-        tocBox.className = "doc-top-toc";
-        tocBox.setAttribute("aria-label", "In this article");
-        tocBox.innerHTML = '<div class="toc-heading">In this article</div><ul class="toc-list"></ul>';
-
-        const list = tocBox.querySelector("ul.toc-list");
-        const usedIds = new Set();
-        validHeadings.forEach((heading, index) => {
-          if (!heading.id) {
-            const baseId = heading.textContent
-              .toLowerCase()
-              .replace(/[^\w]+/g, "-")
-              .replace(/^-+|-+$/g, "") || `section-${index + 1}`;
-            let headingId = baseId;
-            let suffix = 2;
-            while (document.getElementById(headingId) && document.getElementById(headingId) !== heading || usedIds.has(headingId)) {
-              headingId = `${baseId}-${suffix++}`;
-            }
-            heading.id = headingId;
-          }
-          usedIds.add(heading.id);
-
-          const item = document.createElement("li");
-          const link = document.createElement("a");
-          link.href = `#${heading.id}`;
-          link.textContent = heading.textContent;
-          item.appendChild(link);
-          list.appendChild(item);
-        });
-
-        const firstValidHeading = validHeadings[0];
-        const activePane = firstValidHeading.closest(".content-tab-pane");
-
-        if (activePane) {
-          activePane.insertBefore(tocBox, activePane.firstChild);
-        } else {
-          const h1 = mainContent.querySelector("h1") || document.querySelector("h1");
-          if (h1) {
-            let insertAfterNode = h1;
-            let nextElem = h1.nextElementSibling;
+            const target = savedTab && buttons.some(b => getTabKey(b) === savedTab) 
+              ? savedTab 
+              : getTabKey(buttons[0]);
             
-            if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
-              insertAfterNode = nextElem;
-            }
-
-            if (insertAfterNode.nextSibling) {
-              insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
-            } else {
-              insertAfterNode.parentNode.appendChild(tocBox);
-            }
-          } else {
-            mainContent.insertBefore(tocBox, mainContent.firstChild);
+            buttons.forEach(btn => {
+              btn.classList.toggle("active", getTabKey(btn) === target);
+            });
+            panes.forEach(pane => {
+              pane.classList.toggle("active", getPaneKey(pane) === target);
+            });
           }
-        }
-      };
+        });
 
-      // Initial build
-      window.updateDynamicTOC();
-
-      // 3. Tab Click Handler
-      document.addEventListener("click", function (event) {
-        const button = event.target.closest(".content-tab-btn");
-        if (!button) return;
-
-        const getTabKey = (el) => el.getAttribute("data-target") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
-        const getPaneKey = (el) => el.getAttribute("data-content") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
-
-        const targetLang = getTabKey(button);
-        if (!targetLang) return;
-
-        const container = button.closest(".content-tab-container");
-        if (!container) return;
-        const groupId = container.getAttribute("data-tab-group");
-        if (groupId) {
-          localStorage.setItem(`portfolio-content-tab-pref:${groupId}`, targetLang);
-        }
-        
-        const groupContainers = groupId 
-          ? containers.filter(item => item.getAttribute("data-tab-group") === groupId)
-          : [container];
-
-        groupContainers.forEach(gc => {
-          const btns = Array.from(gc.querySelectorAll(".content-tab-btn"));
-          const panes = Array.from(gc.querySelectorAll(".content-tab-pane"));
+        // 2. Dynamic TOC Generator
+        window.updateDynamicTOC = function() {
+          let existingToc = document.querySelector(".doc-top-toc");
+          if (existingToc) existingToc.remove();
           
-          btns.forEach(btn => {
-            const active = getTabKey(btn) === targetLang;
-            btn.classList.toggle("active", active);
+          const allHeadings = Array.from(mainContent.querySelectorAll("h2")).filter(heading => {
+            return !heading.closest("nav") && 
+                   !heading.closest("header") && 
+                   !heading.closest("footer") && 
+                   !heading.closest(".side-bar") && 
+                   !heading.closest(".site-header") && 
+                   !heading.closest(".site-nav") &&
+                   !heading.closest(".doc-top-toc") &&
+                   !heading.closest(".card") &&
+                   !heading.closest(".cards") &&
+                   !heading.closest(".grid") &&
+                   !heading.closest(".collection") &&
+                   !heading.closest("a");
           });
-          panes.forEach(pane => {
-            const active = getPaneKey(pane) === targetLang;
-            pane.classList.toggle("active", active);
-          });
-        });
 
-        requestAnimationFrame(() => {
-          if (typeof window.updateDynamicTOC === 'function') {
-            window.updateDynamicTOC();
+          const validHeadings = allHeadings.filter(heading => {
+            const pane = heading.closest(".content-tab-pane");
+            if (pane) {
+              return pane.classList.contains("active");
+            }
+            return true;
+          });
+
+          if (validHeadings.length === 0) return;
+
+          const tocBox = document.createElement("nav");
+          tocBox.className = "doc-top-toc";
+          tocBox.setAttribute("aria-label", "In this article");
+          tocBox.innerHTML = '<div class="toc-heading">In this article</div><ul class="toc-list"></ul>';
+
+          const list = tocBox.querySelector("ul.toc-list");
+          const usedIds = new Set();
+          validHeadings.forEach((heading, index) => {
+            if (!heading.id) {
+              const baseId = heading.textContent
+                .toLowerCase()
+                .replace(/[^\w]+/g, "-")
+                .replace(/^-+|-+$/g, "") || `section-${index + 1}`;
+              let headingId = baseId;
+              let suffix = 2;
+              while (document.getElementById(headingId) && document.getElementById(headingId) !== heading || usedIds.has(headingId)) {
+                headingId = `${baseId}-${suffix++}`;
+              }
+              heading.id = headingId;
+            }
+            usedIds.add(heading.id);
+
+            const item = document.createElement("li");
+            const link = document.createElement("a");
+            link.href = `#${heading.id}`;
+            link.textContent = heading.textContent;
+            item.appendChild(link);
+            list.appendChild(item);
+          });
+
+          const firstValidHeading = validHeadings[0];
+          const activePane = firstValidHeading.closest(".content-tab-pane");
+
+          if (activePane) {
+            activePane.insertBefore(tocBox, activePane.firstChild);
+          } else {
+            const h1 = mainContent.querySelector("h1") || document.querySelector("h1");
+            if (h1) {
+              let insertAfterNode = h1;
+              let nextElem = h1.nextElementSibling;
+              
+              if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
+                insertAfterNode = nextElem;
+              }
+
+              if (insertAfterNode.nextSibling) {
+                insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
+              } else {
+                insertAfterNode.parentNode.appendChild(tocBox);
+              }
+            } else {
+              mainContent.insertBefore(tocBox, mainContent.firstChild);
+            }
           }
-        });
-      });
-    } catch (err) {
-      console.error("Documentation script error:", err);
+        };
+
+        // Initial build
+        window.updateDynamicTOC();
+
+        // 3. Tab Click Handler (Delegated globally)
+        if (!window._docTabListenerAttached) {
+          window._docTabListenerAttached = true;
+          document.addEventListener("click", function (event) {
+            const button = event.target.closest(".content-tab-btn");
+            if (!button) return;
+
+            const getTabKey = (el) => el.getAttribute("data-target") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
+            const getPaneKey = (el) => el.getAttribute("data-content") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
+
+            const targetLang = getTabKey(button);
+            if (!targetLang) return;
+
+            const container = button.closest(".content-tab-container");
+            if (!container) return;
+            const groupId = container.getAttribute("data-tab-group");
+            if (groupId) {
+              localStorage.setItem(`portfolio-content-tab-pref:${groupId}`, targetLang);
+            }
+            
+            const groupContainers = groupId 
+              ? Array.from(document.querySelectorAll(`.content-tab-container[data-tab-group="${groupId}"]`))
+              : [container];
+
+            groupContainers.forEach(gc => {
+              const btns = Array.from(gc.querySelectorAll(".content-tab-btn"));
+              const panes = Array.from(gc.querySelectorAll(".content-tab-pane"));
+              
+              btns.forEach(btn => {
+                const active = getTabKey(btn) === targetLang;
+                btn.classList.toggle("active", active);
+              });
+              panes.forEach(pane => {
+                const active = getPaneKey(pane) === targetLang;
+                pane.classList.toggle("active", active);
+              });
+            });
+
+            requestAnimationFrame(() => {
+              if (typeof window.updateDynamicTOC === 'function') {
+                window.updateDynamicTOC();
+              }
+            });
+          });
+        }
+      } catch (err) {
+        console.error("Documentation script error:", err);
+      }
     }
-  });
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initDocumentation);
+    } else {
+      initDocumentation();
+    }
+  })();
 </script>
 {% endif %}
