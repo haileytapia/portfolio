@@ -21,15 +21,15 @@ August 12, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/s
   </div>
 
   <div class="content-tab-pane active" data-content="csharp" markdown="1">
-{% include how-tos/knowledge-base-csharp.md %}
+    {% include how-tos/knowledge-base-csharp.md %}
   </div>
 
   <div class="content-tab-pane" data-content="python" markdown="1">
-{% include how-tos/knowledge-base-python.md %}
+    {% include how-tos/knowledge-base-python.md %}
   </div>
 
   <div class="content-tab-pane" data-content="rest" markdown="1">
-{% include how-tos/knowledge-base-rest.md %}
+    {% include how-tos/knowledge-base-rest.md %}
   </div>
 </div>
 
