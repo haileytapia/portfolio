@@ -6,6 +6,9 @@ favicon_ico: /favicon.png
 
 url: https://haileytapia.github.io/portfolio/
 
+include:
+  - "microsoft/strategy and initiatives/*.png"
+
 aux_links:
   "Email":
     - "mailto:haileystapia@gmail.com"
