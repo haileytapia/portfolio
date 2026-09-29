@@ -20,17 +20,18 @@ August 12, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/s
     <button type="button" class="kb-tab-btn" onclick="switchKbTab(event, 'rest')">REST API</button>
   </div>
 
-  <div id="kb-pane-csharp" class="kb-tab-pane active" markdown="1">
-    {% include how-tos/knowledge-base-csharp.md %}
-  </div>
+<div id="kb-pane-csharp" class="kb-tab-pane active" markdown="1">
+{% include how-tos/knowledge-base-csharp.md %}
+</div>
 
-  <div id="kb-pane-python" class="kb-tab-pane" markdown="1">
-    {% include how-tos/knowledge-base-python.md %}
-  </div>
+<div id="kb-pane-python" class="kb-tab-pane" markdown="1">
+{% include how-tos/knowledge-base-python.md %}
+</div>
 
-  <div id="kb-pane-rest" class="kb-tab-pane" markdown="1">
-    {% include how-tos/knowledge-base-rest.md %}
-  </div>
+<div id="kb-pane-rest" class="kb-tab-pane" markdown="1">
+{% include how-tos/knowledge-base-rest.md %}
+</div>
+
 </div>
 
 ---
