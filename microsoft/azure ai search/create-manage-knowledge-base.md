@@ -4,7 +4,7 @@ title: Create and manage a knowledge base
 parent: Azure AI Search
 grand_parent: Microsoft
 nav_order: 4
-permalink: /microsoft/azure-ai-search/search-knowledge-base
+permalink: /microsoft/azure-ai-search/create-manage-knowledge-base
 ---
 
 # Create and manage a knowledge base for agentic retrieval
