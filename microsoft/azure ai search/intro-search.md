@@ -4,7 +4,7 @@ title: Introduction to Azure AI Search
 parent: Azure AI Search
 grand_parent: Microsoft
 nav_order: 1
-permalink: /microsoft/azure-ai-search/search-intro
+permalink: /microsoft/intro
 ---
 
 # What is Azure AI Search?

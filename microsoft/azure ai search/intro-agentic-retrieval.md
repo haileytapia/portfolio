@@ -4,7 +4,7 @@ title: Introduction to agentic retrieval
 parent: Azure AI Search
 grand_parent: Microsoft
 nav_order: 2
-permalink: /microsoft/azure-ai-search/search-intro-agentic-retrieval
+permalink: /microsoft/azure-ai-search/intro-agentic-retrieval
 ---
 
 # What is agentic retrieval?

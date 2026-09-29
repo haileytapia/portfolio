@@ -13,8 +13,8 @@ Technical documentation optimized for both human and agentic consumption.
 
 ## Featured samples
 
-- [Introduction to Azure AI Search](/portfolio/microsoft/azure-ai-search/search-intro)
-- [Quickstart: Agentic retrieval](/portfolio/microsoft/azure-ai-search/search-quickstart-agentic-retrieval) (Azure AI Search)
+- [Introduction to Azure AI Search](/portfolio/microsoft/intro)
+- [Quickstart: Agentic retrieval](/portfolio/microsoft/quickstart-agentic-retrieval) (Azure AI Search)
 - [Tutorial: Private agentic retrieval](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval) (Azure AI Search)
 - [Introduction to the quantum programming language Q#](/portfolio/microsoft/azure-quantum/qsharp-intro)
 - [Quickstart: Create your first Q# program](/portfolio/microsoft/azure-quantum/qsharp-quickstart)
