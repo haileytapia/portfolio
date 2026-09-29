@@ -227,91 +227,11 @@
   }
 </style>
 
-{% if page.url != '/' and page.url != '/index.html' and page.layout != 'landing' and page.layout != 'hub' and page.layout != 'home' and page.toc != false %}
-<style>
-  /* --- Clean Compact TOC with Properly Spaced Custom Bullets --- */
-  .doc-top-toc {
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    border-radius: 6px;
-    padding: 0.85rem 1.15rem 0.85rem 1.35rem;
-    margin: 1.25rem 0 1.75rem 0;
-    width: fit-content;
-    min-width: 260px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
-  }
-
-  .doc-top-toc .toc-heading {
-    font-size: 0.7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: #64748b;
-    margin-bottom: 0.35rem;
-  }
-
-  .doc-top-toc ul.toc-list {
-    list-style: none !important;
-    padding-left: 0 !important;
-    margin: 0 !important;
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-  }
-
-  .doc-top-toc li {
-    list-style: none !important;
-    margin: 0 !important;
-    padding-left: 1.1rem !important;
-    position: relative !important;
-  }
-
-  .doc-top-toc li::before {
-    content: "" !important;
-    position: absolute !important;
-    left: 0.25rem !important;
-    top: 0.55em !important;
-    width: 5px !important;
-    height: 5px !important;
-    background-color: #94a3b8 !important;
-    border-radius: 50% !important;
-    display: inline-block !important;
-  }
-
-  .doc-top-toc li::after {
-    content: none !important;
-    display: none !important;
-  }
-
-  .doc-top-toc a {
-    color: #475569;
-    text-decoration: none;
-    font-size: 0.85rem;
-    line-height: 1.35;
-    display: inline;
-    transition: color 0.15s ease;
-  }
-
-  .doc-top-toc a:hover {
-    color: #7c3aed;
-    text-decoration: underline;
-  }
-</style>
-
 <script>
   (function () {
-    function initDocumentation() {
+    function initTabs() {
       try {
-        const mainContent = document.querySelector("article") || 
-                            document.querySelector(".main-content") || 
-                            document.querySelector(".doc-main-content") || 
-                            document.querySelector(".page-content") || 
-                            document.querySelector("main") || 
-                            document.body;
-                            
-        if (!mainContent) return;
-
-        // 1. Initialize tabs with robust attribute matching
+        // 1. Initialize tabs & restore local storage preferences
         const containers = Array.from(document.querySelectorAll(".content-tab-container"));
         containers.forEach(container => {
           const groupId = container.getAttribute("data-tab-group");
@@ -336,96 +256,7 @@
           }
         });
 
-        // 2. Dynamic TOC Generator
-        window.updateDynamicTOC = function() {
-          let existingToc = document.querySelector(".doc-top-toc");
-          if (existingToc) existingToc.remove();
-          
-          const allHeadings = Array.from(mainContent.querySelectorAll("h2")).filter(heading => {
-            return !heading.closest("nav") && 
-                   !heading.closest("header") && 
-                   !heading.closest("footer") && 
-                   !heading.closest(".side-bar") && 
-                   !heading.closest(".site-header") && 
-                   !heading.closest(".site-nav") &&
-                   !heading.closest(".doc-top-toc") &&
-                   !heading.closest(".card") &&
-                   !heading.closest(".cards") &&
-                   !heading.closest(".grid") &&
-                   !heading.closest(".collection") &&
-                   !heading.closest("a");
-          });
-
-          const validHeadings = allHeadings.filter(heading => {
-            const pane = heading.closest(".content-tab-pane");
-            if (pane) {
-              return pane.classList.contains("active");
-            }
-            return true;
-          });
-
-          if (validHeadings.length === 0) return;
-
-          const tocBox = document.createElement("nav");
-          tocBox.className = "doc-top-toc";
-          tocBox.setAttribute("aria-label", "In this article");
-          tocBox.innerHTML = '<div class="toc-heading">In this article</div><ul class="toc-list"></ul>';
-
-          const list = tocBox.querySelector("ul.toc-list");
-          const usedIds = new Set();
-          validHeadings.forEach((heading, index) => {
-            if (!heading.id) {
-              const baseId = heading.textContent
-                .toLowerCase()
-                .replace(/[^\w]+/g, "-")
-                .replace(/^-+|-+$/g, "") || `section-${index + 1}`;
-              let headingId = baseId;
-              let suffix = 2;
-              while (document.getElementById(headingId) && document.getElementById(headingId) !== heading || usedIds.has(headingId)) {
-                headingId = `${baseId}-${suffix++}`;
-              }
-              heading.id = headingId;
-            }
-            usedIds.add(heading.id);
-
-            const item = document.createElement("li");
-            const link = document.createElement("a");
-            link.href = `#${heading.id}`;
-            link.textContent = heading.textContent;
-            item.appendChild(link);
-            list.appendChild(item);
-          });
-
-          const firstValidHeading = validHeadings[0];
-          const activePane = firstValidHeading.closest(".content-tab-pane");
-
-          if (activePane) {
-            activePane.insertBefore(tocBox, activePane.firstChild);
-          } else {
-            const h1 = mainContent.querySelector("h1") || document.querySelector("h1");
-            if (h1) {
-              let insertAfterNode = h1;
-              let nextElem = h1.nextElementSibling;
-              
-              if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
-                insertAfterNode = nextElem;
-              }
-
-              if (insertAfterNode.nextSibling) {
-                insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
-              } else {
-                insertAfterNode.parentNode.appendChild(tocBox);
-              }
-            } else {
-              mainContent.insertBefore(tocBox, mainContent.firstChild);
-            }
-          }
-        };
-
-        // Initial build
-        window.updateDynamicTOC();
-
-        // 3. Tab Click Handler (Delegated globally)
+        // 2. Tab Click Handler (Delegated globally)
         if (!window._docTabListenerAttached) {
           window._docTabListenerAttached = true;
           document.addEventListener("click", function (event) {
@@ -462,24 +293,17 @@
                 pane.classList.toggle("active", active);
               });
             });
-
-            requestAnimationFrame(() => {
-              if (typeof window.updateDynamicTOC === 'function') {
-                window.updateDynamicTOC();
-              }
-            });
           });
         }
       } catch (err) {
-        console.error("Documentation script error:", err);
+        console.error("Tab script error:", err);
       }
     }
 
     if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", initDocumentation);
+      document.addEventListener("DOMContentLoaded", initTabs);
     } else {
-      initDocumentation();
+      initTabs();
     }
   })();
 </script>
-{% endif %}
