@@ -100,7 +100,7 @@ Run the following code to create a knowledge base. To choose the right API versi
 
 ### `2026-08-01-preview`
 
-```http class="language-http">
+```http
 # Create a knowledge base
 PUT {{search-endpoint}}/knowledgebases/my-kb?api-version=2026-08-01-preview
 Content-Type: application/json
