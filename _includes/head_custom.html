@@ -227,9 +227,9 @@
   }
 </style>
 
-{% if page.url != '/' and page.url != '/index.html' and page.toc != false %}
+{% if page.url != '/' and page.url != '/index.html' and page.layout != 'landing' and page.layout != 'home' and page.toc != false %}
 <style>
-  /* --- Clean Compact TOC with Original Well-Spaced Bullets --- */
+  /* --- Clean Compact TOC with Perfectly Aligned Bullets --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
@@ -251,8 +251,8 @@
   }
 
   .doc-top-toc ul.toc-list {
-    list-style: none !important;
-    padding-left: 1rem !important;
+    list-style-type: disc !important;
+    padding-left: 1.25rem !important;
     margin: 0 !important;
     display: flex;
     flex-direction: column;
@@ -260,24 +260,13 @@
   }
 
   .doc-top-toc li {
-    list-style: none !important;
+    list-style-type: disc !important;
     margin: 0 !important;
-    padding: 0 0 0 0.35rem !important;
-    position: relative !important;
+    padding: 0 !important;
   }
 
-  .doc-top-toc li::before {
-    content: "•" !important;
-    position: absolute !important;
-    left: -0.65rem !important;
+  .doc-top-toc li::marker {
     color: #94a3b8 !important;
-    font-size: 0.85rem !important;
-    line-height: 1.35 !important;
-  }
-
-  .doc-top-toc li::after {
-    content: none !important;
-    display: none !important;
   }
 
   .doc-top-toc a {
@@ -306,7 +295,7 @@
                         
     if (!mainContent) return;
 
-    // 1. Ensure tab panes have active states immediately on load
+    // 1. Ensure tab panes have active states immediately on load across all containers
     const containers = Array.from(document.querySelectorAll(".content-tab-container"));
     containers.forEach(container => {
       const groupId = container.getAttribute("data-tab-group");
@@ -315,19 +304,16 @@
       const panes = Array.from(container.querySelectorAll(".content-tab-pane"));
       
       if (buttons.length > 0 && panes.length > 0) {
-        const hasActive = panes.some(p => p.classList.contains("active"));
-        if (!hasActive) {
-          const target = savedTab && buttons.some(b => b.getAttribute("data-target") === savedTab) 
-            ? savedTab 
-            : buttons[0].getAttribute("data-target");
-          
-          buttons.forEach(btn => {
-            btn.classList.toggle("active", btn.getAttribute("data-target") === target);
-          });
-          panes.forEach(pane => {
-            pane.classList.toggle("active", pane.getAttribute("data-content") === target);
-          });
-        }
+        const target = savedTab && buttons.some(b => b.getAttribute("data-target") === savedTab) 
+          ? savedTab 
+          : buttons[0].getAttribute("data-target");
+        
+        buttons.forEach(btn => {
+          btn.classList.toggle("active", btn.getAttribute("data-target") === target);
+        });
+        panes.forEach(pane => {
+          pane.classList.toggle("active", pane.getAttribute("data-content") === target);
+        });
       }
     });
 
@@ -352,7 +338,7 @@
         if (pane) {
           return pane.classList.contains("active");
         }
-        return true; // Standard article headings are always included
+        return true; // Standard article headings outside tabs are always included
       });
 
       if (validHeadings.length === 0) {
