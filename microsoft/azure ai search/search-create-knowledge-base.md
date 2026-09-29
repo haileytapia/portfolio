@@ -14,12 +14,11 @@ August 12, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/s
 {: .fs-5 : .fw-300 }
 
 <div class="content-tab-container content-tab-container--top-level" data-tab-group="knowledge-base-language">
-<div class="content-tab-header" role="group" aria-label="Code language">
-  <button type="button" class="content-tab-btn active" data-target="csharp" aria-pressed="true">C#</button>
-  <button type="button" class="content-tab-btn" data-target="python" aria-pressed="false">Python</button>
-  <button type="button" class="content-tab-btn" data-target="rest" aria-pressed="false">REST API</button>
-</div>
-</div>
+  <div class="content-tab-header" role="group" aria-label="Code language">
+    <button type="button" class="content-tab-btn active" data-target="csharp" aria-pressed="true">C#</button>
+    <button type="button" class="content-tab-btn" data-target="python" aria-pressed="false">Python</button>
+    <button type="button" class="content-tab-btn" data-target="rest" aria-pressed="false">REST API</button>
+  </div>
 
   <div class="content-tab-pane active" data-content="csharp" markdown="1">
 {% include how-tos/knowledge-base-csharp.md %}
@@ -32,6 +31,7 @@ August 12, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/s
   <div class="content-tab-pane" data-content="rest" markdown="1">
 {% include how-tos/knowledge-base-rest.md %}
   </div>
+</div>
 
 ---
 
