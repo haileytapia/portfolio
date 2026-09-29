@@ -10,6 +10,17 @@ permalink: /microsoft/azure-ai-search/create-manage-knowledge-base
 # Create and manage a knowledge base for agentic retrieval
 {: .no_toc }
 
+{% capture csharp_content %}
+{% include how-tos/knowledge-base-csharp.md %}
+{% endcapture %}
+
+{% capture python_content %}
+{% include how-tos/knowledge-base-python.md %}
+{% endcapture %}
+
+{% capture rest_content %}
+{% include how-tos/knowledge-base-rest.md %}
+{% endcapture %}
 
 <div class="content-tab-container content-tab-container--top-level" data-tab-group="knowledge-base-language">
   <div class="content-tab-header">
@@ -17,23 +28,14 @@ permalink: /microsoft/azure-ai-search/create-manage-knowledge-base
     <button type="button" class="content-tab-btn" data-target="python">Python</button>
     <button type="button" class="content-tab-btn" data-target="rest">REST API</button>
   </div>
-
-  <div class="content-tab-pane active" data-content="csharp" markdown="1">
-
-{% include how-tos/knowledge-base-csharp.md %}
-
+  <div class="content-tab-pane active" data-content="csharp">
+    {{ csharp_content | markdownify }}
   </div>
-
-  <div class="content-tab-pane" data-content="python" markdown="1">
-
-{% include how-tos/knowledge-base-python.md %}
-
+  <div class="content-tab-pane" data-content="python">
+    {{ python_content | markdownify }}
   </div>
-
-  <div class="content-tab-pane" data-content="rest" markdown="1">
-
-{% include how-tos/knowledge-base-rest.md %}
-
+  <div class="content-tab-pane" data-content="rest">
+    {{ rest_content | markdownify }}
   </div>
 </div>
 
