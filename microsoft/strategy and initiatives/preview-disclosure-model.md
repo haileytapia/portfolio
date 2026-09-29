@@ -27,7 +27,7 @@ Because the applicable terms varied by feature, these notices had to be tailored
 
 For customers, the notices were long and visually prominent without clearly indicating which specific functionality was in preview, making it easy to interpret the entire article as being in preview. For writers, maintaining so many variations of lengthy legal language created a significant burden, especially when our legal team requested last-minute updates ahead of API releases.
 
-![Screenshot of existing notice.](old-notice.png)
+![Screenshot of existing notice.](./old-notice.png)
 
 ## New approach
 
@@ -41,7 +41,7 @@ First, I moved the full legal and operational terms to a dedicated, version-agno
 
 Second, I replaced the lengthy inline disclosures with a concise, reusable notice that gives customers the context they need when they encounter preview functionality in an article.
 
-![Screenshot of new notice.](new-notice.png)
+![Screenshot of new notice.](./new-notice.png)
 
 I implemented the notice through a shared include so writers could apply it consistently across articles. I also deliberately broadened the language to refer to "features, capabilities, or properties" rather than simply "features." This accounted for preview functionality that could apply to an entire feature or to a more granular capability or property.
 

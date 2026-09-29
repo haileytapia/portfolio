@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Modernizing company-wide contributor guidance
+title: Modernizing org-wide contributor guidance
 parent: Documentation strategy and initiatives
 grand_parent: Microsoft
 nav_order: 1

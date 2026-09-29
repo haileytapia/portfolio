@@ -16,7 +16,7 @@ When I joined the Azure AI Search team, its documentation TOC was organized prim
 
 Nodes in the existing TOC represented quickstarts, tutorials, samples, how-to guides, and other content types. As a new contributor, I found this structure difficult to interpret because it reflected how writers organized their work rather than how Azure AI Search was organized.
 
-![Screenshot of the original TOC organized guidance primarily by content type.](old-search-toc.png)
+![Screenshot of the original TOC organized guidance primarily by content type.](./old-search-toc.png)
 
 Azure AI Search was evolving, too. Our product team was investing heavily in agentic retrieval, a new approach to retrieval-augmented generation that was becoming an important part of the product's direction. At the same time, data showed that 97% of customers were still using the established search experience.
 
@@ -26,7 +26,7 @@ The challenge, therefore, was to make the TOC serve where the product was headed
 
 I redesigned the TOC around product capabilities rather than content types, grouping related guidance by what customers could do with Azure AI Search. I also reorganized the hierarchy to create a more logical progression from initial evaluation and setup to more advanced use cases.
 
-![The redesigned TOC organizes guidance around product capabilities.](new-search-toc.png)
+![The redesigned TOC organizes guidance around product capabilities.](./new-search-toc.png)
 
 As part of this work, I adopted the established industry term "classic search" to describe the search architecture that preceded agentic retrieval. With our product team's support, I later extended the term beyond the TOC into individual articles. What began as a navigation term evolved into shared vocabulary for describing Azure AI Search's two retrieval modes across the documentation.
 
