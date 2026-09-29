@@ -17,9 +17,9 @@ This three-part tutorial series describes how to deploy an end-to-end private ag
 
 In this tutorial, you:
 
-+ Establish inbound private connectivity between Foundry and Azure AI Search.
-+ Configure outbound private dependencies from Azure AI Search.
-+ Validate end-to-end retrieval with a knowledge source, knowledge base, project connection, and agent.
+- [x] Establish inbound private connectivity between Foundry and Azure AI Search.
+- [x] Configure outbound private dependencies from Azure AI Search.
+- [x] Validate end-to-end retrieval with a knowledge source, knowledge base, project connection, and agent.
 
 ## What is private agentic retrieval?
 

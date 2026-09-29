@@ -229,7 +229,7 @@
 
 {% if page.url != '/' and page.url != '/index.html' and page.layout != 'landing' and page.layout != 'hub' and page.layout != 'home' and page.toc != false %}
 <style>
-  /* --- Clean Compact TOC with Precise Bullets --- */
+  /* --- Clean Compact TOC with Properly Spaced Bullets --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
@@ -252,24 +252,24 @@
 
   .doc-top-toc ul.toc-list {
     list-style: none !important;
-    padding-left: 0.2rem !important;
+    padding-left: 0 !important;
     margin: 0 !important;
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.3rem;
   }
 
   .doc-top-toc li {
     list-style: none !important;
     margin: 0 !important;
-    padding-left: 1rem !important;
+    padding-left: 1.1rem !important;
     position: relative !important;
   }
 
   .doc-top-toc li::before {
     content: "" !important;
     position: absolute !important;
-    left: 0.1rem !important;
+    left: 0.2rem !important;
     top: 0.55em !important;
     width: 5px !important;
     height: 5px !important;
@@ -309,7 +309,14 @@
                         
     if (!mainContent) return;
 
-    // 1. Initialize tabs & restore local storage preferences
+    // Suppress TOC on pure hub/directory index pages containing cards and no tabs/article documentation
+    const hasCards = document.querySelector(".card, .cards, .grid, .collection") !== null;
+    const hasTabs = document.querySelector(".content-tab-container") !== null;
+    if (hasCards && !hasTabs && !document.querySelector("article h2")) {
+      return;
+    }
+
+    // 1. Initialize tabs & restore local storage preferences (supporting data-target/data-content & data-lang)
     const containers = Array.from(document.querySelectorAll(".content-tab-container"));
     containers.forEach(container => {
       const groupId = container.getAttribute("data-tab-group");
@@ -318,22 +325,27 @@
       const panes = Array.from(container.querySelectorAll(".content-tab-pane"));
       
       if (buttons.length > 0 && panes.length > 0) {
-        const target = savedTab && buttons.some(b => b.getAttribute("data-target") === savedTab) 
+        const getTabKey = (el) => el.getAttribute("data-target") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
+        const getPaneKey = (el) => el.getAttribute("data-content") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
+
+        const target = savedTab && buttons.some(b => getTabKey(b) === savedTab) 
           ? savedTab 
-          : buttons[0].getAttribute("data-target");
+          : getTabKey(buttons[0]);
         
         buttons.forEach(btn => {
-          btn.classList.toggle("active", btn.getAttribute("data-target") === target);
+          btn.classList.toggle("active", getTabKey(btn) === target);
         });
         panes.forEach(pane => {
-          pane.classList.toggle("active", pane.getAttribute("data-content") === target);
+          pane.classList.toggle("active", getPaneKey(pane) === target);
         });
       }
     });
 
     // 2. Define dynamic TOC generator
     window.updateDynamicTOC = function() {
-      let tocBox = document.querySelector(".doc-top-toc");
+      // Remove existing TOC box to reposition correctly
+      let existingToc = document.querySelector(".doc-top-toc");
+      if (existingToc) existingToc.remove();
       
       // Gather H2 headings while ignoring site chrome, cards, and links
       const allHeadings = Array.from(mainContent.querySelectorAll("h2")).filter(heading => {
@@ -360,44 +372,14 @@
         return true;
       });
 
-      if (validHeadings.length === 0) {
-        if (tocBox) tocBox.style.display = "none";
-        return;
-      }
+      if (validHeadings.length === 0) return;
 
-      if (!tocBox) {
-        tocBox = document.createElement("nav");
-        tocBox.className = "doc-top-toc";
-        tocBox.setAttribute("aria-label", "In this article");
-        tocBox.innerHTML = '<div class="toc-heading">In this article</div><ul class="toc-list"></ul>';
-      }
-
-      tocBox.style.display = "block";
-
-      // Stable Placement: Place TOC right under H1 or its intro paragraph
-      if (!mainContent.contains(tocBox)) {
-        const h1 = mainContent.querySelector("h1") || document.querySelector("h1");
-        if (h1) {
-          let insertAfterNode = h1;
-          let nextElem = h1.nextElementSibling;
-          
-          if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
-            insertAfterNode = nextElem;
-          }
-
-          if (insertAfterNode.nextSibling) {
-            insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
-          } else {
-            insertAfterNode.parentNode.appendChild(tocBox);
-          }
-        } else {
-          mainContent.insertBefore(tocBox, mainContent.firstChild);
-        }
-      }
+      const tocBox = document.createElement("nav");
+      tocBox.className = "doc-top-toc";
+      tocBox.setAttribute("aria-label", "In this article");
+      tocBox.innerHTML = '<div class="toc-heading">In this article</div><ul class="toc-list"></ul>';
 
       const list = tocBox.querySelector("ul.toc-list");
-      list.innerHTML = "";
-
       const usedIds = new Set();
       validHeadings.forEach((heading, index) => {
         if (!heading.id) {
@@ -421,17 +403,47 @@
         item.appendChild(link);
         list.appendChild(item);
       });
+
+      // Placement Logic: If headings are inside an active tab pane, place TOC INSIDE that tab pane at the top.
+      // Otherwise, place outside under H1.
+      const firstValidHeading = validHeadings[0];
+      const activePane = firstValidHeading.closest(".content-tab-pane");
+
+      if (activePane) {
+        activePane.insertBefore(tocBox, activePane.firstChild);
+      } else {
+        const h1 = mainContent.querySelector("h1") || document.querySelector("h1");
+        if (h1) {
+          let insertAfterNode = h1;
+          let nextElem = h1.nextElementSibling;
+          
+          if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
+            insertAfterNode = nextElem;
+          }
+
+          if (insertAfterNode.nextSibling) {
+            insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
+          } else {
+            insertAfterNode.parentNode.appendChild(tocBox);
+          }
+        } else {
+          mainContent.insertBefore(tocBox, mainContent.firstChild);
+        }
+      }
     };
 
     // 3. Initial TOC build
     window.updateDynamicTOC();
 
-    // 4. Handle tab clicks with requestAnimationFrame for synchronized DOM updates
+    // 4. Handle tab clicks with robust attribute support and smooth DOM synchronization
     document.addEventListener("click", function (event) {
       const button = event.target.closest(".content-tab-btn");
       if (!button) return;
 
-      const targetLang = button.getAttribute("data-target");
+      const getTabKey = (el) => el.getAttribute("data-target") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
+      const getPaneKey = (el) => el.getAttribute("data-content") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
+
+      const targetLang = getTabKey(button);
       if (!targetLang) return;
 
       const container = button.closest(".content-tab-container");
@@ -450,16 +462,15 @@
         const panes = Array.from(gc.querySelectorAll(".content-tab-pane"));
         
         btns.forEach(btn => {
-          const active = btn.getAttribute("data-target") === targetLang;
+          const active = getTabKey(btn) === targetLang;
           btn.classList.toggle("active", active);
         });
         panes.forEach(pane => {
-          const active = pane.getAttribute("data-content") === targetLang;
+          const active = getPaneKey(pane) === targetLang;
           pane.classList.toggle("active", active);
         });
       });
 
-      // Synchronize TOC recalculation after classes apply
       requestAnimationFrame(() => {
         if (typeof window.updateDynamicTOC === 'function') {
           window.updateDynamicTOC();
