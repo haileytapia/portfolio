@@ -1,13 +1,13 @@
 ---
 layout: portfolio
-title: Create a knowledge base for agentic retrieval
+title: Create and manage a knowledge base
 parent: Azure AI Search
 grand_parent: Microsoft
 nav_order: 3
-permalink: /microsoft/azure-ai-search/search-create-knowledge-base
+permalink: /microsoft/azure-ai-search/search-knowledge-base
 ---
 
-# Create a knowledge base for agentic retrieval
+# Create and manage a knowledge base for agentic retrieval
 {: .no_toc }
 
 August 12, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-create-knowledge-base)
