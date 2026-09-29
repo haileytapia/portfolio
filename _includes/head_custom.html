@@ -159,7 +159,7 @@
 
 {% if page.url != '/' and page.url != '/index.html' and page.toc != false %}
 <style>
-  /* --- Clean, Spaced Vertical List TOC --- */
+  /* --- Clean, Aligned Vertical List TOC --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
@@ -181,8 +181,8 @@
   }
 
   .doc-top-toc ul {
-    list-style: none;
-    padding-left: 0;
+    list-style: disc; /* Re-enabled bullets with proper alignment */
+    padding-left: 1.25rem; /* Aligns bullets precisely with the heading text above */
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -211,7 +211,6 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    // Universal container fallback: catches custom classes, theme classes, or falls back safely to body content
     const mainContent = document.querySelector(".doc-main-content") || 
                         document.querySelector(".main-content") || 
                         document.querySelector("main") || 
@@ -219,14 +218,12 @@
                         
     if (!mainContent) return;
 
-    // Prevent duplicate injections
     if (mainContent.querySelector(".doc-top-toc")) return;
 
-    // Helper to filter out sidebars, footers, navigation, and tabs
+    // Helper to filter out structural chrome while allowing headers inside tabs (vital for quickstarts)
     function getValidHeadings(selector) {
       return Array.from(mainContent.querySelectorAll(selector)).filter(heading => {
-        return !heading.closest(".content-tab-pane") &&
-               !heading.closest("nav") &&
+        return !heading.closest("nav") &&
                !heading.closest("header") &&
                !heading.closest("footer") &&
                !heading.closest(".side-bar") &&
@@ -234,7 +231,7 @@
       });
     }
 
-    // Scan H2 headers first, fallback to H3 headers if none found (covers quickstarts)
+    // Scan H2 headers first, fallback to H3 headers if none found
     let headings = getValidHeadings("h2");
     if (headings.length === 0) {
       headings = getValidHeadings("h3");
@@ -276,13 +273,12 @@
 
     tocBox.appendChild(list);
 
-    // INJECTION LOGIC: Place precisely after H1 and its metadata block (date/original line)
+    // Injection logic: Place precisely after H1 and its metadata block
     const h1 = mainContent.querySelector("h1");
     if (h1) {
       let insertAfterNode = h1;
       let nextElem = h1.nextElementSibling;
       
-      // Skip past the date/metadata paragraph if present
       if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
         insertAfterNode = nextElem;
       }

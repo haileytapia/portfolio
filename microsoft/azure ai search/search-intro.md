@@ -77,6 +77,8 @@ During indexing, you can use [AI enrichment](https://learn.microsoft.com/en-us/a
 
 </div>
 
+</div>
+
 ![Diagram of the Azure AI Search architecture for classic search](https://github.com/user-attachments/assets/9515d789-8a04-47a2-a0aa-511e865ec42b)
 
 {: .note }
@@ -156,6 +158,8 @@ Use following quickstarts and samples to get started:
 + [Java samples](https://learn.microsoft.com/en-us/azure/search/samples-java)
 + [JavaScript/TypeScript samples](https://learn.microsoft.com/en-us/azure/search/samples-javascript)
 + [Vector samples](https://github.com/Azure/azure-search-vector-samples)
+
+</div>
 
 </div>
 
