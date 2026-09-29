@@ -109,7 +109,13 @@ The following JSON is an example response for a knowledge base.
 
 Run the following code to create a knowledge base. To choose the right API version for your agentic retrieval scenario, see [Feature availability](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview?tabs=quickstarts#feature-availability).
 
-### `2026-08-01-preview`
+<div class="content-tab-container content-tab-container--inline">
+  <div class="content-tab-header">
+    <button type="button" class="content-tab-btn active" data-target="2026-08-01-preview">2026-08-01-preview</button>
+    <button type="button" class="content-tab-btn" data-target="2026-04-01">2026-04-01</button>
+  </div>
+  
+<div class="content-tab-pane active" data-content="2026-08-01-preview" markdown="1">
 
 ```python
 # Create a knowledge base
@@ -155,7 +161,9 @@ print(f"Knowledge base '{knowledge_base.name}' created or updated successfully."
 
 **Reference:** [SearchIndexClient](https://learn.microsoft.com/en-us/python/api/azure-search-documents/azure.search.documents.indexes.searchindexclient), [KnowledgeBase](https://learn.microsoft.com/en-us/python/api/azure-search-documents/azure.search.documents.indexes.models.knowledgebase)
 
-### `2026-04-01`
+</div>
+
+<div class="content-tab-pane" data-content="2026-04-01" markdown="1">
 
 ```python
 # Create a knowledge base
@@ -180,6 +188,10 @@ print(f"Knowledge base '{knowledge_base.name}' created or updated successfully."
 ```
 
 **Reference:** [SearchIndexClient](https://learn.microsoft.com/en-us/python/api/azure-search-documents/azure.search.documents.indexes.searchindexclient), [KnowledgeBase](https://learn.microsoft.com/en-us/python/api/azure-search-documents/azure.search.documents.indexes.models.knowledgebase)
+
+</div>
+
+</div>
 
 After you create a knowledge base, you can update its properties at any time. If the knowledge base is in use, updates take effect on the subsequent retrieval call.
 
