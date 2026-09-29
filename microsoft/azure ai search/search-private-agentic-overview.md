@@ -13,9 +13,6 @@ permalink: /microsoft/azure-ai-search/private-agentic-retrieval/overview
 July 13, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/foundry-iq-tutorial-private-overview)
 {: .fs-5 : .fw-300 }
 
-{: .important }
-> Features and capabilities marked as preview aren't covered by a service-level agreement, aren't recommended for production workloads, and might change before general availability. The [Azure AI Search preview terms](https://learn.microsoft.com/en-us/azure/search/search-preview-terms) apply to all preview functionality, whether it's standalone or part of a generally available feature.
-
 This three-part tutorial series describes how to deploy an end-to-end private agentic retrieval architecture by using Microsoft Foundry and Azure AI Search. It explains how inbound connectivity, outbound dependencies, and retrieval runtime fit together across the deployment.
 
 In this tutorial, you:

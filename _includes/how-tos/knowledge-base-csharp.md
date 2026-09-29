@@ -8,23 +8,19 @@ A knowledge base specifies:
 
 + Custom properties that control routing, source selection, and object encryption.
 
-#### Usage support
-
-| [Azure portal](https://learn.microsoft.com/en-us/azure/search/get-started-portal-agentic-retrieval) | [Microsoft Foundry portal](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/concepts/what-is-foundry-iq#workflow) | [.NET SDK](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/search/Azure.Search.Documents/CHANGELOG.md) | [Python SDK](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/search/azure-search-documents/CHANGELOG.md) | [Java SDK](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/search/azure-search-documents/CHANGELOG.md) | [JavaScript SDK](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/search/search-documents/CHANGELOG.md) | [REST API](https://learn.microsoft.com/en-us/rest/api/searchservice/knowledge-bases) |
-| -- | -- | -- | -- | -- | -- | -- |
-| ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
-
 ## Prerequisites
 
 + An Azure AI Search service in any [region that provides agentic retrieval](https://learn.microsoft.com/en-us/azure/search/search-region-support).
 
-+ One or more [knowledge sources](https://learn.microsoft.com/en-us/azure/search/agentic-knowledge-source-overview#supported-knowledge-sources). Use the `2026-08-01-preview` API version for preview knowledge sources or non-web LLM integration. Use the `2026-04-01` API version for generally available knowledge sources and minimal, extractive retrieval.
++ One or more [knowledge sources](https://learn.microsoft.com/en-us/azure/search/agentic-knowledge-source-overview#supported-knowledge-sources).
 
 + (Conditional) A Microsoft Foundry resource with a [supported LLM](#supported-models) deployment. An LLM is required for web knowledge sources. For other knowledge sources, an LLM is optional in the `2026-08-01-preview` API version and unsupported in the `2026-04-01` API version.
 
 + Permission to create knowledge bases. Configure [keyless authentication](https://learn.microsoft.com/en-us/azure/search/search-get-started-rbac) with the **Search Service Contributor** role assigned to your user account (recommended) or use an [admin API key](https://learn.microsoft.com/en-us/azure/search/search-security-api-keys).
 
 + (Conditional) If your knowledge base specifies an LLM, your search service must have a [managed identity](https://learn.microsoft.com/en-us/azure/search/search-how-to-managed-identities) with **Cognitive Services User** permissions on the Foundry resource.
+
++ [.NET 8](https://dotnet.microsoft.com/download/dotnet/8.0) or later.
 
 + Required [`Azure.Search.Documents`](https://www.nuget.org/packages/Azure.Search.Documents) package:
 

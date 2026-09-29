@@ -297,10 +297,13 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const mainContent = document.querySelector(".doc-main-content") || 
+    // Robust main content container targeting
+    const mainContent = document.querySelector("article") || 
                         document.querySelector(".main-content") || 
+                        document.querySelector(".doc-main-content") || 
+                        document.querySelector(".page-content") || 
                         document.querySelector("main") || 
-                        document.body;
+                        document.querySelector(".content");
                         
     if (!mainContent) return;
 
@@ -331,7 +334,7 @@
 
     // 2. Define the dynamic TOC generator function
     window.updateDynamicTOC = function() {
-      let tocBox = mainContent.querySelector(".doc-top-toc");
+      let tocBox = mainContent.querySelector(".doc-top-toc") || document.querySelector(".doc-top-toc");
       
       // Gather all H2 headings while ignoring site chrome
       const allHeadings = Array.from(mainContent.querySelectorAll("h2")).filter(heading => {
@@ -350,7 +353,7 @@
         if (pane) {
           return pane.classList.contains("active");
         }
-        return true; // Non-tabbed headings are always included
+        return true; // Standard article headings are always included
       });
 
       if (validHeadings.length === 0) {
@@ -368,8 +371,8 @@
       tocBox.style.display = "block";
 
       // Placement Logic:
-      // - If there is an active tab pane, place TOC INSIDE the active pane (below the tab header)
-      // - Otherwise, place TOC right under H1 or its intro paragraph
+      // - If there is an active tab pane, place TOC INSIDE the active pane
+      // - Otherwise, place TOC right under the article H1 or its intro paragraph
       const activePane = mainContent.querySelector(".content-tab-pane.active");
       if (activePane) {
         if (!activePane.contains(tocBox)) {
