@@ -15,9 +15,7 @@ Technical documentation optimized for both human and agentic consumption.
 
 - [Introduction to Azure AI Search](/portfolio/microsoft/azure-ai-search/intro-search)
 - [Quickstart: Agentic retrieval](/portfolio/microsoft/azure-ai-search/quickstart-agentic-retrieval) (Azure AI Search)
-- [Tutorial: Private agentic retrieval](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval) (Azure AI Search)
 - [Introduction to the quantum programming language Q#](/portfolio/microsoft/azure-quantum/qsharp-intro)
-- [Quickstart: Create your first Q# program](/portfolio/microsoft/azure-quantum/qsharp-quickstart)
 - [Scenario: Wei creates an intelligence workflow in Splunk Mission Control to enrich data](/portfolio/splunk/mission-control/enrich-data)
 - [Guide to Notion](/portfolio/other/notion-user-guide.pdf)
 

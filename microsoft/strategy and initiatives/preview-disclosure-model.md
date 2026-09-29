@@ -1,11 +1,11 @@
 ---
 layout: portfolio
 title: Scalable model for preview disclosures
-parent: Azure AI Search
+parent: Documentation strategy and initiatives
 grand_parent: Microsoft
 nav_order: 3
 permalink: /microsoft/strategy-and-initiatives/preview-disclosure-model
------------------------------------------------------------------------
+---
 
 # Scalable model for preview disclosures
 

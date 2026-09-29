@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: Reframing Azure AI Search TOC
-parent: Azure AI Search
+parent: Documentation strategy and initiatives
 grand_parent: Microsoft
 nav_order: 2
 permalink: /microsoft/strategy-and-initiatives/reframed-search-toc

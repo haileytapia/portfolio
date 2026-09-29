@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: Modernizing company-wide contributor guidance
-parent: Azure AI Search
+parent: Documentation strategy and initiatives
 grand_parent: Microsoft
 nav_order: 1
 permalink: /microsoft/strategy-and-initiatives/modernized-guidance
