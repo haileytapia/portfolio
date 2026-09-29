@@ -302,15 +302,15 @@
 
 {% if page.url != '/' and page.url != '/index.html' and page.toc != false %}
 <style>
-  /* --- Clean, Aligned Vertical List TOC (H2 Only) --- */
+  /* --- Compact TOC with Muted Custom Bullets --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    padding: 1.25rem 1.5rem;
-    margin: 1.5rem 0 2rem 0;
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    margin: 0 0 1.5rem 0;
     width: fit-content;
-    min-width: 280px;
+    min-width: 260px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
   }
 
@@ -320,28 +320,36 @@
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: #64748b;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.4rem;
   }
 
   .doc-top-toc ul.toc-list {
-    list-style-type: disc !important;
-    list-style-position: outside !important;
-    padding-left: 1.5rem !important;
+    list-style: none !important;
+    padding-left: 0 !important;
     margin: 0 !important;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.3rem;
   }
 
   .doc-top-toc li {
-    list-style-type: disc !important;
-    list-style-position: outside !important;
+    list-style: none !important;
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 0 0 0 1rem !important;
+    position: relative;
   }
 
-  /* Strip out any theme-injected pseudo-element bullets */
-  .doc-top-toc li::before,
+  /* Custom muted bullet to prevent theme clashes and double markers */
+  .doc-top-toc li::before {
+    content: "•" !important;
+    position: absolute;
+    left: 0;
+    color: #94a3b8; /* Soft muted slate grey */
+    font-size: 0.9rem;
+    line-height: 1.4;
+    display: inline-block;
+  }
+
   .doc-top-toc li::after {
     content: none !important;
     display: none !important;
@@ -374,36 +382,9 @@
     window.updateDynamicTOC = function() {
       let tocBox = mainContent.querySelector(".doc-top-toc");
       
-      if (!tocBox) {
-        tocBox = document.createElement("nav");
-        tocBox.className = "doc-top-toc";
-        tocBox.setAttribute("aria-label", "In this article");
-        tocBox.innerHTML = '<div class="toc-heading">In this article</div><ul class="toc-list"></ul>';
-        
-        const h1 = mainContent.querySelector("h1");
-        if (h1) {
-          let insertAfterNode = h1;
-          let nextElem = h1.nextElementSibling;
-          
-          if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
-            insertAfterNode = nextElem;
-          }
-
-          if (insertAfterNode.nextSibling) {
-            insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
-          } else {
-            insertAfterNode.parentNode.appendChild(tocBox);
-          }
-        } else {
-          mainContent.insertBefore(tocBox, mainContent.firstChild);
-        }
-      }
-
-      const list = tocBox.querySelector("ul.toc-list");
-      list.innerHTML = "";
-
-      // STRICTLY query H2 headers only (ignoring H3s and below)
       const allHeadings = Array.from(mainContent.querySelectorAll("h2"));
+      const activePane = mainContent.querySelector(".content-tab-pane.active");
+
       const validHeadings = allHeadings.filter(heading => {
         if (heading.closest("nav") || heading.closest("header") || heading.closest("footer") || heading.closest(".side-bar") || heading.closest(".site-header") || heading.closest(".doc-top-toc")) {
           return false;
@@ -416,11 +397,45 @@
       });
 
       if (validHeadings.length === 0) {
-        tocBox.style.display = "none";
+        if (tocBox) tocBox.style.display = "none";
         return;
-      } else {
-        tocBox.style.display = "block";
       }
+
+      if (!tocBox) {
+        tocBox = document.createElement("nav");
+        tocBox.className = "doc-top-toc";
+        tocBox.setAttribute("aria-label", "In this article");
+        tocBox.innerHTML = '<div class="toc-heading">In this article</div><ul class="toc-list"></ul>';
+      }
+
+      tocBox.style.display = "block";
+
+      if (activePane) {
+        activePane.insertBefore(tocBox, activePane.firstChild);
+      } else {
+        if (!mainContent.contains(tocBox)) {
+          const h1 = mainContent.querySelector("h1");
+          if (h1) {
+            let insertAfterNode = h1;
+            let nextElem = h1.nextElementSibling;
+            
+            if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
+              insertAfterNode = nextElem;
+            }
+
+            if (insertAfterNode.nextSibling) {
+              insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
+            } else {
+              insertAfterNode.parentNode.appendChild(tocBox);
+            }
+          } else {
+            mainContent.insertBefore(tocBox, mainContent.firstChild);
+          }
+        }
+      }
+
+      const list = tocBox.querySelector("ul.toc-list");
+      list.innerHTML = "";
 
       const usedIds = new Set();
       validHeadings.forEach((heading, index) => {
