@@ -297,16 +297,6 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    // Robust main content container targeting
-    const mainContent = document.querySelector("article") || 
-                        document.querySelector(".main-content") || 
-                        document.querySelector(".doc-main-content") || 
-                        document.querySelector(".page-content") || 
-                        document.querySelector("main") || 
-                        document.querySelector(".content");
-                        
-    if (!mainContent) return;
-
     // 1. Ensure tab panes have active states immediately on load
     const containers = Array.from(document.querySelectorAll(".content-tab-container"));
     containers.forEach(container => {
@@ -334,10 +324,10 @@
 
     // 2. Define the dynamic TOC generator function
     window.updateDynamicTOC = function() {
-      let tocBox = mainContent.querySelector(".doc-top-toc") || document.querySelector(".doc-top-toc");
+      let tocBox = document.querySelector(".doc-top-toc");
       
-      // Gather all H2 headings while ignoring site chrome
-      const allHeadings = Array.from(mainContent.querySelectorAll("h2")).filter(heading => {
+      // Global search for H2 headings while ignoring site chrome
+      const allHeadings = Array.from(document.querySelectorAll("h2")).filter(heading => {
         return !heading.closest("nav") && 
                !heading.closest("header") && 
                !heading.closest("footer") && 
@@ -373,14 +363,21 @@
       // Placement Logic:
       // - If there is an active tab pane, place TOC INSIDE the active pane
       // - Otherwise, place TOC right under the article H1 or its intro paragraph
-      const activePane = mainContent.querySelector(".content-tab-pane.active");
+      const activePane = document.querySelector(".content-tab-pane.active");
       if (activePane) {
         if (!activePane.contains(tocBox)) {
           activePane.insertBefore(tocBox, activePane.firstChild);
         }
       } else {
+        const mainContent = document.querySelector("article") || 
+                            document.querySelector(".main-content") || 
+                            document.querySelector(".doc-main-content") || 
+                            document.querySelector(".page-content") || 
+                            document.querySelector("main") || 
+                            document.body;
+
         if (!mainContent.contains(tocBox)) {
-          const h1 = mainContent.querySelector("h1");
+          const h1 = mainContent.querySelector("h1") || document.querySelector("h1");
           if (h1) {
             let insertAfterNode = h1;
             let nextElem = h1.nextElementSibling;

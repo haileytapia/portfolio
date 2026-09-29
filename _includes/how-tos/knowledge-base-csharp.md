@@ -1,9 +1,7 @@
 In Azure AI Search, a *knowledge base* is a top-level object that orchestrates [agentic retrieval](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview) and establishes default parameters for query execution. A knowledge base configuration includes:
 
 + Knowledge sources that point to searchable content.
-
-+ An optional LLM for query planning, answer synthesis, or web content summarization. Supported tasks vary by API version and knowledge source type.
-
++ An optional LLM for query planning, answer synthesis, or web content summarization.
 + Custom properties that control cross-source routing, selection criteria, and object encryption.
 
 ## Prerequisites
@@ -119,10 +117,7 @@ The following JSON is an example response for a knowledge base.
 
 ## Create a knowledge base
 
-Run the following code to create a knowledge base.
-
-{: .important }
-> The `2026-04-01` API version only accepts generally available knowledge source types and supports minimal, extractive retrieval. It doesn't support preview-only capabilities, such as LLM-based query planning, answer synthesis, and configurable reasoning effort. For full functionality, use the `2026-08-01-preview` API version.
+Run the following code to create a knowledge base. To choose the right API version for your agentic retrieval scenario, see [Feature availability](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview?tabs=quickstarts#feature-availability).
 
 <div class="content-tab-container content-tab-container--inline">
   <div class="content-tab-header">
@@ -173,7 +168,7 @@ Console.WriteLine($"Knowledge base '{knowledgeBase.Name}' created or updated suc
 
 </div>
 
-<div class="content-tab-pane active" data-content="2026-04-01" markdown="1">
+<div class="content-tab-pane" data-content="2026-04-01" markdown="1">
 
 ```csharp
 // Create a knowledge base
@@ -205,9 +200,9 @@ Console.WriteLine($"Knowledge base '{knowledgeBase.Name}' created or updated suc
 
 </div>
 
-After you create a knowledge base, you can update its properties at any time. If the knowledge base is in use, updates take effect on the next retrieval.
+After you create a knowledge base, you can update its properties at any time. If the knowledge base is in use, updates take effect on the subsequent retrieval call.
 
-### Configure CORS for browser-based retrieve calls (preview)
+### Configure CORS for browser-based retrieval (preview)
 
 {: .important }
 > Cross-origin resource sharing (CORS) allows browser-based applications to request data directly from the service. Depending on your CORS configuration, external web pages might access or invoke the service and its data by using the user's browser context. This access can create security threats. Enabling CORS is at your own risk.
