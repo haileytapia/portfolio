@@ -98,13 +98,14 @@ The following JSON is an example response for a knowledge base.
 
 Run the following code to create a knowledge base. To choose the right API version for your agentic retrieval scenario, see [Feature availability](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview?tabs=quickstarts#feature-availability).
 
-<div class="content-tab-container content-tab-container--inline">
-  <div class="content-tab-header">
-    <button class="content-tab-btn active" data-target="rest-2026-08">2026-08-01-preview</button>
-    <button class="content-tab-btn" data-target="rest-2026-04">2026-04-01</button>
+<div class="kb-version-container">
+
+  <div class="kb-version-header">
+    <button type="button" class="kb-version-btn active" data-target="rest-2026-08">2026-08-01-preview</button>
+    <button type="button" class="kb-version-btn" data-target="rest-2026-04">2026-04-01</button>
   </div>
 
-<div class="content-tab-pane active" data-content="rest-2026-08" markdown="1">
+  <div class="kb-version-pane active" data-content="rest-2026-08" markdown="1">
 
 ```http
 # Create a knowledge base
@@ -147,7 +148,7 @@ Authorization: Bearer {{search-access-token}}
 
 </div>
 
-<div class="content-tab-pane" data-content="rest-2026-04" markdown="1">
+<div class="kb-version-pane" data-content="rest-2026-04" markdown="1">
 
 ```http
 # Create a knowledge base
