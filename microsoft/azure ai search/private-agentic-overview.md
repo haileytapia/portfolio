@@ -45,9 +45,9 @@ The following table shows what you accomplish in each part, the components invol
 
 | Part | Outcome | Components | Success criteria |
 | --- | --- | --- | --- |
-| 1 - Inbound | A private request path from Foundry to Azure AI Search. | <ul><li>Virtual network and subnets</li><li>Private endpoints</li><li>Private DNS zones</li><li>Foundry and Azure AI Search private access settings</li></ul> | From your in-VNet client, the Foundry and Azure AI Search endpoints resolve to private IP addresses and accept connections on TCP 443. |
-| 2 - Outbound | Private dependency paths from Azure AI Search to Azure Blob Storage and Foundry. | <ul><li>Shared private links</li><li>Target-side approvals</li><li>Managed identities</li><li>Dependency RBAC for Azure Blob Storage and Foundry</li></ul> | The Azure Blob Storage and Foundry shared private links report an `Approved` state, and the Azure AI Search managed identity holds its assigned blob and model roles. |
-| 3 - Retrieval validation | An agent that returns grounded answers over the private retrieval path. | <ul><li>Knowledge source</li><li>Knowledge base</li><li>Project connection</li><li>Agent configuration</li></ul> | The validation prompt returns an answer grounded in your blob content, with citations to the source documents. |
+| 1 - Inbound | A private request path from Foundry to Azure AI Search. | • Virtual network and subnets<br>• Private endpoints<br>• Private DNS zones<br>• Foundry and Azure AI Search private access settings | From your in-VNet client, the Foundry and Azure AI Search endpoints resolve to private IP addresses and accept connections on TCP 443. |
+| 2 - Outbound | Private dependency paths from Azure AI Search to Azure Blob Storage and Foundry. | • Shared private links<br>• Target-side approvals<br>• Managed identities<br>• Dependency RBAC for Azure Blob Storage and Foundry | The Azure Blob Storage and Foundry shared private links report an `Approved` state, and the Azure AI Search managed identity holds its assigned blob and model roles. |
+| 3 - Retrieval validation | An agent that returns grounded answers over the private retrieval path. | • Knowledge source<br>• Knowledge base<br>• Project connection<br>• Agent configuration | The validation prompt returns an answer grounded in your blob content, with citations to the source documents. |
 
 ## Next step
 
