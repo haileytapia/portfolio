@@ -231,7 +231,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     const containers = Array.from(document.querySelectorAll(".content-tab-container"));
     
-    // Ensure initial active states are set immediately
+    // Ensure initial active states are set immediately before TOC builds
     containers.forEach(container => {
       const groupId = container.getAttribute("data-tab-group");
       const savedTab = groupId ? localStorage.getItem(`portfolio-content-tab-pref:${groupId}`) : null;
@@ -299,7 +299,7 @@
 
 {% if page.url != '/' and page.url != '/index.html' and page.toc != false %}
 <style>
-  /* --- Compact TOC with Properly Aligned Bullets & Tight Spacing --- */
+  /* --- Compact TOC with Proportional Bullets & Inset Spacing --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
@@ -321,10 +321,9 @@
   }
 
   .doc-top-toc ul.toc-list {
-    list-style: disc !important;
-    list-style-type: disc !important;
-    list-style-position: outside !important;
-    padding-left: 1.2rem !important; /* Prevents bullets from touching the left edge */
+    list-style: none !important;
+    list-style-type: none !important;
+    padding-left: 0.85rem !important; /* Clean inset for custom bullets */
     margin: 0 !important;
     display: flex;
     flex-direction: column;
@@ -332,23 +331,27 @@
   }
 
   .doc-top-toc li {
-    list-style: disc !important;
-    list-style-type: disc !important;
-    list-style-position: outside !important;
+    list-style: none !important;
+    list-style-type: none !important;
     margin: 0 !important;
     padding: 0 !important;
+    position: relative !important;
   }
 
-  /* Prevent theme duplication */
-  .doc-top-toc li::before,
+  /* Controlled, proportional muted bullet */
+  .doc-top-toc li::before {
+    content: "•" !important;
+    position: absolute !important;
+    left: -0.85rem !important;
+    top: 0 !important;
+    color: #94a3b8 !important; /* Soft muted slate grey */
+    font-size: 0.75rem !important; /* Smaller, balanced bullet size */
+    line-height: 1.35 !important;
+  }
+
   .doc-top-toc li::after {
     content: none !important;
     display: none !important;
-  }
-
-  /* Muted bullet color */
-  .doc-top-toc li::marker {
-    color: #94a3b8 !important;
   }
 
   .doc-top-toc a {
@@ -378,11 +381,18 @@
     window.updateDynamicTOC = function() {
       let tocBox = mainContent.querySelector(".doc-top-toc");
       
+      // STRICTLY query H2 headers only
       const allHeadings = Array.from(mainContent.querySelectorAll("h2"));
+      const activePane = mainContent.querySelector(".content-tab-pane.active");
 
       const validHeadings = allHeadings.filter(heading => {
         if (heading.closest("nav") || heading.closest("header") || heading.closest("footer") || heading.closest(".side-bar") || heading.closest(".site-header") || heading.closest(".doc-top-toc")) {
           return false;
+        }
+        // If heading is inside a tab pane, only include it if that pane is active
+        const pane = heading.closest(".content-tab-pane");
+        if (pane) {
+          return pane.classList.contains("active");
         }
         return true;
       });
@@ -401,24 +411,30 @@
 
       tocBox.style.display = "block";
 
-      // Consistently place TOC at the top of the article under H1 / metadata
-      if (!mainContent.contains(tocBox)) {
-        const h1 = mainContent.querySelector("h1");
-        if (h1) {
-          let insertAfterNode = h1;
-          let nextElem = h1.nextElementSibling;
-          
-          if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
-            insertAfterNode = nextElem;
-          }
+      // Place TOC inside the active tab pane if present, otherwise at the top of mainContent
+      if (activePane) {
+        if (!activePane.contains(tocBox)) {
+          activePane.insertBefore(tocBox, activePane.firstChild);
+        }
+      } else {
+        if (!mainContent.contains(tocBox)) {
+          const h1 = mainContent.querySelector("h1");
+          if (h1) {
+            let insertAfterNode = h1;
+            let nextElem = h1.nextElementSibling;
+            
+            if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
+              insertAfterNode = nextElem;
+            }
 
-          if (insertAfterNode.nextSibling) {
-            insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
+            if (insertAfterNode.nextSibling) {
+              insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
+            } else {
+              insertAfterNode.parentNode.appendChild(tocBox);
+            }
           } else {
-            insertAfterNode.parentNode.appendChild(tocBox);
+            mainContent.insertBefore(tocBox, mainContent.firstChild);
           }
-        } else {
-          mainContent.insertBefore(tocBox, mainContent.firstChild);
         }
       }
 
