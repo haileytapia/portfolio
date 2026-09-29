@@ -10,7 +10,7 @@ permalink: /microsoft/azure-ai-search
 # Azure AI Search
 {: .no_toc }
 
-I created the following content for Azure AI Search, an enterprise retrieval engine that grounds agents in both indexed and remote data.
+I created the following content for Azure AI Search, an enterprise retrieval engine that grounds agents in both indexed and remote content.
 {: .fs-6 : .fw-300 }
 
 - TOC

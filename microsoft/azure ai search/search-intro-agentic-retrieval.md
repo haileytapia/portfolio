@@ -225,8 +225,7 @@ The following articles cover core pipeline setup. For all how-to guides, see the
 
 ## Next step
 
-[Quickstart: Agentic retrieval](https://learn.microsoft.com/en-us/azure/search/search-get-started-agentic-retrieval)
-{: .btn .btn-purple }
+[Quickstart: Agentic retrieval](https://learn.microsoft.com/en-us/azure/search/search-get-started-agentic-retrieval){: .btn .btn-purple }
 
 ---
 
