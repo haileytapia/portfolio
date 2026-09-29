@@ -229,12 +229,12 @@
 
 {% if page.url != '/' and page.url != '/index.html' and page.layout != 'landing' and page.layout != 'hub' and page.layout != 'home' and page.toc != false %}
 <style>
-  /* --- Clean Compact TOC with Properly Spaced Bullets --- */
+  /* --- Clean Compact TOC with Properly Spaced Custom Bullets --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 6px;
-    padding: 0.85rem 1.15rem;
+    padding: 0.85rem 1.15rem 0.85rem 1.35rem;
     margin: 1.25rem 0 1.75rem 0;
     width: fit-content;
     min-width: 260px;
@@ -269,7 +269,7 @@
   .doc-top-toc li::before {
     content: "" !important;
     position: absolute !important;
-    left: 0.2rem !important;
+    left: 0.25rem !important;
     top: 0.55em !important;
     width: 5px !important;
     height: 5px !important;
@@ -300,183 +300,175 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const mainContent = document.querySelector("article") || 
-                        document.querySelector(".main-content") || 
-                        document.querySelector(".doc-main-content") || 
-                        document.querySelector(".page-content") || 
-                        document.querySelector("main") || 
-                        document.body;
-                        
-    if (!mainContent) return;
+    try {
+      const mainContent = document.querySelector("article") || 
+                          document.querySelector(".main-content") || 
+                          document.querySelector(".doc-main-content") || 
+                          document.querySelector(".page-content") || 
+                          document.querySelector("main") || 
+                          document.body;
+                          
+      if (!mainContent) return;
 
-    // Suppress TOC on pure hub/directory index pages containing cards and no tabs/article documentation
-    const hasCards = document.querySelector(".card, .cards, .grid, .collection") !== null;
-    const hasTabs = document.querySelector(".content-tab-container") !== null;
-    if (hasCards && !hasTabs && !document.querySelector("article h2")) {
-      return;
-    }
+      // 1. Initialize tabs with robust attribute matching
+      const containers = Array.from(document.querySelectorAll(".content-tab-container"));
+      containers.forEach(container => {
+        const groupId = container.getAttribute("data-tab-group");
+        const savedTab = groupId ? localStorage.getItem(`portfolio-content-tab-pref:${groupId}`) : null;
+        const buttons = Array.from(container.querySelectorAll(".content-tab-btn"));
+        const panes = Array.from(container.querySelectorAll(".content-tab-pane"));
+        
+        if (buttons.length > 0 && panes.length > 0) {
+          const getTabKey = (el) => el.getAttribute("data-target") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
+          const getPaneKey = (el) => el.getAttribute("data-content") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
 
-    // 1. Initialize tabs & restore local storage preferences (supporting data-target/data-content & data-lang)
-    const containers = Array.from(document.querySelectorAll(".content-tab-container"));
-    containers.forEach(container => {
-      const groupId = container.getAttribute("data-tab-group");
-      const savedTab = groupId ? localStorage.getItem(`portfolio-content-tab-pref:${groupId}`) : null;
-      const buttons = Array.from(container.querySelectorAll(".content-tab-btn"));
-      const panes = Array.from(container.querySelectorAll(".content-tab-pane"));
-      
-      if (buttons.length > 0 && panes.length > 0) {
+          const target = savedTab && buttons.some(b => getTabKey(b) === savedTab) 
+            ? savedTab 
+            : getTabKey(buttons[0]);
+          
+          buttons.forEach(btn => {
+            btn.classList.toggle("active", getTabKey(btn) === target);
+          });
+          panes.forEach(pane => {
+            pane.classList.toggle("active", getPaneKey(pane) === target);
+          });
+        }
+      });
+
+      // 2. Dynamic TOC Generator
+      window.updateDynamicTOC = function() {
+        let existingToc = document.querySelector(".doc-top-toc");
+        if (existingToc) existingToc.remove();
+        
+        const allHeadings = Array.from(mainContent.querySelectorAll("h2")).filter(heading => {
+          return !heading.closest("nav") && 
+                 !heading.closest("header") && 
+                 !heading.closest("footer") && 
+                 !heading.closest(".side-bar") && 
+                 !heading.closest(".site-header") && 
+                 !heading.closest(".site-nav") &&
+                 !heading.closest(".doc-top-toc") &&
+                 !heading.closest(".card") &&
+                 !heading.closest(".cards") &&
+                 !heading.closest(".grid") &&
+                 !heading.closest(".collection") &&
+                 !heading.closest("a");
+        });
+
+        const validHeadings = allHeadings.filter(heading => {
+          const pane = heading.closest(".content-tab-pane");
+          if (pane) {
+            return pane.classList.contains("active");
+          }
+          return true;
+        });
+
+        if (validHeadings.length === 0) return;
+
+        const tocBox = document.createElement("nav");
+        tocBox.className = "doc-top-toc";
+        tocBox.setAttribute("aria-label", "In this article");
+        tocBox.innerHTML = '<div class="toc-heading">In this article</div><ul class="toc-list"></ul>';
+
+        const list = tocBox.querySelector("ul.toc-list");
+        const usedIds = new Set();
+        validHeadings.forEach((heading, index) => {
+          if (!heading.id) {
+            const baseId = heading.textContent
+              .toLowerCase()
+              .replace(/[^\w]+/g, "-")
+              .replace(/^-+|-+$/g, "") || `section-${index + 1}`;
+            let headingId = baseId;
+            let suffix = 2;
+            while (document.getElementById(headingId) && document.getElementById(headingId) !== heading || usedIds.has(headingId)) {
+              headingId = `${baseId}-${suffix++}`;
+            }
+            heading.id = headingId;
+          }
+          usedIds.add(heading.id);
+
+          const item = document.createElement("li");
+          const link = document.createElement("a");
+          link.href = `#${heading.id}`;
+          link.textContent = heading.textContent;
+          item.appendChild(link);
+          list.appendChild(item);
+        });
+
+        const firstValidHeading = validHeadings[0];
+        const activePane = firstValidHeading.closest(".content-tab-pane");
+
+        if (activePane) {
+          activePane.insertBefore(tocBox, activePane.firstChild);
+        } else {
+          const h1 = mainContent.querySelector("h1") || document.querySelector("h1");
+          if (h1) {
+            let insertAfterNode = h1;
+            let nextElem = h1.nextElementSibling;
+            
+            if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
+              insertAfterNode = nextElem;
+            }
+
+            if (insertAfterNode.nextSibling) {
+              insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
+            } else {
+              insertAfterNode.parentNode.appendChild(tocBox);
+            }
+          } else {
+            mainContent.insertBefore(tocBox, mainContent.firstChild);
+          }
+        }
+      };
+
+      // Initial build
+      window.updateDynamicTOC();
+
+      // 3. Tab Click Handler
+      document.addEventListener("click", function (event) {
+        const button = event.target.closest(".content-tab-btn");
+        if (!button) return;
+
         const getTabKey = (el) => el.getAttribute("data-target") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
         const getPaneKey = (el) => el.getAttribute("data-content") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
 
-        const target = savedTab && buttons.some(b => getTabKey(b) === savedTab) 
-          ? savedTab 
-          : getTabKey(buttons[0]);
+        const targetLang = getTabKey(button);
+        if (!targetLang) return;
+
+        const container = button.closest(".content-tab-container");
+        if (!container) return;
+        const groupId = container.getAttribute("data-tab-group");
+        if (groupId) {
+          localStorage.setItem(`portfolio-content-tab-pref:${groupId}`, targetLang);
+        }
         
-        buttons.forEach(btn => {
-          btn.classList.toggle("active", getTabKey(btn) === target);
-        });
-        panes.forEach(pane => {
-          pane.classList.toggle("active", getPaneKey(pane) === target);
-        });
-      }
-    });
+        const groupContainers = groupId 
+          ? containers.filter(item => item.getAttribute("data-tab-group") === groupId)
+          : [container];
 
-    // 2. Define dynamic TOC generator
-    window.updateDynamicTOC = function() {
-      // Remove existing TOC box to reposition correctly
-      let existingToc = document.querySelector(".doc-top-toc");
-      if (existingToc) existingToc.remove();
-      
-      // Gather H2 headings while ignoring site chrome, cards, and links
-      const allHeadings = Array.from(mainContent.querySelectorAll("h2")).filter(heading => {
-        return !heading.closest("nav") && 
-               !heading.closest("header") && 
-               !heading.closest("footer") && 
-               !heading.closest(".side-bar") && 
-               !heading.closest(".site-header") && 
-               !heading.closest(".site-nav") &&
-               !heading.closest(".doc-top-toc") &&
-               !heading.closest(".card") &&
-               !heading.closest(".cards") &&
-               !heading.closest(".grid") &&
-               !heading.closest(".collection") &&
-               !heading.closest("a");
-      });
-
-      // Filter: Keep global H2s outside tabs, or H2s inside currently active tab panes only
-      const validHeadings = allHeadings.filter(heading => {
-        const pane = heading.closest(".content-tab-pane");
-        if (pane) {
-          return pane.classList.contains("active");
-        }
-        return true;
-      });
-
-      if (validHeadings.length === 0) return;
-
-      const tocBox = document.createElement("nav");
-      tocBox.className = "doc-top-toc";
-      tocBox.setAttribute("aria-label", "In this article");
-      tocBox.innerHTML = '<div class="toc-heading">In this article</div><ul class="toc-list"></ul>';
-
-      const list = tocBox.querySelector("ul.toc-list");
-      const usedIds = new Set();
-      validHeadings.forEach((heading, index) => {
-        if (!heading.id) {
-          const baseId = heading.textContent
-            .toLowerCase()
-            .replace(/[^\w]+/g, "-")
-            .replace(/^-+|-+$/g, "") || `section-${index + 1}`;
-          let headingId = baseId;
-          let suffix = 2;
-          while (document.getElementById(headingId) && document.getElementById(headingId) !== heading || usedIds.has(headingId)) {
-            headingId = `${baseId}-${suffix++}`;
-          }
-          heading.id = headingId;
-        }
-        usedIds.add(heading.id);
-
-        const item = document.createElement("li");
-        const link = document.createElement("a");
-        link.href = `#${heading.id}`;
-        link.textContent = heading.textContent;
-        item.appendChild(link);
-        list.appendChild(item);
-      });
-
-      // Placement Logic: If headings are inside an active tab pane, place TOC INSIDE that tab pane at the top.
-      // Otherwise, place outside under H1.
-      const firstValidHeading = validHeadings[0];
-      const activePane = firstValidHeading.closest(".content-tab-pane");
-
-      if (activePane) {
-        activePane.insertBefore(tocBox, activePane.firstChild);
-      } else {
-        const h1 = mainContent.querySelector("h1") || document.querySelector("h1");
-        if (h1) {
-          let insertAfterNode = h1;
-          let nextElem = h1.nextElementSibling;
+        groupContainers.forEach(gc => {
+          const btns = Array.from(gc.querySelectorAll(".content-tab-btn"));
+          const panes = Array.from(gc.querySelectorAll(".content-tab-pane"));
           
-          if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
-            insertAfterNode = nextElem;
-          }
-
-          if (insertAfterNode.nextSibling) {
-            insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
-          } else {
-            insertAfterNode.parentNode.appendChild(tocBox);
-          }
-        } else {
-          mainContent.insertBefore(tocBox, mainContent.firstChild);
-        }
-      }
-    };
-
-    // 3. Initial TOC build
-    window.updateDynamicTOC();
-
-    // 4. Handle tab clicks with robust attribute support and smooth DOM synchronization
-    document.addEventListener("click", function (event) {
-      const button = event.target.closest(".content-tab-btn");
-      if (!button) return;
-
-      const getTabKey = (el) => el.getAttribute("data-target") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
-      const getPaneKey = (el) => el.getAttribute("data-content") || el.getAttribute("data-lang") || el.getAttribute("data-tab");
-
-      const targetLang = getTabKey(button);
-      if (!targetLang) return;
-
-      const container = button.closest(".content-tab-container");
-      if (!container) return;
-      const groupId = container.getAttribute("data-tab-group");
-      if (groupId) {
-        localStorage.setItem(`portfolio-content-tab-pref:${groupId}`, targetLang);
-      }
-      
-      const groupContainers = groupId 
-        ? containers.filter(item => item.getAttribute("data-tab-group") === groupId)
-        : [container];
-
-      groupContainers.forEach(gc => {
-        const btns = Array.from(gc.querySelectorAll(".content-tab-btn"));
-        const panes = Array.from(gc.querySelectorAll(".content-tab-pane"));
-        
-        btns.forEach(btn => {
-          const active = getTabKey(btn) === targetLang;
-          btn.classList.toggle("active", active);
+          btns.forEach(btn => {
+            const active = getTabKey(btn) === targetLang;
+            btn.classList.toggle("active", active);
+          });
+          panes.forEach(pane => {
+            const active = getPaneKey(pane) === targetLang;
+            pane.classList.toggle("active", active);
+          });
         });
-        panes.forEach(pane => {
-          const active = getPaneKey(pane) === targetLang;
-          pane.classList.toggle("active", active);
+
+        requestAnimationFrame(() => {
+          if (typeof window.updateDynamicTOC === 'function') {
+            window.updateDynamicTOC();
+          }
         });
       });
-
-      requestAnimationFrame(() => {
-        if (typeof window.updateDynamicTOC === 'function') {
-          window.updateDynamicTOC();
-        }
-      });
-    });
+    } catch (err) {
+      console.error("Documentation script error:", err);
+    }
   });
 </script>
 {% endif %}
