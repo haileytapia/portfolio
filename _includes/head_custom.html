@@ -159,24 +159,24 @@
 
 {% if page.url != '/' and page.url != '/index.html' and page.toc != false %}
 <style>
-  /* --- Clean Vertical List TOC --- */
+  /* --- Elite Minimalist TOC Component --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 8px;
-    padding: 1.25rem 1.5rem;
+    padding: 1rem 1.25rem;
     margin: 1.5rem 0 2rem 0;
     width: fit-content;
-    min-width: 280px;
+    min-width: 260px;
   }
 
   .doc-top-toc .toc-heading {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #0f172a;
-    margin-bottom: 0.75rem;
+    letter-spacing: 0.06em;
+    color: #64748b;
+    margin-bottom: 0.5rem;
   }
 
   .doc-top-toc ul {
@@ -185,7 +185,7 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.4rem;
   }
 
   .doc-top-toc li {
@@ -196,28 +196,35 @@
   .doc-top-toc a {
     color: #475569;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    line-height: 1.4;
     transition: color 0.15s ease;
   }
 
   .doc-top-toc a:hover {
-    color: #7c3aed;
+    color: #7c3aed; /* Professional tech purple accent */
     text-decoration: underline;
   }
 </style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    // Target BOTH custom wrapper and Just the Docs' native main-content class
-    const mainContent = document.querySelector(".doc-main-content") || document.querySelector(".main-content");
+    // Broad container matcher to support standard theme layouts and custom includes
+    const mainContent = document.querySelector(".doc-main-content") || document.querySelector(".main-content") || document.querySelector("main");
     if (!mainContent) return;
 
-    // Prevent duplicate TOCs if already rendered
+    // Prevent duplicate injections
     if (mainContent.querySelector(".doc-top-toc")) return;
 
-    // Scan H2 headers (excluding tab contents)
-    const headings = Array.from(mainContent.querySelectorAll("h2"))
+    // Scan H2 headers first (excluding tabs)
+    let headings = Array.from(mainContent.querySelectorAll("h2"))
       .filter(heading => !heading.closest(".content-tab-pane"));
+
+    // Fallback: If no H2 headers exist (common in quickstarts using H3 steps), scan H3 headers
+    if (headings.length === 0) {
+      headings = Array.from(mainContent.querySelectorAll("h3"))
+        .filter(heading => !heading.closest(".content-tab-pane"));
+    }
 
     if (headings.length < 1) return;
 
@@ -255,12 +262,24 @@
 
     tocBox.appendChild(list);
 
-    // Inject right below H1 (or top of mainContent if no H1 exists)
+    // INJECTION LOGIC: Place precisely after H1 and its metadata block (date/original line)
     const h1 = mainContent.querySelector("h1");
-    if (h1 && h1.nextSibling) {
-      h1.parentNode.insertBefore(tocBox, h1.nextSibling);
-    } else if (h1) {
-      h1.parentNode.appendChild(tocBox);
+    if (h1) {
+      // Find the metadata block or first paragraph right after H1 to place the TOC cleanly below it
+      let insertAfterNode = h1;
+      let nextElem = h1.nextElementSibling;
+      
+      // If the next element is a paragraph (typically the date/original article line or metadata), 
+      // we use that as our insertion anchor so the TOC lands right underneath it.
+      if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
+        insertAfterNode = nextElem;
+      }
+
+      if (insertAfterNode.nextSibling) {
+        insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
+      } else {
+        insertAfterNode.parentNode.appendChild(tocBox);
+      }
     } else {
       mainContent.insertBefore(tocBox, mainContent.firstChild);
     }
