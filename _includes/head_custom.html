@@ -238,16 +238,19 @@
       const panes = Array.from(container.querySelectorAll(".content-tab-pane"));
       
       if (buttons.length > 0 && panes.length > 0) {
-        const target = savedTab && buttons.some(b => b.getAttribute("data-target") === savedTab) 
-          ? savedTab 
-          : buttons[0].getAttribute("data-target");
-        
-        buttons.forEach(btn => {
-          btn.classList.toggle("active", btn.getAttribute("data-target") === target);
-        });
-        panes.forEach(pane => {
-          pane.classList.toggle("active", pane.getAttribute("data-content") === target);
-        });
+        const hasActive = panes.some(p => p.classList.contains("active"));
+        if (!hasActive) {
+          const target = savedTab && buttons.some(b => b.getAttribute("data-target") === savedTab) 
+            ? savedTab 
+            : buttons[0].getAttribute("data-target");
+          
+          buttons.forEach(btn => {
+            btn.classList.toggle("active", btn.getAttribute("data-target") === target);
+          });
+          panes.forEach(pane => {
+            pane.classList.toggle("active", pane.getAttribute("data-content") === target);
+          });
+        }
       }
     });
 
@@ -296,7 +299,7 @@
 
 {% if page.url != '/' and page.url != '/index.html' and page.toc != false %}
 <style>
-  /* --- Compact TOC with Foolproof Native Bullets & Tight Spacing --- */
+  /* --- Compact TOC with Inside Bullets & Perfect Spacing --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
@@ -317,11 +320,12 @@
     margin-bottom: 0.35rem;
   }
 
-  /* Native bullets with safe outside positioning and generous left padding */
+  /* Inside bullets guarantee they never touch or hang off the left border */
   .doc-top-toc ul.toc-list {
+    list-style: disc inside !important;
     list-style-type: disc !important;
-    list-style-position: outside !important;
-    padding-left: 1.5rem !important;
+    list-style-position: inside !important;
+    padding: 0 !important;
     margin: 0 !important;
     display: flex;
     flex-direction: column;
@@ -329,20 +333,19 @@
   }
 
   .doc-top-toc li {
+    list-style: disc inside !important;
     list-style-type: disc !important;
-    list-style-position: outside !important;
+    list-style-position: inside !important;
     margin: 0 !important;
     padding: 0 !important;
   }
 
-  /* Prevent theme duplication */
   .doc-top-toc li::before,
   .doc-top-toc li::after {
     content: none !important;
     display: none !important;
   }
 
-  /* Muted bullet color */
   .doc-top-toc li::marker {
     color: #94a3b8 !important;
   }
@@ -364,22 +367,21 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const mainContent = document.querySelector(".doc-main-content") || 
-                        document.querySelector(".main-content") || 
-                        document.querySelector("main") || 
-                        document.body;
-                        
-    if (!mainContent) return;
-
     window.updateDynamicTOC = function() {
-      let tocBox = mainContent.querySelector(".doc-top-toc");
+      let tocBox = document.querySelector(".doc-top-toc");
       
-      const allHeadings = Array.from(mainContent.querySelectorAll("h2"));
+      // Global query for H2s while ignoring site chrome
+      const allHeadings = Array.from(document.querySelectorAll("h2")).filter(heading => {
+        return !heading.closest("nav") && 
+               !heading.closest("header") && 
+               !heading.closest("footer") && 
+               !heading.closest(".side-bar") && 
+               !heading.closest(".site-header") && 
+               !heading.closest(".site-nav") &&
+               !heading.closest(".doc-top-toc");
+      });
 
       let validHeadings = allHeadings.filter(heading => {
-        if (heading.closest("nav") || heading.closest("header") || heading.closest("footer") || heading.closest(".side-bar") || heading.closest(".site-header") || heading.closest(".doc-top-toc")) {
-          return false;
-        }
         const pane = heading.closest(".content-tab-pane");
         if (pane) {
           return pane.classList.contains("active");
@@ -387,11 +389,9 @@
         return true;
       });
 
-      // SAFETY FALLBACK: If strict filtering returns 0, include all valid H2s so TOC never drops
+      // Ultimate safety fallback: if strict tab filtering finds 0, use all H2s
       if (validHeadings.length === 0) {
-        validHeadings = allHeadings.filter(heading => {
-          return !heading.closest("nav") && !heading.closest("header") && !heading.closest("footer") && !heading.closest(".side-bar") && !heading.closest(".site-header") && !heading.closest(".doc-top-toc");
-        });
+        validHeadings = allHeadings;
       }
 
       if (validHeadings.length === 0) {
@@ -408,30 +408,21 @@
 
       tocBox.style.display = "block";
 
-      const activePane = mainContent.querySelector(".content-tab-pane.active");
+      const activePane = document.querySelector(".content-tab-pane.active");
       if (activePane) {
         if (!activePane.contains(tocBox)) {
           activePane.insertBefore(tocBox, activePane.firstChild);
         }
       } else {
-        if (!mainContent.contains(tocBox)) {
-          const h1 = mainContent.querySelector("h1");
-          if (h1) {
-            let insertAfterNode = h1;
-            let nextElem = h1.nextElementSibling;
-            
-            if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
-              insertAfterNode = nextElem;
-            }
-
-            if (insertAfterNode.nextSibling) {
-              insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
-            } else {
-              insertAfterNode.parentNode.appendChild(tocBox);
-            }
-          } else {
-            mainContent.insertBefore(tocBox, mainContent.firstChild);
-          }
+        const firstHeading = validHeadings[0];
+        const h1 = document.querySelector("h1");
+        
+        if (firstHeading && firstHeading.parentNode && !firstHeading.parentNode.contains(tocBox)) {
+          firstHeading.parentNode.insertBefore(tocBox, firstHeading);
+        } else if (h1 && h1.nextSibling && !h1.parentNode.contains(tocBox)) {
+          h1.parentNode.insertBefore(tocBox, h1.nextSibling);
+        } else if (!document.body.contains(tocBox)) {
+          document.body.insertBefore(tocBox, document.body.firstChild);
         }
       }
 
