@@ -100,11 +100,11 @@ Run the following code to create a knowledge base. To choose the right API versi
 
 <div class="content-tab-container content-tab-container--inline">
   <div class="content-tab-header">
-    <button class="content-tab-btn active" data-target="2026-08-01-preview">2026-08-01-preview</button>
-    <button class="content-tab-btn" data-target="2026-04-01">2026-04-01</button>
+    <button class="content-tab-btn active" data-target="rest-2026-08">2026-08-01-preview</button>
+    <button class="content-tab-btn" data-target="rest-2026-04">2026-04-01</button>
   </div>
 
-<div class="content-tab-pane active" data-content="2026-08-01-preview" markdown="1">
+<div class="content-tab-pane active" data-content="rest-2026-08" markdown="1">
 
 ```http
 # Create a knowledge base
@@ -147,7 +147,7 @@ Authorization: Bearer {{search-access-token}}
 
 </div>
 
-<div class="content-tab-pane" data-content="2026-04-01" markdown="1">
+<div class="content-tab-pane" data-content="rest-2026-04" markdown="1">
 
 ```http
 # Create a knowledge base

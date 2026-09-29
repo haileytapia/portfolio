@@ -111,11 +111,11 @@ Run the following code to create a knowledge base. To choose the right API versi
 
 <div class="content-tab-container content-tab-container--inline">
   <div class="content-tab-header">
-    <button class="content-tab-btn active" data-target="2026-08-01-preview">2026-08-01-preview</button>
-    <button class="content-tab-btn" data-target="2026-04-01">2026-04-01</button>
+    <button class="content-tab-btn active" data-target="python-2026-08">2026-08-01-preview</button>
+    <button class="content-tab-btn" data-target="python-2026-04">2026-04-01</button>
   </div>
 
-<div class="content-tab-pane active" data-content="2026-08-01-preview" markdown="1">
+<div class="content-tab-pane active" data-content="python-2026-08" markdown="1">
 
 ```python
 # Create a knowledge base
@@ -163,7 +163,7 @@ print(f"Knowledge base '{knowledge_base.name}' created or updated successfully."
 
 </div>
 
-<div class="content-tab-pane" data-content="2026-04-01" markdown="1">
+<div class="content-tab-pane" data-content="python-2026-04" markdown="1">
 
 ```python
 # Create a knowledge base

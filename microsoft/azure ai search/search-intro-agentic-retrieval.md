@@ -166,22 +166,22 @@ To create an agentic retrieval solution, you can use the Azure portal, Microsoft
 
 <div class="content-tab-container content-tab-container--inline">
   <div class="content-tab-header">
-    <button class="content-tab-btn active" data-target="quickstarts">Quickstarts</button>
-    <button class="content-tab-btn" data-target="how-to-guides">How-to guides</button>
-    <button class="content-tab-btn" data-target="tutorials">Tutorials</button>
-    <button class="content-tab-btn" data-target="samples">Samples</button>
-    <button class="content-tab-btn" data-target="demos">Demos</button>
-    <button class="content-tab-btn" data-target="rest-api-references">REST API references</button>
+    <button type="button" class="content-tab-btn active" data-target="quickstarts">Quickstarts</button>
+    <button type="button" class="content-tab-btn" data-target="how-to-guides">How-to guides</button>
+    <button type="button" class="content-tab-btn" data-target="tutorials">Tutorials</button>
+    <button type="button" class="content-tab-btn" data-target="samples">Samples</button>
+    <button type="button" class="content-tab-btn" data-target="demos">Demos</button>
+    <button type="button" class="content-tab-btn" data-target="rest-api-references">REST API references</button>
   </div>
   
-<div class="content-tab-pane active" data-content="quickstarts" markdown="1">
-
+  <div class="content-tab-pane active" data-content="quickstarts" markdown="1">
+  
 + [Quickstart: Agentic retrieval in the Azure portal](https://learn.microsoft.com/en-us/azure/search/get-started-portal-agentic-retrieval)
 + [Quickstart: Agentic retrieval](https://learn.microsoft.com/en-us/azure/search/search-get-started-agentic-retrieval) (C#, Java, JavaScript, Python, TypeScript, REST API)
 
-</div>
+  </div>
 
-<div class="content-tab-pane" data-content="how-to-guides" markdown="1">
+  <div class="content-tab-pane" data-content="how-to-guides" markdown="1">
 
 The following articles cover core pipeline setup. For all how-to guides, see the table of contents.
 
@@ -190,34 +190,36 @@ The following articles cover core pipeline setup. For all how-to guides, see the
 + [Create a knowledge base](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-create-knowledge-base)
 + [Query a knowledge base using the retrieve action or MCP endpoint](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-retrieve)
 
-</div>
+  </div>
 
-<div class="content-tab-pane" data-content="tutorials" markdown="1">
+  <div class="content-tab-pane" data-content="tutorials" markdown="1">
 
 + [Tutorial: Build an end-to-end agentic retrieval solution](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-create-pipeline)
 
-</div>
+  </div>
 
-<div class="content-tab-pane" data-content="samples" markdown="1">
+  <div class="content-tab-pane" data-content="samples" markdown="1">
 
 + [Quickstart-Agentic-Retrieval: Python](https://github.com/Azure-Samples/azure-search-python-samples/tree/main/Quickstart-Agentic-Retrieval)
 + [Quickstart-Agentic-Retrieval: .NET](https://github.com/Azure-Samples/azure-search-dotnet-samples/blob/main/quickstart-agentic-retrieval)
 + [Quickstart-Agentic-Retrieval: REST](https://github.com/Azure-Samples/azure-search-rest-samples/tree/main/Quickstart-agentic-retrieval)
 + [End-to-end with Azure AI Search and Foundry Agent Service](https://github.com/Azure-Samples/azure-search-python-samples/tree/main/agentic-retrieval-pipeline-example)
 
-</div>
+  </div>
 
-<div class="content-tab-pane" data-content="demos" markdown="1">
+  <div class="content-tab-pane" data-content="demos" markdown="1">
 
 + [Azure OpenAI Demo](https://github.com/Azure-Samples/azure-search-openai-demo) has been updated to use agentic retrieval.
 
-<div class="content-tab-pane" data-content="rest-api-references" markdown="1">
+  </div>
+
+  <div class="content-tab-pane" data-content="rest-api-references" markdown="1">
 
 + [Knowledge Sources](https://learn.microsoft.com/en-us/rest/api/searchservice/knowledge-sources)
 + [Knowledge Bases](https://learn.microsoft.com/en-us/rest/api/searchservice/knowledge-bases)
 + [Knowledge Retrieval](https://learn.microsoft.com/en-us/rest/api/knowledge-retrieval)
 
-</div>
+  </div>
 
 </div>
 
