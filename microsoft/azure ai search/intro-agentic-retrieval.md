@@ -164,8 +164,8 @@ Putting it all together, you'd pay about $3.30 for agentic retrieval in Azure AI
 
 To create an agentic retrieval solution, you can use the Azure portal, Microsoft Foundry (new) portal, REST APIs, or an equivalent Azure SDK package.
 
-<div class="content-tab-container content-tab-container--inline">
-  <div class="content-tab-header">
+<div class="content-tab-container content-tab-container--inline" markdown="1">
+  <div class="content-tab-header" markdown="0">
     <button type="button" class="content-tab-btn active" data-target="quickstarts">Quickstarts</button>
     <button type="button" class="content-tab-btn" data-target="how-to-guides">How-to guides</button>
     <button type="button" class="content-tab-btn" data-target="tutorials">Tutorials</button>

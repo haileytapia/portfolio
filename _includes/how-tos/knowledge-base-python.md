@@ -1,4 +1,4 @@
-In Azure AI Search, a *knowledge base* is a top-level object that orchestrates [agentic retrieval](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview) and establishes default parameters for query execution. A knowledge base configuration includes:
+In Azure AI Search, a *knowledge base* is a top-level object that orchestrates [agentic retrieval](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview) and establishes defaults for query execution. A knowledge base configuration includes:
 
 + Knowledge sources that point to searchable content.
 + An optional LLM for query planning, answer synthesis, or web content summarization.
