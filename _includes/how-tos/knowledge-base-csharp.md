@@ -1,9 +1,3 @@
-In Azure AI Search, a *knowledge base* is a top-level object that orchestrates [agentic retrieval](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview) and establishes default parameters for query execution. A knowledge base configuration includes:
-
-+ Knowledge sources that point to searchable content.
-+ An optional LLM for query planning, answer synthesis, or web content summarization.
-+ Custom properties that control cross-source routing, selection criteria, and object encryption.
-
 ## Prerequisites
 
 + An Azure AI Search service with one or more [knowledge sources](https://learn.microsoft.com/en-us/azure/search/agentic-knowledge-source-overview#supported-knowledge-sources).
@@ -126,9 +120,9 @@ Run the following code to create a knowledge base. To choose the right API versi
     <button type="button" class="kb-version-btn" data-target="csharp-2026-04">2026-04-01</button>
   </div>
 
-  <div class="kb-version-pane active" data-content="csharp-2026-08" markdown="1">
+<div class="kb-version-pane active" data-content="csharp-2026-08">
 
-```csharp
+<pre><code class="language-csharp">
 // Create a knowledge base
 using Azure.Search.Documents.Indexes;
 using Azure.Search.Documents.Indexes.Models;
@@ -163,15 +157,15 @@ var knowledgeBase = new KnowledgeBase(
 
 await indexClient.CreateOrUpdateKnowledgeBaseAsync(knowledgeBase);
 Console.WriteLine($"Knowledge base '{knowledgeBase.Name}' created or updated successfully.");
-```
+</code></pre>
 
 **Reference:** [SearchIndexClient](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.indexes.searchindexclient?view=azure-dotnet-preview&preserve-view=true), [KnowledgeBase](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.indexes.models.knowledgebase?view=azure-dotnet-preview&preserve-view=true)
 
 </div>
 
-<div class="kb-version-pane" data-content="csharp-2026-04" markdown="1">
+<div class="kb-version-pane" data-content="csharp-2026-04">
 
-```csharp
+<pre><code class="language-csharp">
 // Create a knowledge base
 using Azure.Search.Documents.Indexes;
 using Azure.Search.Documents.Indexes.Models;
@@ -193,7 +187,7 @@ var knowledgeBase = new KnowledgeBase(
 
 await indexClient.CreateOrUpdateKnowledgeBaseAsync(knowledgeBase);
 Console.WriteLine($"Knowledge base '{knowledgeBase.Name}' created or updated successfully.");
-```
+</code></pre>
 
 **Reference:** [SearchIndexClient](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.indexes.searchindexclient?view=azure-dotnet&preserve-view=true), [KnowledgeBase](https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.indexes.models.knowledgebase?view=azure-dotnet&preserve-view=true)
 

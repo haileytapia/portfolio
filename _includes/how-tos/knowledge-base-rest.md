@@ -1,9 +1,3 @@
-In Azure AI Search, a *knowledge base* is a top-level object that orchestrates [agentic retrieval](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview) and establishes default parameters for query execution. A knowledge base configuration includes:
-
-+ Knowledge sources that point to searchable content.
-+ An optional LLM for query planning, answer synthesis, or web content summarization.
-+ Custom properties that control cross-source routing, selection criteria, and object encryption.
-
 ## Prerequisites
 
 + An Azure AI Search service with one or more [knowledge sources](https://learn.microsoft.com/en-us/azure/search/agentic-knowledge-source-overview#supported-knowledge-sources).
@@ -105,9 +99,9 @@ Run the following code to create a knowledge base. To choose the right API versi
     <button type="button" class="kb-version-btn" data-target="rest-2026-04">2026-04-01</button>
   </div>
 
-  <div class="kb-version-pane active" data-content="rest-2026-08" markdown="1">
+  <div class="kb-version-pane active" data-content="rest-2026-08">
 
-```http
+<pre><code class="language-http">
 # Create a knowledge base
 PUT {{search-endpoint}}/knowledgebases/my-kb?api-version=2026-08-01-preview
 Content-Type: application/json
@@ -142,13 +136,13 @@ Authorization: Bearer {{search-access-token}}
         "kind": "auto"
     }
 }
-```
+</code></pre>
 
 **Reference:** [Knowledge Bases - Create or Update](/rest/api/searchservice/knowledge-bases/create-or-update?view=rest-searchservice-2026-08-01-preview&preserve-view=true)
 
 </div>
 
-<div class="kb-version-pane" data-content="rest-2026-04" markdown="1">
+<pre><code class="language-http">
 
 ```http
 # Create a knowledge base
@@ -169,7 +163,7 @@ Authorization: Bearer {{search-access-token}}
     ],
     "encryptionKey": null
 }
-```
+</code></pre>
 
 **Reference:** [Knowledge Bases - Create or Update](/rest/api/searchservice/knowledge-bases/create-or-update?view=rest-searchservice-2026-04-01&preserve-view=true)
 

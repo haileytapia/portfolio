@@ -4,7 +4,7 @@ title: "Quickstart: Agentic retrieval"
 parent: Azure AI Search
 grand_parent: Microsoft
 nav_order: 3
-permalink: /microsoft/quickstart-agentic-retrieval
+permalink: /microsoft/azure-ai-search/quickstart-agentic-retrieval
 ---
 
 # Quickstart: Agentic retrieval

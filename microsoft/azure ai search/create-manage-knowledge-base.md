@@ -4,7 +4,7 @@ title: Create and manage a knowledge base
 parent: Azure AI Search
 grand_parent: Microsoft
 nav_order: 4
-permalink: /microsoft/knowledge-base
+permalink: /microsoft/azure-ai-search/search-knowledge-base
 ---
 
 # Create and manage a knowledge base for agentic retrieval
@@ -12,6 +12,13 @@ permalink: /microsoft/knowledge-base
 
 August 12, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-create-knowledge-base)
 {: .fs-5 : .fw-300 }
+
+In Azure AI Search, a *knowledge base* is a top-level object that orchestrates [agentic retrieval](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview) and establishes default parameters for query execution. A knowledge base configuration includes:
+
++ Knowledge sources that point to searchable content.
++ An optional LLM for query planning, answer synthesis, or web content summarization.
++ Custom properties that control cross-source routing, selection criteria, and object encryption.
+
 
 <style>
   /* Outer Language Switcher Styles */
@@ -43,7 +50,6 @@ August 12, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/s
     color: #64748b;
     border-bottom: 2px solid transparent;
     margin-bottom: -1px;
-    transition: all 0.15s ease;
   }
   .kb-lang-btn:hover {
     color: #0f172a;
@@ -63,7 +69,7 @@ August 12, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/s
     display: block;
   }
 
-  /* Inner Version Switcher Styles (Scoped) */
+  /* Inner API Version Switcher Styles */
   .kb-version-container {
     margin: 1rem 0;
     border: 1px solid #e2e8f0;
@@ -113,21 +119,15 @@ August 12, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/s
   </div>
 
   <div class="kb-lang-pane active" data-content="lang-csharp" markdown="1">
-
-  {% include how-tos/knowledge-base-csharp.md %}
-
+    {% include how-tos/knowledge-base-csharp.md %}
   </div>
 
   <div class="kb-lang-pane" data-content="lang-python" markdown="1">
-
-  {% include how-tos/knowledge-base-python.md %}
-
+    {% include how-tos/knowledge-base-python.md %}
   </div>
 
   <div class="kb-lang-pane" data-content="lang-rest" markdown="1">
-
-  {% include how-tos/knowledge-base-rest.md %}
-
+    {% include how-tos/knowledge-base-rest.md %}
   </div>
 </div>
 
