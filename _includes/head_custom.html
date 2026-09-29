@@ -230,37 +230,34 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const containers = Array.from(document.querySelectorAll(".content-tab-container"));
-    const initializedGroups = new Set();
-
+    
+    // Ensure initial active states are set immediately before TOC builds
     containers.forEach(container => {
       const groupId = container.getAttribute("data-tab-group");
-      const groupKey = groupId ? `group:${groupId}` : container;
-      if (initializedGroups.has(groupKey)) return;
-      initializedGroups.add(groupKey);
-
-      const groupContainers = getGroupContainers(container);
-      const buttons = groupContainers.flatMap(item =>
-        Array.from(item.querySelectorAll(".content-tab-btn"))
-      );
-      const savedTab = groupId
-        ? localStorage.getItem(`portfolio-content-tab-pref:${groupId}`)
-        : null;
-      const initialTab = savedTab || buttons[0]?.getAttribute("data-target");
-      if (initialTab) activateTab(groupContainers, initialTab);
-    });
-
-    // Fallback if no tab was explicitly activated yet
-    containers.forEach(container => {
-      const activePane = container.querySelector(".content-tab-pane.active");
-      if (!activePane) {
-        const firstPane = container.querySelector(".content-tab-pane");
-        const firstBtn = container.querySelector(".content-tab-btn");
-        if (firstPane && firstBtn) {
-          firstPane.classList.add("active");
-          firstBtn.classList.add("active");
-        }
+      const savedTab = groupId ? localStorage.getItem(`portfolio-content-tab-pref:${groupId}`) : null;
+      const buttons = Array.from(container.querySelectorAll(".content-tab-btn"));
+      const panes = Array.from(container.querySelectorAll(".content-tab-pane"));
+      
+      if (buttons.length > 0 && panes.length > 0) {
+        const target = savedTab && buttons.some(b => b.getAttribute("data-target") === savedTab) 
+          ? savedTab 
+          : buttons[0].getAttribute("data-target");
+        
+        buttons.forEach(btn => {
+          const active = btn.getAttribute("data-target") === target;
+          btn.classList.toggle("active", active);
+        });
+        panes.forEach(pane => {
+          const active = pane.getAttribute("data-content") === target;
+          pane.classList.toggle("active", active);
+        });
       }
     });
+
+    // Run TOC update now that tabs have active states
+    if (typeof window.updateDynamicTOC === 'function') {
+      window.updateDynamicTOC();
+    }
 
     document.addEventListener("click", function (event) {
       const button = event.target.closest(".content-tab-btn");
@@ -275,47 +272,35 @@
       if (groupId) {
         localStorage.setItem(`portfolio-content-tab-pref:${groupId}`, targetLang);
       }
-      activateTab(getGroupContainers(container), targetLang);
-    });
+      
+      const groupContainers = groupId 
+        ? containers.filter(item => item.getAttribute("data-tab-group") === groupId)
+        : [container];
 
-    function getGroupContainers(container) {
-      const groupId = container.getAttribute("data-tab-group");
-      if (!groupId) return [container];
-
-      return containers.filter(item => item.getAttribute("data-tab-group") === groupId);
-    }
-
-    function activateTab(groupContainers, lang) {
-      const buttons = groupContainers.flatMap(container =>
-        Array.from(container.querySelectorAll(".content-tab-btn"))
-      );
-      const panes = groupContainers.flatMap(container =>
-        Array.from(container.querySelectorAll(".content-tab-pane"))
-      );
-      const activeLang = buttons.some(btn => btn.getAttribute("data-target") === lang)
-        ? lang
-        : buttons[0]?.getAttribute("data-target");
-
-      buttons.forEach(btn => {
-        const isActive = btn.getAttribute("data-target") === activeLang;
-        btn.classList.toggle("active", isActive);
-        btn.setAttribute("aria-pressed", String(isActive));
-      });
-
-      panes.forEach(pane => {
-        pane.classList.toggle("active", pane.getAttribute("data-content") === activeLang);
+      groupContainers.forEach(gc => {
+        const btns = Array.from(gc.querySelectorAll(".content-tab-btn"));
+        const panes = Array.from(gc.querySelectorAll(".content-tab-pane"));
+        
+        btns.forEach(btn => {
+          const active = btn.getAttribute("data-target") === targetLang;
+          btn.classList.toggle("active", active);
+        });
+        panes.forEach(pane => {
+          const active = pane.getAttribute("data-content") === targetLang;
+          pane.classList.toggle("active", active);
+        });
       });
 
       if (typeof window.updateDynamicTOC === 'function') {
         window.updateDynamicTOC();
       }
-    }
+    });
   });
 </script>
 
 {% if page.url != '/' and page.url != '/index.html' and page.toc != false %}
 <style>
-  /* --- Compact TOC with Native Muted Marker Bullets & Tight Spacing --- */
+  /* --- Compact TOC with Clean Aligned Bullets & Tight Spacing --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
@@ -337,23 +322,37 @@
   }
 
   .doc-top-toc ul.toc-list {
-    list-style-type: disc !important;
-    padding-left: 1.2rem !important; /* Clean native indentation */
+    list-style: none !important;
+    list-style-type: none !important;
+    padding-left: 1.1rem !important;
     margin: 0 !important;
     display: flex;
     flex-direction: column;
-    gap: 0.15rem; /* Ultra compact vertical spacing */
+    gap: 0.15rem;
   }
 
   .doc-top-toc li {
-    list-style-type: disc !important;
+    list-style: none !important;
+    list-style-type: none !important;
     margin: 0 !important;
     padding: 0 !important;
+    position: relative !important;
   }
 
-  /* Native CSS marker coloring for perfect vertical alignment */
-  .doc-top-toc li::marker {
+  /* Single controlled bullet to prevent theme duplication */
+  .doc-top-toc li::before {
+    content: "•" !important;
+    position: absolute !important;
+    left: -1rem !important;
+    top: 0 !important;
     color: #94a3b8 !important; /* Soft muted slate grey */
+    font-size: 1rem !important;
+    line-height: 1.35 !important;
+  }
+
+  .doc-top-toc li::after {
+    content: none !important;
+    display: none !important;
   }
 
   .doc-top-toc a {
