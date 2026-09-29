@@ -249,6 +249,19 @@
       if (initialTab) activateTab(groupContainers, initialTab);
     });
 
+    // Fallback if no tab was explicitly activated yet
+    containers.forEach(container => {
+      const activePane = container.querySelector(".content-tab-pane.active");
+      if (!activePane) {
+        const firstPane = container.querySelector(".content-tab-pane");
+        const firstBtn = container.querySelector(".content-tab-btn");
+        if (firstPane && firstBtn) {
+          firstPane.classList.add("active");
+          firstBtn.classList.add("active");
+        }
+      }
+    });
+
     document.addEventListener("click", function (event) {
       const button = event.target.closest(".content-tab-btn");
       if (!button) return;
@@ -302,7 +315,7 @@
 
 {% if page.url != '/' and page.url != '/index.html' and page.toc != false %}
 <style>
-  /* --- Compact TOC with Inset Muted Bullets & Tight Spacing --- */
+  /* --- Compact TOC with Native Muted Marker Bullets & Tight Spacing --- */
   .doc-top-toc {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
@@ -324,34 +337,23 @@
   }
 
   .doc-top-toc ul.toc-list {
-    list-style: none !important;
-    padding-left: 1rem !important; /* Proper indentation from box border */
+    list-style-type: disc !important;
+    padding-left: 1.2rem !important; /* Clean native indentation */
     margin: 0 !important;
     display: flex;
     flex-direction: column;
-    gap: 0.1rem; /* Extremely compact vertical spacing */
+    gap: 0.15rem; /* Ultra compact vertical spacing */
   }
 
   .doc-top-toc li {
-    list-style: none !important;
+    list-style-type: disc !important;
     margin: 0 !important;
-    padding: 0 0 0 0.35rem !important;
-    position: relative;
+    padding: 0 !important;
   }
 
-  /* Custom muted bullet safely inset */
-  .doc-top-toc li::before {
-    content: "•" !important;
-    position: absolute;
-    left: -0.6rem;
-    color: #94a3b8; /* Soft muted slate grey */
-    font-size: 0.85rem;
-    line-height: 1.35;
-  }
-
-  .doc-top-toc li::after {
-    content: none !important;
-    display: none !important;
+  /* Native CSS marker coloring for perfect vertical alignment */
+  .doc-top-toc li::marker {
+    color: #94a3b8 !important; /* Soft muted slate grey */
   }
 
   .doc-top-toc a {
@@ -415,26 +417,23 @@
           activePane.insertBefore(tocBox, activePane.firstChild);
         }
       } else {
-        const hasTabContainers = mainContent.querySelector(".content-tab-container");
-        if (!hasTabContainers || !tocBox.parentNode) {
-          if (!mainContent.contains(tocBox)) {
-            const h1 = mainContent.querySelector("h1");
-            if (h1) {
-              let insertAfterNode = h1;
-              let nextElem = h1.nextElementSibling;
-              
-              if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
-                insertAfterNode = nextElem;
-              }
-
-              if (insertAfterNode.nextSibling) {
-                insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
-              } else {
-                insertAfterNode.parentNode.appendChild(tocBox);
-              }
-            } else {
-              mainContent.insertBefore(tocBox, mainContent.firstChild);
+        if (!mainContent.contains(tocBox)) {
+          const h1 = mainContent.querySelector("h1");
+          if (h1) {
+            let insertAfterNode = h1;
+            let nextElem = h1.nextElementSibling;
+            
+            if (nextElem && (nextElem.tagName === 'P' || nextElem.classList.contains('fs-3') || nextElem.classList.contains('text-meta'))) {
+              insertAfterNode = nextElem;
             }
+
+            if (insertAfterNode.nextSibling) {
+              insertAfterNode.parentNode.insertBefore(tocBox, insertAfterNode.nextSibling);
+            } else {
+              insertAfterNode.parentNode.appendChild(tocBox);
+            }
+          } else {
+            mainContent.insertBefore(tocBox, mainContent.firstChild);
           }
         }
       }
