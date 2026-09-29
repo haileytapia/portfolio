@@ -1,24 +1,20 @@
-In Azure AI Search, a *knowledge base* is a top-level object that orchestrates [agentic retrieval](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview). It defines which knowledge sources to query and the default behavior for retrieval operations. At query time, the [retrieve method](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-retrieve) targets the knowledge base to run the configured retrieval pipeline.
+In Azure AI Search, a *knowledge base* is a top-level object that orchestrates [agentic retrieval](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview) and establishes default parameters for query execution. A knowledge base configuration includes:
 
-A knowledge base specifies:
-
-+ One or more knowledge sources that point to searchable content.
++ Knowledge sources that point to searchable content.
 
 + An optional LLM for query planning, answer synthesis, or web content summarization. Supported tasks vary by API version and knowledge source type.
 
-+ Custom properties that control routing, source selection, and object encryption.
++ Custom properties that control cross-source routing, selection criteria, and object encryption.
 
 ## Prerequisites
 
-+ An Azure AI Search service in any [region that provides agentic retrieval](https://learn.microsoft.com/en-us/azure/search/search-region-support).
-
-+ One or more [knowledge sources](https://learn.microsoft.com/en-us/azure/search/agentic-knowledge-source-overview#supported-knowledge-sources).
++ An Azure AI Search service with one or more [knowledge sources](https://learn.microsoft.com/en-us/azure/search/agentic-knowledge-source-overview#supported-knowledge-sources).
 
 + (Conditional) A Microsoft Foundry resource with a [supported LLM](#supported-models) deployment. An LLM is required for web knowledge sources. For other knowledge sources, an LLM is optional in the `2026-08-01-preview` API version and unsupported in the `2026-04-01` API version.
 
 + Permission to create knowledge bases. Configure [keyless authentication](https://learn.microsoft.com/en-us/azure/search/search-get-started-rbac) with the **Search Service Contributor** role assigned to your user account (recommended) or use an [admin API key](https://learn.microsoft.com/en-us/azure/search/search-security-api-keys).
 
-+ (Conditional) If your knowledge base specifies an LLM, your search service must have a [managed identity](https://learn.microsoft.com/en-us/azure/search/search-how-to-managed-identities) with **Cognitive Services User** permissions on the Foundry resource.
++ (Conditional) If your knowledge base specifies an LLM, enable a [managed identity](https://learn.microsoft.com/en-us/azure/search/search-how-to-managed-identities) for your search service, and then assign the **Cognitive Services User** role to your search service's managed identity on the Foundry resource.
 
 + [.NET 8](https://dotnet.microsoft.com/download/dotnet/8.0) or later.
 
@@ -58,7 +54,7 @@ Azure OpenAI determines regional availability for the deployment you select. For
 
 A knowledge base is a top-level, reusable object. Knowing about existing knowledge bases is helpful for either reuse or naming new objects.
 
-Run the following code to list existing knowledge bases by name. The list includes all knowledge bases on your search service, regardless of which API version you used to create them.
+Run the following code to list existing knowledge bases by name.
 
 ```csharp
 // List knowledge bases by name
@@ -123,9 +119,7 @@ The following JSON is an example response for a knowledge base.
 
 ## Create a knowledge base
 
-A knowledge base connects one or more knowledge sources to an optional LLM from Azure OpenAI in Foundry Models. The properties you set establish defaults for query execution and the retrieval response.
-
-After you create a knowledge base, you can update its properties at any time. If the knowledge base is in use, updates take effect on the next retrieval.
+Run the following code to create a knowledge base.
 
 {: .important }
 > The `2026-04-01` API version only accepts generally available knowledge source types and supports minimal, extractive retrieval. It doesn't support preview-only capabilities, such as LLM-based query planning, answer synthesis, and configurable reasoning effort. For full functionality, use the `2026-08-01-preview` API version.
@@ -210,6 +204,8 @@ Console.WriteLine($"Knowledge base '{knowledgeBase.Name}' created or updated suc
 </div>
 
 </div>
+
+After you create a knowledge base, you can update its properties at any time. If the knowledge base is in use, updates take effect on the next retrieval.
 
 ### Configure CORS for browser-based retrieve calls (preview)
 
