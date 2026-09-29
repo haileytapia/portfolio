@@ -13,9 +13,6 @@ permalink: /microsoft/azure-ai-search/private-agentic-retrieval-inbound
 June 26, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/foundry-iq-tutorial-private-inbound)
 {: .fs-5 : .fw-300 }
 
-{: .important }
-> Features and capabilities marked as preview aren't covered by a service-level agreement, aren't recommended for production workloads, and might change before general availability. The [Azure AI Search preview terms](https://learn.microsoft.com/en-us/azure/search/search-preview-terms) apply to all preview functionality, whether it's standalone or part of a generally available feature.
-
 This article is part one of a three-part tutorial series. In this part of the tutorial, you set up inbound private connectivity from Microsoft Foundry to Azure AI Search. By establishing this private request path, you ensure that later retrieval and dependency validation occur inside the intended network boundary.
 
 ## Prerequisites
@@ -533,4 +530,4 @@ For more information about the topics covered in this part of the tutorial, see 
 
 ## Next step
 
-[Set up private outbound connectivity](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval/private-outbound){: .btn .btn-purple }
+[Set up private outbound connectivity](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval-outbound){: .btn .btn-purple }

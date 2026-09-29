@@ -10,28 +10,24 @@ permalink: /microsoft/azure-ai-search/create-manage-knowledge-base
 # Create and manage a knowledge base for agentic retrieval
 {: .no_toc }
 
-August 12, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-create-knowledge-base)
-{: .fs-5 : .fw-300 }
-
-<div class="kb-tab-container">
-  <div class="kb-tab-header">
-    <button type="button" class="kb-tab-btn active" onclick="switchKbTab(event, 'csharp')">C#</button>
-    <button type="button" class="kb-tab-btn" onclick="switchKbTab(event, 'python')">Python</button>
-    <button type="button" class="kb-tab-btn" onclick="switchKbTab(event, 'rest')">REST API</button>
+<div class="content-tab-container content-tab-container--top-level" data-tab-group="knowledge-base-language">
+  <div class="content-tab-header">
+    <button type="button" class="content-tab-btn active" data-target="csharp">C#</button>
+    <button type="button" class="content-tab-btn" data-target="python">Python</button>
+    <button type="button" class="content-tab-btn" data-target="rest">REST API</button>
+  </div>
+  
+  <div class="content-tab-pane active" data-content="csharp" markdown="1">
+{% include how-tos/knowledge-base-csharp.md %}
   </div>
 
-<div id="kb-pane-csharp" class="kb-tab-pane active" markdown="1">
-{% include how-tos/knowledge-base-csharp.md %}
-</div>
-
-<div id="kb-pane-python" class="kb-tab-pane" markdown="1">
+  <div class="content-tab-pane" data-content="python" markdown="1">
 {% include how-tos/knowledge-base-python.md %}
-</div>
+  </div>
 
-<div id="kb-pane-rest" class="kb-tab-pane" markdown="1">
+  <div class="content-tab-pane" data-content="rest" markdown="1">
 {% include how-tos/knowledge-base-rest.md %}
-</div>
-
+  </div>
 </div>
 
 ---

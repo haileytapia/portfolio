@@ -13,14 +13,11 @@ permalink: /microsoft/azure-ai-search/private-agentic-retrieval-validation
 July 13, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/foundry-iq-tutorial-private-retrieval)
 {: .fs-5 : .fw-300 }
 
-{: .important }
-> Features and capabilities marked as preview aren't covered by a service-level agreement, aren't recommended for production workloads, and might change before general availability. The [Azure AI Search preview terms](https://learn.microsoft.com/en-us/azure/search/search-preview-terms) apply to all preview functionality, whether it's standalone or part of a generally available feature.
-
 This article is part three of a three-part tutorial series. In this part of the tutorial, you create a knowledge source and knowledge base, register the MCP endpoint as a project connection, and run a validation prompt through an agent to confirm grounded, cited responses from private content. At this point, the network, identity, and retrieval layers come together in the same runtime path.
 
 ## Prerequisites
 
-- Completion of [Set up private inbound connectivity](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval/private-inbound) and [Set up private outbound connectivity](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval/private-outbound).
+- Completion of [Set up private inbound connectivity](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval-inbound) and [Set up private outbound connectivity](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval-outbound).
 
 - `Owner`, `User Access Administrator`, or `Role Based Access Control Administrator` at scopes where you assign roles to your user account.
 

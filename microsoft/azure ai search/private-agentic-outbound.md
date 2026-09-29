@@ -13,14 +13,11 @@ permalink: /microsoft/azure-ai-search/private-agentic-retrieval-outbound
 June 26, 2026 ∙ [Original article](https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/foundry-iq-tutorial-private-outbound)
 {: .fs-5 : .fw-300 }
 
-{: .important }
-> Features and capabilities marked as preview aren't covered by a service-level agreement, aren't recommended for production workloads, and might change before general availability. The [Azure AI Search preview terms](https://learn.microsoft.com/en-us/azure/search/search-preview-terms) apply to all preview functionality, whether it's standalone or part of a generally available feature.
-
 This article is part two of a three-part tutorial series. In this part of the tutorial, you create outbound shared private links from Azure AI Search to Azure Blob Storage and Microsoft Foundry, approve the corresponding private endpoint connections, and grant the Azure AI Search managed identity the roles it needs to read blob content and call model endpoints. End-to-end validation of the full retrieval path occurs in part three.
 
 ## Prerequisites
 
-- Completion of [Set up private inbound connectivity](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval/private-inbound).
+- Completion of [Set up private inbound connectivity](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval-inbound).
 
 - Additional account access for part two actions:
 
@@ -209,4 +206,4 @@ For more information about the topics covered in this part of the tutorial, see 
 
 ## Next step
 
-[Validate end-to-end private agentic retrieval](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval/private-retrieval){: .btn .btn-purple }
+[Validate end-to-end private agentic retrieval](/portfolio/microsoft/azure-ai-search/private-agentic-retrieval-retrieval){: .btn .btn-purple }
