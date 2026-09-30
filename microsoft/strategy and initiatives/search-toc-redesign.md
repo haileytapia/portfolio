@@ -28,11 +28,11 @@ I redesigned the TOC around product capabilities rather than content types, grou
 
 ![The redesigned TOC organizes guidance around product capabilities.](https://haileytapia.github.io/portfolio/microsoft/strategy%20and%20initiatives/new-search-toc.png)
 
-As part of this work, I adopted the established industry term "classic search" to describe the search architecture that preceded agentic retrieval. With our product team's support, I later extended the term beyond the TOC into individual articles. What began as a navigation term evolved into shared vocabulary for describing Azure AI Search's two retrieval modes across the documentation.
+As part of this work, I adopted the established industry term "classic search" to describe the search architecture that preceded agentic retrieval. With our product team's support, I later extended the term beyond the TOC into individual articles. What began as a navigation term evolved into shared vocabulary for describing Azure AI Search's two retrieval modes across our documentation.
 
 ## Impact
 
-I hosted an internal bug bash in which stakeholders tested the new TOC and found the flatter hierarchy more intuitive. For me, however, the larger lesson was that being user-centric often means removing layers rather than adding them. When I stopped organizing the documentation around inherited conventions and instead focused on how customers use the product, it became clear that the old content-type structure was an unnecessary layer. This lesson has shaped how I approach information architecture and, more broadly, how I design documentation around the customer's journey.
+I hosted an internal bug bash in which stakeholders tested the new TOC and found the flatter hierarchy more intuitive. For me, however, the larger lesson was that being user-centric often means removing layers rather than adding them. When I stopped organizing our documentation around inherited conventions and instead focused on how customers use the product, it became clear that the old content-type structure was an unnecessary layer. This lesson has shaped how I approach information architecture and, more broadly, how I design documentation around the customer's journey.
 
 ---
 

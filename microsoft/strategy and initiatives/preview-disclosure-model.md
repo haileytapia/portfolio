@@ -34,7 +34,7 @@ I established a three-part model that separated general preview terms from the s
 
 ### Canonical preview-terms article
 
-First, I moved the full legal and operational terms to a dedicated, version-agnostic article: [Azure AI Search preview terms](https://learn.microsoft.com/en-us/azure/search/search-preview-terms). Writers could link to the article instead of reproducing lengthy disclosures throughout the documentation.
+First, I moved the full legal and operational terms to a dedicated, version-agnostic article: [Azure AI Search preview terms](https://learn.microsoft.com/en-us/azure/search/search-preview-terms). Writers could link to the article instead of reproducing lengthy disclosures throughout our documentation.
 
 ### Reusable article-level notice
 
