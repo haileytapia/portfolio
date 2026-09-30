@@ -3,7 +3,7 @@ layout: portfolio
 title: Scalable model for preview disclosures
 parent: Strategy and initiatives
 grand_parent: Microsoft
-nav_order: 2
+nav_order: 4
 permalink: /microsoft/strategy-and-initiatives/preview-disclosure-model
 ---
 

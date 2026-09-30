@@ -3,7 +3,7 @@ layout: portfolio
 title: Azure AI Search agent skill
 parent: Strategy and initiatives
 grand_parent: Microsoft
-nav_order: 4
+nav_order: 1
 permalink: /microsoft/strategy-and-initiatives/search-agent-skill
 ---
 

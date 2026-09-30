@@ -13,8 +13,9 @@ Technical documentation optimized for both human and agentic consumption.
 
 ## Featured work
 
-- [Azure AI Search TOC redesign](/portfolio/microsoft/strategy-and-initiatives/search-toc-redesign)
 - [Introduction to Azure AI Search](/portfolio/microsoft/azure-ai-search/intro-search)
+- [Azure AI Search agent skill](/portfolio/microsoft/strategy-and-initiatives/search-agent-skill)
+- [Azure AI Search TOC redesign](/portfolio/microsoft/strategy-and-initiatives/search-toc-redesign)
 - [Quickstart: Agentic retrieval](/portfolio/microsoft/azure-ai-search/quickstart-agentic-retrieval)
 - [Introduction to the quantum programming language Q#](/portfolio/microsoft/azure-quantum/qsharp-intro)
 - [Scenario: Wei creates an intelligence workflow in Splunk Mission Control to enrich data](/portfolio/splunk/mission-control/enrich-data)
