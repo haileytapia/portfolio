@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: Scalable model for preview disclosures
-parent: Documentation strategy and initiatives
+parent: Strategy and initiatives
 grand_parent: Microsoft
 nav_order: 2
 permalink: /microsoft/strategy-and-initiatives/preview-disclosure-model

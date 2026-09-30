@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: Microsoft Learn contributor guidance
-parent: Documentation strategy and initiatives
+parent: Strategy and initiatives
 grand_parent: Microsoft
 nav_order: 1
 permalink: /microsoft/strategy-and-initiatives/contributor-guidance

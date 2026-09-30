@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: Azure AI Search TOC redesign
-parent: Documentation strategy and initiatives
+parent: Strategy and initiatives
 grand_parent: Microsoft
 nav_order: 3
 permalink: /microsoft/strategy-and-initiatives/search-toc-redesign
