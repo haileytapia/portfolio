@@ -10,7 +10,7 @@ permalink: /microsoft/strategy-and-initiatives
 # Strategy and initiatives
 {: .no_toc }
 
-During my time at Microsoft, I led and contributed to initiatives that improved how documentation is created, structured, organized, maintained, and delivered, with an eye toward consistency and scalability.
+During my time at Microsoft, I led and contributed to initiatives that shaped how documentation is created, structured, and maintained at scale.
 {: .fs-6 : .fw-300 }
 
 - TOC

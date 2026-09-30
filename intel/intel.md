@@ -9,7 +9,7 @@ permalink: /intel
 # Intel
 {: .no_toc }
 
-I created the following documentation for Intel's semiconductor design processes and vendor integrations.
+I created the following documentation for Intel’s semiconductor design processes and documentation workflows.
 {: .fs-6 : .fw-300 }
 
 - TOC
