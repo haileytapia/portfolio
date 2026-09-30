@@ -13,7 +13,7 @@ January 2024 – February 2024
 {: .fs-5 : .fw-300 }
 
 {: .important }
-> The documentation described on this page was created for Intel and contains proprietary information. I can't share the original documentation or direct work samples, so this page provides a high-level description of the work instead.
+> Because this work contains proprietary information, I can't share the original documentation or work samples. Instead, I've provided a high-level overview of the work here.
 
 I created four GitHub how-to guides to help senior technical writers transition to a docs-as-code workflow and incorporated them into the department handbook.
 
