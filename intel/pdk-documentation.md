@@ -12,7 +12,7 @@ permalink: /intel/pdk-documentation
 August 2023 – February 2024
 {: .fs-5 : .fw-300 }
 
-{ .important }
+{: .important }
 > The documentation described on this page was created for Intel and contains proprietary information. I can't share the original documentation or direct work samples, so this page provides a high-level description of the work instead.
 
 I documented process design kits (PDKs) for five semiconductor vendors, integrating vendor software and documentation into Intel's chip design flow.

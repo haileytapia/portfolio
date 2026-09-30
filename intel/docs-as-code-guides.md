@@ -2,7 +2,7 @@
 layout: portfolio
 title: Guides for docs-as-code migration
 parent: Intel
-nav_order: 1
+nav_order: 2
 permalink: /intel/docs-as-code-guides
 ---
 
@@ -12,7 +12,7 @@ permalink: /intel/docs-as-code-guides
 January 2024 – February 2024
 {: .fs-5 : .fw-300 }
 
-{ .important }
+{: .important }
 > The documentation described on this page was created for Intel and contains proprietary information. I can't share the original documentation or direct work samples, so this page provides a high-level description of the work instead.
 
 I created four GitHub how-to guides to help senior technical writers transition to a docs-as-code workflow and incorporated them into the department handbook.
