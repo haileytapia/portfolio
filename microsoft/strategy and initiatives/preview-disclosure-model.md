@@ -3,12 +3,11 @@ layout: portfolio
 title: Scalable model for preview disclosures
 parent: Documentation strategy and initiatives
 grand_parent: Microsoft
-nav_order: 3
+nav_order: 2
 permalink: /microsoft/strategy-and-initiatives/preview-disclosure-model
 ---
 
 # Scalable model for preview disclosures
-
 {: .no_toc }
 
 As Azure AI Search introduced more preview functionality, it became clear that we needed a more scalable way to communicate preview status in our documentation. I developed an approach that separated general preview terms from feature-level status, making disclosures clearer for customers and easier for writers to maintain.

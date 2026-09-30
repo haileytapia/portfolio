@@ -1,13 +1,13 @@
 ---
 layout: portfolio
-title: Reframing Azure AI Search TOC
+title: Azure AI Search TOC redesign
 parent: Documentation strategy and initiatives
 grand_parent: Microsoft
-nav_order: 2
-permalink: /microsoft/strategy-and-initiatives/reframed-search-toc
+nav_order: 3
+permalink: /microsoft/strategy-and-initiatives/search-toc-redesign
 ---
 
-# Reframing Azure AI Search navigation
+# Azure AI Search TOC redesign
 {: .no_toc }
 
 When I joined the Azure AI Search team, its documentation TOC was organized primarily by content types. I saw an opportunity to improve the navigation based on how customers experience the product.
@@ -32,9 +32,7 @@ As part of this work, I adopted the established industry term "classic search" t
 
 ## Impact
 
-Although I wanted to conduct formal usability testing to measure the new TOC's effectiveness, I wasn't able to do so. I did, however, host an internal "bug bash" in which stakeholders tested the new structure and found the flatter hierarchy more intuitive.
-
-For me, the larger lesson was that being user-centric often means removing layers rather than adding them. When I stopped organizing the documentation around inherited conventions and instead focused on how customers use the product, it became clear that the old content-type structure was an unnecessary layer. This lesson has shaped how I approach information architecture and, more broadly, how I design documentation around the customer's journey.
+I hosted an internal bug bash in which stakeholders tested the new TOC and found the flatter hierarchy more intuitive. For me, however, the larger lesson was that being user-centric often means removing layers rather than adding them. When I stopped organizing the documentation around inherited conventions and instead focused on how customers use the product, it became clear that the old content-type structure was an unnecessary layer. This lesson has shaped how I approach information architecture and, more broadly, how I design documentation around the customer's journey.
 
 ---
 

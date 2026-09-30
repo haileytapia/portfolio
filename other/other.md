@@ -9,7 +9,7 @@ permalink: /other
 # Other
 {: .no_toc }
 
-I created the following content for academic and personal projects.
+I created the following content for personal projects.
 {: .fs-6 : .fw-300 }
 
 - TOC
