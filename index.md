@@ -30,7 +30,18 @@ My professional experience spans both hardware and software, including ownership
 
 ## Skills
 
-I'm skilled in the following languages, frameworks, and platforms:
+I have experience working with the following content types, languages, and tools across the documentation lifecycle.
+
+### Content types
+
+- Product overviews and onboarding
+- Quickstarts
+- Tutorials (end-to-end learning paths)
+- How-to guides (focused implementation steps)
+- Architectural and conceptual deep dives
+- API and SDK references
+- Release notes
+- FAQs and troubleshooting guides
 
 ### Languages and frameworks
 
@@ -40,7 +51,7 @@ I'm skilled in the following languages, frameworks, and platforms:
 - Markdown
 - REST APIs
 
-### Software and platforms
+### Tools and platforms
 
 - Azure DevOps
 - Copilot
