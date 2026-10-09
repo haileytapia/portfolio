@@ -45,7 +45,7 @@ I have experience working with the following content types, languages, and tools
 
 ### Languages and frameworks
 
-- Azure SDKs (C#, Java, JavaScript, Python, & TypeScript)
+- Azure SDKs (C#, Java, JavaScript, Python, and TypeScript)
 - DITA XML
 - HTML/CSS
 - Markdown
