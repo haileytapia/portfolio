@@ -45,20 +45,22 @@ I have experience working with the following content types, languages, and tools
 
 ### Languages and frameworks
 
-- Azure SDKs (C#, Java, JavaScript, Python, and TypeScript)
+- Azure SDKs (C#, Java, JavaScript, Python, TypeScript)
 - DITA XML
 - HTML/CSS
+- JSON and YAML
 - Markdown
+- OpenAPI/Swagger
 - REST APIs
 
 ### Tools and platforms
 
 - Azure DevOps
-- Copilot
+- Copilot (AI-assisted authoring)
 - Confluence
-- Git/GitHub (docs as code)
+- Git and GitHub (docs as code)
 - Jira
-- Oxygen XML
+- Oxygen XML Editor
 - Visio
 - Visual Studio Code
 
