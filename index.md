@@ -48,7 +48,7 @@ I have experience working with the following content types, languages, and tools
 - Azure SDKs (C#, Java, JavaScript, Python, and TypeScript)
 - DITA XML
 - HTML/CSS
-- JSON and YAML
+- JSON/YAML
 - Markdown
 - OpenAPI/Swagger
 - REST APIs
